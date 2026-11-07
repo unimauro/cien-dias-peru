@@ -1,0 +1,129 @@
+/* chat.css — «Pregúntale a los datos» (chat.js). Mobile first; usa las variables de styles.css con respaldo. */
+.cc-fab, .cc-panel {
+  --cc-ink: var(--ink, #161a22);
+  --cc-paper: var(--paper, #f3f4f6);
+  --cc-surface: var(--surface, #fcfcfb);
+  --cc-sunk: var(--sunk, #e9ebef);
+  --cc-rule: var(--rule, #d6d9e0);
+  --cc-muted: var(--muted, #646b78);
+  --cc-disp: var(--f-display, "Archivo", system-ui, sans-serif);
+  --cc-text: var(--f-text, "Source Serif 4", Georgia, serif);
+  box-sizing: border-box;
+}
+.cc-fab *, .cc-panel * { box-sizing: border-box; }
+
+/* Botón flotante */
+.cc-fab {
+  position: fixed; right: 16px; bottom: max(16px, env(safe-area-inset-bottom)); z-index: 1000;
+  display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 10px 18px 10px 10px;
+  font: 600 15px/1.1 var(--cc-disp); font-stretch: 92%; letter-spacing: .005em;
+  color: var(--cc-surface); background: var(--cc-ink); border: 0; border-radius: 999px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .22); cursor: pointer;
+}
+.cc-fab:hover { transform: translateY(-1px); box-shadow: 0 8px 24px rgba(0, 0, 0, .28); }
+.cc-fab:focus-visible, .cc-panel :focus-visible { outline: 3px solid var(--keiko, #e87ba4); outline-offset: 2px; }
+.cc-fab-ico {
+  display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%;
+  background: var(--cc-surface); color: var(--cc-ink); font-weight: 800; font-size: 16px;
+}
+.cc-fab[hidden], .cc-panel[hidden] { display: none; }
+
+/* Panel: pantalla completa en móvil */
+.cc-panel {
+  position: fixed; inset: 0; z-index: 1001; display: flex; flex-direction: column;
+  height: 100dvh; background: var(--cc-surface); color: var(--cc-ink);
+  font: 16px/1.5 var(--cc-text);
+}
+html.cc-abierto { overflow: hidden; }
+.cc-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  padding: 12px 16px; padding-top: max(12px, env(safe-area-inset-top));
+  border-bottom: 1px solid var(--cc-rule); background: var(--cc-paper);
+}
+.cc-head > div { display: flex; align-items: center; gap: 10px; min-width: 0; }
+.cc-tit { margin: 0; font: 700 18px/1.2 var(--cc-disp); font-stretch: 88%; }
+.cc-estado {
+  font: 600 11px/1 var(--cc-disp); letter-spacing: .06em; text-transform: uppercase;
+  padding: 4px 7px; border-radius: 999px; border: 1px solid var(--cc-rule); color: var(--cc-muted);
+}
+.cc-estado.cc-off { color: var(--warn-ink, #8a5a00); border-color: currentColor; }
+.cc-x {
+  width: 44px; height: 44px; flex: none; border: 1px solid var(--cc-rule); border-radius: 50%;
+  background: var(--cc-surface); color: var(--cc-ink); font: 400 26px/1 var(--cc-disp); cursor: pointer;
+}
+.cc-aviso {
+  margin: 0; padding: 8px 16px; font: 500 13px/1.35 var(--cc-disp); color: var(--cc-muted);
+  background: var(--cc-sunk); border-bottom: 1px solid var(--cc-rule);
+}
+.cc-log { flex: 1; overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 12px; overscroll-behavior: contain; }
+.cc-msg { max-width: 92%; padding: 10px 14px; border-radius: 14px; overflow-wrap: anywhere; }
+.cc-bot { align-self: flex-start; background: var(--cc-paper); border: 1px solid var(--cc-rule); border-bottom-left-radius: 4px; }
+.cc-user {
+  align-self: flex-end; background: var(--cc-ink); color: var(--cc-surface); border-bottom-right-radius: 4px;
+  font-family: var(--cc-disp); white-space: pre-wrap;
+}
+.cc-md p { margin: 0 0 .5em; }
+.cc-md p:last-child { margin-bottom: 0; }
+.cc-md ul { margin: .25em 0 .6em; padding-left: 1.2em; }
+.cc-md li { margin: .15em 0; }
+.cc-md a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: 2px; }
+.cc-md strong { font-weight: 600; }
+.cc-src { display: block; margin-top: .4em; font: 500 12.5px/1.4 var(--cc-disp); color: var(--cc-muted); }
+.cc-src a { color: var(--cc-ink); }
+.cc-modo { font: 500 13.5px/1.4 var(--cc-disp); }
+.cc-nota { font: 500 13px/1.4 var(--cc-disp); color: var(--warn-ink, #8a5a00); }
+.cc-frag { padding: 8px 0; border-top: 1px solid var(--cc-rule); }
+.cc-frag > strong { display: block; font: 650 14px/1.3 var(--cc-disp); }
+.cc-frag p { margin: .25em 0 0; font-size: 15px; }
+.cc-retry {
+  margin-left: 4px; padding: 3px 8px; font: 600 12.5px/1.3 var(--cc-disp); color: var(--cc-ink);
+  background: var(--cc-surface); border: 1px solid var(--cc-rule); border-radius: 6px; cursor: pointer;
+}
+
+/* Sugerencias */
+.cc-sug { display: flex; flex-direction: column; gap: 8px; }
+.cc-chip {
+  text-align: left; padding: 10px 12px; min-height: 44px; font: 500 14.5px/1.35 var(--cc-disp);
+  color: var(--cc-ink); background: var(--cc-surface); border: 1px solid var(--cc-rule); border-radius: 10px; cursor: pointer;
+}
+.cc-chip:hover { border-color: var(--cc-ink); }
+
+/* Cargando */
+.cc-dots { display: inline-flex; gap: 5px; padding: 4px 0; }
+.cc-dots span { width: 7px; height: 7px; border-radius: 50%; background: var(--cc-muted); animation: cc-b 1s infinite ease-in-out; }
+.cc-dots span:nth-child(2) { animation-delay: .15s; }
+.cc-dots span:nth-child(3) { animation-delay: .3s; }
+@keyframes cc-b { 0%, 80%, 100% { opacity: .3; transform: translateY(0); } 40% { opacity: 1; transform: translateY(-3px); } }
+
+/* Formulario */
+.cc-form {
+  display: flex; gap: 8px; align-items: flex-end; padding: 10px 12px;
+  padding-bottom: max(10px, env(safe-area-inset-bottom)); border-top: 1px solid var(--cc-rule); background: var(--cc-paper);
+}
+.cc-q {
+  flex: 1; min-height: 44px; max-height: 140px; resize: none; padding: 10px 12px;
+  font: 16px/1.4 var(--cc-disp); color: var(--cc-ink); background: var(--cc-surface);
+  border: 1px solid var(--cc-rule); border-radius: 10px;
+}
+.cc-send {
+  min-height: 44px; padding: 0 16px; font: 650 15px/1 var(--cc-disp); color: var(--cc-surface);
+  background: var(--cc-ink); border: 0; border-radius: 10px; cursor: pointer;
+}
+.cc-send:disabled { opacity: .5; cursor: progress; }
+
+/* Escritorio: panel flotante */
+@media (min-width: 640px) {
+  .cc-fab { right: 24px; bottom: 24px; }
+  .cc-panel {
+    inset: auto 24px 24px auto; width: 400px; height: min(640px, calc(100vh - 48px));
+    border: 1px solid var(--cc-rule); border-radius: 14px; overflow: hidden;
+    box-shadow: 0 18px 50px rgba(0, 0, 0, .25);
+  }
+  html.cc-abierto { overflow: auto; }
+  .cc-head { padding-top: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cc-dots span { animation: none; opacity: .7; }
+  .cc-fab:hover { transform: none; }
+}
+@media print { .cc-fab, .cc-panel { display: none !important; } }

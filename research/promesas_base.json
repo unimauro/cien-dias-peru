@@ -1,0 +1,1809 @@
+{
+ "generado": "2026-11-07",
+ "n": 122,
+ "resumen": {
+  "castillo": {
+   "cumplida": 3,
+   "en_proceso": 1,
+   "incumplida": 8
+  },
+  "keiko": {
+   "sin_evidencia": 61,
+   "en_proceso": 13,
+   "anunciada": 3,
+   "parcial": 2,
+   "cumplida": 5,
+   "incumplida": 2,
+   "no_verificable": 1
+  },
+  "ppk": {
+   "parcial": 2,
+   "en_proceso": 2,
+   "cumplida": 2,
+   "incumplida": 2
+  },
+  "humala": {
+   "cumplida": 5,
+   "no_verificable": 1,
+   "anunciada": 1
+  },
+  "garcia": {
+   "cumplida": 3,
+   "en_proceso": 2,
+   "anunciada": 2,
+   "no_verificable": 1
+  }
+ },
+ "promesas": [
+  {
+   "gobierno": "castillo",
+   "lista": "ECData: promesas identificadas (plan de 2.ª vuelta y discurso del 28-jul)",
+   "texto": "Distribución periódica y descentralizada de 20 millones de mascarillas",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida",
+   "nivel": "producto",
+   "nota": "Es un bien entregado a la población, o sea un PRODUCTO. Un resultado sería, por ejemplo, menos contagios atribuibles al uso de la mascarilla, y eso no se midió. ECData no dice cuántas mascarillas se entregaron ni dónde: el estado 'cumplida' es suyo y no se verificó de forma independiente.",
+   "fuentes": [
+    "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+   ],
+   "id": "castillo-001"
+  },
+  {
+   "gobierno": "castillo",
+   "lista": "ECData: promesas identificadas (plan de 2.ª vuelta y discurso del 28-jul)",
+   "texto": "Organización de una estrategia intersectorial de retorno seguro (a clases presenciales)",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida",
+   "nivel": "actividad",
+   "nota": "Organizar una estrategia o plan es un proceso interno de gestión: una ACTIVIDAD, o a lo sumo un insumo de planificación. No es un servicio entregado. El resultado sería tener alumnos de vuelta en el aula, y ahí la cifra fue baja: según Unicef, citada por ECData, solo el 6,5 % de estudiantes tenía alguna presencialidad, frente al 88 % en Chile. Las escuelas habilitadas pasaron de 6.019 a 8.887 entre el 16-ago y el 30-oct-2021. El exministro Daniel Alfaro lo calificó de 'cumplimiento débil'.",
+   "fuentes": [
+    "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-los-sectores-economia-trabajo-educacion-y-salud-bajo-analisis-especial-ec-data-salud-economia-educacion-trabajo-noticia/"
+   ],
+   "id": "castillo-002"
+  },
+  {
+   "gobierno": "castillo",
+   "lista": "ECData: promesas identificadas (plan de 2.ª vuelta y discurso del 28-jul)",
+   "texto": "Lanzamiento de la segunda reforma agraria (3-oct-2021, Cusco)",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida",
+   "nivel": "actividad",
+   "nota": "Lo que se cumplió fue el lanzamiento, un acto público y de anuncio: es una ACTIVIDAD. Al día 100 no hay evidencia de productos entregados (créditos, asistencia técnica, etc.) ni de resultados en los ingresos agrarios. Según el balance del IPE (Infobae, 1-nov-2021), seguían sin concretarse 'aspectos mínimos' como la conformación del Gabinete de Desarrollo Agrario y Rural.",
+   "fuentes": [
+    "https://www.infobae.com/america/peru/2021/11/01/ipe-que-hizo-pedro-castillo-en-sus-primeros-100-dias-de-gobierno/"
+   ],
+   "id": "castillo-003"
+  },
+  {
+   "gobierno": "castillo",
+   "lista": "ECData: promesas identificadas (plan de 2.ª vuelta y discurso del 28-jul)",
+   "texto": "Tener vacunadas a todas las personas mayores de 18 años a diciembre de 2021",
+   "estado": "en_proceso",
+   "estado_fuente": "en_proceso",
+   "nivel": "producto",
+   "nota": "Es la única de las 4 'en proceso' que ECData nombra; las otras 3 no aparecen en el texto accesible. Según ECData, el 56 % de la población objetivo tenía dos dosis. Las dosis aplicadas son un producto; la cobertura es un resultado inmediato o intermedio; el resultado final sería menos hospitalizaciones y muertes. Parte de las vacunas llegó por contratos de la gestión anterior.",
+   "fuentes": [
+    "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+   ],
+   "id": "castillo-004"
+  },
+  {
+   "gobierno": "castillo",
+   "lista": "ECData: promesas identificadas (plan de 2.ª vuelta y discurso del 28-jul)",
+   "texto": "Adquirir 100 plantas de oxígeno y 200 tanques criogénicos",
+   "estado": "incumplida",
+   "estado_fuente": "incumplida",
+   "nivel": "insumo",
+   "nota": "Según ECData, solo se compraron 7 plantas.",
+   "fuentes": [
+    "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+   ],
+   "id": "castillo-005"
+  },
+  {
+   "gobierno": "castillo",
+   "lista": "ECData: promesas identificadas (plan de 2.ª vuelta y discurso del 28-jul)",
+   "texto": "Establecer 'Casas Respira' en cada distrito o centro poblado",
+   "estado": "incumplida",
+   "estado_fuente": "incumplida",
+   "nivel": "producto",
+   "nota": "No se instaló ninguna. ECData la considera inviable: supera en más de S/ 18 mil millones el presupuesto disponible.",
+   "fuentes": [
+    "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+   ],
+   "id": "castillo-006"
+  },
+  {
+   "gobierno": "castillo",
+   "lista": "ECData: promesas identificadas (plan de 2.ª vuelta y discurso del 28-jul)",
+   "texto": "Fortalecer el primer nivel de atención (4 mil centros de atención primaria)",
+   "estado": "incumplida",
+   "estado_fuente": "incumplida",
+   "nivel": "producto",
+   "nota": "ECData la considera inviable: costaría unos S/ 60 mil millones, más de S/ 53 mil millones por encima del presupuesto.",
+   "fuentes": [
+    "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+   ],
+   "id": "castillo-007"
+  },
+  {
+   "gobierno": "castillo",
+   "lista": "ECData: promesas identificadas (plan de 2.ª vuelta y discurso del 28-jul)",
+   "texto": "Adquirir mil camas UCI",
+   "estado": "incumplida",
+   "estado_fuente": "incumplida",
+   "nivel": "insumo",
+   "nota": "Según ECData, solo se compraron 81.",
+   "fuentes": [
+    "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+   ],
+   "id": "castillo-008"
+  },
+  {
+   "gobierno": "castillo",
+   "lista": "ECData: promesas identificadas (plan de 2.ª vuelta y discurso del 28-jul)",
+   "texto": "Recibir 60 millones de vacunas en 100 días",
+   "estado": "incumplida",
+   "estado_fuente": "incumplida",
+   "nivel": "insumo",
+   "nota": "Se recibieron las dosis que había comprometido la gestión anterior. Hubo acuerdos con Moderna y Pfizer por 55 millones de dosis para 2022 y con Sinopharm por 8 millones; lo de Sputnik no se concretó.",
+   "fuentes": [
+    "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+   ],
+   "id": "castillo-009"
+  },
+  {
+   "gobierno": "castillo",
+   "lista": "ECData: promesas identificadas (plan de 2.ª vuelta y discurso del 28-jul)",
+   "texto": "Impulsar alianzas con otros países para desarrollar vacunas",
+   "estado": "incumplida",
+   "estado_fuente": "incumplida",
+   "nivel": "actividad",
+   "nota": "",
+   "fuentes": [
+    "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+   ],
+   "id": "castillo-010"
+  },
+  {
+   "gobierno": "castillo",
+   "lista": "ECData: promesas identificadas (plan de 2.ª vuelta y discurso del 28-jul)",
+   "texto": "Implementar el programa 'Chamba Joven'",
+   "estado": "incumplida",
+   "estado_fuente": "incumplida",
+   "nivel": "producto",
+   "nota": "",
+   "fuentes": [
+    "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+   ],
+   "id": "castillo-011"
+  },
+  {
+   "gobierno": "castillo",
+   "lista": "ECData: promesas identificadas (plan de 2.ª vuelta y discurso del 28-jul)",
+   "texto": "Organizar la jornada escolar por turnos y aplicar la educación semipresencial",
+   "estado": "incumplida",
+   "estado_fuente": "incumplida",
+   "nivel": "producto",
+   "nota": "",
+   "fuentes": [
+    "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+   ],
+   "id": "castillo-012"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "ORDEN · Orden ciudadano",
+   "texto": "Inicio de operaciones del C5i en Lima y Callao, con expansión a ciudades críticas",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "No se halló inicio de operaciones de un C5i nacional en Lima/Callao. El 'C5' que aparece en prensa es un proyecto de la Municipalidad de Lima (no del Ejecutivo). El 7-oct-2026 la presidenta anunció un Comando Unificado FF.AA.-PNP con 'centro de control y operaciones' en el Cuartel General del Ejército, que no es el C5i del plan y no cita norma.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-013"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "ORDEN · Orden ciudadano",
+   "texto": "Fortalecer Unidades de Flagrancia Express en Lima, Piura y Trujillo",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "Las Unidades de Flagrancia las amplía el Poder Judicial con sus propias resoluciones; el PJ pidió al nuevo gobierno fortalecerlas y asignar presupuesto. No se halló norma ni asignación del Ejecutivo para Lima, Piura y Trujillo en el periodo.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-014"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "ORDEN · Orden ciudadano",
+   "texto": "Intervención militar y policial en Tumbes contra crimen organizado y para control fronterizo",
+   "estado": "en_proceso",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: con norma",
+   "nivel": "insumo",
+   "nota": "Discrepancia con keikogobierna: hay norma del nuevo gobierno, pero es una prórroga del régimen que existía desde marzo de 2026 (DS 045-2026-PCM y siguientes, gobierno anterior). La PNP mantiene el control del orden interno y las FF.AA. solo apoyan: no es una 'intervención militar' nueva.",
+   "fuentes": [
+    "https://busquedas.elperuano.pe/dispositivo/NL/2556353-2",
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-015"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C04",
+   "eje": "ORDEN · Orden ciudadano",
+   "texto": "Decretos de Urgencia para patrulleros, cámaras interconectadas y modernización de comisarías",
+   "estado": "anunciada",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: anunciado",
+   "nivel": null,
+   "nota": "La presidenta Fujimori anunció un crédito suplementario para modernizar comisarías y comprar patrulleros. No se halló un decreto de urgencia ni montos aprobados.",
+   "fuentes": [
+    "https://elperuano.pe/noticia/304564-gobierno-alista-modernizacion-de-las-comisarias",
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-016"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "ORDEN · Lucha contra la corrupción",
+   "texto": "Shock anticorrupción digital: piloto de IA en contrataciones y compliance para altos funcionarios",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "La Estrategia Nacional de IA (RM 152-2026-PCM, mayo de 2026) es anterior al gobierno. No se halló un piloto de IA en contrataciones.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-017"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "ORDEN · Lucha contra la corrupción",
+   "texto": "Transparencia total de compras públicas: licitaciones, contratos y adendas en tiempo real",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "OECE publicó tableros y un observatorio de contratación en junio de 2026, antes del gobierno. No se halló una medida nueva.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-018"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "ORDEN · Orden económico",
+   "texto": "Piloto de Ventanilla Única Digital Nacional con IA para trámites empresariales",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "Hay ventanillas sectoriales previas (PRODUCE, MINEM), pero no se halló una Ventanilla Única Digital Nacional con IA.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-019"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "ORDEN · Orden económico",
+   "texto": "Marco Macroeconómico Multianual 2027-2030 con ruta de déficit fiscal al 1% del PBI en 2031",
+   "estado": "en_proceso",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: con norma",
+   "nivel": "insumo",
+   "nota": "Discrepancia con keikogobierna: el MEF publicó el MMM 2027-2030 a fines de agosto de 2026. Ese MMM proyecta un déficit de 1.8% (2026), 1.4% (2027) y cerca de 1% en 2028-2030, sin una ruta 'al 2031'. La senda de 1% en 2031 (con 2.4% en 2027) solo la anunció el ministro Elmer Cuba el 23-oct-2026 como cambio de reglas fiscales, y no se halló norma que la apruebe. El MMM existe, pero con otra senda que la del plan.",
+   "fuentes": [
+    "https://lacamara.pe/?p=99429",
+    "https://mineriaenergia.com/mef-revisara-reglas-fiscales-todo-sobre-el-cambio-que-haria-que-peru-crezca-mas-desde-2027/",
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-020"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "ORDEN · Orden económico",
+   "texto": "Unidad Antiburocracia en el Consejo Nacional de Competitividad y Formalización",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-021"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "ORDEN · Orden jurídico",
+   "texto": "Programa Asiste Regional con equipos del MEF y PCM para destrabar obras en regiones",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "El MEF opera desde antes la estrategia 'Ejecuta+' para destrabar obras. No se halló un programa 'Asiste Regional' MEF-PCM.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-022"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "ORDEN · Orden jurídico",
+   "texto": "Expediente Judicial Electrónico obligatorio en todos los distritos judiciales",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "El Poder Judicial sigue con su despliegue gradual del EJE: por ejemplo, la RA 000330-2026-CE-PJ (El Peruano, 6-oct-2026) lo amplía a un juzgado laboral de Lima. No hay norma que lo haga obligatorio en todos los distritos judiciales, y es competencia del PJ, no del Ejecutivo.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-023"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "ECONÓMICO · Emprendedores (MYPE)",
+   "texto": "Estrategia \"Licencia 0\" para MYPE con piloto en 5 regiones",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-024"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "ECONÓMICO · Emprendedores (MYPE)",
+   "texto": "Reactivación de Parques Industriales Tecnológicos paralizados, con gestión público-privada",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-025"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "ECONÓMICO · Emprendedores (MYPE)",
+   "texto": "Programa de Crédito con COFIDE y Banca de Desarrollo para MYPE afectadas por crisis",
+   "estado": "en_proceso",
+   "estado_fuente": "Keiko Gobierna: En progreso · verificación en El Peruano: con norma",
+   "nivel": "insumo",
+   "nota": "Confirmado. El DU 015-2026 autoriza a COFIDE a usar el Fondo Crecer para garantizar hasta S/ 2,000 millones en créditos y reprogramaciones de MYPE afectadas por El Niño, con líneas del Banco de la Nación a COFIDE.",
+   "fuentes": [
+    "https://elperuano.pe/noticia/308048-mypes-gobierno-aprueba-facilidades-para-reprogramar-creditos-ante-efectos-de-el-nino",
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-026"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "ECONÓMICO · Minería",
+   "texto": "APP y Obras por Impuestos para vías, ferrocarriles y redes eléctricas en corredores mineros",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "El DU 010-2026 (setiembre) habilita Obras por Impuestos exprés, pero para prevención ante El Niño, no para corredores mineros.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-027"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "ECONÓMICO · Minería",
+   "texto": "Plan Nacional de Remediación de Pasivos Ambientales en cuencas altoandinas",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "AMSAC sigue con su cartera de remediación previa. No se halló un Plan Nacional nuevo.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-028"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "ECONÓMICO · Minería",
+   "texto": "Comandos mixtos PNP-FF.AA.-Fiscalía-SUNAT contra minería ilegal y crimen organizado",
+   "estado": "en_proceso",
+   "estado_fuente": "Keiko Gobierna: En progreso · verificación en El Peruano: con norma",
+   "nivel": "insumo",
+   "nota": "Se mantiene la clasificación de keikogobierna (DS 121-2026-PCM y DS 143-2026-PCM), pero no pude ubicar esas normas en las búsquedas. La evidencia independiente es de operativos PNP-FF.AA. con apoyo de la Fiscalía ambiental, y SUNAT no figura en ellos. El Comando Unificado del 7/8-oct no cita norma.",
+   "fuentes": [
+    "https://busquedas.elperuano.pe/dispositivo/NL/2548480-2",
+    "https://busquedas.elperuano.pe/dispositivo/NL/2568124-1",
+    "https://elperuano.pe/noticia/303645-gobierno-ejecuta-90-operativos-contra-la-mineria-ilegal-en-solo-15-dias",
+    "https://elperuano.pe/noticia/306430--presidenta-fujimori-vamos-a-recuperar-el-orden-y-la-seguridad-de-los-peruanos",
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-029"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "ECONÓMICO · Energía e hidrocarburos",
+   "texto": "Agenda Nacional del Hidrógeno Verde con MINEM, MINAM y cooperación internacional",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "El reglamento de la Ley de Hidrógeno Verde se prepublicó en 2025. No se halló una Agenda Nacional nueva.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-030"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "ECONÓMICO · Energía e hidrocarburos",
+   "texto": "Convocatoria nacional de proyectos piloto de energía solar y eólica en cinco regiones",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-031"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "ECONÓMICO · Energía e hidrocarburos",
+   "texto": "Sistema Nacional de Trazabilidad de Combustibles interoperable con SUNAT y la Policía",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "El DS 117-2026-EF y la RS SUNAT 000135-2026 (20-jul-2026, gobierno anterior) crearon un registro diario de insumos y combustibles en grifos (Ley 32412). Son anteriores al periodo. No se halló un Sistema Nacional de Trazabilidad nuevo.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-032"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "ECONÓMICO · Agricultura",
+   "texto": "Programa de Siembra y Cosecha de Agua con 100 microproyectos altoandinos",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "El ministro Vinelli puso 'agua para la producción' como eje del Midagri, pero no se halló el programa de 100 microproyectos.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-033"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "ECONÓMICO · Agricultura",
+   "texto": "Plan de Cadenas de Frío y Acopio Productivo en 10 corredores y mercados regionales",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-034"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "ECONÓMICO · Agricultura",
+   "texto": "Ampliación de seguros climáticos paramétricos para pequeños productores",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "El Seguro Agrícola Catastrófico 2025-2027 viene de la RM 0334-2025-MIDAGRI. No se halló una ampliación paramétrica.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-035"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "ECONÓMICO · Pesca y acuicultura",
+   "texto": "Inicio del Seguro Pesquero Nacional con gremios del sector",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-036"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "ECONÓMICO · Pesca y acuicultura",
+   "texto": "Fondo Nacional de Innovación Pesquera y Acuícola para pequeñas plantas",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-037"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "ECONÓMICO · Pesca y acuicultura",
+   "texto": "Formalización de 20,000 embarcaciones artesanales con FONDEPES y SUNARP",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-038"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "ECONÓMICO · Transportes y comunicaciones",
+   "texto": "Fondo de Emergencia Vial Rural para drenaje, bacheo y mantenimiento",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "Hay normas por El Niño (DS 124-2026-PCM, emergencia en 893 distritos; DU 010-2026 y DU 016-2026, Obras por Impuestos), pero ninguna crea un Fondo de Emergencia Vial Rural.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-039"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "ECONÓMICO · Transportes y comunicaciones",
+   "texto": "Programa Nacional de Seguridad Vial con operativos en puntos críticos",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-040"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "ECONÓMICO · Transportes y comunicaciones",
+   "texto": "Corredor logístico piloto verde en la Costa Central (Callao-Chancay-Sierra Central)",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-041"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "ECONÓMICO · Turismo",
+   "texto": "Fondo Empresarial de Desarrollo Turístico (FEDETUR) para proyectos de MYPE y PYME",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-042"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "ECONÓMICO · Turismo",
+   "texto": "Campaña internacional \"Vuelve al Perú\" en EE. UU., Europa y Latinoamérica",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "No se halló una campaña 'Vuelve al Perú'. Las campañas internacionales de Promperú en 2026 ('Perú Wow') son anteriores.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-043"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "ECONÓMICO · Turismo",
+   "texto": "Plan Nacional de Orden Turístico en 20 destinos prioritarios con PNP, Defensa Civil y gobiernos locales",
+   "estado": "en_proceso",
+   "estado_fuente": "Keiko Gobierna: En progreso · verificación en El Peruano: con norma",
+   "nivel": "insumo",
+   "nota": "Confirmado: 12 ejes y 52 acciones. No verifiqué que cubra '20 destinos'.",
+   "fuentes": [
+    "https://busquedas.elperuano.pe/dispositivo/NL/2567309-1",
+    "https://elperuano.pe/noticia/307488-mincetur-aprueba-plan-nacional-de-orden-turistico-para-mejorar-el-turismo-en-el-peru-hasta-2031",
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-044"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "ECONÓMICO · Industria y comercio exterior",
+   "texto": "Plan Nacional de Parques Industriales Modernos en 10 polos regionales",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-045"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "ECONÓMICO · Industria y comercio exterior",
+   "texto": "Fondo Nacional de Innovación Exportadora (FONIEX) con primera convocatoria piloto",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-046"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "ECONÓMICO · Industria y comercio exterior",
+   "texto": "Catálogo Único de Productos Industriales Peruanos vinculado a compras estatales y privadas",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-047"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "ECONÓMICO · Desarrollo sostenible o ambiente",
+   "texto": "Fondo Verde Amazónico para proyectos sostenibles alternativos",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-048"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "ECONÓMICO · Desarrollo sostenible o ambiente",
+   "texto": "Registro Nacional de Pasivos Ambientales georreferenciado y público",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-049"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "ECONÓMICO · Desarrollo sostenible o ambiente",
+   "texto": "Operativos conjuntos MINAM-PNP-SUNAT contra tráfico de madera y fauna en Ucayali, Madre de Dios y Loreto",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "Hubo operativos contra minería ilegal en Madre de Dios y Loreto (agosto de 2026), pero no se hallaron operativos conjuntos MINAM-PNP-SUNAT contra tráfico de madera y fauna.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-050"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "SOCIAL · Niños, adolescentes y jóvenes",
+   "texto": "Centros COOL de oportunidades y orientación para jóvenes en distritos prioritarios",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-051"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "SOCIAL · Niños, adolescentes y jóvenes",
+   "texto": "Línea Joven Contigo 24/7 de atención y orientación psicológica",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-052"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "SOCIAL · Niños, adolescentes y jóvenes",
+   "texto": "Beca Retoma tus Estudios con primera promoción de beneficiarios",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "No se halló una 'Beca Retoma tus Estudios' en Pronabec.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-053"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "SOCIAL · Educación",
+   "texto": "Formación cívica y ética en escuelas con currícula actualizada",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "El Minedu trabaja la formación cívica en el Currículo Nacional desde antes del gobierno. No se halló una norma nueva en el periodo.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-054"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "SOCIAL · Educación",
+   "texto": "Programa Nacional de Formación Docente con universidades públicas y privadas",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-055"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "SOCIAL · Educación",
+   "texto": "Alianzas internacionales con líderes tecnológicos para escuelas públicas",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-056"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "SOCIAL · Salud",
+   "texto": "Sistema Nacional de Telemedicina para zonas rurales y amazónicas",
+   "estado": "anunciada",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: anunciado",
+   "nivel": null,
+   "nota": "Anuncio del ministro de Salud: conectar puestos rurales con hospitales de alta complejidad. No cita norma. La Red Nacional de Telesalud ya existía.",
+   "fuentes": [
+    "https://elperuano.pe/noticia/301532-ministro-dyer-impulsara-telemedicina-y-minsa-movil-para-garantizar-consultas-oportunas",
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-057"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "SOCIAL · Salud",
+   "texto": "Citas Prontas en hospitales priorizados con mecanismos digitales y prioridad a crónicos",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "El anuncio de Dyer del 31-jul habla de reducir tiempos de espera, pero no menciona 'Citas Prontas' en hospitales.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-058"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "SOCIAL · Salud",
+   "texto": "Red nacional de Centros de Salud Materno-Infantiles Rurales",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-059"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "SOCIAL · Seguridad alimentaria",
+   "texto": "Incorporar 500,000 nuevos beneficiarios de programas alimentarios en zonas vulnerables",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-060"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "SOCIAL · Seguridad alimentaria",
+   "texto": "Sistema de Alertas Nutricionales y de Precios con monitoreo semanal",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-061"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "SOCIAL · Seguridad alimentaria",
+   "texto": "Compras directas a productores locales en 10 regiones priorizadas",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-062"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "SOCIAL · Vivienda",
+   "texto": "Programa \"Mi Título, Mi Hogar Seguro\" con ventanilla de formalización con IA",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-063"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "SOCIAL · Vivienda",
+   "texto": "Reactivación de Techo Propio con bono reforzado de hasta 50% adicional",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "La convocatoria Techo Propio 2026 (RM 102-2026-VIVIENDA, marzo) y la transferencia de S/ 519 millones (RM 065-2026) son anteriores al gobierno. No se halló un bono reforzado de +50%.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-064"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "SOCIAL · Vivienda",
+   "texto": "Designación de terrenos y memorandos para primeras Ciudades Inteligentes",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-065"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "SOCIAL · Agua y saneamiento",
+   "texto": "Programa Nacional de Agua que Cuida la Vida para poblaciones en situación crítica",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-066"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "SOCIAL · Agua y saneamiento",
+   "texto": "Reactivación de obras de agua y saneamiento con más del 50% de avance",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "La norma del MVCS para reactivar obras paralizadas es de junio de 2026, del gobierno anterior.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-067"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "SOCIAL · Agua y saneamiento",
+   "texto": "Sistema Nacional de Monitoreo Digital del Agua con sensores en tiempo real",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-068"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "SOCIAL · Pensiones",
+   "texto": "Sistema de Preinscripción Automática a Pensión 65",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "Pensión 65 sigue con la focalización SISFOH. No se halló preinscripción automática.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-069"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "SOCIAL · Pensiones",
+   "texto": "Brigadas Móviles de Afiliación en zonas rurales y amazónicas",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-070"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "SOCIAL · Pensiones",
+   "texto": "Agentes del Banco de la Nación y puntos de cobro digitales en distritos prioritarios",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "El Banco de la Nación ya tenía agentes Multired en el 94% de distritos (dato de 2025). No se halló una expansión nueva.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-071"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "SOCIAL · Programas sociales",
+   "texto": "Programa \"Bebés que Nacen Fuertes\" con Paquete 1,000 días",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-072"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "SOCIAL · Programas sociales",
+   "texto": "Programa \"Desayuno para Aprender y Crecer\" con menús y compras locales",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "El piloto 'Desayuno en mi cole' es de 2025, del gobierno anterior.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-073"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "SOCIAL · Programas sociales",
+   "texto": "Programa \"Empleo Joven con Futuro\" para jóvenes",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-074"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "SOCIAL · Deporte",
+   "texto": "Reacondicionamiento de 500 canchas y parques deportivos con municipios y sector privado",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-075"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "SOCIAL · Deporte",
+   "texto": "Campaña \"Perú en Movimiento: Vive Saludable\" contra sobrepeso y obesidad",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-076"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C03",
+   "eje": "SOCIAL · Deporte",
+   "texto": "Sistema Nacional de Becas Deportivas con PRONABEC y el IPD",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-077"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C01",
+   "eje": "SOCIAL · Peruanos en el extranjero (PEX)",
+   "texto": "Ventanilla Única Consular Digital para reducir colas, costos y tiempos",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-078"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Plan «Perú con Orden»: 67 acciones de los primeros 100 días",
+   "codigo": "C02",
+   "eje": "SOCIAL · Peruanos en el extranjero (PEX)",
+   "texto": "Reglamento actualizado de Equipaje Inafecto al Pago de Tributos",
+   "estado": "sin_evidencia",
+   "estado_fuente": "Keiko Gobierna: Sin avance · verificación en El Peruano: sin evidencia",
+   "nivel": null,
+   "nota": "Sigue vigente el DS 182-2013-EF. No se halló modificación en 2026.",
+   "fuentes": [
+    "https://www.keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-079"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Aumentar la Remuneración Mínima Vital de S/1,130 a S/1,230 (anunciado en el mensaje del 28-jul; no figura en la lista de 100 días del plan)",
+   "estado": "parcial",
+   "estado_fuente": "cumplida parcialmente (primer tramo: S/1,230 de S/1,300)",
+   "nivel": "producto",
+   "nota": "Vigente desde el 1-oct-2026. Es un producto regulatorio: la norma se entrega y obliga. El efecto en los ingresos reales (resultado) no está medido; la inflación de octubre fue de 5.25 % según El Comercio. El segundo tramo, hasta S/1,300, está pendiente.",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/"
+   ],
+   "id": "keiko-080"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Duplicar Pensión 65 (de S/350 a S/700)",
+   "estado": "en_proceso",
+   "estado_fuente": "en_proceso",
+   "nivel": "insumo",
+   "nota": "Aprobada en la Ley de Crédito Suplementario, es decir, una asignación de recursos. El primer pago está previsto para el 30-nov-2026, después del día 100. Pasará a 'producto' cuando se pague.",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/"
+   ],
+   "id": "keiko-081"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Subsidio al transporte: DU 007-2026, hasta S/105 millones, S/4 por galón de diésel",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida",
+   "nivel": "insumo",
+   "nota": "Norma publicada el 15-ago-2026 (edición extraordinaria). Es una transferencia financiera; no hay datos de beneficiarios ni de efecto en tarifas.",
+   "fuentes": [
+    "https://img.lpderecho.pe/wp-content/uploads/2026/08/Decreto-de-Urgencia-007-2026-LPDerecho.pdf"
+   ],
+   "id": "keiko-082"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Comando Unificado FF.AA.–PNP contra el crimen (y 'Fuerzas Combinadas' de 1,350 efectivos, presentadas el 7-oct)",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida (creación)",
+   "nivel": "actividad",
+   "nota": "Está operativo y ejecutó operativos en Pataz (18 capturados, según Infobae). Carlos Basombrío sostiene que no funcionó en Pataz. No hay evidencia de efecto sobre la criminalidad.",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/"
+   ],
+   "id": "keiko-083"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Comisión Multisectorial de Alto Nivel para recuperar la seguridad y el orden público",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida (creación por decreto supremo)",
+   "nivel": "actividad",
+   "nota": "Es un arreglo institucional. No se verificó el número del decreto supremo.",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/"
+   ],
+   "id": "keiko-084"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Retiro de antenas de telecomunicaciones en cuatro penales",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida",
+   "nivel": "producto",
+   "nota": "Ejecutado según Infobae. Basombrío lo valora como positivo. No hay información pública sobre su efecto en las extorsiones desde las cárceles (resultado no verificado).",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/"
+   ],
+   "id": "keiko-085"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Prevención ante El Niño: limpieza y descolmatación de ríos y quebradas",
+   "estado": "en_proceso",
+   "estado_fuente": "en_proceso",
+   "nivel": "insumo",
+   "nota": "Hay recursos transferidos a Áncash, La Libertad, Lambayeque, Lima, Piura, Tumbes y Huarochirí. El gobierno declara S/1,500 millones ejecutados y 179 km de ríos intervenidos (85 % de lo programado); esa última cifra sería un producto, pero es autodeclarada y no está verificada. Infobae señala que no hay balance de obras concluidas.",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-dio-mensaje-a-la-nacion-por-sus-100-dias-de-gobierno-cifras-anuncios-y-balance-de-su-gestion/"
+   ],
+   "id": "keiko-086"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Plan 1.3 C02: Presentar el Marco Macroeconómico Multianual 2027-2030, con déficit fiscal hacia 1 % del PBI en 2031",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida",
+   "nivel": "actividad",
+   "nota": "El Observatorio lo cuenta como avance. Es un instrumento de gestión que la ley exige cada año, no un bien o servicio entregado a la ciudadanía.",
+   "fuentes": [
+    "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922"
+   ],
+   "id": "keiko-087"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Plan 1.1 C03: Intervención militar y policial en Tumbes para control fronterizo",
+   "estado": "en_proceso",
+   "estado_fuente": "en_proceso (discutido)",
+   "nivel": "actividad",
+   "nota": "El Observatorio señala que la medida identificada es la prórroga de un estado de emergencia que ya se aplicaba, no una intervención nueva.",
+   "fuentes": [
+    "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922"
+   ],
+   "id": "keiko-088"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Plan 1.1 C04: Decretos de urgencia para 1,000 patrulleros inteligentes, 10,000 cámaras y modernización de 200 comisarías",
+   "estado": "incumplida",
+   "estado_fuente": "incumplida (al día 100)",
+   "nivel": "insumo",
+   "nota": "El ministro Astudillo presentó solo una propuesta de decreto (RPP: S/195 millones). No se emitió el decreto ni se cumplieron las metas.",
+   "fuentes": [
+    "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922"
+   ],
+   "id": "keiko-089"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Plan 1.1 C01: Inicio de operaciones del C5i en Lima y Callao",
+   "estado": "incumplida",
+   "estado_fuente": "incumplida (al día 100)",
+   "nivel": "producto",
+   "nota": "ATV lo reporta como incumplido. La República nota que el balance presidencial no mencionó el C5i.",
+   "fuentes": [
+    "https://www.atv.pe/noticia/promesas-incumplidas-gobierno-keiko-fujimori/"
+   ],
+   "id": "keiko-090"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Plan 1.4 C02: Expediente Judicial Electrónico obligatorio en todos los distritos judiciales",
+   "estado": "sin_evidencia",
+   "estado_fuente": "sin_evidencia",
+   "nivel": "producto",
+   "nota": "El Observatorio solo encontró disposiciones para la especialidad laboral, que no acreditan el compromiso.",
+   "fuentes": [
+    "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922"
+   ],
+   "id": "keiko-091"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Plan 2.1 C03: Programa de Crédito para MYPE con COFIDE",
+   "estado": "en_proceso",
+   "estado_fuente": "en_proceso",
+   "nivel": "insumo",
+   "nota": "El DU 015-2026 (31-oct) autoriza hasta S/2,000 millones en garantías del Fondo CRECER para MYPE en departamentos en emergencia por El Niño. Usa un fondo que ya existía, es temporal (hasta el 30-abr-2027) y depende de disposiciones del MEF.",
+   "fuentes": [
+    "https://keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-092"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Plan 2.2 C03: Comandos mixtos PNP–FF.AA.–Fiscalía–SUNAT contra la minería ilegal",
+   "estado": "en_proceso",
+   "estado_fuente": "en_proceso",
+   "nivel": "actividad",
+   "nota": "El DS 121-2026-PCM (28-ago) declara emergencia en 6 distritos de Madre de Dios con un Comando de Coordinación Operativa Unificada. El DS 143-2026-PCM (25-oct) prorroga la emergencia y añade un Comando Unificado PNP-FFAA. Es temporal, solo en Madre de Dios y sin la SUNAT en el comando.",
+   "fuentes": [
+    "https://keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-093"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Plan 2.7 C03: Implementación del Plan Nacional de Orden Turístico",
+   "estado": "en_proceso",
+   "estado_fuente": "en_proceso",
+   "nivel": "actividad",
+   "nota": "La RM 383-2026-MINCETUR (23-oct) aprueba el plan 2026-2031; aprobar un plan no es implementarlo.",
+   "fuentes": [
+    "https://keikogobierna.com/primeros-100-dias/"
+   ],
+   "id": "keiko-094"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Bono de S/100 por trabajador para MYPE de 2 a 10 trabajadores",
+   "estado": "en_proceso",
+   "estado_fuente": "pendiente",
+   "nivel": "insumo",
+   "nota": "Anunciado, sin información de desembolsos.",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/"
+   ],
+   "id": "keiko-095"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Subsidio de S/4 por galón a mototaxistas de Loreto, Ucayali y Madre de Dios",
+   "estado": "en_proceso",
+   "estado_fuente": "en_proceso",
+   "nivel": "insumo",
+   "nota": "La norma existe, pero el pago depende del registro de conductores. No hay cifras de beneficiarios.",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/"
+   ],
+   "id": "keiko-096"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Obtener facultades legislativas en seguridad y El Niño",
+   "estado": "parcial",
+   "estado_fuente": "cumplida parcialmente",
+   "nivel": "actividad",
+   "nota": "Se pidieron 120 días y materias tributarias, aduaneras y laborales. Se obtuvieron 90 días y 27 numerales en la Ley 32743 (22-oct). El Comercio informa que se aprobaron 27 de 66 puntos. Al día 100 no se había emitido ningún decreto legislativo, según Infobae (5-nov).",
+   "fuentes": [
+    "https://elcomercio.pe/politica/los-100-dias-de-keiko-fujimori-en-el-poder-los-aciertos-y-errores-del-gobierno-de-fuerza-popular-apuesplan-noticia/"
+   ],
+   "id": "keiko-097"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Reducir homicidios (meta del plan: de 8.6 a 6 por 100 mil habitantes al 2031). El gobierno afirma haber bajado de 7.5 a 6.5 'crímenes' por día",
+   "estado": "no_verificable",
+   "estado_fuente": "no_verificado (disputado)",
+   "nivel": "resultado",
+   "nota": "Es el único indicador de nivel resultado que el gobierno reclama. La República cuenta 621 homicidios en 100 días según Sinadef, frente a 597 con Balcázar y 584 con Jerí en el mismo periodo, y advierte subregistro y que la categoría 'crímenes' usada por la presidenta no está definida. La propia presidenta reconoció que no logró una reducción sostenida.",
+   "fuentes": [
+    "https://larepublica.pe/politica/2026/11/06/falta-de-homicidos-por-registrar-en-el-sinadef-altera-supuesta-mejora-en-indice-de-crimenes-anunciado-por-fujimori-hnews-121338"
+   ],
+   "id": "keiko-098"
+  },
+  {
+   "gobierno": "keiko",
+   "lista": "Medidas reportadas por la prensa (incluye anuncios fuera de la lista de 100 días)",
+   "texto": "Desarticulación de 37 organizaciones criminales y 2,700 bandas",
+   "estado": "anunciada",
+   "estado_fuente": "autodeclarado",
+   "nivel": "producto",
+   "nota": "Cifra del mensaje presidencial sin verificación independiente. Contar operativos o desarticulaciones mide producto, no resultado.",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-dio-mensaje-a-la-nacion-por-sus-100-dias-de-gobierno-cifras-anuncios-y-balance-de-su-gestion/"
+   ],
+   "id": "keiko-099"
+  },
+  {
+   "gobierno": "ppk",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Obtener facultades legislativas delegadas",
+   "estado": "parcial",
+   "estado_fuente": "cumplida parcialmente — Ley 30506: 90 días (de 120 pedidos) en reactivación económica y formalización, seguridad ciudadana, anticorrupción, agua y saneamiento y Petroperú",
+   "nivel": "insumo",
+   "nota": "",
+   "fuentes": [
+    "https://comunicaciones.congreso.gob.pe/noticias/ley-30506-ley-que-delega-en-el-poder-ejecutivo-la-facultad-de-legislar-en-materia-de-reactivacion-economica-y-formalizacion-seguridad-ciudadana-lucha-contra-la-corrupcion-agua-y-saneamiento-y-reor"
+   ],
+   "id": "ppk-100"
+  },
+  {
+   "gobierno": "ppk",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Rebajar el IGV en 1 punto (18 % a 17 %)",
+   "estado": "en_proceso",
+   "estado_fuente": "pendiente a los 100 días (la norma aún no salía, 3-nov-2016); luego el DL 1347 (ene-2017) la condicionó a una meta de recaudación de 7.2 % del PBI",
+   "nivel": "insumo",
+   "nota": "",
+   "fuentes": [
+    "https://www.contadoresyempresas.com.pe/los-primeros-cien-dias-de-ppk-en-materia-tributaria/"
+   ],
+   "id": "ppk-101"
+  },
+  {
+   "gobierno": "ppk",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Destrabe de proyectos de infraestructura",
+   "estado": "en_proceso",
+   "estado_fuente": "en proceso — percepción Ipsos (9-11 nov): 4 % importante avance, 41 % moderado, 43 % ninguno, 6 % retroceso; sin cifra oficial de proyectos verificada",
+   "nivel": "actividad",
+   "nota": "",
+   "fuentes": [
+    "https://www.ipsos.com/sites/default/files/publication/2016-11/Opinion%20Data%20Noviembre.pdf"
+   ],
+   "id": "ppk-102"
+  },
+  {
+   "gobierno": "ppk",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Quinto y último aumento salarial a más de 120 mil policías",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida (Convoca)",
+   "nivel": "insumo",
+   "nota": "",
+   "fuentes": [
+    "https://www.americatv.com.pe/noticias/actualidad/gobierno-ppk-cumplio-solo-siete-29-promesas-n259854"
+   ],
+   "id": "ppk-103"
+  },
+  {
+   "gobierno": "ppk",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Atención 24 h en cinco Centros Emergencia Mujer",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida (Convoca)",
+   "nivel": "producto",
+   "nota": "",
+   "fuentes": [
+    "https://www.americatv.com.pe/noticias/actualidad/gobierno-ppk-cumplio-solo-siete-29-promesas-n259854"
+   ],
+   "id": "ppk-104"
+  },
+  {
+   "gobierno": "ppk",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Declarar viables 10 plantas de tratamiento para el lago Titicaca",
+   "estado": "incumplida",
+   "estado_fuente": "incumplida (Convoca: postergada)",
+   "nivel": "actividad",
+   "nota": "",
+   "fuentes": [
+    "https://www.americatv.com.pe/noticias/actualidad/gobierno-ppk-cumplio-solo-siete-29-promesas-n259854"
+   ],
+   "id": "ppk-105"
+  },
+  {
+   "gobierno": "ppk",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Cambiar la Ley de Reforma Magisterial para elevar el piso salarial docente",
+   "estado": "incumplida",
+   "estado_fuente": "incumplida (Convoca)",
+   "nivel": "insumo",
+   "nota": "",
+   "fuentes": [
+    "https://www.americatv.com.pe/noticias/actualidad/gobierno-ppk-cumplio-solo-siete-29-promesas-n259854"
+   ],
+   "id": "ppk-106"
+  },
+  {
+   "gobierno": "ppk",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Atención desde las 6:00 en tres hospitales",
+   "estado": "parcial",
+   "estado_fuente": "cumplida parcialmente (solo el Arzobispo Loayza)",
+   "nivel": "producto",
+   "nota": "",
+   "fuentes": [
+    "https://www.americatv.com.pe/noticias/actualidad/gobierno-ppk-cumplio-solo-siete-29-promesas-n259854"
+   ],
+   "id": "ppk-107"
+  },
+  {
+   "gobierno": "humala",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Subir la remuneración mínima de S/ 600 a S/ 675 (primer tramo)",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida — DS 011-2011-TR (14-ago-2011), vigente desde el 15-ago-2011",
+   "nivel": "producto",
+   "nota": "",
+   "fuentes": [
+    "https://noticierocontable.com/?p=4802"
+   ],
+   "id": "humala-108"
+  },
+  {
+   "gobierno": "humala",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Gravamen / nuevo régimen tributario minero",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida — 3 leyes (incl. Ley 29790, gravamen especial) publicadas el 28-sep-2011, vigentes desde el 1-oct-2011; DS 173-2011-EF reglamento. Fue un acuerdo con las mineras, no el impuesto a sobreganancias de campaña",
+   "nivel": "insumo",
+   "nota": "",
+   "fuentes": [
+    "https://www.congreso.gob.pe/Docs/DGP/DIDP/files/ley_29790.pdf"
+   ],
+   "id": "humala-109"
+  },
+  {
+   "gobierno": "humala",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Ley de consulta previa a pueblos indígenas",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida — promulgada en Bagua en sep-2011 (Ley 29785)",
+   "nivel": "actividad",
+   "nota": "",
+   "fuentes": [
+    "https://as-coa.org/articles/perus-president-ollanta-humalas-first-hundred-days"
+   ],
+   "id": "humala-110"
+  },
+  {
+   "gobierno": "humala",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Pensión 65 (pensión no contributiva para mayores de 65 en pobreza extrema)",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida en su creación; en proceso en cobertura — DS 081-2011-PCM (19-oct-2011), lanzamiento en Huancavelica (84 % aprobó el lanzamiento, Ipsos nov-2011)",
+   "nivel": "producto",
+   "nota": "",
+   "fuentes": [
+    "https://www.ipsos.com/sites/default/files/publication/2011-11/OpinionDataNoviembre2011.pdf"
+   ],
+   "id": "humala-111"
+  },
+  {
+   "gobierno": "humala",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Crear el Ministerio de Desarrollo e Inclusión Social (MIDIS)",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida — Ley 29792 (oct-2011); ministra Carolina Trivelli",
+   "nivel": "actividad",
+   "nota": "",
+   "fuentes": [
+    "https://as-coa.org/articles/perus-president-ollanta-humalas-first-hundred-days"
+   ],
+   "id": "humala-112"
+  },
+  {
+   "gobierno": "humala",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Cuna Más (cuidado diurno de niños menores de 3 años)",
+   "estado": "no_verificable",
+   "estado_fuente": "no creada en la ventana — se creó con el DS 003-2012-MIDIS (2012)",
+   "nivel": "producto",
+   "nota": "",
+   "fuentes": [
+    "https://siteal.iiep.unesco.org/node/467"
+   ],
+   "id": "humala-113"
+  },
+  {
+   "gobierno": "humala",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Beca 18",
+   "estado": "anunciada",
+   "estado_fuente": "anunciada en el mensaje del 28-jul (fue la 2.ª medida mejor valorada); estado a los 100 días no verificado",
+   "nivel": "producto",
+   "nota": "",
+   "fuentes": [
+    "https://www.ipsos.com/sites/default/files/publication/2011-08/inicio_auspicioso.pdf"
+   ],
+   "id": "humala-114"
+  },
+  {
+   "gobierno": "garcia",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Reducir sueldos de altos funcionarios (presidente S/ 16,000; congresistas y ministros S/ 15,600)",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida — D.U. 019-2006 (31-jul-2006), compensación ago-dic 2006; se revirtió en ene-2009 (D.U. 001-2009)",
+   "nivel": "insumo",
+   "nota": "",
+   "fuentes": [
+    "https://www.mef.gob.pe/es/por-instrumento/decreto-de-urgencia/1118-d-u-n-019-2006/file"
+   ],
+   "id": "garcia-115"
+  },
+  {
+   "gobierno": "garcia",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Austeridad y racionalidad en el gasto público",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida (norma emitida) — D.U. 020-2006 (ago-2006) y D.U. 021-2006 complementario",
+   "nivel": "insumo",
+   "nota": "",
+   "fuentes": [
+    "https://www.mef.gob.pe/es/por-instrumento/decreto-de-urgencia/1113-d-u-n-020-2006/file"
+   ],
+   "id": "garcia-116"
+  },
+  {
+   "gobierno": "garcia",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Aporte de las mineras ('óbolo minero'; campaña: impuesto a sobreganancias) — S/ 2,500 M en 5 años",
+   "estado": "en_proceso",
+   "estado_fuente": "en proceso a los 100 días — anunciado por el premier Del Castillo al presentar el gabinete (ago-2006); el formato de convenio (DS 071-2006-EM) es del 20-dic-2006, fuera de la ventana; se sustituyó el impuesto prometido por un aporte voluntario",
+   "nivel": "insumo",
+   "nota": "",
+   "fuentes": [
+    "https://cdn.www.gob.pe/uploads/document/file/5271559/4738029-d-s-071-2006-em.pdf"
+   ],
+   "id": "garcia-117"
+  },
+  {
+   "gobierno": "garcia",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Crear Sierra Exportadora",
+   "estado": "cumplida",
+   "estado_fuente": "cumplida (creación legal) — Ley 28890 publicada el 7-oct-2006",
+   "nivel": "actividad",
+   "nota": "",
+   "fuentes": [
+    "https://sni.org.pe/ley-que-crea-sierra-exportadora-ley-n-28890/"
+   ],
+   "id": "garcia-118"
+  },
+  {
+   "gobierno": "garcia",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Aprobación del TLC con EE. UU. por el Congreso estadounidense",
+   "estado": "en_proceso",
+   "estado_fuente": "pendiente a los 100 días (gestión en Washington; el Congreso de EE. UU. no lo había votado)",
+   "nivel": "producto",
+   "nota": "",
+   "fuentes": [
+    "https://fpif.org/garcas_first_100_days/"
+   ],
+   "id": "garcia-119"
+  },
+  {
+   "gobierno": "garcia",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Cerrar seis embajadas (austeridad en la Cancillería)",
+   "estado": "anunciada",
+   "estado_fuente": "anunciada (ago-2006); ejecución no verificada",
+   "nivel": "insumo",
+   "nota": "",
+   "fuentes": [
+    "https://fpif.org/garcas_first_100_days/"
+   ],
+   "id": "garcia-120"
+  },
+  {
+   "gobierno": "garcia",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Pena de muerte para violadores asesinos de niños",
+   "estado": "anunciada",
+   "estado_fuente": "propuesta anunciada (72 % la aprobaba según Apoyo, ago-2006); no aprobada en la ventana (no verificado en el registro del Congreso)",
+   "nivel": "actividad",
+   "nota": "",
+   "fuentes": [
+    "https://www.ipsos.com/sites/default/files/publication/2009-11/Opinion_Data_Agosto_2006.pdf"
+   ],
+   "id": "garcia-121"
+  },
+  {
+   "gobierno": "garcia",
+   "lista": "Promesas emblemáticas de los 100 días",
+   "texto": "Reducir la pobreza de 48 % a 40 % en cinco años",
+   "estado": "no_verificable",
+   "estado_fuente": "meta de mediano plazo; no evaluable a los 100 días",
+   "nivel": "impacto",
+   "nota": "",
+   "fuentes": [
+    "https://fpif.org/garcas_first_100_days/"
+   ],
+   "id": "garcia-122"
+  }
+ ],
+ "balances_oficiales": {
+  "castillo": {
+   "fuente": "El Comercio – ECData",
+   "total": 43,
+   "cumplidas": 3,
+   "en_proceso": 4,
+   "incumplidas": 36,
+   "nota": "El Comercio no publicó la lista completa de las 43; aquí están las que se pudieron identificar."
+  },
+  "keiko": {
+   "fuente": "Keiko Gobierna",
+   "total": 67,
+   "cumplidas": 0,
+   "en_proceso": 3,
+   "sin_avance": 64,
+   "nota": "Las 67 acciones están completas. La verificación propia en El Peruano encuentra 5 con alguna norma, 2 solo anunciadas y 60 sin evidencia."
+  },
+  "ppk": {
+   "fuente": "Convoca",
+   "total": 29,
+   "cumplidas": 7,
+   "nota": "Solo se muestran las emblemáticas; la lista completa de Convoca no fue accesible."
+  }
+ },
+ "estados": {
+  "cumplida": "Cumplida",
+  "parcial": "Cumplida en parte",
+  "en_proceso": "En proceso / con norma parcial",
+  "anunciada": "Solo anunciada",
+  "sin_evidencia": "Sin evidencia",
+  "incumplida": "Incumplida",
+  "no_verificable": "No verificable"
+ },
+ "caveats": [
+  "Las listas no son homogéneas: cada gobierno tiene un tracker distinto con criterios diferentes.",
+  "El estado «en proceso» de las acciones de Keiko con norma significa que existe al menos una norma relacionada; no que la acción esté cumplida.",
+  "La clasificación en la cadena de valor (insumo → impacto) es una codificación propia."
+ ]
+}

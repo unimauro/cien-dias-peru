@@ -49,6 +49,7 @@ document.addEventListener('click', e => {
 
 /* tema */
 $('#themeBtn').addEventListener('click', () => {
+  requestAnimationFrame(() => { if ($('#apSeries')) renderApSeries(); if ($('#homSeries')) renderHomSeries(); });
   const cur = document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
   const next = cur === 'dark' ? 'light' : 'dark';
   document.documentElement.dataset.theme = next;
@@ -58,12 +59,70 @@ $('#themeBtn').addEventListener('click', () => {
   renderApproval();
 });
 
-/* nav activa */
-const navLinks = [...document.querySelectorAll('.nav a')];
-const io = new IntersectionObserver(es => es.forEach(en => {
-  if (en.isIntersecting) navLinks.forEach(a => a.classList.toggle('on', a.getAttribute('href') === '#' + en.target.id));
-}), { rootMargin: '-40% 0px -55% 0px' });
-document.querySelectorAll('section.block').forEach(s => io.observe(s));
+/* estado inicial del botón de tema */
+{
+  const cur = document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  $('#themeBtn').setAttribute('aria-pressed', String(cur === 'dark'));
+}
+
+/* menú de páginas (móvil y tableta) */
+const menu = $('#menu'), menuBtn = $('#menuBtn');
+const setMenu = open => {
+  if (!menu || !menuBtn) return;
+  menuBtn.setAttribute('aria-expanded', String(open));
+  menu.hidden = !open;
+};
+if (menuBtn) {
+  menuBtn.addEventListener('click', () => setMenu(menuBtn.getAttribute('aria-expanded') !== 'true'));
+  menu.addEventListener('click', e => { if (e.target.closest('a')) setMenu(false); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && menuBtn.getAttribute('aria-expanded') === 'true') { setMenu(false); menuBtn.focus(); } });
+  document.addEventListener('click', e => { if (menuBtn.getAttribute('aria-expanded') === 'true' && !e.target.closest('#menu, #menuBtn')) setMenu(false); });
+}
+
+/* enlaces antiguos (#veredictos, etc.) llevan a su página nueva */
+{
+  const MOVED = { veredictos: 'verificacion.html#veredictos', mensaje: 'verificacion.html#mensaje', promesas: 'promesas.html#promesas', valor: 'promesas.html#valor',
+    resultados: 'gestion.html#resultados', gobernabilidad: 'gestion.html#gobernabilidad', estado: 'gestion.html#estado', economia: 'gestion.html#economia',
+    planes: 'planes.html', linea: 'linea.html', videos: 'linea.html#videos', metodo: 'metodo.html' };
+  const h = location.hash.slice(1);
+  if (document.body.dataset.page === 'index' && MOVED[h] && !document.getElementById(h)) location.replace(MOVED[h]);
+}
+
+/* en esta página: resalta la sección visible */
+const onLinks = [...document.querySelectorAll('.onpage a')];
+if (onLinks.length) {
+  const io = new IntersectionObserver(es => es.forEach(en => {
+    if (!en.isIntersecting) return;
+    onLinks.forEach(a => { const on = a.getAttribute('href') === '#' + en.target.id; a.classList.toggle('on', on); on ? a.setAttribute('aria-current', 'location') : a.removeAttribute('aria-current'); });
+  }), { rootMargin: '-35% 0px -60% 0px' });
+  document.querySelectorAll('section.block').forEach(s => io.observe(s));
+}
+
+/* analítica: descargas de PDF */
+document.addEventListener('click', e => {
+  const a = e.target.closest('a[href$=".pdf"]');
+  if (a) { try { (window.dataLayer = window.dataLayer || []).push({ event: 'descarga_pdf', archivo: a.getAttribute('href') }); } catch {} }
+});
+
+/* barra de progreso de lectura */
+const prog = $('#prog');
+let progQ = false;
+const progUpd = () => {
+  progQ = false;
+  const max = document.documentElement.scrollHeight - innerHeight;
+  prog.style.transform = `scaleX(${max > 0 ? Math.min(1, scrollY / max) : 0})`;
+};
+addEventListener('scroll', () => { if (!progQ) { progQ = true; requestAnimationFrame(progUpd); } }, { passive: true });
+addEventListener('resize', progUpd);
+progUpd();
+
+/* apoyo: QR de Yape */
+const yBtn = $('#yape-btn'), yBox = $('#yape-box');
+if (yBtn && yBox) yBtn.addEventListener('click', () => {
+  const open = yBtn.getAttribute('aria-expanded') !== 'true';
+  yBtn.setAttribute('aria-expanded', String(open));
+  yBox.hidden = !open;
+});
 
 /* veredictos */
 function verdictClass(v) {
@@ -79,17 +138,72 @@ const stamp = (v, label) => { const c = verdictClass(v); return `<span class="st
 const cap = s => { s = String(s || ''); return s.charAt(0).toUpperCase() + s.slice(1); };
 
 const D = {};
-const FILES = ['indice100', 'pp2050_mensaje', 'pp2050_cumplimiento', 'factcheck', 'castillo', 'keiko', 'indicadores', 'performance', 'noticias', 'videos', 'planes', 'expresidentes', 'resultados'];
+const RENDERS = [
+  ['#score', () => renderScore('#score'), ['indice100']],
+  ['#scoreFull', () => renderScore('#scoreFull'), ['indice100']],
+  ['#vs', renderVs, ['castillo', 'keiko', 'factcheck', 'resultados']],
+  ['#claims', renderClaims, ['factcheck', 'keiko', 'resultados']],
+  ['#waffle', renderWaffle, ['promesas_base']],
+  ['#promRows', renderPromises, ['castillo', 'factcheck', 'keiko', 'expresidentes', 'pp2050_cumplimiento']],
+  ['#ladder', renderLadder, ['castillo', 'keiko', 'expresidentes']],
+  ['#homSeries', renderHomSeries, ['resultados']],
+  ['#resTable', renderResults, ['resultados']],
+  ['#govTable', renderGov, ['castillo', 'keiko', 'expresidentes']],
+  ['#apChart', renderApproval, ['castillo', 'keiko', 'expresidentes']],
+  ['#apSeries', renderApSeries, ['castillo', 'keiko', 'expresidentes']],
+  ['#ecoCharts', renderEco, ['indicadores', 'expresidentes']],
+  ['#estadoBody', renderEstado, ['performance', 'indicadores']],
+  ['#planesBody', renderPlanes, ['planes']],
+  ['#tlDensity', renderTlDensity, ['noticias']],
+  ['#timeline', renderTimeline, ['noticias']],
+  ['#vidBody', renderVideos, ['videos']],
+  ['#method', renderMethod, ['factcheck', 'castillo', 'keiko', 'expresidentes', 'indicadores', 'performance', 'resultados', 'planes', 'noticias', 'videos']],
+  ['#msgBody', renderMensaje, ['pp2050_mensaje']],
+  ['#brujula', renderBrujula, ['pp2050_cumplimiento']],
+  ['#semIndice', renderSemaforo, ['indice100']],
+  ['#semBars', renderDimBars, ['indice100']],
+  ['#pbBalances', renderBalances, ['promesas_base']],
+  ['#pbApp', () => { if (!$('#govSem')) renderBase(); }, ['promesas_base']],
+  ['#govSem', renderGovPage, ['indice100', 'castillo', 'keiko', 'expresidentes', 'noticias', 'videos', 'factcheck', 'promesas_base']],
+].filter(([sel]) => document.querySelector(sel));
+const FILES = [...new Set(RENDERS.flatMap(r => r[2]))];
 
 Promise.all(FILES.map(f => fetch(`research/${f}.json`, { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).catch(() => null)))
   .then(arr => {
     FILES.forEach((f, i) => D[f] = arr[i]);
-    const run = (name, fn) => { try { fn(); } catch (e) { console.error(name, e); } };
-    run('vs', renderVs); run('claims', renderClaims); run('promesas', renderPromises); run('ladder', renderLadder);
-    run('resultados', renderResults); run('gov', renderGov); run('approval', renderApproval); run('eco', renderEco);
-    run('estado', renderEstado); run('planes', renderPlanes); run('timeline', renderTimeline); run('videos', renderVideos);
-    run('method', renderMethod); run('mensaje', renderMensaje); run('brujula', renderBrujula); run('semaforo', renderSemaforo);
+    RENDERS.forEach(([sel, fn]) => { try { fn(); } catch (e) { console.error(sel, e); } });
+    countUp();
+    stackTables();
+    if (location.hash) { const t = document.getElementById(location.hash.slice(1)); if (t) setTimeout(() => t.scrollIntoView(), 60); }
   });
+
+/* tablas largas: en móvil cada fila se vuelve una tarjeta con la etiqueta de su columna */
+function stackTables() {
+  document.querySelectorAll('.tbl-wrap table:not(.sem):not(#govTable):not(#ecoTable)').forEach(t => {
+    const heads = [...t.querySelectorAll('thead th')].map(th => th.textContent.trim());
+    if (!heads.length) return;
+    t.classList.add('stack');
+    t.querySelectorAll('tbody tr').forEach(tr => [...tr.children].forEach((td, i) => { if (heads[i]) td.dataset.label = heads[i]; }));
+  });
+}
+let rzT;
+addEventListener('resize', () => { clearTimeout(rzT); rzT = setTimeout(() => { if ($('#apSeries') && D.castillo) renderApSeries(); if ($('#homSeries') && D.resultados) renderHomSeries(); }, 200); });
+
+/* números que cuentan hasta su valor (solo animación; el texto final es el dato exacto) */
+function countUp() {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return;
+  const els = [...document.querySelectorAll('[data-count]')];
+  const io2 = new IntersectionObserver(es => es.forEach(en => {
+    if (!en.isIntersecting) return; io2.unobserve(en.target);
+    const el = en.target, final = el.textContent, target = parseFloat(el.dataset.count), dec = +(el.dataset.dec || 0);
+    if (!isFinite(target)) return;
+    const t0 = performance.now(), dur = 900;
+    const step = t => { const k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3);
+      el.textContent = fmt(target * e, dec); if (k < 1) requestAnimationFrame(step); else el.textContent = final; };
+    requestAnimationFrame(step);
+  }), { threshold: .4 });
+  els.forEach(el => io2.observe(el));
+}
 
 /* ---------- helpers de datos ---------- */
 const hist = k => ({ ppk: D.expresidentes?.ppk_2016, humala: D.expresidentes?.humala_2011, garcia: D.expresidentes?.garcia_2006 })[k];
@@ -131,6 +245,46 @@ function approvals(k) {
   const inWin = use.filter(a => dkey(a) <= limit);
   const last = inWin[inWin.length - 1] || use[use.length - 1];
   return { first, last, n: use.length };
+}
+
+/* ---------- portada: marcador del índice ---------- */
+function renderScore(sel = '#score') {
+  const box = $(sel); const I = D.indice100;
+  if (!I?.gobiernos) { box.innerHTML = '<p class="empty">El índice no está disponible.</p>'; return; }
+  const ks = ['castillo', 'keiko', 'ppk'].filter(k => isNum(I.gobiernos[k]?.total));
+  const S = I.sensibilidad || {};
+  const rc = I.gobiernos.castillo?.rango, rk = I.gobiernos.keiko?.rango;
+  const pct = v => Math.max(0, Math.min(100, v));
+  const ov = rc && rk ? [Math.max(rc.p5, rk.p5), Math.min(rc.p95, rk.p95)] : null;
+  const ovOk = ov && ov[1] > ov[0];
+  const rows = ks.map(k => {
+    const g = I.gobiernos[k], r = g.rango, ref = k === 'ppk' ? ' ref' : '';
+    const tipTxt = `${GOV[k].short} ${GOV[k].year}: ${fmt(g.total)} / 100${r ? `; en el 90 % de las simulaciones queda entre ${fmt(r.p5)} y ${fmt(r.p95)}` : ''}`;
+    return `<div class="sc-row${ref}">
+      <div class="sc-name">${sw(k)}<span><b>${esc(GOV[k].short)}</b> ${GOV[k].year}${ref ? ' <small>referencia</small>' : ''}</span></div>
+      <div class="sc-track" data-tip="${esc(tipTxt)}">
+        ${ovOk && !ref ? `<span class="sc-ov" style="left:${pct(ov[0])}%;width:${pct(ov[1]) - pct(ov[0])}%"></span>` : ''}
+        ${r ? `<span class="sc-range" style="left:${pct(r.p5)}%;width:${pct(r.p95) - pct(r.p5)}%;--c:var(${GOV[k].v})"></span>` : ''}
+        <span class="sc-pt" style="left:${pct(g.total)}%;--c:var(${GOV[k].v})"></span>
+      </div>
+      <div class="sc-val"><b class="num" data-count="${g.total}" data-dec="1">${fmt(g.total)}</b>${r ? `<small class="num">${fmt(r.p5, 0)}–${fmt(r.p95, 0)}</small>` : ''}</div>
+    </div>`;
+  }).join('');
+  const sens = isNum(S.p_castillo_mayor_keiko)
+    ? ` Castillo queda arriba solo en el ${Math.round(S.p_castillo_mayor_keiko * 100)} % de las simulaciones${isNum(S.p_ppk_primero) ? `; PPK queda por encima de ambos en el ${Math.round(S.p_ppk_primero * 100)} %` : ''}.` : '';
+  box.innerHTML = `<div class="sc-top">
+      <span class="stamp v-warn sc-stamp"><span class="ic" aria-hidden="true">≈</span>Empate técnico</span>
+      <p class="sc-q">Castillo frente a Keiko en el índice de los 100 días</p>
+    </div>
+    <div class="sc-plot" role="img" aria-label="Índice de los 100 días, de 0 a 100. ${ks.map(k => `${GOV[k].short}: ${fmt(I.gobiernos[k].total)}, rango ${fmt(I.gobiernos[k].rango?.p5, 0)} a ${fmt(I.gobiernos[k].rango?.p95, 0)}`).join('. ')}.">
+      ${rows}
+      <div class="sc-row sc-axis-row"><span class="sc-name" aria-hidden="true"></span><div class="sc-axis">
+        <span class="sc-bands"><i class="sem-r" style="flex:30"></i><i class="sem-o" style="flex:20"></i><i class="sem-y" style="flex:20"></i><i class="sem-g" style="flex:30"></i></span>
+        ${[0, 30, 50, 70, 100].map(v => `<span class="sc-tick" style="left:${v}%">${v}</span>`).join('')}
+      </div><span class="sc-val" aria-hidden="true"></span></div>
+      ${ovOk ? `<p class="sc-ovl"><span class="sc-ovk" aria-hidden="true"></span>Zona rayada: donde se superponen los rangos de Castillo y Keiko (${fmt(ov[0], 0)}–${fmt(ov[1], 0)})</p>` : ''}
+    </div>
+    <figcaption id="${sel === '#score' ? 'scoreCap' : 'scoreCap2'}">Con estos datos no se puede decir cuál lo hizo peor: en nuestro índice experimental sus rangos se superponen. Punto: valor con nuestros pesos. Barra: rango del 5 % al 95 % de 20 000 simulaciones con otros pesos y fórmulas.${sens} ${sel === '#score' ? '<a href="contexto.html">Ver el semáforo completo</a>' : ''}</figcaption>`;
 }
 
 /* ---------- portada ---------- */
@@ -672,7 +826,9 @@ function semCell(sc, main, sub, tipTxt) {
   return `<td class="sem-cell ${b[2]}" data-tip="${esc(tipTxt || '')}"><span class="sv">${main}</span><span class="sl">${b[1]}${sub ? ' · ' + sub : ''}</span></td>`;
 }
 function renderSemaforo() {
-  $('#semLegend').innerHTML = BANDS.map(b => `<span><i class="${b[2]}" style="border-radius:3px"></i>${b[1]} (${{70: '≥70', 50: '50–69', 30: '30–49', 0: '<30'}[b[0]]})</span>`).join('') + '<span><i class="sem-na" style="border-radius:3px"></i>Sin dato</span>';
+  const RANGE = { 70: '≥70', 50: '50–69', 30: '30–49', 0: '<30' }, WIDTH = { 70: 30, 50: 20, 30: 20, 0: 30 };
+  $('#semLegend').innerHTML = `<div class="ss-bar" role="img" aria-label="Escala del semáforo: ${[...BANDS].reverse().map(b => `${b[1]} ${RANGE[b[0]]}`).join(', ')}">${[...BANDS].reverse().map(b => `<span class="${b[2]}" style="flex:${WIDTH[b[0]]}"><b>${b[1]}</b><small>${esc(RANGE[b[0]])}</small></span>`).join('')}</div>
+    <p class="ss-help">Cada celda va de 0 a 100: cuanto más a la derecha de la escala, mejor. <span class="ss-na"><i class="sem-na"></i>Sin dato</span></p>`;
   const I = D.indice100;
   if (!I) { $('#semIndice').innerHTML = '<p class="empty">Índice en preparación.</p>'; return; }
   const govs = ORDER.filter(k => I.gobiernos?.[k]);
@@ -693,7 +849,8 @@ function renderSemaforo() {
   const sensTxt = S ? `<p class="note"><b>¿Se pueden distinguir?</b> Castillo y Keiko, no: sus rangos se superponen (${fmt(S.castillo.p5, 0)}–${fmt(S.castillo.p95, 0)} frente a ${fmt(S.keiko.p5, 0)}–${fmt(S.keiko.p95, 0)}), y Castillo queda arriba solo en el ${Math.round(S.p_castillo_mayor_keiko * 100)} % de las simulaciones. Lo que sí se sostiene: PPK queda por encima de ambos en el ${Math.round(S.p_ppk_primero * 100)} % de las simulaciones.</p>` : '';
   $('#semIndice').innerHTML = `<div class="tbl-wrap"><table class="sem">${head}<tbody>${rows}${tot}</tbody></table></div>${sensTxt}`;
   const C = I.contexto || [];
-  if (C.length) {
+  if (!$('#semIntl')) { /* resumen en Inicio */ }
+  else if (C.length) {
     const cg = ORDER.filter(k => C.some(r => r.gobiernos?.[k]));
     const dimLab = { corrupcion: 'Corrupción', democracia: 'Democracia', estado_de_derecho: 'Estado de derecho', efectividad: 'Efectividad del gobierno', libertades: 'Libertades', desigualdad: 'Desigualdad', pobreza: 'Pobreza', desarrollo_humano: 'Desarrollo humano', confianza: 'Confianza ciudadana', seguridad: 'Seguridad' };
     const groups = [...new Set(C.map(r => r.dimension))];
@@ -706,8 +863,225 @@ function renderSemaforo() {
     }).join('')}</tr>`).join('')).join('');
     $('#semIntl').innerHTML = `<div class="tbl-wrap"><table class="sem">${`<thead><tr><th>Índice</th>${cg.map(k => `<th class="n">${govLabel(k)}</th>`).join('')}</tr></thead>`}<tbody>${body}</tbody></table></div><p class="note">El color corresponde al último valor de la celda, ubicado en su escala de 0 a 100 (mejor = 100). ▲ mejoró y ▼ empeoró en el primer año.</p>`;
   } else $('#semIntl').innerHTML = '<p class="empty">Índices internacionales en preparación.</p>';
-  if (I.metodo) $('#semMetodo').innerHTML = `<details class="more" style="margin-top:20px"><summary>Cómo se calcula el índice</summary><ul class="sub-claims">${I.metodo.map(m => `<li>${esc(m)}</li>`).join('')}</ul></details>`;
+  if (I.metodo && $('#semMetodo')) $('#semMetodo').innerHTML = `<details class="more" style="margin-top:20px"><summary>Cómo se calcula el índice</summary><ul class="sub-claims">${I.metodo.map(m => `<li>${esc(m)}</li>`).join('')}</ul></details>`;
 }
 const fmtSem = v => !isNum(v) ? '—' : Math.abs(v) < 1 ? fmt(v, 2) : Math.abs(v) < 10 ? fmt(v, 1) : fmt(v, 0);
+
+
+/* ---------- semáforo: barras agrupadas por dimensión ---------- */
+function renderDimBars() {
+  const I = D.indice100, box = $('#semBars'); if (!I) { box.innerHTML = ''; return; }
+  const ks = ['castillo', 'keiko', 'ppk'].filter(k => I.gobiernos?.[k]);
+  const dims = I.dimensiones.filter(d => d.peso && ks.some(k => isNum(I.gobiernos[k].dims?.[d.id]?.score)));
+  box.innerHTML = `<div class="legend">${ks.map(k => `<span>${govLabel(k)}${k === 'ppk' ? '<small class="muted" style="margin-left:5px">(referencia)</small>' : ''}</span>`).join('')}</div>
+    <div class="dimbars" role="img" aria-label="Puntaje por dimensión del índice, de 0 a 100: ${dims.map(d => `${d.nombre}: ${ks.map(k => `${GOV[k].short} ${fmt(I.gobiernos[k].dims[d.id]?.score, 0)}`).join(', ')}`).join('; ')}">
+    ${dims.map(d => `<div class="db-dim"><p class="db-name">${esc(d.nombre)} <small>${d.peso} %</small></p>
+      ${ks.map(k => { const c = I.gobiernos[k].dims[d.id] || {}, v = c.score, b = band(v);
+        return `<div class="db-row${k === 'ppk' ? ' ref' : ''}" data-tip="${esc(`${GOV[k].short} ${GOV[k].year}: ${isNum(v) ? fmt(v, 0) + ' / 100' : 'sin dato'}${c.valor ? ' (' + c.valor + ')' : ''}`)}">
+          <span class="db-g">${esc(GOV[k].short)}</span>
+          <span class="db-track"><span class="db-bar" style="width:${isNum(v) ? Math.max(1.5, Math.min(100, v)) : 0}%;--c:var(${GOV[k].v})"></span></span>
+          <span class="db-v num">${isNum(v) ? fmt(v, 0) : '—'}${b ? `<i class="db-b ${b[2]}" title="${b[1]}"></i>` : ''}</span></div>`; }).join('')}
+    </div>`).join('')}</div>
+    <p class="note">Barras de 0 a 100 por dimensión; el cuadradito de color indica la banda del semáforo. Pasa el cursor o toca una barra para ver el dato de origen.</p>`;
+}
+
+/* ---------- promesas: waffle de las listas oficiales ---------- */
+function renderWaffle() {
+  const B = D.promesas_base?.balances_oficiales, box = $('#waffle'); if (!B) { box.innerHTML = ''; return; }
+  const mk = (k, parts) => {
+    const b = B[k]; const cells = parts.flatMap(([n, cls]) => Array.from({ length: n || 0 }, () => cls));
+    return `<figure class="waf"><figcaption>${govLabel(k)} <span class="muted">${esc(b.fuente)}: ${b.total}</span></figcaption>
+      <div class="waf-grid" role="img" aria-label="${esc(GOV[k].short)}: ${parts.map(([n, , l]) => `${n} ${l}`).join(', ')} de ${b.total}">${cells.map(c => `<i class="${c}"></i>`).join('')}</div>
+      <div class="legend waf-leg">${parts.filter(p => p[0] > 0 || p[3]).map(([n, cls, l]) => `<span><i class="wl ${cls}"></i>${esc(l)}: <b class="num">${n}</b></span>`).join('')}</div></figure>`;
+  };
+  box.innerHTML = `<div class="waf-wrap">
+    ${B.castillo ? mk('castillo', [[B.castillo.cumplidas, 'c', 'Cumplidas', 1], [B.castillo.en_proceso, 'p', 'En proceso'], [B.castillo.incumplidas, 'n', 'Incumplidas']]) : ''}
+    ${B.keiko ? mk('keiko', [[B.keiko.cumplidas, 'c', 'Cumplidas', 1], [B.keiko.en_proceso, 'p', 'En proceso'], [B.keiko.sin_avance, 'n', 'Sin avance']]) : ''}
+  </div><p class="note">Un cuadro por promesa o acción, según cada balance. Las dos listas no son homogéneas: miden cosas distintas con criterios distintos.</p>`;
+}
+
+/* ---------- base de promesas ---------- */
+const EST = {
+  cumplida: { c: 'var(--sem-g)', ic: '✓' }, parcial: { c: '#7fb041', ic: '◐' }, en_proceso: { c: 'var(--sem-y)', ic: '…' },
+  anunciada: { c: 'var(--sem-o)', ic: '!' }, sin_evidencia: { c: 'var(--unk)', ic: '∅' }, incumplida: { c: 'var(--sem-r)', ic: '✕' }, no_verificable: { c: 'var(--rule-strong)', ic: '?' },
+};
+const NIV = ['insumo', 'actividad', 'producto', 'resultado', 'impacto'];
+function renderBalances() {
+  const P = D.promesas_base, box = $('#pbBalances'); if (!P) { box.innerHTML = ''; return; }
+  const B = P.balances_oficiales || {};
+  const row = (k, b) => {
+    const items = [['cumplidas', 'cumplidas'], ['en_proceso', 'en proceso'], ['incumplidas', 'incumplidas'], ['sin_avance', 'sin avance']].filter(([f]) => isNum(b[f]));
+    return `<article class="bal" style="--c:var(${GOV[k].v})"><h3>${govLabel(k)}</h3><p class="bal-src">${esc(b.fuente)}</p>
+      <p class="bal-big"><b class="num">${isNum(b.cumplidas) ? b.cumplidas : '—'}</b><span>de <b class="num">${b.total}</b> cumplidas</span></p>
+      <p class="bal-parts">${items.slice(1).map(([f, l]) => `<span><b class="num">${b[f]}</b> ${l}</span>`).join('')}</p>
+      ${b.nota ? `<p class="bal-note">${esc(b.nota)}</p>` : ''}</article>`;
+  };
+  box.innerHTML = `<h3 class="group-h">Los balances oficiales</h3><div class="bal-grid">${['castillo', 'keiko', 'ppk'].filter(k => B[k]).map(k => row(k, B[k])).join('')}</div>
+    ${(P.caveats || []).length ? `<ul class="pb-cav">${P.caveats.map(c => `<li>${esc(c)}</li>`).join('')}</ul>` : ''}`;
+}
+function renderBase() {
+  const P = D.promesas_base, box = $('#pbApp'); if (!P) { box.innerHTML = '<p class="empty">No se pudo cargar la base de promesas.</p>'; return; }
+  const fixedGov = box.dataset.gov || '';
+  const ALL = (P.promesas || []).filter(r => !fixedGov || r.gobierno === fixedGov);
+  const ESTL = P.estados || {};
+  const st = { q: '', gov: '', est: '', niv: '', all: false };
+  const govs = ORDER.filter(k => ALL.some(r => r.gobierno === k));
+  const norm = s => String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  const match = (r, skip) => (skip === 'gov' || !st.gov || r.gobierno === st.gov) && (skip === 'est' || !st.est || r.estado === st.est) &&
+    (skip === 'niv' || !st.niv || (st.niv === 'sin' ? !r.nivel : r.nivel === st.niv)) &&
+    (!st.q || norm([r.texto, r.nota, r.eje, r.codigo, r.lista, r.estado_fuente].join(' ')).includes(norm(st.q)));
+  const chip = e => `<span class="est est-${esc(e)}" style="--e:${EST[e]?.c || 'var(--unk)'}"><i aria-hidden="true">${EST[e]?.ic || '·'}</i>${esc(ESTL[e] || e)}</span>`;
+  box.innerHTML = `<div class="pb-ctrl" role="search">
+      <label class="pb-q"><span class="sr">Buscar en las promesas</span><input type="search" id="pbQ" placeholder="Buscar: salario, Pensión 65, C5i…" autocomplete="off"></label>
+      ${fixedGov ? '' : `<div class="seg pb-gov" role="group" aria-label="Gobierno"><button type="button" data-g="" aria-pressed="true">Todos</button>${govs.map(k => `<button type="button" data-g="${k}" aria-pressed="false">${govLabel(k)}</button>`).join('')}</div>`}
+      <label class="pb-sel"><span>Nivel en la cadena de valor</span><select id="pbNiv"><option value="">Todos los niveles</option>${NIV.map(n => `<option value="${n}">${cap(n)}</option>`).join('')}<option value="sin">Sin clasificar</option></select></label>
+    </div>
+    <div class="pb-stack" id="pbStack"></div>
+    <div class="pb-counts" id="pbCounts" role="group" aria-label="Filtrar por estado"></div>
+    <div class="pb-bar"><p id="pbN" class="pb-n" aria-live="polite"></p><div class="pb-actions"><button type="button" class="btn-sm" id="pbReset">Limpiar filtros</button><button type="button" class="btn-sm btn-sm-main" id="pbCsv"><span class="dl-ic" aria-hidden="true"></span>Descargar CSV</button></div></div>
+    <div class="pb-head" aria-hidden="true"><span>Gobierno</span><span>Promesa</span><span>Estado</span><span>Nivel</span></div>
+    <ul class="pb-list" id="pbList"></ul>`;
+  const push = () => { try { (window.dataLayer = window.dataLayer || []).push({ event: 'filtro_promesas', gobierno: st.gov || fixedGov, estado: st.est, nivel: st.niv, busqueda: st.q ? 1 : 0 }); } catch {} };
+  const draw = () => {
+    const rows = ALL.filter(r => match(r));
+    const base = ALL.filter(r => match(r, 'est'));
+    const estOrder = Object.keys(ESTL).filter(e => ALL.some(r => r.estado === e));
+    const cnt = e => base.filter(r => r.estado === e).length;
+    $('#pbCounts').innerHTML = estOrder.map(e => `<button type="button" class="pb-c" data-e="${esc(e)}" aria-pressed="${st.est === e}" style="--e:${EST[e]?.c || 'var(--unk)'}"><i aria-hidden="true">${EST[e]?.ic || '·'}</i><span>${esc(ESTL[e] || e)}</span><b class="num">${cnt(e)}</b></button>`).join('');
+    const tot = base.length || 1;
+    $('#pbStack').innerHTML = `<div class="pb-stk" role="img" aria-label="Por estado: ${estOrder.map(e => `${ESTL[e] || e} ${cnt(e)}`).join(', ')}">${estOrder.filter(cnt).map(e => `<span style="flex:${cnt(e)};--e:${EST[e]?.c}" data-tip="${esc(`${ESTL[e] || e}: ${cnt(e)} de ${base.length} (${fmt(cnt(e) / tot * 100, 0)} %)`)}"></span>`).join('')}</div>`;
+    $('#pbN').innerHTML = `Mostrando <b class="num">${rows.length}</b> de <b class="num">${ALL.length}</b> promesas`;
+    const LIM = 30, show = st.all ? rows : rows.slice(0, LIM);
+    $('#pbList').innerHTML = show.map(r => `<li class="pb-item" style="--c:var(${GOV[r.gobierno]?.v || '--muted'})">
+        <span class="pb-gv">${GOV[r.gobierno] ? govLabel(r.gobierno) : esc(r.gobierno)}${r.codigo ? ` <small class="num">${esc(r.codigo)}</small>` : ''}</span>
+        <div class="pb-tx"><p>${esc(r.texto)}</p><small>${esc(r.eje ? r.eje + '. ' : '')}${esc(r.lista)}</small>
+          <details class="more pb-more"><summary>Nota y fuentes</summary><p class="pb-note">${esc(r.nota)}</p>${r.estado_fuente ? `<p class="pb-note"><b>Estado según la fuente:</b> ${esc(r.estado_fuente)}</p>` : ''}<div class="srcs">${(r.fuentes || []).map(u => link(u)).join('')}</div></details></div>
+        <span class="pb-es">${chip(r.estado)}</span>
+        <span class="pb-nv">${r.nivel ? `<span class="lvl ${['resultado', 'impacto'].includes(r.nivel) ? 'hi' : ''}">${esc(r.nivel)}</span>` : '<span class="muted small">sin clasificar</span>'}</span>
+      </li>`).join('') + (rows.length > show.length ? `<li class="pb-morebtn"><button type="button" class="btn btn-ghost" id="pbAll">Mostrar las ${rows.length} promesas</button></li>` : '') ||
+      '<li class="empty">Ninguna promesa coincide con estos filtros. Prueba con otra búsqueda o limpia los filtros.</li>';
+    const all = $('#pbAll'); if (all) all.onclick = () => { st.all = true; draw(); };
+  };
+  let qT;
+  $('#pbQ').addEventListener('input', e => { st.q = e.target.value.trim(); st.all = false; clearTimeout(qT); qT = setTimeout(() => { draw(); push(); }, 160); });
+  $('#pbNiv').addEventListener('change', e => { st.niv = e.target.value; st.all = false; draw(); push(); });
+  const gseg = box.querySelector('.pb-gov');
+  if (gseg) gseg.addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; st.gov = b.dataset.g; st.all = false;
+    gseg.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(x === b))); draw(); push(); });
+  $('#pbCounts').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; st.est = st.est === b.dataset.e ? '' : b.dataset.e; st.all = false; draw(); push(); });
+  $('#pbReset').addEventListener('click', () => { Object.assign(st, { q: '', gov: '', est: '', niv: '', all: false }); $('#pbQ').value = ''; $('#pbNiv').value = '';
+    if (gseg) gseg.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', String(!x.dataset.g))); draw(); });
+  $('#pbCsv').addEventListener('click', () => {
+    const rows = ALL.filter(r => match(r));
+    const cols = ['id', 'gobierno', 'lista', 'codigo', 'eje', 'texto', 'estado', 'estado_fuente', 'nivel', 'nota', 'fuentes'];
+    const cell = v => { let t = Array.isArray(v) ? v.join(' | ') : String(v ?? ''); if (/^[=+\-@\t\r]/.test(t)) t = "'" + t; return '"' + t.replace(/"/g, '""') + '"'; };
+    const csv = '﻿' + [cols.join(','), ...rows.map(r => cols.map(c => cell(r[c])).join(','))].join('\r\n');
+    const url = URL.createObjectURL(new Blob([csv], { type: 'text/csv;charset=utf-8' }));
+    const a = document.createElement('a'); a.href = url; a.download = `promesas-100-dias${fixedGov ? '-' + fixedGov : ''}${st.gov ? '-' + st.gov : ''}.csv`;
+    document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
+    try { (window.dataLayer = window.dataLayer || []).push({ event: 'descarga_csv_promesas', filas: rows.length }); } catch {}
+  });
+  draw();
+}
+
+/* ---------- gráficos de línea en SVG (sin dependencias) ---------- */
+function lineChart({ series, xMin, xMax, yMin, yMax, xTicks, yTicks, xFmt, yFmt, shade, mark, h = 260, label, w = 680 }) {
+  const W = Math.max(300, Math.min(820, Math.round(w))), pad = { l: 40, r: W < 420 ? 30 : 16, t: 14, b: 30 }, H = W < 420 ? Math.round(h * .9) : h;
+  const x = v => pad.l + (W - pad.l - pad.r) * (v - xMin) / (xMax - xMin);
+  const y = v => pad.t + (H - pad.t - pad.b) * (1 - (v - yMin) / (yMax - yMin));
+  let g = '';
+  if (shade) g += `<rect x="${x(shade[0])}" y="${pad.t}" width="${x(shade[1]) - x(shade[0])}" height="${H - pad.t - pad.b}" style="fill:var(--sunk)"/><text x="${x(shade[0]) + 6}" y="${pad.t + 14}" font-size="11.5" font-family="Archivo" style="fill:var(--muted)">${esc(shade[2] || '')}</text>`;
+  g += yTicks.map(v => `<line x1="${pad.l}" x2="${W - pad.r}" y1="${y(v)}" y2="${y(v)}" style="stroke:var(--rule)"/><text x="${pad.l - 6}" y="${y(v) + 4}" text-anchor="end" font-size="11.5" font-family="Archivo" style="fill:var(--muted)">${yFmt(v)}</text>`).join('');
+  g += xTicks.map(v => `<text x="${x(v)}" y="${H - 9}" text-anchor="middle" font-size="11.5" font-family="Archivo" style="fill:var(--muted)">${xFmt(v)}</text>`).join('');
+  if (mark) g += `<line x1="${x(mark[0])}" x2="${x(mark[0])}" y1="${pad.t}" y2="${H - pad.b}" style="stroke:var(--ink-2)" stroke-dasharray="4 3"/><text x="${x(mark[0]) - 5}" y="${pad.t + 14}" text-anchor="end" font-size="11.5" font-family="Archivo" font-weight="700" style="fill:var(--ink-2)">${esc(mark[1])}</text>`;
+  series.forEach(s => {
+    const pts = s.pts.filter(p => isNum(p[0]) && isNum(p[1]));
+    if (!pts.length) return;
+    g += `<polyline fill="none" points="${pts.map(p => `${x(p[0]).toFixed(1)},${y(p[1]).toFixed(1)}`).join(' ')}" style="stroke:var(${s.v})" stroke-width="${s.w || 2.5}" stroke-linejoin="round" stroke-linecap="round"${s.dash ? ' stroke-dasharray="5 4"' : ''}/>`;
+    g += pts.map(p => `<circle cx="${x(p[0])}" cy="${y(p[1])}" r="${s.r || 4.5}" style="fill:var(${s.v});stroke:var(--surface)" stroke-width="2"/><circle cx="${x(p[0])}" cy="${y(p[1])}" r="14" fill="transparent" data-tip="${esc(p[2] || '')}"/>`).join('');
+    const last = pts[pts.length - 1];
+    if (s.label) g += `<text x="${Math.min(x(last[0]) + 8, W - pad.r)}" y="${y(last[1]) + 4}" ${x(last[0]) + 60 > W ? 'text-anchor="end" dy="-12"' : ''} font-size="12.5" font-weight="700" font-family="Archivo" style="fill:var(--ink)">${esc(s.label)}</text>`;
+  });
+  return `<svg class="lc" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}" preserveAspectRatio="xMidYMid meet">${g}</svg>`;
+}
+const dayOf = (k, f) => {
+  const m = /^(\d{4})-(\d{2})(?:-(\d{2}))?/.exec(String(f || '')); if (!m) return null;
+  return (Date.UTC(+m[1], +m[2] - 1, m[3] ? +m[3] : 15) - Date.UTC(GOV[k].year, 6, 28)) / 864e5;
+};
+function renderApSeries() {
+  const box = $('#apSeries'); if (!box) return;
+  const get = k => (k === 'castillo' ? D.castillo?.aprobacion : k === 'keiko' ? D.keiko?.aprobacion : hist(k)?.aprobacion) || [];
+  const series = ORDER.map(k => {
+    const arr = get(k).filter(a => /ipsos|apoyo/i.test(a.encuestadora || '') && isNum(+a.aprueba) && a.aprueba !== null && a.aprueba !== '');
+    const pts = arr.map(a => [dayOf(k, a.fecha || a.campo), +a.aprueba, `${GOV[k].short} ${GOV[k].year}: ${a.aprueba} % (${a.encuestadora}, ${a.fecha || a.campo || ''})`]).filter(p => isNum(p[0]) && p[0] >= -20 && p[0] <= 140).sort((a, b) => a[0] - b[0]);
+    return { k, v: GOV[k].v, pts, w: ['castillo', 'keiko'].includes(k) ? 3 : 1.6, r: ['castillo', 'keiko'].includes(k) ? 5 : 3.5, label: `${GOV[k].short}` };
+  }).filter(s => s.pts.length >= 2);
+  if (!series.length) { box.innerHTML = ''; return; }
+  box.innerHTML = `<h3>Aprobación en el tiempo (Ipsos/Apoyo)</h3><p class="sub">Porcentaje que aprueba, por días desde la asunción (28 de julio). Las mediciones mensuales sin día exacto se ubican a mitad de mes.</p>
+    ${lineChart({ w: box.clientWidth, series, xMin: 0, xMax: 130, yMin: 20, yMax: 70, xTicks: [0, 25, 50, 75, 100, 125], yTicks: [20, 30, 40, 50, 60, 70], xFmt: v => `día ${v}`, yFmt: v => v + '%', mark: [100, 'día 100'], label: 'Aprobación presidencial (Ipsos/Apoyo) por días desde la asunción: ' + series.map(s => `${GOV[s.k].short}: ${s.pts.map(p => fmt(p[1], 0) + ' %').join(', ')}`).join('; ') })}
+    <div class="legend">${series.map(s => `<span>${govLabel(s.k)}</span>`).join('')}</div>`;
+}
+function renderHomSeries() {
+  const box = $('#homSeries'); const R = D.resultados; if (!box || !R) return;
+  const it = (R.indicadores || []).find(i => i.id === 'homicidios_sinadef'); if (!it) { box.innerHTML = ''; return; }
+  const corte = (/corte (\d{4})-(\d{2})-(\d{2})/.exec(it.fuente || '') || []);
+  const ser = (y, k) => (it[y]?.serie || []).filter(([f]) => !(corte[1] && f >= `${corte[1]}-${corte[2]}`)).map(([f, v]) => [+f.slice(5, 7), +v, `${GOV[k].short} ${y}, ${MES[+f.slice(5, 7) - 1]}: ${fmtInt(v)} homicidios`]);
+  const s21 = ser('2021', 'castillo'), s26 = ser('2026', 'keiko');
+  const vals = [...s21, ...s26].map(p => p[1]); if (!vals.length) { box.innerHTML = ''; return; }
+  const yMax = Math.ceil(Math.max(...vals) / 20) * 20 + 10, yMin = Math.max(0, Math.floor(Math.min(...vals) / 20) * 20 - 10);
+  const step = (yMax - yMin) > 100 ? 40 : 20, yt = []; for (let v = yMin; v <= yMax; v += step) yt.push(v);
+  box.innerHTML = `<div class="chart"><h3>Homicidios por mes (SINADEF)</h3><p class="sub">Defunciones por homicidio registradas cada mes en 2021 y en 2026. La franja marca agosto a octubre, el grueso de cada ventana de 100 días.${corte[1] ? ` Se omite ${MES[+corte[2] - 1]} de ${corte[1]}: la fuente tiene corte al ${+corte[3]} de ese mes.` : ''}</p>
+    ${lineChart({ w: box.clientWidth, series: [{ k: 'castillo', v: '--castillo', pts: s21, label: '2021' }, { k: 'keiko', v: '--keiko', pts: s26, label: '2026' }], xMin: 1, xMax: 12, yMin, yMax, xTicks: [1, 3, 5, 7, 9, 11], yTicks: yt, xFmt: v => MES[v - 1], yFmt: v => fmtInt(v), shade: [7.9, 10.1, 'ago–oct'], label: `Homicidios mensuales SINADEF. 2021: ${s21.map(p => p[1]).join(', ')}. 2026: ${s26.map(p => p[1]).join(', ')}.` })}
+    <div class="legend"><span>${govLabel('castillo')}</span><span>${govLabel('keiko')}</span></div></div>`;
+}
+
+/* ---------- línea de tiempo: densidad de hechos ---------- */
+function renderTlDensity() {
+  const N = D.noticias, box = $('#tlDensity'); if (!N) { box.innerHTML = ''; return; }
+  const row = k => {
+    const items = (N[k] || []).filter(i => isNum(+i.dia_n));
+    const bins = Array.from({ length: 10 }, () => []);
+    items.forEach(i => bins[Math.min(9, Math.max(0, Math.floor((+i.dia_n - 1) / 10)))].push(i));
+    const tc = t => t === 'positivo' ? 'pos' : t === 'negativo' ? 'neg' : 'neu';
+    return `<div class="dens-row"><p class="dens-g">${govLabel(k)} <small class="muted">${items.length} hechos</small></p>
+      <div class="dens-bins">${bins.map((b, j) => `<div class="dens-bin" data-tip="${esc(`${GOV[k].short}, días ${j * 10 + 1}–${j * 10 + 10}: ${b.length} hechos (${b.filter(i => i.tono === 'positivo').length} positivos, ${b.filter(i => i.tono === 'negativo').length} negativos)`)}">${b.sort((a, c) => tc(a.tono).localeCompare(tc(c.tono))).map(i => `<i class="${tc(i.tono)}"></i>`).join('')}</div>`).join('')}</div></div>`;
+  };
+  box.innerHTML = `<div class="dens" role="img" aria-label="Número de hechos por tramo de 10 días en cada ventana de 100 días">${row('castillo')}${row('keiko')}
+    <div class="dens-axis"><span></span><div>${[1, 25, 50, 75, 100].map(v => `<span style="left:${(v - 1) / 99 * 100}%">día ${v}</span>`).join('')}</div></div></div>
+    <div class="legend"><span><i class="tone-k pos"></i>Hecho positivo</span><span><i class="tone-k neg"></i>Hecho negativo</span><span><i class="tone-k neu"></i>Neutro</span></div>`;
+}
+
+/* ---------- ficha por gobierno ---------- */
+function renderGovPage() {
+  let k = new URLSearchParams(location.search).get('g'); if (!GOV[k]) k = 'keiko';
+  const G = GOV[k], I = D.indice100;
+  document.title = `${G.name} ${G.year}: ficha de los 100 días | 100 días bajo la lupa`;
+  document.documentElement.style.setProperty('--gov', `var(${G.v})`);
+  $('#govTitle').textContent = `${G.name}, ${G.year}`;
+  document.querySelectorAll('.gov-switch a').forEach(a => { if (a.dataset.g === k) a.setAttribute('aria-current', 'page'); });
+  const pdf = { keiko: 'keiko-2026', castillo: 'castillo-2021', ppk: 'ppk-2016', humala: 'humala-2011', garcia: 'garcia-2006' }[k];
+  const g = I?.gobiernos?.[k];
+  $('#govIntro').innerHTML = `<div class="gov-kpis">
+      <div class="gk"><b class="num"${isNum(g?.total) ? ` data-count="${g.total}" data-dec="1"` : ''}>${isNum(g?.total) ? fmt(g.total) : '—'}</b><span>Índice de los 100 días${g?.rango ? ` (rango ${fmt(g.rango.p5, 0)}–${fmt(g.rango.p95, 0)})` : isNum(g?.total) ? '' : ': sin balance de promesas'}</span></div>
+      <div class="gk"><b class="num"${isNum(g?.total_comun) ? ` data-count="${g.total_comun}" data-dec="1"` : ''}>${isNum(g?.total_comun) ? fmt(g.total_comun) : '—'}</b><span>Núcleo común (gabinete, confianza e inversión)</span></div>
+    </div>
+    <p class="cta"><a class="btn btn-main" href="pdf/${pdf}.pdf" download><span class="dl-ic" aria-hidden="true"></span>Descargar la ficha en PDF</a></p>`;
+  const pb = $('#pbApp'); if (pb) pb.dataset.gov = k;
+  if (I && g) {
+    $('#govSem').innerHTML = `<div class="gs-grid">${I.dimensiones.map(d => { const c = g.dims?.[d.id] || {}, v = c.score, b = band(v);
+      return `<div class="gs ${b ? b[2] : 'sem-na'}${d.peso ? '' : ' gs-info'}"><p class="gs-n">${esc(d.nombre)} <small>${d.peso ? d.peso + ' %' : 'fuera del total'}</small></p>
+        <p class="gs-v num">${isNum(v) ? Math.round(v) : esc(c.corto || '—')}</p><p class="gs-b">${b ? b[1] : 'sin puntaje'}</p>${c.valor ? `<p class="gs-d">${esc(c.valor)}</p>` : ''}</div>`; }).join('')}</div>`;
+  } else $('#govSem').innerHTML = '<p class="empty">Sin datos del índice.</p>';
+  const f = govFacts(k), ap = approvals(k);
+  const rows = [['Premier inicial', 'premier'], ['Voto de confianza o investidura', 'confianza'], ['Cambios de gabinete en 100 días', 'cambios'], ['Facultades y normas', 'facultades']];
+  $('#govCab').innerHTML = `<dl class="cab">${rows.map(([l, key]) => `<div><dt>${l}</dt><dd>${esc(f[key])}${f.u[key] ? `<span class="srcs">${link(f.u[key])}</span>` : ''}</dd></div>`).join('')}
+    ${ap ? `<div><dt>Aprobación (${esc(ap.first.encuestadora)})</dt><dd><b class="num">${ap.first.aprueba} → ${ap.last.aprueba} %</b>: primera medición frente a la última antes del día 100</dd></div>` : ''}</dl>`;
+  const N = D.noticias?.[k] || [], V = (k === 'castillo' || k === 'keiko') ? D.videos?.[k] : D.videos?.historicos?.[k];
+  const hitos = N.slice().sort((a, b) => (a.dia_n ?? 0) - (b.dia_n ?? 0)).map(i => `<div class="tl-item"><div class="tl-day" style="color:var(${G.v})">${esc(i.dia_n ?? '')}<small>${esc(fmtDate(i.fecha))}</small></div><div><h4>${esc(i.titulo)}</h4><p>${esc(i.resumen)}</p><div class="tl-meta"><span class="tone ${esc(i.tono)}">${esc(i.tono)}</span>${(i.fuentes || []).map(u => link(u)).join('')}</div></div></div>`).join('');
+  const vids = (V || []).map(v => `<a class="vid" href="${esc(safeUrl(v.url))}" target="_blank" rel="noopener"><div class="thumb">${v.plataforma === 'youtube' ? `<img loading="lazy" src="https://i.ytimg.com/vi/${encodeURIComponent(v.id)}/hqdefault.jpg" alt="">` : ''}</div><h4>${esc(v.titulo_oembed)}</h4><div class="vm">${esc(v.canal_oembed)}</div></a>`).join('');
+  $('#govHitos').innerHTML = (hitos ? `<h3 class="group-h">Hitos de la ventana</h3><div class="gov-tl">${hitos}</div>` : '<p class="note">No armamos una línea de tiempo para este gobierno: solo la hay para Castillo y Keiko.</p>') +
+    (vids ? `<h3 class="group-h">Videos</h3><div class="vids">${vids}</div>` : '');
+  if (pb) renderBase();
+}
 
 })();

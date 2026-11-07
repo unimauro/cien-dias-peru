@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>OG · 100 días</title>
+<!--
+  Fuente de assets/og.png (1200x630). Regenerar desde la raíz del repo:
+  timeout 40 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless=new --disable-gpu \
+    --hide-scrollbars --user-data-dir=/tmp/og-prof --virtual-time-budget=6000 --window-size=1200,630 \
+    --screenshot=assets/og.png "file://$PWD/assets/og-src/og.html"
+  Cifras: research/indice100.json (gobiernos.*.total y sensibilidad).
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=block" rel="stylesheet">
+<style>
+  :root{
+    --bg:#13171f; --bg2:#1b2029; --ink:#f4f5f7; --ink2:#b9bfcb; --muted:#8a919e; --rule:#2f3542;
+    --castillo:#2a78d6; --keiko:#e87ba4;
+    --verde:#1e7e3a; --amarillo:#f6c744; --naranja:#f08a3c; --rojo:#c23a35;
+    --display:"Archivo",system-ui,sans-serif; --serif:"Source Serif 4",Georgia,serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1200px;height:630px;overflow:hidden;background:var(--bg);color:var(--ink)}
+  body{font-family:var(--serif);position:relative}
+  .semaforo-top{position:absolute;left:0;top:0;width:100%;height:10px;display:flex}
+  .semaforo-top i{flex:1}
+  .wrap{position:absolute;inset:10px 0 0 0;padding:34px 60px 0 60px}
+  .kicker{font-family:var(--display);font-stretch:100%;font-weight:700;font-size:20px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+  .kicker b{color:var(--amarillo);font-weight:800}
+  h1{font-family:var(--display);font-stretch:64%;font-variation-settings:'wdth' 64;font-weight:850;font-size:70px;line-height:.95;letter-spacing:-.005em;margin-top:10px;white-space:nowrap}
+  h1 .k{color:var(--keiko)} h1 .c{color:#4b93ea}
+
+  .board{position:absolute;left:60px;right:60px;top:205px;height:212px;display:grid;grid-template-columns:1fr 300px 1fr;align-items:center}
+  .side{display:flex;flex-direction:column}
+  .side.right{align-items:flex-end;text-align:right}
+  .who{font-family:var(--display);font-stretch:85%;font-weight:800;font-size:34px;text-transform:uppercase;letter-spacing:.02em;display:flex;align-items:center;gap:12px}
+  .who small{font-weight:600;color:var(--ink2);font-size:26px}
+  .chip{width:22px;height:22px;border-radius:4px;display:inline-block}
+  .num{font-family:var(--display);font-stretch:68%;font-variation-settings:'wdth' 68;font-weight:900;font-size:164px;line-height:.86;letter-spacing:-.01em;margin-top:6px}
+  .rng{font-family:var(--display);font-stretch:90%;font-weight:600;font-size:25px;color:var(--ink2);margin-top:6px}
+  .rng b{color:var(--ink);font-weight:800}
+  .c .num{color:#4b93ea} .k .num{color:var(--keiko)}
+
+  .stamp{justify-self:center;transform:rotate(-6deg);border:5px solid var(--ink);border-radius:10px;padding:14px 18px 12px;text-align:center;background:var(--bg)}
+  .stamp .t{font-family:var(--display);font-stretch:70%;font-variation-settings:'wdth' 70;font-weight:900;font-size:62px;line-height:.9;text-transform:uppercase;letter-spacing:.01em}
+  .stamp .s{font-family:var(--display);font-stretch:95%;font-weight:700;font-size:16px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);margin-top:8px}
+
+  /* barra de rangos sobre la escala del semáforo */
+  .scale{position:absolute;left:60px;right:60px;top:440px;height:70px}
+  .track{position:absolute;left:0;right:0;top:30px;height:10px;display:flex;border-radius:5px;overflow:hidden;opacity:.95}
+  .track i{display:block;height:100%}
+  .bar{position:absolute;height:12px;border-radius:6px}
+  .bar.c{top:0;background:var(--castillo)}
+  .bar.k{top:56px;background:var(--keiko)}
+  .dot{position:absolute;width:24px;height:24px;border-radius:50%;border:4px solid var(--bg);transform:translate(-50%,-6px)}
+  .dot.c{top:0;background:#fff} .dot.k{top:56px;background:#fff}
+
+  .tk{position:absolute;top:46px;font-family:var(--display);font-weight:700;font-size:17px;color:var(--muted)}
+  .foot{position:absolute;left:60px;right:60px;bottom:26px;display:flex;justify-content:space-between;align-items:flex-end}
+  .ppk{font-family:var(--serif);font-size:23px;color:var(--ink2);max-width:640px;line-height:1.25}
+  .ppk b{font-family:var(--display);font-stretch:90%;font-weight:800;color:var(--ink)}
+  .dom{font-family:var(--display);font-stretch:90%;font-weight:800;font-size:26px;color:var(--ink);letter-spacing:.01em}
+  .dom span{color:var(--amarillo)}
+</style>
+</head>
+<body>
+  <div class="semaforo-top"><i style="background:var(--verde)"></i><i style="background:var(--amarillo)"></i><i style="background:var(--naranja)"></i><i style="background:var(--rojo)"></i></div>
+  <div class="wrap">
+    <div class="kicker">Semáforo de 7 dimensiones · <b>Perú</b></div>
+    <h1>Los 100 días de <span class="k">Keiko</span> y <span class="c">Castillo</span>, con datos</h1>
+  </div>
+
+  <div class="board">
+    <div class="side c">
+      <div class="who"><span class="chip" style="background:var(--castillo)"></span>Castillo <small>2021</small></div>
+      <div class="num">46,0</div>
+      <div class="rng">rango <b>29–60</b></div>
+    </div>
+    <div class="stamp"><div class="t">Empate<br>técnico</div><div class="s">No distinguibles</div></div>
+    <div class="side k right">
+      <div class="who">Keiko <small>2026</small><span class="chip" style="background:var(--keiko)"></span></div>
+      <div class="num">36,8</div>
+      <div class="rng">rango <b>23–62</b></div>
+    </div>
+  </div>
+
+  <!-- escala 0-100: rojo <30, naranja 30-49, amarillo 50-69, verde >=70 -->
+  <div class="scale">
+    <div class="track"><i style="width:30%;background:var(--rojo)"></i><i style="width:20%;background:var(--naranja)"></i><i style="width:20%;background:var(--amarillo)"></i><i style="width:30%;background:var(--verde)"></i></div>
+        <div class="tk" style="left:0">0</div><div class="tk" style="right:0">100</div>
+    <div class="bar c" style="left:29%;width:31%"></div><div class="dot c" style="left:46%;border-color:var(--castillo)"></div>
+    <div class="bar k" style="left:23%;width:39%"></div><div class="dot k" style="left:36.8%;border-color:var(--keiko)"></div>
+  </div>
+
+  <div class="foot">
+    <div class="ppk">Vara histórica: <b>PPK 2016 · 51,5</b>, primero en el <b>77 %</b> de 20 000 simulaciones.</div>
+    <div class="dom">unimauro.github.io/<span>cien-dias-peru</span></div>
+  </div>
+</body>
+</html>
