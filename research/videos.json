@@ -1,0 +1,289 @@
+{
+  "castillo": [
+    {
+      "plataforma": "youtube",
+      "id": "Drnt0hWXoEI",
+      "url": "https://www.youtube.com/watch?v=Drnt0hWXoEI",
+      "titulo_oembed": "Primer Mensaje a la Nación del presidente Pedro Castillo - 28/07/2021",
+      "canal_oembed": "TVPerú Noticias",
+      "fecha_publicacion": "2021-07-28",
+      "tema": "Mensaje a la Nación 28-jul-2021 (transmisión completa)",
+      "linea_editorial_canal": "oficial",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "Inl0y85nkc4",
+      "url": "https://www.youtube.com/watch?v=Inl0y85nkc4",
+      "titulo_oembed": "Guido Bellido inicio discurso en quechua y aimara durante pedido de voto de confianza",
+      "canal_oembed": "RPP Noticias",
+      "fecha_publicacion": "2021-08-26",
+      "tema": "Premier Guido Bellido pide voto de confianza; abre discurso en quechua y aimara (26-ago-2021)",
+      "linea_editorial_canal": "centro",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "oL2WDkKQBmE",
+      "url": "https://www.youtube.com/watch?v=oL2WDkKQBmE",
+      "titulo_oembed": "La victoria de Vladimir Cerrón: Guido Bellido con confianza",
+      "canal_oembed": "La República - LR+",
+      "fecha_publicacion": "2021-08-27",
+      "tema": "Análisis: Congreso otorga confianza al gabinete Bellido; peso de Vladimir Cerrón",
+      "linea_editorial_canal": "izquierda",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "k_JYvV2hIEk",
+      "url": "https://www.youtube.com/watch?v=k_JYvV2hIEk",
+      "titulo_oembed": "Congreso otorgó la confianza al Gabinete de Mirtha Vásquez (1/2)",
+      "canal_oembed": "24 Horas",
+      "fecha_publicacion": "2021-11-04",
+      "tema": "Congreso otorga confianza al segundo gabinete (Mirtha Vásquez), 4-nov-2021",
+      "linea_editorial_canal": "centro",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "iKyeie0d8A4",
+      "url": "https://www.youtube.com/watch?v=iKyeie0d8A4",
+      "titulo_oembed": "#LaEncerrona El ránking de los 100 primeros días de Pedro Castillo",
+      "canal_oembed": "Marco Sifuentes",
+      "fecha_publicacion": "2021-11-01",
+      "tema": "La Encerrona: ránking de los 100 primeros días de Castillo",
+      "linea_editorial_canal": "independiente",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "jOWbda-1ZJo",
+      "url": "https://www.youtube.com/watch?v=jOWbda-1ZJo",
+      "titulo_oembed": "Pedro Castillo: Columnistas opinan sobre primeros 100 días de Gobierno | #VideosEC",
+      "canal_oembed": "EL COMERCIO",
+      "fecha_publicacion": "2021-11-05",
+      "tema": "Columnistas de El Comercio evalúan los primeros 100 días",
+      "linea_editorial_canal": "centro",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "wgQZto_8eUs",
+      "url": "https://www.youtube.com/watch?v=wgQZto_8eUs",
+      "titulo_oembed": "100 días de gobierno de Pedro Castillo: los datos más relevantes #videosEC",
+      "canal_oembed": "EL COMERCIO",
+      "fecha_publicacion": "2021-11-06",
+      "tema": "El Comercio (Unidad de Datos): datos más relevantes de los 100 días; complemento audiovisual al especial ECData de inicios de nov-2021",
+      "linea_editorial_canal": "centro",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "t3argpYVmLo",
+      "url": "https://www.youtube.com/watch?v=t3argpYVmLo",
+      "titulo_oembed": "Presidente Castillo informa sobre primeros 100 días de Gobierno",
+      "canal_oembed": "TVPerú Noticias",
+      "fecha_publicacion": "2021-11-10",
+      "tema": "Informe oficial de los 100 días desde Huamanga, Ayacucho (10-nov-2021)",
+      "linea_editorial_canal": "oficial",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "hCnYdCMi6lo",
+      "url": "https://www.youtube.com/watch?v=hCnYdCMi6lo",
+      "titulo_oembed": "Casto Ocando  ▶ FORO «¿100 días de castrochavismo en el Perú?»",
+      "canal_oembed": "Wenceslao Cruz",
+      "fecha_publicacion": "2021-11-19",
+      "tema": "Foro crítico '¿100 días de castrochavismo en el Perú?' con Casto Ocando",
+      "linea_editorial_canal": "derecha",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "-YLxBV3Q5Ts",
+      "url": "https://www.youtube.com/watch?v=-YLxBV3Q5Ts",
+      "titulo_oembed": "Secretario de Castillo guardaba US$20 mil en efectivo en un baño de Palacio",
+      "canal_oembed": "Peru21TV",
+      "fecha_publicacion": "2021-11-23",
+      "tema": "Polémica: US$20 mil en el baño del despacho de Bruno Pacheco, secretario de Palacio (nov-2021)",
+      "linea_editorial_canal": "derecha",
+      "verificado_oembed": true
+    }
+  ],
+  "keiko": [
+    {
+      "plataforma": "youtube",
+      "id": "q7rkET4Zcf0",
+      "url": "https://www.youtube.com/watch?v=q7rkET4Zcf0",
+      "titulo_oembed": "Keiko Fujimori EN VIVO brinda su primer mensaje a la nación como presidenta del Perú | TVPerú",
+      "canal_oembed": "TVPerú Noticias",
+      "fecha_publicacion": "2026-07-28",
+      "tema": "Primer Mensaje a la Nación 28-jul-2026 (transmisión TVPerú)",
+      "linea_editorial_canal": "oficial",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "7TJ3Wj4Tn2I",
+      "url": "https://www.youtube.com/watch?v=7TJ3Wj4Tn2I",
+      "titulo_oembed": "Willax en vivo - MENSAJE a la NACIÓN de la PRESIDENTA KEIKO FUJIMORI - 28/07/2026",
+      "canal_oembed": "Willax Televisión",
+      "fecha_publicacion": "2026-07-28",
+      "tema": "Mensaje a la Nación 28-jul-2026 (transmisión Willax)",
+      "linea_editorial_canal": "derecha",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "urVm6ApvXEc",
+      "url": "https://www.youtube.com/watch?v=urVm6ApvXEc",
+      "titulo_oembed": "Premier Galarreta presenta ante el Congreso los 5 ejes del Gobierno de Keiko Fujimori | El Comercio",
+      "canal_oembed": "EL COMERCIO",
+      "fecha_publicacion": "2026-08-20",
+      "tema": "Premier Luis Galarreta presenta ante el Congreso los 5 ejes de la Política General de Gobierno",
+      "linea_editorial_canal": "centro",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "7eLQElItekY",
+      "url": "https://www.youtube.com/watch?v=7eLQElItekY",
+      "titulo_oembed": "Premier Luis Galarreta: \"Haremos uso contundente y efectivo de facultades entregadas\"",
+      "canal_oembed": "TVPerú Noticias",
+      "fecha_publicacion": "2026-10-21",
+      "tema": "Premier Galarreta sobre uso de las facultades legislativas delegadas (seguridad y El Niño)",
+      "linea_editorial_canal": "oficial",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "1Kqwmdg_eHQ",
+      "url": "https://www.youtube.com/watch?v=1Kqwmdg_eHQ",
+      "titulo_oembed": "Ministro Chang respaldó anuncio de Keiko que se retirará de la currícula \"todo tipo de ideología”",
+      "canal_oembed": "Peru21TV",
+      "fecha_publicacion": "2026-09-14",
+      "tema": "Polémica: ministro de Educación Chang respalda retirar 'todo tipo de ideología' de la currícula",
+      "linea_editorial_canal": "derecha",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "4SeCW9dr5gw",
+      "url": "https://www.youtube.com/watch?v=4SeCW9dr5gw",
+      "titulo_oembed": "MENSAJE COMPLETO de KEIKO FUJIMORI sobre balance de 100 días de su gobierno | El Comercio",
+      "canal_oembed": "EL COMERCIO",
+      "fecha_publicacion": "2026-11-06",
+      "tema": "Mensaje completo de balance de los 100 días (difundido 5-nov-2026)",
+      "linea_editorial_canal": "centro",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "9M4H92XuVYE",
+      "url": "https://www.youtube.com/watch?v=9M4H92XuVYE",
+      "titulo_oembed": "Keiko Fujimori presenta balance de sus 100 días de Gobierno, pero mensaje fue grabado y editado #lr",
+      "canal_oembed": "La República - LR+",
+      "fecha_publicacion": "2026-11-06",
+      "tema": "Crítica: el balance de 100 días fue un mensaje grabado y editado y llegó con demora",
+      "linea_editorial_canal": "izquierda",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "XL3MeD0Spgk",
+      "url": "https://www.youtube.com/watch?v=XL3MeD0Spgk",
+      "titulo_oembed": "Carlos Mesía defiende los primeros 100 días de Keiko Fujimori: “El balance es positivo”",
+      "canal_oembed": "Peru21TV",
+      "fecha_publicacion": "2026-11-05",
+      "tema": "Defensa oficialista: senador Carlos Mesía (Fuerza Popular) califica de positivo el balance",
+      "linea_editorial_canal": "derecha",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "KGV6IdSLOjY",
+      "url": "https://www.youtube.com/watch?v=KGV6IdSLOjY",
+      "titulo_oembed": "Carlos Basombrío: “EL GOBIERNO NO SE ATREVE A NADA” y cuestiona la gestión de KEIKO Fujimori",
+      "canal_oembed": "Peru21TV",
+      "fecha_publicacion": "2026-11-05",
+      "tema": "Crítica en seguridad: Carlos Basombrío cuestiona la gestión",
+      "linea_editorial_canal": "derecha",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "XT0elF5jWrE",
+      "url": "https://www.youtube.com/watch?v=XT0elF5jWrE",
+      "titulo_oembed": "¡KEIKO CUMPLE 100 DÍAS! JULIANA RECUERDA LO QUE LE EXIGÍA A PPK Y CUESTIONA SUS RESULTADOS",
+      "canal_oembed": "Arde Troya con Juliana Oxenford",
+      "fecha_publicacion": "2026-11-05",
+      "tema": "Arde Troya: Juliana Oxenford contrasta los 100 días con lo que se exigía a PPK",
+      "linea_editorial_canal": "independiente",
+      "verificado_oembed": true
+    },
+    {
+      "plataforma": "youtube",
+      "id": "DvwtAfatRCQ",
+      "url": "https://www.youtube.com/watch?v=DvwtAfatRCQ",
+      "titulo_oembed": "Economía peruana: productividad, inversión y los retos pendientes del Gobierno",
+      "canal_oembed": "RPP Noticias",
+      "fecha_publicacion": "2026-11-04",
+      "tema": "Economía a 100 días: Hugo Perea (BBVA Research) sobre productividad, inversión y retos",
+      "linea_editorial_canal": "centro",
+      "verificado_oembed": true
+    }
+  ],
+  "historicos": {
+    "ppk": [
+      {
+        "plataforma": "youtube",
+        "id": "VJOicyC0-nE",
+        "url": "https://www.youtube.com/watch?v=VJOicyC0-nE",
+        "titulo_oembed": "PPK: mira su entrevista con Latina tras cumplir cien días en el gobierno",
+        "canal_oembed": "Latina Noticias",
+        "fecha_publicacion": "2016-11-06",
+        "tema": "Entrevista a PPK en Latina al cumplir 100 días (nov-2016)",
+        "linea_editorial_canal": "centro",
+        "verificado_oembed": true
+      },
+      {
+        "plataforma": "youtube",
+        "id": "OT8ruUpz0c0",
+        "url": "https://www.youtube.com/watch?v=OT8ruUpz0c0",
+        "titulo_oembed": "Los 100 días de PPK - Jorge Morel en Radio Exitosa",
+        "canal_oembed": "Instituto de Estudios Peruanos (IEP)",
+        "fecha_publicacion": "2017-01-06",
+        "tema": "IEP: 'Los 100 días de PPK', Jorge Morel en Radio Exitosa (publicado ene-2017)",
+        "linea_editorial_canal": "independiente",
+        "verificado_oembed": true
+      }
+    ],
+    "humala": [
+      {
+        "plataforma": "youtube",
+        "id": "Ryey3y3MjAc",
+        "url": "https://www.youtube.com/watch?v=Ryey3y3MjAc",
+        "titulo_oembed": "Ollanta Humala: 100 Días de gobierno / Parte 3",
+        "canal_oembed": "Instituto de Estudios Peruanos (IEP)",
+        "fecha_publicacion": "2011-11-16",
+        "tema": "IEP: desayuno-debate con periodistas sobre los 100 días de Humala, parte 3 (nov-2011)",
+        "linea_editorial_canal": "independiente",
+        "verificado_oembed": true
+      }
+    ],
+    "garcia": []
+  },
+  "caveats": [
+    "Verificación: cada video respondió HTTP 200 en https://www.youtube.com/oembed el 7-nov-2026; titulo_oembed y canal_oembed copiados tal cual. Se descartaron F9ro0Lus4CU y xke_mcpL71c (404), y SfYnw8S33fg (teleSUR), kB5Vp7E-EqM y aLw4IMTcH44 (Willax, Beto a Saber), que dieron 403 (embebido deshabilitado o restringido).",
+    "fecha_publicacion se tomó del campo publishDate de la página de YouTube (oEmbed no da fecha); es la fecha de subida, no siempre la del hecho.",
+    "Keiko tiene 11 entradas (una más que el máximo pedido) para incluir al premier Galarreta en dos momentos; se puede quitar 7eLQElItekY.",
+    "linea_editorial_canal es una clasificación aproximada del medio, no del video: La República = centro-izquierda (marcada 'izquierda'); Peru21 y Willax = centro-derecha/derecha; RPP, El Comercio, Latina, 24 Horas = centro; La Encerrona, Arde Troya e IEP = independiente (Arde Troya y La Encerrona son críticos del fujimorismo). Wenceslao Cruz es un canal personal que re-sube un foro de Casto Ocando. Revisar antes de publicar.",
+    "Gobierno de Keiko: no hubo voto de investidura del gabinete Galarreta (según Infobae se eliminó su obligatoriedad); el equivalente es la presentación de la Política General ante el Congreso (urVm6ApvXEc). No se halló cobertura en YouTube de Cuarto Poder, Panorama, Punto Final, Epicentro, Canal N ni del Diario de Curwen sobre los 100 días de ninguno de los dos.",
+    "Castillo: no se encontró un video de Willax sobre los 100 días con embebido válido (los de Beto a Saber dan 403). La perspectiva de derecha queda en Peru21TV y en el foro de Casto Ocando.",
+    "ECData (7-nov-2021): no se encontró video sobre la portada misma. wgQZto_8eUs es el video de la Unidad de Datos de El Comercio del 6-nov-2021 sobre los 100 días, el más cercano disponible; habría que confirmar contra la portada en la hemeroteca.",
+    "García 2006: no se encontró en YouTube ningún video de balance de los 100 días. Según un boletín CIES de dic-2006, García rehusó una evaluación formal a los 100 días.",
+    "No se buscaron videos de TikTok.",
+    "Los videos pueden borrarse o volverse privados: volver a validar con oEmbed antes de cada deploy."
+  ]
+}

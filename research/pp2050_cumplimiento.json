@@ -1,0 +1,1095 @@
+{
+ "meta": {
+  "titulo": "Cumplimiento del plan de gobierno 2026-2031",
+  "inicio": "2026-07-28",
+  "corte": "2026-11-04",
+  "fuente_compromisos": "Plan de gobierno 2026-2031 (JNE), sistematizado por keikogobierna.com (proyecto ciudadano independiente)",
+  "fuente_compromisos_url": "https://www.keikogobierna.com/",
+  "nota": "Evidencias verificadas en El Peruano y gob.pe; líneas base de fuentes oficiales. Documento de trabajo para validación; no constituye posición institucional del CIP.",
+  "origen": "Plan Perú 2050 – Cumplimiento del gobierno",
+  "origen_url": "https://planperu2050.pe/"
+ },
+ "brujula": {
+  "corte": "2026-11-04",
+  "indicadores": [
+   {
+    "id": "inflacion_lima",
+    "nombre": "Inflación anual Lima Metropolitana",
+    "eje": "Economía",
+    "unidad": "% var. 12 meses",
+    "deseado": "baja",
+    "inicio": {
+     "valor": 4.07,
+     "periodo": "jul 2026",
+     "fuente": "INEI, Boletín de precios N.° 09 (Cuadro IPC Lima, var. anual julio 2026); BCRP PN01273PM = 4.065",
+     "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/boletin-precios-agosto2026_1.pdf"
+    },
+    "actual": {
+     "valor": 5.25,
+     "periodo": "oct 2026",
+     "fuente": "INEI, Informe de Precios N.° 11 (1-nov-2026)",
+     "url": "https://cdn.www.gob.pe/uploads/document/file/10887896/8777335-informe-de-precios-n-11-noviembre-2026-variacion-de-los-indicadores-de-precios-de-la-economia.pdf"
+    },
+    "nota": "Mayor nivel desde ago-2023 (5.58%). Meta BCRP: 1%-3%."
+   },
+   {
+    "id": "inflacion_nacional",
+    "nombre": "Inflación anual nacional",
+    "eje": "Economía",
+    "unidad": "% var. 12 meses",
+    "deseado": "baja",
+    "inicio": {
+     "valor": 3.7,
+     "periodo": "jul 2026",
+     "fuente": "INEI, Boletín de precios N.° 09, Cuadro 4 (IPC nacional, var. anual julio 2026)",
+     "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/boletin-precios-agosto2026_1.pdf"
+    },
+    "actual": {
+     "valor": 4.83,
+     "periodo": "oct 2026",
+     "fuente": "INEI, Informe de Precios N.° 11 (1-nov-2026)",
+     "url": "https://cdn.www.gob.pe/uploads/document/file/10887896/8777335-informe-de-precios-n-11-noviembre-2026-variacion-de-los-indicadores-de-precios-de-la-economia.pdf"
+    },
+    "nota": "Oct 2026: +0.56% mensual; acumulado ene-oct 4.60% (no confundir con la tasa anual 4.83%)."
+   },
+   {
+    "id": "pbi_mensual",
+    "nombre": "Producción nacional (PBI mensual)",
+    "eje": "Economía",
+    "unidad": "% var. interanual",
+    "deseado": "sube",
+    "inicio": {
+     "valor": 3.56,
+     "periodo": "jul 2026",
+     "fuente": "BCRP serie PN01728AM (INEI)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN01728AM/html/2025-1/2026-10/"
+    },
+    "actual": {
+     "valor": 3.23,
+     "periodo": "ago 2026",
+     "fuente": "INEI, Informe Técnico Producción Nacional N.° 10 / BCRP PN01728AM",
+     "url": "https://www.inei.gob.pe/media/MenuRecursivo/boletines/10-informe-tecnico-produccion-nacional-agosto-2026.pdf"
+    },
+    "nota": "Último dato disponible: agosto 2026 (setiembre lo publica INEI a mediados de noviembre)."
+   },
+   {
+    "id": "desempleo_lima",
+    "nombre": "Tasa de desempleo Lima Metropolitana",
+    "eje": "Social",
+    "unidad": "% (trimestre móvil)",
+    "deseado": "baja",
+    "inicio": {
+     "valor": 4.68,
+     "periodo": "may-jul 2026",
+     "fuente": "BCRP serie PN38063GM (INEI, Encuesta Permanente de Empleo)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN38063GM/html/2025-1/2026-10/"
+    },
+    "actual": {
+     "valor": 4.37,
+     "periodo": "jul-sep 2026",
+     "fuente": "BCRP serie PN38063GM (INEI, Encuesta Permanente de Empleo)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN38063GM/html/2025-1/2026-10/"
+    },
+    "nota": ""
+   },
+   {
+    "id": "ingreso_lima",
+    "nombre": "Ingreso mensual promedio Lima Metropolitana",
+    "eje": "Social",
+    "unidad": "S/ corrientes (trimestre móvil)",
+    "deseado": "sube",
+    "inicio": {
+     "valor": 2312.58,
+     "periodo": "may-jul 2026",
+     "fuente": "BCRP serie PN38070GM (INEI, EPE)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN38070GM/html/2025-1/2026-10/"
+    },
+    "actual": {
+     "valor": 2302.0,
+     "periodo": "jul-sep 2026",
+     "fuente": "BCRP serie PN38070GM (INEI, EPE)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN38070GM/html/2025-1/2026-10/"
+    },
+    "nota": "En términos reales (deflactado con IPC Lima, cálculo propio) la variación interanual pasó de +0.5% (may-jul) a -4.0% (jul-sep)."
+   },
+   {
+    "id": "tipo_cambio",
+    "nombre": "Tipo de cambio interbancario (venta, promedio mensual)",
+    "eje": "Economía",
+    "unidad": "S/ por US$",
+    "deseado": null,
+    "inicio": {
+     "valor": 3.4012,
+     "periodo": "jul 2026",
+     "fuente": "BCRP serie diaria PD04638PD (promedio de 19 días hábiles, cálculo propio)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04638PD/html/2026-07-01/2026-11-04/"
+    },
+    "actual": {
+     "valor": 3.4428,
+     "periodo": "oct 2026",
+     "fuente": "BCRP serie diaria PD04638PD (promedio de 21 días hábiles, cálculo propio)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04638PD/html/2026-07-01/2026-11-04/"
+    },
+    "nota": "Criterio 'baja' = sol estable/apreciado; es discutible (un sol más débil favorece a exportadores). Variación +1.2%.",
+    "deseado_sugerido": "baja",
+    "contexto": true
+   },
+   {
+    "id": "reservas_internacionales",
+    "nombre": "Reservas internacionales netas",
+    "eje": "Economía",
+    "unidad": "millones US$",
+    "deseado": "sube",
+    "inicio": {
+     "valor": 95610.2,
+     "periodo": "24 jul 2026 (último dato antes del 28-jul)",
+     "fuente": "BCRP serie diaria PD04650MD",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04650MD/html/2026-07-20/2026-11-04/"
+    },
+    "actual": {
+     "valor": 93525.1,
+     "periodo": "30 oct 2026",
+     "fuente": "BCRP serie diaria PD04650MD",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/diarias/resultados/PD04650MD/html/2026-07-20/2026-11-04/"
+    },
+    "nota": "Fin de mes: jul 97,034; ago 96,518; set 92,180 (PN00027MM)."
+   },
+   {
+    "id": "riesgo_pais",
+    "nombre": "Riesgo país (spread EMBIG Perú)",
+    "eje": "Economía",
+    "unidad": "puntos básicos (promedio mensual)",
+    "deseado": "baja",
+    "inicio": {
+     "valor": 108.23,
+     "periodo": "jul 2026",
+     "fuente": "BCRP serie PN01129XM",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN01129XM/html/2025-1/2026-10/"
+    },
+    "actual": {
+     "valor": 107.33,
+     "periodo": "sep 2026",
+     "fuente": "BCRP serie PN01129XM",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN01129XM/html/2025-1/2026-10/"
+    },
+    "nota": "Último promedio mensual disponible: setiembre 2026."
+   },
+   {
+    "id": "tasa_referencia",
+    "nombre": "Tasa de referencia de la política monetaria",
+    "eje": "Economía",
+    "unidad": "%",
+    "deseado": null,
+    "inicio": {
+     "valor": 4.25,
+     "periodo": "jul 2026",
+     "fuente": "BCRP serie PD04722MM",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PD04722MM/html/2025-1/2026-10/"
+    },
+    "actual": {
+     "valor": 4.25,
+     "periodo": "oct 2026",
+     "fuente": "BCRP serie PD04722MM",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PD04722MM/html/2025-1/2026-10/"
+    },
+    "nota": "Sin cambios. 'Baja' = crédito más barato; con inflación sobre la meta su lectura es ambigua.",
+    "deseado_sugerido": "baja",
+    "contexto": true
+   },
+   {
+    "id": "recaudacion_tributaria",
+    "nombre": "Ingresos tributarios del Gobierno Central",
+    "eje": "Estado",
+    "unidad": "% var. real interanual (mes)",
+    "deseado": "sube",
+    "inicio": {
+     "valor": 20.4,
+     "periodo": "jul 2026",
+     "fuente": "SUNAT, Nota de Prensa N.° 049-2026",
+     "url": "https://www.sunat.gob.pe/salaprensa/2026/agosto/NotaPrensaN0492026.docx"
+    },
+    "actual": {
+     "valor": 18.3,
+     "periodo": "sep 2026",
+     "fuente": "SUNAT, Nota de Prensa N.° 057-2026",
+     "url": "https://www.sunat.gob.pe/salaprensa/2026/octubre/NotaPrensaN0572026.docx"
+    },
+    "nota": "Sigue creciendo a dos dígitos (S/ 16,225 M en set), pero a un ritmo algo menor. La nota de julio dice 'incremento de 20,4%' sin decir 'real' explícitamente."
+   },
+   {
+    "id": "inversion_publica",
+    "nombre": "Inversión pública (formación bruta de capital del Gobierno General)",
+    "eje": "Estado",
+    "unidad": "% var. real interanual (mes)",
+    "deseado": "sube",
+    "inicio": {
+     "valor": 9.04,
+     "periodo": "jul 2026",
+     "fuente": "BCRP serie PN02210FM (cálculo propio: var. interanual deflactada con IPC Lima)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN02210FM-PN38705PM/json/2025-5/2026-10"
+    },
+    "actual": {
+     "valor": -4.6,
+     "periodo": "sep 2026",
+     "fuente": "BCRP serie PN02210FM (cálculo propio: var. interanual deflactada con IPC Lima)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/api/PN02210FM-PN38705PM/json/2025-5/2026-10"
+    },
+    "nota": "Niveles: S/ 4,954 M (jul-26) y S/ 5,382 M (set-26) frente a S/ 4,366 M y S/ 5,396 M en jul/set-25 (nominales). Se usa en lugar del % de avance del devengado, que es acumulado."
+   },
+   {
+    "id": "homicidios_mes",
+    "nombre": "Homicidios por mes (nacional)",
+    "eje": "Seguridad",
+    "unidad": "homicidios en el mes",
+    "deseado": "baja",
+    "inicio": {
+     "valor": 183.0,
+     "periodo": "jul 2026",
+     "fuente": "SINADEF, análisis de Juan Carbajal (vía La República, corte 28-set-2026)",
+     "url": "https://larepublica.pe/sociedad/2026/09/30/muertes-por-paf-rozan-el-80-de-los-homicidios-cada-mes-al-sumar-casos-ignorados-en-sinadef-2919870"
+    },
+    "actual": {
+     "valor": 195.0,
+     "periodo": "ago 2026",
+     "fuente": "SINADEF, análisis de Juan Carbajal (vía La República, corte 28-set-2026)",
+     "url": "https://larepublica.pe/sociedad/2026/09/30/muertes-por-paf-rozan-el-80-de-los-homicidios-cada-mes-al-sumar-casos-ignorados-en-sinadef-2919870"
+    },
+    "nota": "Confianza media: incluye casos 'ignorados' reclasificados como arma de fuego. Setiembre (144 al 28-set; 138 al 2-oct según Correo) es preliminar por registro tardío y no se usa. Junio: 208."
+   },
+   {
+    "id": "mineria_metalica",
+    "nombre": "Producción minera metálica",
+    "eje": "Economía",
+    "unidad": "% var. interanual",
+    "deseado": "sube",
+    "inicio": {
+     "valor": 1.07,
+     "periodo": "jul 2026",
+     "fuente": "BCRP serie PN01872AM (INEI/MINEM)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN01872AM/html/2025-1/2026-10/"
+    },
+    "actual": {
+     "valor": -6.14,
+     "periodo": "ago 2026",
+     "fuente": "BCRP serie PN01872AM (INEI/MINEM)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN01872AM/html/2025-1/2026-10/"
+    },
+    "nota": "Cobre (PN01873AM, cálculo propio): +3.8% interanual en jul y -5.3% en ago (207.1 mil t)."
+   },
+   {
+    "id": "exportaciones",
+    "nombre": "Exportaciones FOB",
+    "eje": "Economía",
+    "unidad": "% var. interanual (mes)",
+    "deseado": "sube",
+    "inicio": {
+     "valor": 34.47,
+     "periodo": "jul 2026",
+     "fuente": "BCRP serie PN38714BM (cálculo propio de la var. interanual)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN38714BM/html/2025-1/2026-10/"
+    },
+    "actual": {
+     "valor": 36.86,
+     "periodo": "ago 2026",
+     "fuente": "BCRP serie PN38714BM (cálculo propio de la var. interanual)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN38714BM/html/2025-1/2026-10/"
+    },
+    "nota": "Niveles: US$ 10,146 M (jul) y US$ 10,815 M (ago). Impulsadas por precios de metales; último dato agosto."
+   },
+   {
+    "id": "expectativas_economia",
+    "nombre": "Expectativas empresariales sobre la economía a 3 meses",
+    "eje": "Economía",
+    "unidad": "índice (>50 = optimismo)",
+    "deseado": "sube",
+    "inicio": {
+     "valor": 62.27,
+     "periodo": "jul 2026",
+     "fuente": "BCRP, Encuesta de Expectativas Macroeconómicas, serie PD38045AM",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PD38045AM/html/2025-1/2026-10/"
+    },
+    "actual": {
+     "valor": 56.83,
+     "periodo": "sep 2026",
+     "fuente": "BCRP, Encuesta de Expectativas Macroeconómicas, serie PD38045AM",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PD38045AM/html/2025-1/2026-10/"
+    },
+    "nota": "A 12 meses (PD37981AM): 72.1 (jul) → 67.6 (set). Sigue en tramo optimista pero baja."
+   },
+   {
+    "id": "produccion_electrica",
+    "nombre": "Producción de electricidad",
+    "eje": "Economía",
+    "unidad": "% var. interanual (mes)",
+    "deseado": "sube",
+    "inicio": {
+     "valor": 7.83,
+     "periodo": "jul 2026",
+     "fuente": "BCRP serie PD37966AM (GWh; cálculo propio de la var. interanual)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PD37966AM/html/2025-1/2026-10/"
+    },
+    "actual": {
+     "valor": 6.66,
+     "periodo": "ago 2026",
+     "fuente": "BCRP serie PD37966AM (GWh; cálculo propio de la var. interanual)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PD37966AM/html/2025-1/2026-10/"
+    },
+    "nota": "Indicador adelantado de actividad. 5,463 GWh (jul) y 5,410 GWh (ago)."
+   }
+  ]
+ },
+ "cien_dias": {
+  "fuente_lista": "https://www.keikogobierna.com/primeros-100-dias/",
+  "acciones": [
+   {
+    "pilar": "ORDEN",
+    "tema": "Orden ciudadano",
+    "codigo": "C01",
+    "texto": "Inicio de operaciones del C5i en Lima y Callao, con expansión a ciudades críticas",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "No se halló inicio de operaciones de un C5i nacional en Lima/Callao. El 'C5' que aparece en prensa es un proyecto de la Municipalidad de Lima (no del Ejecutivo). El 7-oct-2026 la presidenta anunció un Comando Unificado FF.AA.-PNP con 'centro de control y operaciones' en el Cuartel General del Ejército, que no es el C5i del plan y no cita norma."
+   },
+   {
+    "pilar": "ORDEN",
+    "tema": "Orden ciudadano",
+    "codigo": "C02",
+    "texto": "Fortalecer Unidades de Flagrancia Express en Lima, Piura y Trujillo",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "Las Unidades de Flagrancia las amplía el Poder Judicial con sus propias resoluciones; el PJ pidió al nuevo gobierno fortalecerlas y asignar presupuesto. No se halló norma ni asignación del Ejecutivo para Lima, Piura y Trujillo en el periodo."
+   },
+   {
+    "pilar": "ORDEN",
+    "tema": "Orden ciudadano",
+    "codigo": "C03",
+    "texto": "Intervención militar y policial en Tumbes contra crimen organizado y para control fronterizo",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "con_norma",
+    "evidencias": [
+     {
+      "titulo": "Decreto Supremo N.º 133-2026-PCM: prorroga el Estado de Emergencia en las provincias de Zarumilla y Tumbes",
+      "fecha": "2026-09-19",
+      "fuente": "El Peruano (Normas Legales)",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2556353-2"
+     }
+    ],
+    "nota": "Discrepancia con keikogobierna: hay norma del nuevo gobierno, pero es una prórroga del régimen que existía desde marzo de 2026 (DS 045-2026-PCM y siguientes, gobierno anterior). La PNP mantiene el control del orden interno y las FF.AA. solo apoyan: no es una 'intervención militar' nueva."
+   },
+   {
+    "pilar": "ORDEN",
+    "tema": "Orden ciudadano",
+    "codigo": "C04",
+    "texto": "Decretos de Urgencia para patrulleros, cámaras interconectadas y modernización de comisarías",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "anunciado",
+    "evidencias": [
+     {
+      "titulo": "Gobierno alista modernización de las comisarías",
+      "fecha": "2026-09-12",
+      "fuente": "El Peruano",
+      "url": "https://elperuano.pe/noticia/304564-gobierno-alista-modernizacion-de-las-comisarias"
+     }
+    ],
+    "nota": "La presidenta Fujimori anunció un crédito suplementario para modernizar comisarías y comprar patrulleros. No se halló un decreto de urgencia ni montos aprobados."
+   },
+   {
+    "pilar": "ORDEN",
+    "tema": "Lucha contra la corrupción",
+    "codigo": "C01",
+    "texto": "Shock anticorrupción digital: piloto de IA en contrataciones y compliance para altos funcionarios",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "La Estrategia Nacional de IA (RM 152-2026-PCM, mayo de 2026) es anterior al gobierno. No se halló un piloto de IA en contrataciones."
+   },
+   {
+    "pilar": "ORDEN",
+    "tema": "Lucha contra la corrupción",
+    "codigo": "C02",
+    "texto": "Transparencia total de compras públicas: licitaciones, contratos y adendas en tiempo real",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "OECE publicó tableros y un observatorio de contratación en junio de 2026, antes del gobierno. No se halló una medida nueva."
+   },
+   {
+    "pilar": "ORDEN",
+    "tema": "Orden económico",
+    "codigo": "C01",
+    "texto": "Piloto de Ventanilla Única Digital Nacional con IA para trámites empresariales",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "Hay ventanillas sectoriales previas (PRODUCE, MINEM), pero no se halló una Ventanilla Única Digital Nacional con IA."
+   },
+   {
+    "pilar": "ORDEN",
+    "tema": "Orden económico",
+    "codigo": "C02",
+    "texto": "Marco Macroeconómico Multianual 2027-2030 con ruta de déficit fiscal al 1% del PBI en 2031",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "con_norma",
+    "evidencias": [
+     {
+      "titulo": "Déficit fiscal bajaría a 1.8 % en 2026 (MMM 2027-2030)",
+      "fecha": "2026-08-28",
+      "fuente": "La Cámara (CCL)",
+      "url": "https://lacamara.pe/?p=99429"
+     },
+     {
+      "titulo": "MEF revisará reglas fiscales: déficit 2027 a 2.4% y 1% del PBI en 2031",
+      "fecha": "2026-10-23",
+      "fuente": "Minería & Energía / Gestión",
+      "url": "https://mineriaenergia.com/mef-revisara-reglas-fiscales-todo-sobre-el-cambio-que-haria-que-peru-crezca-mas-desde-2027/"
+     }
+    ],
+    "nota": "Discrepancia con keikogobierna: el MEF publicó el MMM 2027-2030 a fines de agosto de 2026. Ese MMM proyecta un déficit de 1.8% (2026), 1.4% (2027) y cerca de 1% en 2028-2030, sin una ruta 'al 2031'. La senda de 1% en 2031 (con 2.4% en 2027) solo la anunció el ministro Elmer Cuba el 23-oct-2026 como cambio de reglas fiscales, y no se halló norma que la apruebe. El MMM existe, pero con otra senda que la del plan."
+   },
+   {
+    "pilar": "ORDEN",
+    "tema": "Orden económico",
+    "codigo": "C03",
+    "texto": "Unidad Antiburocracia en el Consejo Nacional de Competitividad y Formalización",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ORDEN",
+    "tema": "Orden jurídico",
+    "codigo": "C01",
+    "texto": "Programa Asiste Regional con equipos del MEF y PCM para destrabar obras en regiones",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "El MEF opera desde antes la estrategia 'Ejecuta+' para destrabar obras. No se halló un programa 'Asiste Regional' MEF-PCM."
+   },
+   {
+    "pilar": "ORDEN",
+    "tema": "Orden jurídico",
+    "codigo": "C02",
+    "texto": "Expediente Judicial Electrónico obligatorio en todos los distritos judiciales",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "El Poder Judicial sigue con su despliegue gradual del EJE: por ejemplo, la RA 000330-2026-CE-PJ (El Peruano, 6-oct-2026) lo amplía a un juzgado laboral de Lima. No hay norma que lo haga obligatorio en todos los distritos judiciales, y es competencia del PJ, no del Ejecutivo."
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Emprendedores (MYPE)",
+    "codigo": "C01",
+    "texto": "Estrategia \"Licencia 0\" para MYPE con piloto en 5 regiones",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Emprendedores (MYPE)",
+    "codigo": "C02",
+    "texto": "Reactivación de Parques Industriales Tecnológicos paralizados, con gestión público-privada",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Emprendedores (MYPE)",
+    "codigo": "C03",
+    "texto": "Programa de Crédito con COFIDE y Banca de Desarrollo para MYPE afectadas por crisis",
+    "estado_keikogobierna": "En progreso",
+    "estado_verificado": "con_norma",
+    "evidencias": [
+     {
+      "titulo": "Mypes: Gobierno aprueba facilidades para reprogramar créditos ante efectos de El Niño (DU 015-2026)",
+      "fecha": "2026-10-31",
+      "fuente": "El Peruano",
+      "url": "https://elperuano.pe/noticia/308048-mypes-gobierno-aprueba-facilidades-para-reprogramar-creditos-ante-efectos-de-el-nino"
+     }
+    ],
+    "nota": "Confirmado. El DU 015-2026 autoriza a COFIDE a usar el Fondo Crecer para garantizar hasta S/ 2,000 millones en créditos y reprogramaciones de MYPE afectadas por El Niño, con líneas del Banco de la Nación a COFIDE."
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Minería",
+    "codigo": "C01",
+    "texto": "APP y Obras por Impuestos para vías, ferrocarriles y redes eléctricas en corredores mineros",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "El DU 010-2026 (setiembre) habilita Obras por Impuestos exprés, pero para prevención ante El Niño, no para corredores mineros."
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Minería",
+    "codigo": "C02",
+    "texto": "Plan Nacional de Remediación de Pasivos Ambientales en cuencas altoandinas",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "AMSAC sigue con su cartera de remediación previa. No se halló un Plan Nacional nuevo."
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Minería",
+    "codigo": "C03",
+    "texto": "Comandos mixtos PNP-FF.AA.-Fiscalía-SUNAT contra minería ilegal y crimen organizado",
+    "estado_keikogobierna": "En progreso",
+    "estado_verificado": "con_norma",
+    "evidencias": [
+     {
+      "titulo": "Decreto Supremo N° 121-2026-PCM (emergencia en Madre de Dios)",
+      "fecha": "2026-08-28",
+      "fuente": "El Peruano (vía keikogobierna.com)",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2548480-2"
+     },
+     {
+      "titulo": "Decreto Supremo N° 143-2026-PCM (prórroga, Comando Unificado PNP-FFAA)",
+      "fecha": "2026-10-25",
+      "fuente": "El Peruano (vía keikogobierna.com)",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2568124-1"
+     },
+     {
+      "titulo": "Gobierno ejecuta 90 operativos contra la minería ilegal en solo 15 días",
+      "fecha": "2026-08-30",
+      "fuente": "El Peruano",
+      "url": "https://elperuano.pe/noticia/303645-gobierno-ejecuta-90-operativos-contra-la-mineria-ilegal-en-solo-15-dias"
+     },
+     {
+      "titulo": "Presidenta Fujimori: vamos a recuperar el orden y la seguridad (Comando Unificado FF.AA.-PNP, 1,350 efectivos)",
+      "fecha": "2026-10-08",
+      "fuente": "El Peruano",
+      "url": "https://elperuano.pe/noticia/306430--presidenta-fujimori-vamos-a-recuperar-el-orden-y-la-seguridad-de-los-peruanos"
+     }
+    ],
+    "nota": "Se mantiene la clasificación de keikogobierna (DS 121-2026-PCM y DS 143-2026-PCM), pero no pude ubicar esas normas en las búsquedas. La evidencia independiente es de operativos PNP-FF.AA. con apoyo de la Fiscalía ambiental, y SUNAT no figura en ellos. El Comando Unificado del 7/8-oct no cita norma."
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Energía e hidrocarburos",
+    "codigo": "C01",
+    "texto": "Agenda Nacional del Hidrógeno Verde con MINEM, MINAM y cooperación internacional",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "El reglamento de la Ley de Hidrógeno Verde se prepublicó en 2025. No se halló una Agenda Nacional nueva."
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Energía e hidrocarburos",
+    "codigo": "C02",
+    "texto": "Convocatoria nacional de proyectos piloto de energía solar y eólica en cinco regiones",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Energía e hidrocarburos",
+    "codigo": "C03",
+    "texto": "Sistema Nacional de Trazabilidad de Combustibles interoperable con SUNAT y la Policía",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "El DS 117-2026-EF y la RS SUNAT 000135-2026 (20-jul-2026, gobierno anterior) crearon un registro diario de insumos y combustibles en grifos (Ley 32412). Son anteriores al periodo. No se halló un Sistema Nacional de Trazabilidad nuevo."
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Agricultura",
+    "codigo": "C01",
+    "texto": "Programa de Siembra y Cosecha de Agua con 100 microproyectos altoandinos",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "El ministro Vinelli puso 'agua para la producción' como eje del Midagri, pero no se halló el programa de 100 microproyectos."
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Agricultura",
+    "codigo": "C02",
+    "texto": "Plan de Cadenas de Frío y Acopio Productivo en 10 corredores y mercados regionales",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Agricultura",
+    "codigo": "C03",
+    "texto": "Ampliación de seguros climáticos paramétricos para pequeños productores",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "El Seguro Agrícola Catastrófico 2025-2027 viene de la RM 0334-2025-MIDAGRI. No se halló una ampliación paramétrica."
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Pesca y acuicultura",
+    "codigo": "C01",
+    "texto": "Inicio del Seguro Pesquero Nacional con gremios del sector",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Pesca y acuicultura",
+    "codigo": "C02",
+    "texto": "Fondo Nacional de Innovación Pesquera y Acuícola para pequeñas plantas",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Pesca y acuicultura",
+    "codigo": "C03",
+    "texto": "Formalización de 20,000 embarcaciones artesanales con FONDEPES y SUNARP",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Transportes y comunicaciones",
+    "codigo": "C01",
+    "texto": "Fondo de Emergencia Vial Rural para drenaje, bacheo y mantenimiento",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "Hay normas por El Niño (DS 124-2026-PCM, emergencia en 893 distritos; DU 010-2026 y DU 016-2026, Obras por Impuestos), pero ninguna crea un Fondo de Emergencia Vial Rural."
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Transportes y comunicaciones",
+    "codigo": "C02",
+    "texto": "Programa Nacional de Seguridad Vial con operativos en puntos críticos",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Transportes y comunicaciones",
+    "codigo": "C03",
+    "texto": "Corredor logístico piloto verde en la Costa Central (Callao-Chancay-Sierra Central)",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Turismo",
+    "codigo": "C01",
+    "texto": "Fondo Empresarial de Desarrollo Turístico (FEDETUR) para proyectos de MYPE y PYME",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Turismo",
+    "codigo": "C02",
+    "texto": "Campaña internacional \"Vuelve al Perú\" en EE. UU., Europa y Latinoamérica",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "No se halló una campaña 'Vuelve al Perú'. Las campañas internacionales de Promperú en 2026 ('Perú Wow') son anteriores."
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Turismo",
+    "codigo": "C03",
+    "texto": "Plan Nacional de Orden Turístico en 20 destinos prioritarios con PNP, Defensa Civil y gobiernos locales",
+    "estado_keikogobierna": "En progreso",
+    "estado_verificado": "con_norma",
+    "evidencias": [
+     {
+      "titulo": "RM N.º 383-2026-MINCETUR: aprueba el Plan Nacional de Orden Turístico 2026-2031",
+      "fecha": "2026-10-23",
+      "fuente": "El Peruano (Normas Legales)",
+      "url": "https://busquedas.elperuano.pe/dispositivo/NL/2567309-1"
+     },
+     {
+      "titulo": "Mincetur aprueba Plan Nacional de Orden Turístico para mejorar el turismo en el Perú hasta 2031",
+      "fecha": "2026-10-23",
+      "fuente": "El Peruano",
+      "url": "https://elperuano.pe/noticia/307488-mincetur-aprueba-plan-nacional-de-orden-turistico-para-mejorar-el-turismo-en-el-peru-hasta-2031"
+     }
+    ],
+    "nota": "Confirmado: 12 ejes y 52 acciones. No verifiqué que cubra '20 destinos'."
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Industria y comercio exterior",
+    "codigo": "C01",
+    "texto": "Plan Nacional de Parques Industriales Modernos en 10 polos regionales",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Industria y comercio exterior",
+    "codigo": "C02",
+    "texto": "Fondo Nacional de Innovación Exportadora (FONIEX) con primera convocatoria piloto",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Industria y comercio exterior",
+    "codigo": "C03",
+    "texto": "Catálogo Único de Productos Industriales Peruanos vinculado a compras estatales y privadas",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Desarrollo sostenible o ambiente",
+    "codigo": "C01",
+    "texto": "Fondo Verde Amazónico para proyectos sostenibles alternativos",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Desarrollo sostenible o ambiente",
+    "codigo": "C02",
+    "texto": "Registro Nacional de Pasivos Ambientales georreferenciado y público",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "ECONÓMICO",
+    "tema": "Desarrollo sostenible o ambiente",
+    "codigo": "C03",
+    "texto": "Operativos conjuntos MINAM-PNP-SUNAT contra tráfico de madera y fauna en Ucayali, Madre de Dios y Loreto",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "Hubo operativos contra minería ilegal en Madre de Dios y Loreto (agosto de 2026), pero no se hallaron operativos conjuntos MINAM-PNP-SUNAT contra tráfico de madera y fauna."
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Niños, adolescentes y jóvenes",
+    "codigo": "C01",
+    "texto": "Centros COOL de oportunidades y orientación para jóvenes en distritos prioritarios",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Niños, adolescentes y jóvenes",
+    "codigo": "C02",
+    "texto": "Línea Joven Contigo 24/7 de atención y orientación psicológica",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Niños, adolescentes y jóvenes",
+    "codigo": "C03",
+    "texto": "Beca Retoma tus Estudios con primera promoción de beneficiarios",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "No se halló una 'Beca Retoma tus Estudios' en Pronabec."
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Educación",
+    "codigo": "C01",
+    "texto": "Formación cívica y ética en escuelas con currícula actualizada",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "El Minedu trabaja la formación cívica en el Currículo Nacional desde antes del gobierno. No se halló una norma nueva en el periodo."
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Educación",
+    "codigo": "C02",
+    "texto": "Programa Nacional de Formación Docente con universidades públicas y privadas",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Educación",
+    "codigo": "C03",
+    "texto": "Alianzas internacionales con líderes tecnológicos para escuelas públicas",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Salud",
+    "codigo": "C01",
+    "texto": "Sistema Nacional de Telemedicina para zonas rurales y amazónicas",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "anunciado",
+    "evidencias": [
+     {
+      "titulo": "Ministro Dyer impulsará telemedicina y Minsa Móvil para garantizar consultas oportunas",
+      "fecha": "2026-07-31",
+      "fuente": "El Peruano",
+      "url": "https://elperuano.pe/noticia/301532-ministro-dyer-impulsara-telemedicina-y-minsa-movil-para-garantizar-consultas-oportunas"
+     }
+    ],
+    "nota": "Anuncio del ministro de Salud: conectar puestos rurales con hospitales de alta complejidad. No cita norma. La Red Nacional de Telesalud ya existía."
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Salud",
+    "codigo": "C02",
+    "texto": "Citas Prontas en hospitales priorizados con mecanismos digitales y prioridad a crónicos",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "El anuncio de Dyer del 31-jul habla de reducir tiempos de espera, pero no menciona 'Citas Prontas' en hospitales."
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Salud",
+    "codigo": "C03",
+    "texto": "Red nacional de Centros de Salud Materno-Infantiles Rurales",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Seguridad alimentaria",
+    "codigo": "C01",
+    "texto": "Incorporar 500,000 nuevos beneficiarios de programas alimentarios en zonas vulnerables",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Seguridad alimentaria",
+    "codigo": "C02",
+    "texto": "Sistema de Alertas Nutricionales y de Precios con monitoreo semanal",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Seguridad alimentaria",
+    "codigo": "C03",
+    "texto": "Compras directas a productores locales en 10 regiones priorizadas",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Vivienda",
+    "codigo": "C01",
+    "texto": "Programa \"Mi Título, Mi Hogar Seguro\" con ventanilla de formalización con IA",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Vivienda",
+    "codigo": "C02",
+    "texto": "Reactivación de Techo Propio con bono reforzado de hasta 50% adicional",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "La convocatoria Techo Propio 2026 (RM 102-2026-VIVIENDA, marzo) y la transferencia de S/ 519 millones (RM 065-2026) son anteriores al gobierno. No se halló un bono reforzado de +50%."
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Vivienda",
+    "codigo": "C03",
+    "texto": "Designación de terrenos y memorandos para primeras Ciudades Inteligentes",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Agua y saneamiento",
+    "codigo": "C01",
+    "texto": "Programa Nacional de Agua que Cuida la Vida para poblaciones en situación crítica",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Agua y saneamiento",
+    "codigo": "C02",
+    "texto": "Reactivación de obras de agua y saneamiento con más del 50% de avance",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "La norma del MVCS para reactivar obras paralizadas es de junio de 2026, del gobierno anterior."
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Agua y saneamiento",
+    "codigo": "C03",
+    "texto": "Sistema Nacional de Monitoreo Digital del Agua con sensores en tiempo real",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Pensiones",
+    "codigo": "C01",
+    "texto": "Sistema de Preinscripción Automática a Pensión 65",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "Pensión 65 sigue con la focalización SISFOH. No se halló preinscripción automática."
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Pensiones",
+    "codigo": "C02",
+    "texto": "Brigadas Móviles de Afiliación en zonas rurales y amazónicas",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Pensiones",
+    "codigo": "C03",
+    "texto": "Agentes del Banco de la Nación y puntos de cobro digitales en distritos prioritarios",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "El Banco de la Nación ya tenía agentes Multired en el 94% de distritos (dato de 2025). No se halló una expansión nueva."
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Programas sociales",
+    "codigo": "C01",
+    "texto": "Programa \"Bebés que Nacen Fuertes\" con Paquete 1,000 días",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Programas sociales",
+    "codigo": "C02",
+    "texto": "Programa \"Desayuno para Aprender y Crecer\" con menús y compras locales",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "El piloto 'Desayuno en mi cole' es de 2025, del gobierno anterior."
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Programas sociales",
+    "codigo": "C03",
+    "texto": "Programa \"Empleo Joven con Futuro\" para jóvenes",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Deporte",
+    "codigo": "C01",
+    "texto": "Reacondicionamiento de 500 canchas y parques deportivos con municipios y sector privado",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Deporte",
+    "codigo": "C02",
+    "texto": "Campaña \"Perú en Movimiento: Vive Saludable\" contra sobrepeso y obesidad",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Deporte",
+    "codigo": "C03",
+    "texto": "Sistema Nacional de Becas Deportivas con PRONABEC y el IPD",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Peruanos en el extranjero (PEX)",
+    "codigo": "C01",
+    "texto": "Ventanilla Única Consular Digital para reducir colas, costos y tiempos",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": ""
+   },
+   {
+    "pilar": "SOCIAL",
+    "tema": "Peruanos en el extranjero (PEX)",
+    "codigo": "C02",
+    "texto": "Reglamento actualizado de Equipaje Inafecto al Pago de Tributos",
+    "estado_keikogobierna": "Sin avance",
+    "estado_verificado": "sin_evidencia",
+    "evidencias": [],
+    "nota": "Sigue vigente el DS 182-2013-EF. No se halló modificación en 2026."
+   }
+  ]
+ }
+}

@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "fecha_verificacion": "2026-11-07",
+    "inicio_gobierno": "2026-07-28",
+    "metodo": "Búsqueda web + lectura de fuentes primarias/periodísticas; URLs validadas con curl el 2026-11-07 (ver url_status). No se tuvo acceso a las imágenes originales de las infografías: se evalúan las afirmaciones tal como fueron transcritas en el encargo.",
+    "premier": {
+      "nombre": "Luis Galarreta",
+      "cargo": "Presidente del Consejo de Ministros desde el 28-jul-2026 (primer gabinete de la presidenta Keiko Fujimori)",
+      "fuentes": [
+        "https://www.gob.pe/institucion/presidencia/noticias/1423625-presidenta-keiko-fujimori-tomo-juramento-a-su-primer-gabinete-liderado-por-luis-galarreta",
+        "https://elperuano.pe/noticia/301309-ejecutivo-oficializa-nombramiento-del-gabinete-ministerial-que-preside-luis-galarreta"
+      ]
+    }
+  },
+  "infografia_a": {
+    "autor": "@jesusprospero.pe (firma en la imagen; no se encontró publicación indexada del autor para contrastar el original)",
+    "titulo": "Colegios en el gobierno de Keiko — Construidos 0 / Destruidos 4",
+    "veredicto_global": "engañoso",
+    "resumen_global": "Los cuatro hechos ocurrieron y caen dentro del periodo (sep-oct 2026), pero solo el caso 1 es atribuible directamente a una acción del Gobierno central, y aun ahí el daño principal reportado fue en viviendas. Los casos 2 y 3 son colapsos de muros por deterioro o filtraciones (infraestructura heredada; el 3 es un colegio religioso, no se confirmó si es público). El caso 4 es un accidente laboral en una obra que está CONSTRUYENDO un colegio, ejecutada por el Gobierno Regional de Junín, no por el Ejecutivo. Ningún colegio fue 'destruido'. El '0 construidos' es técnicamente defendible para colegios iniciados y terminados por este gobierno, pero omite que en el periodo se culminaron/entregaron obras educativas (heredadas).",
+    "items": [
+      {
+        "n": 1,
+        "colegio": "Institución educativa del caserío Cañaveral, distrito de Casitas (Tumbes) — nombre del colegio no reportado",
+        "afirmacion": "El helicóptero del premier Galarreta le arrancó los techos al aterrizar.",
+        "veredicto": "engañoso",
+        "hechos": "El 29-oct-2026 el helicóptero que trasladaba al premier Luis Galarreta aterrizó cerca del caserío Cañaveral; la ráfaga de las hélices arrancó calaminas de viviendas cercanas. Altavoz y La Decana reportan además daños en la infraestructura de un colegio (ventanales rotos, calaminas destruidas, rajaduras) y, según testimonios vecinales citados de Latina, estudiantes con lesiones menores. Exitosa (31-oct) reporta daños en ~10 viviendas y reparaciones del Ejército y la Municipalidad de Casitas en tres viviendas; no menciona el colegio. El hecho existe y es atribuible a la comitiva del Gobierno, pero 'le arrancó los techos' al colegio exagera: lo documentado de forma consistente son daños en techos de viviendas y daños parciales (calaminas/ventanas) en el colegio. No es un colegio 'destruido'. No se encontró pronunciamiento de la PCM.",
+        "fecha_evento": "2026-10-29",
+        "dentro_periodo": true,
+        "atribuible_gobierno": "si",
+        "fuentes": [
+          "https://altavoz.pe/politica/luis-galarreta-helicoptero-del-premier-causa-destrozos-en-un-colegio-de-tumbes/",
+          "https://www.ladecana.pe/noticias/nacional/helicoptero-que-trasladaba-al-premier-luis-galarreta-levanta-techos-y-causa-danos-cerca-de-un-colegio-en-tumbes",
+          "https://www.exitosanoticias.pe/exitosa-peru/helicoptero-traslado-premier-tumbes-afecto-viviendas-ejercito-municipalidad-repararon-danos-n187286",
+          "https://elbuho.pe/2026/10/increpan-a-galarreta-llegada-de-pcm-en-helicoptero-deja-viviendas-danadas-y-heridos-tumbes-video/"
+        ]
+      },
+      {
+        "n": 2,
+        "colegio": "I.E. José Carlos Mariátegui, Villa El Salvador (Lima)",
+        "afirmacion": "Se cayó un muro de 50 metros y más de mil alumnos pasaron a clases virtuales.",
+        "veredicto": "verdadero (el hecho) / engañoso (como atribución al gobierno)",
+        "hechos": "El domingo 25-oct-2026 (~14:00, fuera del horario escolar) colapsaron unos 50 m del cerco perimétrico; no hubo heridos. El plantel (más de 1.400 estudiantes) pasó a clases virtuales. Infobae indica que la construcción tiene ~55 años; el director afirma: 'Llevamos 15 años pidiendo reconstrucción'; vecinos dicen que antes ya había caído otro tramo de ~40 m. La reconstrucción está en firma de contrato dentro del proyecto 'SER' (13 colegios) y los padres cuestionan que se ejecute recién en 2028. Es deterioro acumulado de décadas; el gobierno actual no lo causó, aunque sí le toca responder.",
+        "fecha_evento": "2026-10-25",
+        "dentro_periodo": true,
+        "atribuible_gobierno": "no",
+        "fuentes": [
+          "https://www.infobae.com/peru/2026/10/26/colapso-cerco-de-colegio-en-villa-el-salvador-y-mas-de-1000-alumnos-pasaron-a-clases-virtuales-por-el-deterioro-de-la-infraestructura/",
+          "https://diariocorreo.pe/edicion/lima/villa-el-salvador-muro-de-50-metros-colapsa-en-colegio-jose-carlos-mariategui-noticia/",
+          "https://peru21.pe/lima/derrumbe-en-colegio-de-villa-el-salvador-expone-escolares/"
+        ]
+      },
+      {
+        "n": 3,
+        "colegio": "Colegio Hermanas Misioneras de Nuestra Señora del Perpetuo Socorro, Santa Clara (Ate, Lima)",
+        "afirmacion": "Colapsó una pared y 150 niños quedaron en riesgo.",
+        "veredicto": "verdadero (el hecho) / engañoso (como atribución al gobierno)",
+        "hechos": "A inicios de septiembre de 2026 (notas del 3 y 4-sep) colapsó el muro perimétrico, dejando expuestos a más de 150 alumnos de inicial y primaria; no se reportaron heridos. Según vecinos, la causa fue una filtración de agua subterránea (tubería de desagüe) y/o trabajos de alcantarillado, que además hundió más de 50 m de pista; piden intervención de Sedapal y de las municipalidades de Lima y Ate. La Republica lo describe como colegio religioso; no se confirmó si es público, parroquial o privado (por su nombre es una congregación religiosa). No hay informe técnico oficial. No es atribuible a una decisión del Ejecutivo.",
+        "fecha_evento": "2026-09-03 (aprox.; fecha de las primeras notas)",
+        "dentro_periodo": true,
+        "atribuible_gobierno": "no",
+        "fuentes": [
+          "https://larepublica.pe/sociedad/2026/09/03/ate-pared-de-colegio-colapsa-y-pone-en-riesgo-a-150-ninos-de-inicial-y-primaria-en-santa-clara-188310",
+          "https://www.infobae.com/peru/2026/09/04/muro-de-colegio-cae-en-ate-y-deja-a-mas-de-150-escolares-expuestos-y-en-peligro/",
+          "https://www.exitosanoticias.pe/actualidad/muro-colegio-colapsa-ate-deja-mas-150-escolares-riesgo-hundimiento-pista-n183072"
+        ]
+      },
+      {
+        "n": 4,
+        "colegio": "I.E. Politécnico Regional del Centro, El Tambo (Huancayo, Junín)",
+        "afirmacion": "Se cayó un techo durante una obra y hubo cuatro heridos.",
+        "veredicto": "engañoso",
+        "hechos": "El 7-oct-2026, pasadas las 15:00, colapsó un paño de concreto recién vaciado/encofrado del techo de un pabellón EN CONSTRUCCIÓN; cuatro TRABAJADORES (no alumnos) resultaron con policontusiones, lesiones no graves según información oficial. 7 Días atribuye la caída a una falla del apuntalamiento; ejecuta el Consorcio Yachay Wasi para el Gobierno Regional de Junín (bloque de S/16,2 millones; Andina habla de una obra de más de S/150 millones a 900 días). Sunafil inspeccionó. Es un accidente laboral en una obra que está construyendo infraestructura educativa, contratada por el gobierno regional; no es un colegio 'destruido' ni una decisión del Gobierno central. Incluirlo en 'destruidos' invierte el sentido: es una obra de construcción.",
+        "fecha_evento": "2026-10-07",
+        "dentro_periodo": true,
+        "atribuible_gobierno": "no",
+        "fuentes": [
+          "https://andina.pe/agencia/noticia-huancayo-cuatro-heridos-tras-colapso-techo-construccion-colegio-politecnico-1095092.aspx",
+          "https://www.infobae.com/peru/2026/10/08/colapso-de-techo-durante-obras-de-construccion-del-colegio-politecnico-de-huancayo-deja-cuatro-trabajadores-heridos/",
+          "https://7dias.pe/cuatro-heridos-tras-colapso-de-encofrado-en-obra-de-politecnico-regional-del-centro/locales/"
+        ]
+      }
+    ],
+    "construidos_check": {
+      "afirmacion": "Construidos: 0",
+      "veredicto": "engañoso (literalmente cierto para colegios nuevos iniciados Y terminados por este gobierno; falso si se entiende como 'ninguna obra educativa culminada')",
+      "obras_culminadas_o_entregadas_en_periodo": [
+        {
+          "obra": "Escuela modular por reasignación en la IE Pedro Abraham Valdelomar Pinto (San Martín de Porres, Lima); +180 estudiantes; > S/900 mil; Unidad Gerencial de Mantenimiento del Pronied",
+          "fecha": "2026-08-10",
+          "naturaleza": "Infraestructura modular (no un colegio nuevo de material noble)",
+          "fuente": "https://www.gob.pe/institucion/pronied/noticias/1427786-pronied-inaugura-primera-escuela-modular-por-reasignacion-en-san-martin-de-porres"
+        },
+        {
+          "obra": "IE 32411 Pampas Flores (Miraflores, Huamalíes) e IE 32432 Morca (Llata, Huamalíes), Huánuco; S/21,98 millones vía Obras por Impuestos financiadas por Antamina",
+          "fecha": "2026-10-12 (nota Minedu/Pronied de culminación y entrega); inauguración local de Pampas Flores el 2026-10-28",
+          "naturaleza": "Obras heredadas: la primera piedra se colocó en 2025 (gobierno anterior); mecanismo OxI",
+          "fuente": "https://www.gob.pe/institucion/pronied/noticias/1464623-minedu-culmina-y-entrega-modernas-infraestructuras-de-los-colegios-morca-y-pampas-flores-en-huamalies-huanuco"
+        },
+        {
+          "obra": "68 aulas de emergencia tipo domo en 23 escuelas de Junín afectadas por sismo (S/8,16 millones)",
+          "fecha": "2026-09-08",
+          "naturaleza": "Infraestructura temporal de emergencia, no colegios",
+          "fuente": "https://www.gob.pe/institucion/pronied/noticias/1440841-minedu-culmino-instalacion-de-68-aulas-tipo-domo-en-23-escuelas-afectadas-por-sismo-en-junin"
+        }
+      ],
+      "obras_iniciadas_o_anunciadas": [
+        {
+          "hecho": "Declaratoria de emergencia de la infraestructura educativa pública y meta de 2.000 colegios nuevos + 3.000 intervenidos",
+          "fecha": "2026-08-28",
+          "fuente": "https://www.gob.pe/institucion/pronied/noticias/1435871-gobierno-construira-2000-colegios-e-intervendra-otros-3000-tras-declaratoria-de-emergencia-de-la-infraestructura-educativa"
+        },
+        {
+          "hecho": "Primera piedra de la IE N.° 1211 José María Arguedas (Santa Anita), presentada como el primero de los 2.000 colegios; proyecto paralizado 14 años",
+          "fecha": "2026-10-27",
+          "fuente": "https://www.gob.pe/institucion/pronied/noticias/1464447-presidenta-fujimori-dio-inicio-a-construccion-del-primero-de-2000-colegios-que-se-ejecutaran-durante-su-gobierno"
+        }
+      ],
+      "nota": "Construir un colegio nuevo toma más de 100 días (Minedu estima 6-8 meses incluso para diseños modulares; el Estado ha terminado históricamente 30-80 colegios nuevos por año). Todo lo inaugurado en los primeros 100 días de cualquier gobierno es, en la práctica, obra heredada; y lo que este gobierno inicie no podrá inaugurarse antes de 2027. El plan 'Perú con Orden' no prometía construir colegios dentro de los primeros 100 días (su sección educativa de 100 días, 3.2.3, trata currícula cívica, formación docente y alianzas tecnológicas). Fuente de plazos: Gestión 18-sep-2026.",
+      "fuentes": [
+        "https://gestion.pe/economia/gobierno-de-keiko-fujimori-promete-500-colegios-al-ano-las-barreras-que-debera-vencer-para-lograrlo-noticia/",
+        "https://fuerzapopular.com.pe/wp-content/uploads/2026/02/Plan-de-Gobierno-Reforzado_V2.pdf"
+      ]
+    },
+    "contexto_brecha": {
+      "brecha_monetaria": "S/ 170.000 millones según Minedu (citado por Gestión, 18-sep-2026)",
+      "locales_en_riesgo": "Minedu estima 26.905 locales escolares en riesgo de colapso; al cierre de 2025 casi la mitad de los locales requería demolición, lo que afecta a 1 de cada 5 estudiantes matriculados (datos IPE citados por Gestión)",
+      "estado_aulas": "Solo ~1/4 de colegios públicos tiene todas sus aulas en buen estado pese a ~S/31.000 millones invertidos en educación básica 2021-2025 (CPC, citado por Gestión)",
+      "servicios_basicos_rural": "22% de colegios públicos rurales con agua, saneamiento y electricidad a la vez en 2025 (26% diez años antes)",
+      "ejecucion": "En 2025 se asignaron S/5.176 millones a inversión física para cerrar la brecha y se ejecutó 58,6% (ComexPerú con datos MEF); Pronied culminó 61 colegios en 2023-2024",
+      "nino": "30.681 locales y 157.000 aulas expuestos a El Niño; Minedu priorizará 8.000 locales y 49.000 aulas",
+      "lectura": "Los colapsos de muros en Villa El Salvador y Ate son coherentes con una brecha estructural de décadas, no con decisiones de los últimos 100 días.",
+      "fuentes": [
+        "https://gestion.pe/economia/gobierno-de-keiko-fujimori-promete-500-colegios-al-ano-las-barreras-que-debera-vencer-para-lograrlo-noticia/"
+      ]
+    }
+  },
+  "infografia_b": {
+    "titulo": "Primeros 100 días: Castillo vs. Keiko — Cumplimiento de promesas del plan de gobierno",
+    "autor_origen": "No identificado. No se halló el original indexado ni una fuente llamada 'Keiko Gobierna' (ni plataforma, ni informe) en búsquedas del 7-nov-2026. Sin autor ni metodología pública, la cifra de Keiko no es verificable de forma independiente.",
+    "verificacion_castillo": {
+      "afirmacion": "43 promesas, 3 cumplidas (7,0 %), 40 no cumplidas (93 %)",
+      "veredicto": "engañoso",
+      "hechos": "El Comercio (Unidad de Datos EC Data, Mayté Ciriaco Ruiz, 8-nov-2021) contó al menos 43 promesas para los primeros 100 días, tomadas del plan 'Perú al Bicentenario' de segunda vuelta y del discurso de asunción: 3 cumplidas (7 %), 4 en proceso (8 % según el texto) y 36 no cumplidas (85 %). La infografía suma las 4 'en proceso' a 'no cumplidas' (36+4 = 40, 93 %), lo que no es lo que reportó El Comercio. Los porcentajes de EC están redondeados (36/43 = 83,7 %; 4/43 = 9,3 %).",
+      "fuentes": [
+        "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+      ]
+    },
+    "verificacion_keiko": {
+      "afirmacion": "67 promesas, 0 cumplidas (0 %)",
+      "veredicto": "no verificado (y en tensión con la única otra medición publicada)",
+      "hechos": "El plan 'Perú con Orden' (Fuerza Popular, PDF 'Plan de Gobierno Reforzado V2', feb-2026) tiene 23 subsecciones 'Primeros 100 días'. Conteo propio: 67 ítems con viñeta + 1 ítem sin viñeta en la sección 3.10.3 ('Invierte desde el Exterior') = 68 medidas. Los medios reportan 68. El '67' de la infografía coincidiría con contar solo las viñetas (hipótesis, no confirmada). El Búho (5-nov-2026) cita a un 'Observatorio de Cumplimiento de Planes de Gobierno' que encuentra 'avances concretos' en 6 de 68 medidas (controles fronterizos, lineamientos económicos, borradores normativos), sin publicar metodología ni responsables. Infobae (5-nov-2026) menciona como avance el aumento de la remuneración mínima. Es decir: ninguna fuente pública documenta '0 cumplidas' con criterios explícitos, y la única otra medición encontrada da 6 con avances (no necesariamente 'cumplidas').",
+      "fuentes": [
+        "https://fuerzapopular.com.pe/wp-content/uploads/2026/02/Plan-de-Gobierno-Reforzado_V2.pdf",
+        "https://elbuho.pe/2026/11/primeros-100-dias-del-gobierno-de-keiko-fujimori-solo-se-cumplieron-6-de-68-promesas-iniciales-video/",
+        "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/"
+      ]
+    },
+    "comparabilidad": "No comparables tal como se presentan. (1) Universo distinto: EC 2021 tomó plan de segunda vuelta + discurso de asunción; el conteo de Keiko parece tomar solo las secciones 'Primeros 100 días' del plan escrito. (2) Criterios distintos o desconocidos: EC definió tres categorías (cumplida/en proceso/no cumplida); para Keiko no hay rúbrica pública. (3) Evaluador distinto: una unidad de datos de un diario con firma vs. una fuente sin autor identificado. (4) La propia infografía aplica a Castillo una regla (en proceso = no cumplida) que no aplicó EC, mientras para Keiko no muestra la categoría 'en proceso'. El dato de Castillo es real y verificable; el de Keiko no.",
+    "problemas_metodologicos": [
+      "Fusionar 'en proceso' con 'no cumplidas': EC 2021 reportó 7 % cumplidas, 8 % en proceso y 85 % no cumplidas; la infografía presenta 93 % no cumplidas, una cifra que EC no publicó.",
+      "Sin categoría intermedia para Keiko: con tres categorías, medidas iniciadas (p. ej. remuneración mínima, decretos, borradores normativos) podrían clasificarse 'en proceso'; el binario cumplida/no cumplida infla el incumplimiento en ambos casos.",
+      "Fuente 'Keiko Gobierna (2026)' no localizable: sin autor, fecha ni método, la cifra 0/67 no es replicable.",
+      "Universo inconsistente: 67 vs. 68 medidas en el plan (conteo propio y prensa).",
+      "Corte temporal: el 100.° día fue ~4/5-nov-2026; medir 'cumplido' en 100 días favorece medidas declarativas y castiga obras, que tardan más.",
+      "Comparar porcentajes sobre universos de distinto tamaño y origen (43 vs. 67) sin explicitar criterios induce a una comparación aparente de rigor que no existe.",
+      "La atribución 'Fuentes: El Comercio (2021)' da autoridad a toda la pieza, pero El Comercio solo respalda la mitad de Castillo, y no en la forma presentada."
+    ]
+  },
+  "caveats": [
+    "No se tuvo acceso a las imágenes originales; las afirmaciones se evalúan según la transcripción del encargo.",
+    "Caso 1: las fuentes discrepan sobre el colegio (Altavoz y La Decana reportan daños en el colegio; Exitosa solo en viviendas). Los heridos escolares provienen de testimonios vecinales sin cifra oficial. Fecha 29-oct según Exitosa; otras notas son del 30-oct.",
+    "Caso 3: no se confirmó si el colegio es público, parroquial o privado; tampoco la fecha exacta del colapso (primeras notas: 3-sep-2026).",
+    "Caso 4: Andina (obra > S/150 millones, 900 días) y 7 Días (bloque de S/16,2 millones) dan montos distintos; podrían referirse a componentes distintos. No se halló la fecha de inicio de obra.",
+    "Hay discrepancia entre fuentes sobre la fecha de entrega de Morca (nota de Pronied del 12-oct-2026 vs. Inforegion del 28-oct-2026, que lo menciona como pendiente).",
+    "No se hizo un inventario exhaustivo de inauguraciones regionales y municipales: '0 construidos' podría refutarse además con obras de gobiernos subnacionales no revisadas.",
+    "El 'Observatorio de Cumplimiento de Planes de Gobierno' citado por El Búho no tiene metodología ni responsables públicos; su 6/68 tampoco es verificable de forma independiente.",
+    "El conteo de 68 medidas es propio (pdftotext del PDF oficial) y coincide con la prensa; la explicación del '67' es una hipótesis.",
+    "Varios dominios de gob.pe devuelven HTTP 418 a clientes automáticos; se validaron con un User-Agent de navegador.",
+    "Validación curl (2026-11-07): 24 de 25 URLs responden 200; peru21.pe responde 403 al cliente automático (bloqueo anti-bot). Su contenido solo se conoce por el resultado del buscador; el caso 2 se sostiene con Infobae y Correo."
+  ]
+}

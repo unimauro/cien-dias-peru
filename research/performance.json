@@ -1,0 +1,4511 @@
+{
+ "meta": {
+  "descripcion": "Desempeño estatal en los primeros 100 días (28-jul a 5-nov). Ejecución = devengado acumulado ene-oct / PIM, Gobierno Nacional, por sector.",
+  "gobiernos": {
+   "2006": "Alan García (2do)",
+   "2011": "Ollanta Humala",
+   "2016": "Pedro Pablo Kuczynski",
+   "2021": "Pedro Castillo",
+   "2026": "Keiko Fujimori"
+  },
+  "generado": "2026-11-07"
+ },
+ "ejecucion_sectorial": {
+  "2006": [
+   {
+    "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+    "codigo": "32",
+    "pim": 326713138.0,
+    "devengado": 283336565.0,
+    "pct": 86.7,
+    "devengado_ago_oct": 81046097.0,
+    "pct_ago_oct": 24.8,
+    "devengado_anual": 316696201.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "REGISTRO NACIONAL DE IDENTIFICACION Y ESTADO CIVIL",
+    "codigo": "33",
+    "pim": 149247929.0,
+    "devengado": 119219677.0,
+    "pct": 79.9,
+    "devengado_ago_oct": 37818356.0,
+    "pct_ago_oct": 25.3,
+    "devengado_anual": 143560328.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MUJER Y DESARROLLO SOCIAL",
+    "codigo": "39",
+    "pim": 1279911413.0,
+    "devengado": 1004966496.0,
+    "pct": 78.5,
+    "devengado_ago_oct": 329586967.0,
+    "pct_ago_oct": 25.8,
+    "devengado_anual": 1214794826.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSA",
+    "codigo": "26",
+    "pim": 4097810159.0,
+    "devengado": 3174207153.0,
+    "pct": 77.5,
+    "devengado_ago_oct": 949634478.0,
+    "pct_ago_oct": 23.2,
+    "devengado_anual": 4011119242.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "RELACIONES EXTERIORES",
+    "codigo": "08",
+    "pim": 485304425.0,
+    "devengado": 375429210.0,
+    "pct": 77.4,
+    "devengado_ago_oct": 118844431.0,
+    "pct_ago_oct": 24.5,
+    "devengado_anual": 472105999.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONGRESO DE LA REPUBLICA",
+    "codigo": "28",
+    "pim": 309026492.0,
+    "devengado": 238826779.0,
+    "pct": 77.3,
+    "devengado_ago_oct": 70412211.0,
+    "pct_ago_oct": 22.8,
+    "devengado_anual": 292238522.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "INTERIOR",
+    "codigo": "07",
+    "pim": 3874445610.0,
+    "devengado": 2948102758.0,
+    "pct": 76.1,
+    "devengado_ago_oct": 903477395.0,
+    "pct_ago_oct": 23.3,
+    "devengado_anual": 3699757326.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONSEJO NACIONAL DE LA MAGISTRATURA",
+    "codigo": "21",
+    "pim": 11498161.0,
+    "devengado": 8598219.0,
+    "pct": 74.8,
+    "devengado_ago_oct": 2538129.0,
+    "pct_ago_oct": 22.1,
+    "devengado_anual": 10745475.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MINISTERIO PUBLICO",
+    "codigo": "22",
+    "pim": 366798471.0,
+    "devengado": 273379011.0,
+    "pct": 74.5,
+    "devengado_ago_oct": 96075052.0,
+    "pct_ago_oct": 26.2,
+    "devengado_anual": 348724669.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JURADO NACIONAL DE ELECCIONES",
+    "codigo": "31",
+    "pim": 118892087.0,
+    "devengado": 85646398.0,
+    "pct": 72.0,
+    "devengado_ago_oct": 37181343.0,
+    "pct_ago_oct": 31.3,
+    "devengado_anual": 104227338.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSORIA DEL PUEBLO",
+    "codigo": "20",
+    "pim": 35935647.0,
+    "devengado": 25843201.0,
+    "pct": 71.9,
+    "devengado_ago_oct": 8754783.0,
+    "pct_ago_oct": 24.4,
+    "devengado_anual": 35124381.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ECONOMIA Y FINANZAS",
+    "codigo": "09",
+    "pim": 17529569040.0,
+    "devengado": 12575401049.0,
+    "pct": 71.7,
+    "devengado_ago_oct": 4255640299.0,
+    "pct_ago_oct": 24.3,
+    "devengado_anual": 16837561118.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRIBUNAL CONSTITUCIONAL",
+    "codigo": "24",
+    "pim": 15292470.0,
+    "devengado": 10884364.0,
+    "pct": 71.2,
+    "devengado_ago_oct": 3438934.0,
+    "pct_ago_oct": 22.5,
+    "devengado_anual": 13830652.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PODER JUDICIAL",
+    "codigo": "04",
+    "pim": 871817493.0,
+    "devengado": 619601843.0,
+    "pct": 71.1,
+    "devengado_ago_oct": 186833649.0,
+    "pct_ago_oct": 21.4,
+    "devengado_anual": 797223735.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONTRALORIA GENERAL",
+    "codigo": "19",
+    "pim": 177340573.0,
+    "devengado": 125334894.0,
+    "pct": 70.7,
+    "devengado_ago_oct": 34672737.0,
+    "pct_ago_oct": 19.6,
+    "devengado_anual": 162194781.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRODUCCION",
+    "codigo": "38",
+    "pim": 148671334.0,
+    "devengado": 102266421.0,
+    "pct": 68.8,
+    "devengado_ago_oct": 36444927.0,
+    "pct_ago_oct": 24.5,
+    "devengado_anual": 127205347.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "EDUCACION",
+    "codigo": "10",
+    "pim": 4554121569.0,
+    "devengado": 3109023564.0,
+    "pct": 68.3,
+    "devengado_ago_oct": 917352896.0,
+    "pct_ago_oct": 20.1,
+    "devengado_anual": 3927439113.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRABAJO Y PROMOCION DEL EMPLEO",
+    "codigo": "12",
+    "pim": 279991567.0,
+    "devengado": 185060282.0,
+    "pct": 66.1,
+    "devengado_ago_oct": 55484709.0,
+    "pct_ago_oct": 19.8,
+    "devengado_anual": 248661069.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AGRICULTURA",
+    "codigo": "13",
+    "pim": 1088018899.0,
+    "devengado": 704952871.0,
+    "pct": 64.8,
+    "devengado_ago_oct": 331029263.0,
+    "pct_ago_oct": 30.4,
+    "devengado_anual": 929566969.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "SALUD",
+    "codigo": "11",
+    "pim": 2942969005.0,
+    "devengado": 1872389172.0,
+    "pct": 63.6,
+    "devengado_ago_oct": 590398659.0,
+    "pct_ago_oct": 20.1,
+    "devengado_anual": 2287701035.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUSTICIA",
+    "codigo": "06",
+    "pim": 376685680.0,
+    "devengado": 238887556.0,
+    "pct": 63.4,
+    "devengado_ago_oct": 53615487.0,
+    "pct_ago_oct": 14.2,
+    "devengado_anual": 319048119.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRESIDENCIA CONSEJO MINISTROS",
+    "codigo": "01",
+    "pim": 973566592.0,
+    "devengado": 563225845.0,
+    "pct": 57.9,
+    "devengado_ago_oct": 138268439.0,
+    "pct_ago_oct": 14.2,
+    "devengado_anual": 708223389.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "COMERCIO EXTERIOR Y TURISMO",
+    "codigo": "35",
+    "pim": 224094064.0,
+    "devengado": 129038771.0,
+    "pct": 57.6,
+    "devengado_ago_oct": 45806277.0,
+    "pct_ago_oct": 20.4,
+    "devengado_anual": 178824302.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRANSPORTES Y COMUNICACIONES",
+    "codigo": "36",
+    "pim": 1988494421.0,
+    "devengado": 1114070838.0,
+    "pct": 56.0,
+    "devengado_ago_oct": 392353872.0,
+    "pct_ago_oct": 19.7,
+    "devengado_anual": 1476910706.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+    "codigo": "37",
+    "pim": 1031561442.0,
+    "devengado": 556976710.0,
+    "pct": 54.0,
+    "devengado_ago_oct": 356483009.0,
+    "pct_ago_oct": 34.6,
+    "devengado_anual": 731285886.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ENERGIA Y MINAS",
+    "codigo": "16",
+    "pim": 483939759.0,
+    "devengado": 192281521.0,
+    "pct": 39.7,
+    "devengado_ago_oct": 88270147.0,
+    "pct_ago_oct": 18.2,
+    "devengado_anual": 251193199.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  ],
+  "2011": [
+   {
+    "sector": "CONSEJO NACIONAL DE LA MAGISTRATURA",
+    "codigo": "21",
+    "pim": 17533990.0,
+    "devengado": 13919122.0,
+    "pct": 79.4,
+    "devengado_ago_oct": 4311705.0,
+    "pct_ago_oct": 24.6,
+    "devengado_anual": 17297667.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+    "codigo": "32",
+    "pim": 327692537.0,
+    "devengado": 256068113.0,
+    "pct": 78.1,
+    "devengado_ago_oct": 28802208.0,
+    "pct_ago_oct": 8.8,
+    "devengado_anual": 301173259.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRIBUNAL CONSTITUCIONAL",
+    "codigo": "24",
+    "pim": 24674499.0,
+    "devengado": 19075729.0,
+    "pct": 77.3,
+    "devengado_ago_oct": 5564068.0,
+    "pct_ago_oct": 22.5,
+    "devengado_anual": 24238887.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JURADO NACIONAL DE ELECCIONES",
+    "codigo": "31",
+    "pim": 91974200.0,
+    "devengado": 70655181.0,
+    "pct": 76.8,
+    "devengado_ago_oct": 11582425.0,
+    "pct_ago_oct": 12.6,
+    "devengado_anual": 82109159.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "FUERO MILITAR POLICIAL",
+    "codigo": "27",
+    "pim": 10549585.0,
+    "devengado": 8059926.0,
+    "pct": 76.4,
+    "devengado_ago_oct": 2344642.0,
+    "pct_ago_oct": 22.2,
+    "devengado_anual": 10497861.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRANSPORTES Y COMUNICACIONES",
+    "codigo": "36",
+    "pim": 8836440853.0,
+    "devengado": 6725076356.0,
+    "pct": 76.1,
+    "devengado_ago_oct": 2099278539.0,
+    "pct_ago_oct": 23.8,
+    "devengado_anual": 8422220336.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "RELACIONES EXTERIORES",
+    "codigo": "08",
+    "pim": 596455376.0,
+    "devengado": 447025121.0,
+    "pct": 74.9,
+    "devengado_ago_oct": 122824185.0,
+    "pct_ago_oct": 20.6,
+    "devengado_anual": 572623477.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "INTERIOR",
+    "codigo": "07",
+    "pim": 5633968487.0,
+    "devengado": 4147323678.0,
+    "pct": 73.6,
+    "devengado_ago_oct": 1275760439.0,
+    "pct_ago_oct": 22.6,
+    "devengado_anual": 5197447207.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MINISTERIO PUBLICO",
+    "codigo": "22",
+    "pim": 960404501.0,
+    "devengado": 698742106.0,
+    "pct": 72.8,
+    "devengado_ago_oct": 205805177.0,
+    "pct_ago_oct": 21.4,
+    "devengado_anual": 909470725.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ENERGIA Y MINAS",
+    "codigo": "16",
+    "pim": 3323338257.0,
+    "devengado": 2393055053.0,
+    "pct": 72.0,
+    "devengado_ago_oct": 165631388.0,
+    "pct_ago_oct": 5.0,
+    "devengado_anual": 3138685008.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSA",
+    "codigo": "26",
+    "pim": 6035101831.0,
+    "devengado": 4283431434.0,
+    "pct": 71.0,
+    "devengado_ago_oct": 1348127837.0,
+    "pct_ago_oct": 22.3,
+    "devengado_anual": 5586904821.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PODER JUDICIAL",
+    "codigo": "04",
+    "pim": 1354884502.0,
+    "devengado": 957643925.0,
+    "pct": 70.7,
+    "devengado_ago_oct": 305332196.0,
+    "pct_ago_oct": 22.5,
+    "devengado_anual": 1273319320.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ECONOMIA Y FINANZAS",
+    "codigo": "09",
+    "pim": 19072497133.0,
+    "devengado": 12870563927.0,
+    "pct": 67.5,
+    "devengado_ago_oct": 4309333018.0,
+    "pct_ago_oct": 22.6,
+    "devengado_anual": 15927881801.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CULTURA",
+    "codigo": "03",
+    "pim": 430917187.0,
+    "devengado": 281639597.0,
+    "pct": 65.4,
+    "devengado_ago_oct": 117586326.0,
+    "pct_ago_oct": 27.3,
+    "devengado_anual": 358028782.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONGRESO DE LA REPUBLICA",
+    "codigo": "28",
+    "pim": 411649671.0,
+    "devengado": 269339560.0,
+    "pct": 65.4,
+    "devengado_ago_oct": 81896302.0,
+    "pct_ago_oct": 19.9,
+    "devengado_anual": 348597429.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "EDUCACION",
+    "codigo": "10",
+    "pim": 7677784427.0,
+    "devengado": 4742002950.0,
+    "pct": 61.8,
+    "devengado_ago_oct": 1372193649.0,
+    "pct_ago_oct": 17.9,
+    "devengado_anual": 6252054701.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUSTICIA",
+    "codigo": "06",
+    "pim": 970644270.0,
+    "devengado": 586215650.0,
+    "pct": 60.4,
+    "devengado_ago_oct": 162734334.0,
+    "pct_ago_oct": 16.8,
+    "devengado_anual": 770140673.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRESIDENCIA CONSEJO MINISTROS",
+    "codigo": "01",
+    "pim": 2322607290.0,
+    "devengado": 1396223061.0,
+    "pct": 60.1,
+    "devengado_ago_oct": 481390190.0,
+    "pct_ago_oct": 20.7,
+    "devengado_anual": 2089182863.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONTRALORIA GENERAL",
+    "codigo": "19",
+    "pim": 302416232.0,
+    "devengado": 181009255.0,
+    "pct": 59.9,
+    "devengado_ago_oct": 52718713.0,
+    "pct_ago_oct": 17.4,
+    "devengado_anual": 279970132.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSORIA DEL PUEBLO",
+    "codigo": "20",
+    "pim": 57655207.0,
+    "devengado": 34280414.0,
+    "pct": 59.5,
+    "devengado_ago_oct": 11793453.0,
+    "pct_ago_oct": 20.5,
+    "devengado_anual": 46205711.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "SALUD",
+    "codigo": "11",
+    "pim": 4789553996.0,
+    "devengado": 2640161343.0,
+    "pct": 55.1,
+    "devengado_ago_oct": 818648740.0,
+    "pct_ago_oct": 17.1,
+    "devengado_anual": 3912051376.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRODUCCION",
+    "codigo": "38",
+    "pim": 216899366.0,
+    "devengado": 119055098.0,
+    "pct": 54.9,
+    "devengado_ago_oct": 37926009.0,
+    "pct_ago_oct": 17.5,
+    "devengado_anual": 173167543.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AMBIENTAL",
+    "codigo": "05",
+    "pim": 245126191.0,
+    "devengado": 131934720.0,
+    "pct": 53.8,
+    "devengado_ago_oct": 46892197.0,
+    "pct_ago_oct": 19.1,
+    "devengado_anual": 188006040.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+    "codigo": "37",
+    "pim": 1163484519.0,
+    "devengado": 626078030.0,
+    "pct": 53.8,
+    "devengado_ago_oct": 206960760.0,
+    "pct_ago_oct": 17.8,
+    "devengado_anual": 890276744.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MUJER Y DESARROLLO SOCIAL",
+    "codigo": "39",
+    "pim": 1705214402.0,
+    "devengado": 914600099.0,
+    "pct": 53.6,
+    "devengado_ago_oct": 299278358.0,
+    "pct_ago_oct": 17.6,
+    "devengado_anual": 1237508824.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "COMERCIO EXTERIOR Y TURISMO",
+    "codigo": "35",
+    "pim": 311934633.0,
+    "devengado": 164840525.0,
+    "pct": 52.8,
+    "devengado_ago_oct": 56737884.0,
+    "pct_ago_oct": 18.2,
+    "devengado_anual": 272835698.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "REGISTRO NACIONAL DE IDENTIFICACION Y ESTADO CIVIL",
+    "codigo": "33",
+    "pim": 372504848.0,
+    "devengado": 193693474.0,
+    "pct": 52.0,
+    "devengado_ago_oct": 63026328.0,
+    "pct_ago_oct": 16.9,
+    "devengado_anual": 252161520.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AGRICULTURA",
+    "codigo": "13",
+    "pim": 1100496091.0,
+    "devengado": 557798029.0,
+    "pct": 50.7,
+    "devengado_ago_oct": 181221460.0,
+    "pct_ago_oct": 16.5,
+    "devengado_anual": 787294486.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRABAJO Y PROMOCION DEL EMPLEO",
+    "codigo": "12",
+    "pim": 288868905.0,
+    "devengado": 98508678.0,
+    "pct": 34.1,
+    "devengado_ago_oct": 23385156.0,
+    "pct_ago_oct": 8.1,
+    "devengado_anual": 185297364.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  ],
+  "2016": [
+   {
+    "sector": "JURADO NACIONAL DE ELECCIONES",
+    "codigo": "31",
+    "pim": 169246249.0,
+    "devengado": 150311210.0,
+    "pct": 88.8,
+    "devengado_ago_oct": 11214070.0,
+    "pct_ago_oct": 6.6,
+    "devengado_anual": 163431482.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRIBUNAL CONSTITUCIONAL",
+    "codigo": "24",
+    "pim": 53548462.0,
+    "devengado": 43317090.0,
+    "pct": 80.9,
+    "devengado_ago_oct": 7256054.0,
+    "pct_ago_oct": 13.6,
+    "devengado_anual": 49911240.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+    "codigo": "32",
+    "pim": 480913173.0,
+    "devengado": 387631984.0,
+    "pct": 80.6,
+    "devengado_ago_oct": 80610180.0,
+    "pct_ago_oct": 16.8,
+    "devengado_anual": 403568530.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DESARROLLO E INCLUSION SOCIAL",
+    "codigo": "40",
+    "pim": 3840280984.0,
+    "devengado": 3031671881.0,
+    "pct": 78.9,
+    "devengado_ago_oct": 1202138995.0,
+    "pct_ago_oct": 31.3,
+    "devengado_anual": 3751255363.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MUJER Y POBLACIONES VULNERABLES",
+    "codigo": "39",
+    "pim": 364826004.0,
+    "devengado": 281225462.0,
+    "pct": 77.1,
+    "devengado_ago_oct": 87376840.0,
+    "pct_ago_oct": 24.0,
+    "devengado_anual": 358943529.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONTRALORIA GENERAL",
+    "codigo": "19",
+    "pim": 511393528.0,
+    "devengado": 389949140.0,
+    "pct": 76.3,
+    "devengado_ago_oct": 99864279.0,
+    "pct_ago_oct": 19.5,
+    "devengado_anual": 494213505.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PODER JUDICIAL",
+    "codigo": "04",
+    "pim": 2123804552.0,
+    "devengado": 1616607133.0,
+    "pct": 76.1,
+    "devengado_ago_oct": 486265521.0,
+    "pct_ago_oct": 22.9,
+    "devengado_anual": 2086226579.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ENERGIA Y MINAS",
+    "codigo": "16",
+    "pim": 896889925.0,
+    "devengado": 678039958.0,
+    "pct": 75.6,
+    "devengado_ago_oct": 376938485.0,
+    "pct_ago_oct": 42.0,
+    "devengado_anual": 763873496.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSORIA DEL PUEBLO",
+    "codigo": "20",
+    "pim": 61885045.0,
+    "devengado": 46210076.0,
+    "pct": 74.7,
+    "devengado_ago_oct": 14083215.0,
+    "pct_ago_oct": 22.8,
+    "devengado_anual": 59546709.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MINISTERIO PUBLICO",
+    "codigo": "22",
+    "pim": 1634572569.0,
+    "devengado": 1214246852.0,
+    "pct": 74.3,
+    "devengado_ago_oct": 371033398.0,
+    "pct_ago_oct": 22.7,
+    "devengado_anual": 1582067861.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "SALUD",
+    "codigo": "11",
+    "pim": 7430295255.0,
+    "devengado": 5504912387.0,
+    "pct": 74.1,
+    "devengado_ago_oct": 1280021021.0,
+    "pct_ago_oct": 17.2,
+    "devengado_anual": 7013764169.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "RELACIONES EXTERIORES",
+    "codigo": "08",
+    "pim": 955585570.0,
+    "devengado": 700438190.0,
+    "pct": 73.3,
+    "devengado_ago_oct": 193366842.0,
+    "pct_ago_oct": 20.2,
+    "devengado_anual": 903285584.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "FUERO MILITAR POLICIAL",
+    "codigo": "27",
+    "pim": 20871130.0,
+    "devengado": 15261708.0,
+    "pct": 73.1,
+    "devengado_ago_oct": 5783974.0,
+    "pct_ago_oct": 27.7,
+    "devengado_anual": 19774075.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "REGISTRO NACIONAL DE IDENTIFICACION Y ESTADO CIVIL",
+    "codigo": "33",
+    "pim": 353301038.0,
+    "devengado": 256054956.0,
+    "pct": 72.5,
+    "devengado_ago_oct": 85819695.0,
+    "pct_ago_oct": 24.3,
+    "devengado_anual": 330625362.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRABAJO Y PROMOCION DEL EMPLEO",
+    "codigo": "12",
+    "pim": 330752523.0,
+    "devengado": 239396967.0,
+    "pct": 72.4,
+    "devengado_ago_oct": 67418839.0,
+    "pct_ago_oct": 20.4,
+    "devengado_anual": 318671763.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "COMERCIO EXTERIOR Y TURISMO",
+    "codigo": "35",
+    "pim": 537021774.0,
+    "devengado": 385345865.0,
+    "pct": 71.8,
+    "devengado_ago_oct": 109427613.0,
+    "pct_ago_oct": 20.4,
+    "devengado_anual": 497115575.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ECONOMIA Y FINANZAS",
+    "codigo": "09",
+    "pim": 23521643481.0,
+    "devengado": 16763836537.0,
+    "pct": 71.3,
+    "devengado_ago_oct": 5786587222.0,
+    "pct_ago_oct": 24.6,
+    "devengado_anual": 20738123168.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "INTERIOR",
+    "codigo": "07",
+    "pim": 10512189064.0,
+    "devengado": 7410694996.0,
+    "pct": 70.5,
+    "devengado_ago_oct": 2367414685.0,
+    "pct_ago_oct": 22.5,
+    "devengado_anual": 10083611477.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CULTURA",
+    "codigo": "03",
+    "pim": 542961434.0,
+    "devengado": 381246536.0,
+    "pct": 70.2,
+    "devengado_ago_oct": 119936473.0,
+    "pct_ago_oct": 22.1,
+    "devengado_anual": 487530667.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+    "codigo": "37",
+    "pim": 2478207482.0,
+    "devengado": 1670368159.0,
+    "pct": 67.4,
+    "devengado_ago_oct": 369074435.0,
+    "pct_ago_oct": 14.9,
+    "devengado_anual": 2038206521.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUSTICIA",
+    "codigo": "06",
+    "pim": 1743582602.0,
+    "devengado": 1164612237.0,
+    "pct": 66.8,
+    "devengado_ago_oct": 331400938.0,
+    "pct_ago_oct": 19.0,
+    "devengado_anual": 1490451399.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSA",
+    "codigo": "26",
+    "pim": 9009435584.0,
+    "devengado": 5999198809.0,
+    "pct": 66.6,
+    "devengado_ago_oct": 1762463742.0,
+    "pct_ago_oct": 19.6,
+    "devengado_anual": 8238696718.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRANSPORTES Y COMUNICACIONES",
+    "codigo": "36",
+    "pim": 10740402592.0,
+    "devengado": 6836737450.0,
+    "pct": 63.7,
+    "devengado_ago_oct": 2385314394.0,
+    "pct_ago_oct": 22.2,
+    "devengado_anual": 8985887192.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONSEJO NACIONAL DE LA MAGISTRATURA",
+    "codigo": "21",
+    "pim": 58488564.0,
+    "devengado": 37171666.0,
+    "pct": 63.6,
+    "devengado_ago_oct": 8104780.0,
+    "pct_ago_oct": 13.9,
+    "devengado_anual": 47282482.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONGRESO DE LA REPUBLICA",
+    "codigo": "28",
+    "pim": 651461557.0,
+    "devengado": 413205526.0,
+    "pct": 63.4,
+    "devengado_ago_oct": 119271498.0,
+    "pct_ago_oct": 18.3,
+    "devengado_anual": 522541769.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "EDUCACION",
+    "codigo": "10",
+    "pim": 12767861642.0,
+    "devengado": 8086435898.0,
+    "pct": 63.3,
+    "devengado_ago_oct": 2478497825.0,
+    "pct_ago_oct": 19.4,
+    "devengado_anual": 11175190780.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AGRICULTURA",
+    "codigo": "13",
+    "pim": 2287141902.0,
+    "devengado": 1438281073.0,
+    "pct": 62.9,
+    "devengado_ago_oct": 401058897.0,
+    "pct_ago_oct": 17.5,
+    "devengado_anual": 1919787542.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AMBIENTAL",
+    "codigo": "05",
+    "pim": 648580409.0,
+    "devengado": 399427903.0,
+    "pct": 61.6,
+    "devengado_ago_oct": 129870822.0,
+    "pct_ago_oct": 20.0,
+    "devengado_anual": 525216579.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRESIDENCIA CONSEJO MINISTROS",
+    "codigo": "01",
+    "pim": 2024038576.0,
+    "devengado": 1245153095.0,
+    "pct": 61.5,
+    "devengado_ago_oct": 399661667.0,
+    "pct_ago_oct": 19.7,
+    "devengado_anual": 1704778812.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRODUCCION",
+    "codigo": "38",
+    "pim": 816729717.0,
+    "devengado": 500075047.0,
+    "pct": 61.2,
+    "devengado_ago_oct": 136945670.0,
+    "pct_ago_oct": 16.8,
+    "devengado_anual": 649875257.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  ],
+  "2021": [
+   {
+    "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+    "codigo": "32",
+    "pim": 786547824.0,
+    "devengado": 683077356.0,
+    "pct": 86.8,
+    "devengado_ago_oct": 104972867.0,
+    "pct_ago_oct": 13.3,
+    "devengado_anual": 714552032.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JURADO NACIONAL DE ELECCIONES",
+    "codigo": "31",
+    "pim": 180074681.0,
+    "devengado": 142787182.0,
+    "pct": 79.3,
+    "devengado_ago_oct": 15429754.0,
+    "pct_ago_oct": 8.6,
+    "devengado_anual": 160522771.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DESARROLLO E INCLUSION SOCIAL",
+    "codigo": "40",
+    "pim": 13100236403.0,
+    "devengado": 9963219984.0,
+    "pct": 76.1,
+    "devengado_ago_oct": 4368631558.0,
+    "pct_ago_oct": 33.3,
+    "devengado_anual": 12873097032.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MUJER Y POBLACIONES VULNERABLES",
+    "codigo": "39",
+    "pim": 648740290.0,
+    "devengado": 491217993.0,
+    "pct": 75.7,
+    "devengado_ago_oct": 153603452.0,
+    "pct_ago_oct": 23.7,
+    "devengado_anual": 630235457.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "INTERIOR",
+    "codigo": "07",
+    "pim": 13217645758.0,
+    "devengado": 9998744605.0,
+    "pct": 75.6,
+    "devengado_ago_oct": 2915038797.0,
+    "pct_ago_oct": 22.1,
+    "devengado_anual": 12803792175.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MINISTERIO PUBLICO",
+    "codigo": "22",
+    "pim": 2624187812.0,
+    "devengado": 1970961232.0,
+    "pct": 75.1,
+    "devengado_ago_oct": 606012437.0,
+    "pct_ago_oct": 23.1,
+    "devengado_anual": 2523402058.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSORIA DEL PUEBLO",
+    "codigo": "20",
+    "pim": 75083697.0,
+    "devengado": 55316799.0,
+    "pct": 73.7,
+    "devengado_ago_oct": 16587392.0,
+    "pct_ago_oct": 22.1,
+    "devengado_anual": 72732429.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+    "codigo": "37",
+    "pim": 4156296550.0,
+    "devengado": 3062124162.0,
+    "pct": 73.7,
+    "devengado_ago_oct": 867779068.0,
+    "pct_ago_oct": 20.9,
+    "devengado_anual": 3955278548.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ECONOMIA Y FINANZAS",
+    "codigo": "09",
+    "pim": 28088105018.0,
+    "devengado": 20567598290.0,
+    "pct": 73.2,
+    "devengado_ago_oct": 7441508656.0,
+    "pct_ago_oct": 26.5,
+    "devengado_anual": 25189005469.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSA",
+    "codigo": "26",
+    "pim": 9305713225.0,
+    "devengado": 6748713951.0,
+    "pct": 72.5,
+    "devengado_ago_oct": 1941869879.0,
+    "pct_ago_oct": 20.9,
+    "devengado_anual": 8950134134.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PODER JUDICIAL",
+    "codigo": "04",
+    "pim": 2987440141.0,
+    "devengado": 2153323995.0,
+    "pct": 72.1,
+    "devengado_ago_oct": 650493020.0,
+    "pct_ago_oct": 21.8,
+    "devengado_anual": 2909450697.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONTRALORIA GENERAL",
+    "codigo": "19",
+    "pim": 822403921.0,
+    "devengado": 577741434.0,
+    "pct": 70.3,
+    "devengado_ago_oct": 170987458.0,
+    "pct_ago_oct": 20.8,
+    "devengado_anual": 766309765.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "RELACIONES EXTERIORES",
+    "codigo": "08",
+    "pim": 1047437016.0,
+    "devengado": 732817925.0,
+    "pct": 70.0,
+    "devengado_ago_oct": 186172154.0,
+    "pct_ago_oct": 17.8,
+    "devengado_anual": 1029475640.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUSTICIA",
+    "codigo": "06",
+    "pim": 1977021725.0,
+    "devengado": 1378971463.0,
+    "pct": 69.7,
+    "devengado_ago_oct": 398184734.0,
+    "pct_ago_oct": 20.1,
+    "devengado_anual": 1793598869.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONGRESO DE LA REPUBLICA",
+    "codigo": "28",
+    "pim": 649629107.0,
+    "devengado": 451412981.0,
+    "pct": 69.5,
+    "devengado_ago_oct": 129245882.0,
+    "pct_ago_oct": 19.9,
+    "devengado_anual": 588871543.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRODUCCION",
+    "codigo": "38",
+    "pim": 764862705.0,
+    "devengado": 521661299.0,
+    "pct": 68.2,
+    "devengado_ago_oct": 165774984.0,
+    "pct_ago_oct": 21.7,
+    "devengado_anual": 715725432.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "SALUD",
+    "codigo": "11",
+    "pim": 13538753015.0,
+    "devengado": 9221740700.0,
+    "pct": 68.1,
+    "devengado_ago_oct": 2997343075.0,
+    "pct_ago_oct": 22.1,
+    "devengado_anual": 12044410750.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "FUERO MILITAR POLICIAL",
+    "codigo": "27",
+    "pim": 20746014.0,
+    "devengado": 14092330.0,
+    "pct": 67.9,
+    "devengado_ago_oct": 5175558.0,
+    "pct_ago_oct": 24.9,
+    "devengado_anual": 18552820.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRANSPORTES Y COMUNICACIONES",
+    "codigo": "36",
+    "pim": 14307337058.0,
+    "devengado": 9717448821.0,
+    "pct": 67.9,
+    "devengado_ago_oct": 3819551908.0,
+    "pct_ago_oct": 26.7,
+    "devengado_anual": 12369283997.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AMBIENTAL",
+    "codigo": "05",
+    "pim": 739453880.0,
+    "devengado": 498412404.0,
+    "pct": 67.4,
+    "devengado_ago_oct": 142574600.0,
+    "pct_ago_oct": 19.3,
+    "devengado_anual": 636539974.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "EDUCACION",
+    "codigo": "10",
+    "pim": 13457043388.0,
+    "devengado": 8931437564.0,
+    "pct": 66.4,
+    "devengado_ago_oct": 2581665071.0,
+    "pct_ago_oct": 19.2,
+    "devengado_anual": 11784931032.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRIBUNAL CONSTITUCIONAL",
+    "codigo": "24",
+    "pim": 46021935.0,
+    "devengado": 29781450.0,
+    "pct": 64.7,
+    "devengado_ago_oct": 8615869.0,
+    "pct_ago_oct": 18.7,
+    "devengado_anual": 40319489.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CULTURA",
+    "codigo": "03",
+    "pim": 726457381.0,
+    "devengado": 448271412.0,
+    "pct": 61.7,
+    "devengado_ago_oct": 137273350.0,
+    "pct_ago_oct": 18.9,
+    "devengado_anual": 616058523.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRABAJO Y PROMOCION DEL EMPLEO",
+    "codigo": "12",
+    "pim": 2864383989.0,
+    "devengado": 1762039118.0,
+    "pct": 61.5,
+    "devengado_ago_oct": 606772450.0,
+    "pct_ago_oct": 21.2,
+    "devengado_anual": 2816997809.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRESIDENCIA CONSEJO MINISTROS",
+    "codigo": "01",
+    "pim": 5237946540.0,
+    "devengado": 3210827169.0,
+    "pct": 61.3,
+    "devengado_ago_oct": 867565760.0,
+    "pct_ago_oct": 16.6,
+    "devengado_anual": 4338691109.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AGRARIO Y DE RIEGO",
+    "codigo": "13",
+    "pim": 3274672438.0,
+    "devengado": 1956804851.0,
+    "pct": 59.8,
+    "devengado_ago_oct": 884795475.0,
+    "pct_ago_oct": 27.0,
+    "devengado_anual": 2676298891.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "REGISTRO NACIONAL DE IDENTIFICACION Y ESTADO CIVIL",
+    "codigo": "33",
+    "pim": 541992166.0,
+    "devengado": 308311306.0,
+    "pct": 56.9,
+    "devengado_ago_oct": 106258651.0,
+    "pct_ago_oct": 19.6,
+    "devengado_anual": 441368374.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUNTA NACIONAL DE JUSTICIA",
+    "codigo": "21",
+    "pim": 48142816.0,
+    "devengado": 26595815.0,
+    "pct": 55.2,
+    "devengado_ago_oct": 7576097.0,
+    "pct_ago_oct": 15.7,
+    "devengado_anual": 42421679.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "COMERCIO EXTERIOR Y TURISMO",
+    "codigo": "35",
+    "pim": 551886572.0,
+    "devengado": 299831764.0,
+    "pct": 54.3,
+    "devengado_ago_oct": 91085215.0,
+    "pct_ago_oct": 16.5,
+    "devengado_anual": 495449969.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ENERGIA Y MINAS",
+    "codigo": "16",
+    "pim": 1849460869.0,
+    "devengado": 794547253.0,
+    "pct": 43.0,
+    "devengado_ago_oct": 122776389.0,
+    "pct_ago_oct": 6.6,
+    "devengado_anual": 1745697525.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  ],
+  "2026": [
+   {
+    "sector": "MINISTERIO PUBLICO",
+    "codigo": "22",
+    "pim": 2974679049.0,
+    "devengado": 2491341112.0,
+    "pct": 83.8,
+    "devengado_ago_oct": 751823744.0,
+    "pct_ago_oct": 25.3,
+    "devengado_anual": 2522105769.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "INTERIOR",
+    "codigo": "07",
+    "pim": 15522431365.0,
+    "devengado": 12719651257.0,
+    "pct": 81.9,
+    "devengado_ago_oct": 4280220108.0,
+    "pct_ago_oct": 27.6,
+    "devengado_anual": 12754900941.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JURADO NACIONAL DE ELECCIONES",
+    "codigo": "31",
+    "pim": 702308654.0,
+    "devengado": 565960303.0,
+    "pct": 80.6,
+    "devengado_ago_oct": 186213115.0,
+    "pct_ago_oct": 26.5,
+    "devengado_anual": 576915093.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRESIDENCIA CONSEJO MINISTROS",
+    "codigo": "01",
+    "pim": 7335948103.0,
+    "devengado": 5771970066.0,
+    "pct": 78.7,
+    "devengado_ago_oct": 2301547230.0,
+    "pct_ago_oct": 31.4,
+    "devengado_anual": 5843374803.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ECONOMIA Y FINANZAS",
+    "codigo": "09",
+    "pim": 45288690601.0,
+    "devengado": 35640453917.0,
+    "pct": 78.7,
+    "devengado_ago_oct": 12389807235.0,
+    "pct_ago_oct": 27.4,
+    "devengado_anual": 37418170605.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DESARROLLO E INCLUSION SOCIAL",
+    "codigo": "40",
+    "pim": 7771587664.0,
+    "devengado": 6052006410.0,
+    "pct": 77.9,
+    "devengado_ago_oct": 1913701233.0,
+    "pct_ago_oct": 24.6,
+    "devengado_anual": 6084187626.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "SALUD",
+    "codigo": "11",
+    "pim": 15571540965.0,
+    "devengado": 12118961469.0,
+    "pct": 77.8,
+    "devengado_ago_oct": 3323110478.0,
+    "pct_ago_oct": 21.3,
+    "devengado_anual": 12223547009.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRANSPORTES Y COMUNICACIONES",
+    "codigo": "36",
+    "pim": 11560289754.0,
+    "devengado": 8958134441.0,
+    "pct": 77.5,
+    "devengado_ago_oct": 2723518995.0,
+    "pct_ago_oct": 23.6,
+    "devengado_anual": 9070130912.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MUJER Y POBLACIONES VULNERABLES",
+    "codigo": "39",
+    "pim": 1118351375.0,
+    "devengado": 865836675.0,
+    "pct": 77.4,
+    "devengado_ago_oct": 242520496.0,
+    "pct_ago_oct": 21.7,
+    "devengado_anual": 870086539.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "RELACIONES EXTERIORES",
+    "codigo": "08",
+    "pim": 1250425039.0,
+    "devengado": 965235786.0,
+    "pct": 77.2,
+    "devengado_ago_oct": 220067794.0,
+    "pct_ago_oct": 17.6,
+    "devengado_anual": 968904721.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PODER JUDICIAL",
+    "codigo": "04",
+    "pim": 4019918813.0,
+    "devengado": 3076630637.0,
+    "pct": 76.5,
+    "devengado_ago_oct": 948243932.0,
+    "pct_ago_oct": 23.6,
+    "devengado_anual": 3117793588.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+    "codigo": "32",
+    "pim": 2102382516.0,
+    "devengado": 1606466634.0,
+    "pct": 76.4,
+    "devengado_ago_oct": 652464050.0,
+    "pct_ago_oct": 31.0,
+    "devengado_anual": 1616554873.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AMBIENTAL",
+    "codigo": "05",
+    "pim": 1055842519.0,
+    "devengado": 789369226.0,
+    "pct": 74.8,
+    "devengado_ago_oct": 255568913.0,
+    "pct_ago_oct": 24.2,
+    "devengado_anual": 795466996.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONGRESO DE LA REPUBLICA",
+    "codigo": "28",
+    "pim": 1616849913.0,
+    "devengado": 1202118422.0,
+    "pct": 74.3,
+    "devengado_ago_oct": 309289049.0,
+    "pct_ago_oct": 19.1,
+    "devengado_anual": 1223154205.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSORIA DEL PUEBLO",
+    "codigo": "20",
+    "pim": 109935867.0,
+    "devengado": 81382480.0,
+    "pct": 74.0,
+    "devengado_ago_oct": 24414411.0,
+    "pct_ago_oct": 22.2,
+    "devengado_anual": 83738128.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "FUERO MILITAR POLICIAL",
+    "codigo": "27",
+    "pim": 20740326.0,
+    "devengado": 15326660.0,
+    "pct": 73.9,
+    "devengado_ago_oct": 4934430.0,
+    "pct_ago_oct": 23.8,
+    "devengado_anual": 15472456.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUSTICIA",
+    "codigo": "06",
+    "pim": 2451969729.0,
+    "devengado": 1808704756.0,
+    "pct": 73.8,
+    "devengado_ago_oct": 526496026.0,
+    "pct_ago_oct": 21.5,
+    "devengado_anual": 1828883357.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRIBUNAL CONSTITUCIONAL",
+    "codigo": "24",
+    "pim": 59508488.0,
+    "devengado": 43259448.0,
+    "pct": 72.7,
+    "devengado_ago_oct": 12856381.0,
+    "pct_ago_oct": 21.6,
+    "devengado_anual": 44900629.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+    "codigo": "37",
+    "pim": 4789547515.0,
+    "devengado": 3466901268.0,
+    "pct": 72.4,
+    "devengado_ago_oct": 489968621.0,
+    "pct_ago_oct": 10.2,
+    "devengado_anual": 3581875440.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "REGISTRO NACIONAL DE IDENTIFICACION Y ESTADO CIVIL",
+    "codigo": "33",
+    "pim": 595682311.0,
+    "devengado": 423990743.0,
+    "pct": 71.2,
+    "devengado_ago_oct": 133834880.0,
+    "pct_ago_oct": 22.5,
+    "devengado_anual": 435763352.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CULTURA",
+    "codigo": "03",
+    "pim": 768682058.0,
+    "devengado": 540113934.0,
+    "pct": 70.3,
+    "devengado_ago_oct": 168440024.0,
+    "pct_ago_oct": 21.9,
+    "devengado_anual": 548525120.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONTRALORIA GENERAL",
+    "codigo": "19",
+    "pim": 1087841195.0,
+    "devengado": 758962713.0,
+    "pct": 69.8,
+    "devengado_ago_oct": 246901753.0,
+    "pct_ago_oct": 22.7,
+    "devengado_anual": 782321074.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "EDUCACION",
+    "codigo": "10",
+    "pim": 18700080215.0,
+    "devengado": 12920490953.0,
+    "pct": 69.1,
+    "devengado_ago_oct": 3833931382.0,
+    "pct_ago_oct": 20.5,
+    "devengado_anual": 13053161302.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSA",
+    "codigo": "26",
+    "pim": 15032475852.0,
+    "devengado": 10371533114.0,
+    "pct": 69.0,
+    "devengado_ago_oct": 3146787724.0,
+    "pct_ago_oct": 20.9,
+    "devengado_anual": 10859275486.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "COMERCIO EXTERIOR Y TURISMO",
+    "codigo": "35",
+    "pim": 684607326.0,
+    "devengado": 471167589.0,
+    "pct": 68.8,
+    "devengado_ago_oct": 143648013.0,
+    "pct_ago_oct": 21.0,
+    "devengado_anual": 477869543.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRABAJO Y PROMOCION DEL EMPLEO",
+    "codigo": "12",
+    "pim": 1101822512.0,
+    "devengado": 722963667.0,
+    "pct": 65.6,
+    "devengado_ago_oct": 258614285.0,
+    "pct_ago_oct": 23.5,
+    "devengado_anual": 746535792.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUNTA NACIONAL DE JUSTICIA",
+    "codigo": "21",
+    "pim": 54445712.0,
+    "devengado": 35609677.0,
+    "pct": 65.4,
+    "devengado_ago_oct": 10888036.0,
+    "pct_ago_oct": 20.0,
+    "devengado_anual": 36685183.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ENERGIA Y MINAS",
+    "codigo": "16",
+    "pim": 1763686928.0,
+    "devengado": 1041827284.0,
+    "pct": 59.1,
+    "devengado_ago_oct": 238330367.0,
+    "pct_ago_oct": 13.5,
+    "devengado_anual": 1086097911.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AGRARIO Y DE RIEGO",
+    "codigo": "13",
+    "pim": 3997481091.0,
+    "devengado": 2103811371.0,
+    "pct": 52.6,
+    "devengado_ago_oct": 738652286.0,
+    "pct_ago_oct": 18.5,
+    "devengado_anual": 2140298426.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRODUCCION",
+    "codigo": "38",
+    "pim": 1339966846.0,
+    "devengado": 635059835.0,
+    "pct": 47.4,
+    "devengado_ago_oct": 175507210.0,
+    "pct_ago_oct": 13.1,
+    "devengado_anual": 639839226.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  ]
+ },
+ "ejecucion_sectorial_proyectos": {
+  "2006": [
+   {
+    "sector": "DEFENSA",
+    "codigo": "26",
+    "pim": 61447815.0,
+    "devengado": 56836786.0,
+    "pct": 92.5,
+    "devengado_ago_oct": 2339710.0,
+    "pct_ago_oct": 3.8,
+    "devengado_anual": 59389302.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MUJER Y DESARROLLO SOCIAL",
+    "codigo": "39",
+    "pim": 499506509.0,
+    "devengado": 381931657.0,
+    "pct": 76.5,
+    "devengado_ago_oct": 126252275.0,
+    "pct_ago_oct": 25.3,
+    "devengado_anual": 480404933.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRABAJO Y PROMOCION DEL EMPLEO",
+    "codigo": "12",
+    "pim": 205240393.0,
+    "devengado": 133909216.0,
+    "pct": 65.2,
+    "devengado_ago_oct": 41276417.0,
+    "pct_ago_oct": 20.1,
+    "devengado_anual": 187740082.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "RELACIONES EXTERIORES",
+    "codigo": "08",
+    "pim": 7821904.0,
+    "devengado": 4750465.0,
+    "pct": 60.7,
+    "devengado_ago_oct": 225248.0,
+    "pct_ago_oct": 2.9,
+    "devengado_anual": 4922744.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ECONOMIA Y FINANZAS",
+    "codigo": "09",
+    "pim": 187052677.0,
+    "devengado": 112064530.0,
+    "pct": 59.9,
+    "devengado_ago_oct": 60220757.0,
+    "pct_ago_oct": 32.2,
+    "devengado_anual": 122271348.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AGRICULTURA",
+    "codigo": "13",
+    "pim": 598084260.0,
+    "devengado": 320878835.0,
+    "pct": 53.7,
+    "devengado_ago_oct": 140253292.0,
+    "pct_ago_oct": 23.5,
+    "devengado_anual": 468469842.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRANSPORTES Y COMUNICACIONES",
+    "codigo": "36",
+    "pim": 1261130870.0,
+    "devengado": 656471088.0,
+    "pct": 52.1,
+    "devengado_ago_oct": 216142607.0,
+    "pct_ago_oct": 17.1,
+    "devengado_anual": 924820172.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRODUCCION",
+    "codigo": "38",
+    "pim": 27557948.0,
+    "devengado": 14023672.0,
+    "pct": 50.9,
+    "devengado_ago_oct": 10213589.0,
+    "pct_ago_oct": 37.1,
+    "devengado_anual": 19585520.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRESIDENCIA CONSEJO MINISTROS",
+    "codigo": "01",
+    "pim": 131824893.0,
+    "devengado": 56621172.0,
+    "pct": 43.0,
+    "devengado_ago_oct": 18576239.0,
+    "pct_ago_oct": 14.1,
+    "devengado_anual": 71913773.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "EDUCACION",
+    "codigo": "10",
+    "pim": 686861380.0,
+    "devengado": 285348229.0,
+    "pct": 41.5,
+    "devengado_ago_oct": 72836209.0,
+    "pct_ago_oct": 10.6,
+    "devengado_anual": 379299451.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+    "codigo": "37",
+    "pim": 452561804.0,
+    "devengado": 181418806.0,
+    "pct": 40.1,
+    "devengado_ago_oct": 59098484.0,
+    "pct_ago_oct": 13.1,
+    "devengado_anual": 209661006.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "COMERCIO EXTERIOR Y TURISMO",
+    "codigo": "35",
+    "pim": 55842051.0,
+    "devengado": 15335833.0,
+    "pct": 27.5,
+    "devengado_ago_oct": 5601102.0,
+    "pct_ago_oct": 10.0,
+    "devengado_anual": 30493093.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PODER JUDICIAL",
+    "codigo": "04",
+    "pim": 43630620.0,
+    "devengado": 11853533.0,
+    "pct": 27.2,
+    "devengado_ago_oct": 5143222.0,
+    "pct_ago_oct": 11.8,
+    "devengado_anual": 24671810.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ENERGIA Y MINAS",
+    "codigo": "16",
+    "pim": 166757136.0,
+    "devengado": 45174534.0,
+    "pct": 27.1,
+    "devengado_ago_oct": 9810068.0,
+    "pct_ago_oct": 5.9,
+    "devengado_anual": 67357577.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONTRALORIA GENERAL",
+    "codigo": "19",
+    "pim": 20275475.0,
+    "devengado": 5199403.0,
+    "pct": 25.6,
+    "devengado_ago_oct": 140250.0,
+    "pct_ago_oct": 0.7,
+    "devengado_anual": 8145111.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "SALUD",
+    "codigo": "11",
+    "pim": 203991339.0,
+    "devengado": 50548149.0,
+    "pct": 24.8,
+    "devengado_ago_oct": 11635630.0,
+    "pct_ago_oct": 5.7,
+    "devengado_anual": 63559810.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MINISTERIO PUBLICO",
+    "codigo": "22",
+    "pim": 8873464.0,
+    "devengado": 1585898.0,
+    "pct": 17.9,
+    "devengado_ago_oct": 1442837.0,
+    "pct_ago_oct": 16.3,
+    "devengado_anual": 5731251.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "INTERIOR",
+    "codigo": "07",
+    "pim": 16601828.0,
+    "devengado": 1522694.0,
+    "pct": 9.2,
+    "devengado_ago_oct": 473675.0,
+    "pct_ago_oct": 2.9,
+    "devengado_anual": 5380205.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUSTICIA",
+    "codigo": "06",
+    "pim": 48849509.0,
+    "devengado": 4467541.0,
+    "pct": 9.1,
+    "devengado_ago_oct": 3765279.0,
+    "pct_ago_oct": 7.7,
+    "devengado_anual": 8382069.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONGRESO DE LA REPUBLICA",
+    "codigo": "28",
+    "pim": 14450622.0,
+    "devengado": 731777.0,
+    "pct": 5.1,
+    "devengado_ago_oct": 213653.0,
+    "pct_ago_oct": 1.5,
+    "devengado_anual": 2934022.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONSEJO NACIONAL DE LA MAGISTRATURA",
+    "codigo": "21",
+    "pim": 282418.0,
+    "devengado": 5520.0,
+    "pct": 2.0,
+    "devengado_ago_oct": 5520.0,
+    "pct_ago_oct": 2.0,
+    "devengado_anual": 20559.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSORIA DEL PUEBLO",
+    "codigo": "20",
+    "pim": 60000.0,
+    "devengado": 0,
+    "pct": 0.0,
+    "devengado_ago_oct": 0,
+    "pct_ago_oct": 0.0,
+    "devengado_anual": 60000.0,
+    "meses_con_dato": 1,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  ],
+  "2011": [
+   {
+    "sector": "TRANSPORTES Y COMUNICACIONES",
+    "codigo": "36",
+    "pim": 6249883901.0,
+    "devengado": 4834819835.0,
+    "pct": 77.4,
+    "devengado_ago_oct": 1375221873.0,
+    "pct_ago_oct": 22.0,
+    "devengado_anual": 6027996751.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CULTURA",
+    "codigo": "03",
+    "pim": 168406503.0,
+    "devengado": 122849934.0,
+    "pct": 72.9,
+    "devengado_ago_oct": 65340722.0,
+    "pct_ago_oct": 38.8,
+    "devengado_anual": 137262141.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRESIDENCIA CONSEJO MINISTROS",
+    "codigo": "01",
+    "pim": 86847854.0,
+    "devengado": 59343465.0,
+    "pct": 68.3,
+    "devengado_ago_oct": 16667360.0,
+    "pct_ago_oct": 19.2,
+    "devengado_anual": 70037229.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ENERGIA Y MINAS",
+    "codigo": "16",
+    "pim": 503260289.0,
+    "devengado": 313916586.0,
+    "pct": 62.4,
+    "devengado_ago_oct": 83402184.0,
+    "pct_ago_oct": 16.6,
+    "devengado_anual": 386228561.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSA",
+    "codigo": "26",
+    "pim": 275148442.0,
+    "devengado": 163637099.0,
+    "pct": 59.5,
+    "devengado_ago_oct": 69584144.0,
+    "pct_ago_oct": 25.3,
+    "devengado_anual": 245629988.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+    "codigo": "37",
+    "pim": 232285417.0,
+    "devengado": 131809369.0,
+    "pct": 56.7,
+    "devengado_ago_oct": 48155602.0,
+    "pct_ago_oct": 20.7,
+    "devengado_anual": 181434700.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "COMERCIO EXTERIOR Y TURISMO",
+    "codigo": "35",
+    "pim": 57235070.0,
+    "devengado": 29176803.0,
+    "pct": 51.0,
+    "devengado_ago_oct": 8924924.0,
+    "pct_ago_oct": 15.6,
+    "devengado_anual": 41843251.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "RELACIONES EXTERIORES",
+    "codigo": "08",
+    "pim": 13678818.0,
+    "devengado": 6034372.0,
+    "pct": 44.1,
+    "devengado_ago_oct": 149025.0,
+    "pct_ago_oct": 1.1,
+    "devengado_anual": 7723537.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MINISTERIO PUBLICO",
+    "codigo": "22",
+    "pim": 53240025.0,
+    "devengado": 23219935.0,
+    "pct": 43.6,
+    "devengado_ago_oct": 4949147.0,
+    "pct_ago_oct": 9.3,
+    "devengado_anual": 38750223.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "EDUCACION",
+    "codigo": "10",
+    "pim": 1802311822.0,
+    "devengado": 730233382.0,
+    "pct": 40.5,
+    "devengado_ago_oct": 205278259.0,
+    "pct_ago_oct": 11.4,
+    "devengado_anual": 1026452210.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AGRICULTURA",
+    "codigo": "13",
+    "pim": 555633450.0,
+    "devengado": 224648156.0,
+    "pct": 40.4,
+    "devengado_ago_oct": 74531464.0,
+    "pct_ago_oct": 13.4,
+    "devengado_anual": 332060822.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ECONOMIA Y FINANZAS",
+    "codigo": "09",
+    "pim": 115835316.0,
+    "devengado": 41278870.0,
+    "pct": 35.6,
+    "devengado_ago_oct": 12422023.0,
+    "pct_ago_oct": 10.7,
+    "devengado_anual": 60773600.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONTRALORIA GENERAL",
+    "codigo": "19",
+    "pim": 29583693.0,
+    "devengado": 10529049.0,
+    "pct": 35.6,
+    "devengado_ago_oct": 3323889.0,
+    "pct_ago_oct": 11.2,
+    "devengado_anual": 20812639.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "SALUD",
+    "codigo": "11",
+    "pim": 609851828.0,
+    "devengado": 205301012.0,
+    "pct": 33.7,
+    "devengado_ago_oct": 57201144.0,
+    "pct_ago_oct": 9.4,
+    "devengado_anual": 297766117.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MUJER Y DESARROLLO SOCIAL",
+    "codigo": "39",
+    "pim": 35695202.0,
+    "devengado": 11602854.0,
+    "pct": 32.5,
+    "devengado_ago_oct": 3347205.0,
+    "pct_ago_oct": 9.4,
+    "devengado_anual": 14030719.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUSTICIA",
+    "codigo": "06",
+    "pim": 133648293.0,
+    "devengado": 43074628.0,
+    "pct": 32.2,
+    "devengado_ago_oct": 7066545.0,
+    "pct_ago_oct": 5.3,
+    "devengado_anual": 46844571.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AMBIENTAL",
+    "codigo": "05",
+    "pim": 21282895.0,
+    "devengado": 6759825.0,
+    "pct": 31.8,
+    "devengado_ago_oct": 3725935.0,
+    "pct_ago_oct": 17.5,
+    "devengado_anual": 11178734.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRODUCCION",
+    "codigo": "38",
+    "pim": 14067926.0,
+    "devengado": 4108227.0,
+    "pct": 29.2,
+    "devengado_ago_oct": 611420.0,
+    "pct_ago_oct": 4.3,
+    "devengado_anual": 6684986.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRABAJO Y PROMOCION DEL EMPLEO",
+    "codigo": "12",
+    "pim": 34651.0,
+    "devengado": 8310.0,
+    "pct": 24.0,
+    "devengado_ago_oct": 8310.0,
+    "pct_ago_oct": 24.0,
+    "devengado_anual": 10060.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PODER JUDICIAL",
+    "codigo": "04",
+    "pim": 34554872.0,
+    "devengado": 8138143.0,
+    "pct": 23.6,
+    "devengado_ago_oct": 6356089.0,
+    "pct_ago_oct": 18.4,
+    "devengado_anual": 14576923.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "INTERIOR",
+    "codigo": "07",
+    "pim": 104486750.0,
+    "devengado": 6407078.0,
+    "pct": 6.1,
+    "devengado_ago_oct": 830293.0,
+    "pct_ago_oct": 0.8,
+    "devengado_anual": 15968382.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+    "codigo": "32",
+    "pim": 1335302.0,
+    "devengado": 6108.0,
+    "pct": 0.5,
+    "devengado_ago_oct": 6108.0,
+    "pct_ago_oct": 0.5,
+    "devengado_anual": 175126.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JURADO NACIONAL DE ELECCIONES",
+    "codigo": "31",
+    "pim": 190000.0,
+    "devengado": 0.0,
+    "pct": 0.0,
+    "devengado_ago_oct": 0.0,
+    "pct_ago_oct": 0.0,
+    "devengado_anual": 0.0,
+    "meses_con_dato": 6,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  ],
+  "2016": [
+   {
+    "sector": "JURADO NACIONAL DE ELECCIONES",
+    "codigo": "31",
+    "pim": 23091767.0,
+    "devengado": 22647633.0,
+    "pct": 98.1,
+    "devengado_ago_oct": 4661.0,
+    "pct_ago_oct": 0.0,
+    "devengado_anual": 22679233.0,
+    "meses_con_dato": 7,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DESARROLLO E INCLUSION SOCIAL",
+    "codigo": "40",
+    "pim": 14295592.0,
+    "devengado": 13896215.0,
+    "pct": 97.2,
+    "devengado_ago_oct": 158824.0,
+    "pct_ago_oct": 1.1,
+    "devengado_anual": 14115655.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "FUERO MILITAR POLICIAL",
+    "codigo": "27",
+    "pim": 1197405.0,
+    "devengado": 1098000.0,
+    "pct": 91.7,
+    "devengado_ago_oct": 1098000.0,
+    "pct_ago_oct": 91.7,
+    "devengado_anual": 1197405.0,
+    "meses_con_dato": 5,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRIBUNAL CONSTITUCIONAL",
+    "codigo": "24",
+    "pim": 20538744.0,
+    "devengado": 18706499.0,
+    "pct": 91.1,
+    "devengado_ago_oct": 272654.0,
+    "pct_ago_oct": 1.3,
+    "devengado_anual": 18965018.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRABAJO Y PROMOCION DEL EMPLEO",
+    "codigo": "12",
+    "pim": 1990737.0,
+    "devengado": 1642638.0,
+    "pct": 82.5,
+    "devengado_ago_oct": 240269.0,
+    "pct_ago_oct": 12.1,
+    "devengado_anual": 1769197.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONTRALORIA GENERAL",
+    "codigo": "19",
+    "pim": 43944792.0,
+    "devengado": 35759968.0,
+    "pct": 81.4,
+    "devengado_ago_oct": 7475323.0,
+    "pct_ago_oct": 17.0,
+    "devengado_anual": 38119185.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "REGISTRO NACIONAL DE IDENTIFICACION Y ESTADO CIVIL",
+    "codigo": "33",
+    "pim": 420176.0,
+    "devengado": 300325.0,
+    "pct": 71.5,
+    "devengado_ago_oct": 120130.0,
+    "pct_ago_oct": 28.6,
+    "devengado_anual": 300325.0,
+    "meses_con_dato": 3,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "COMERCIO EXTERIOR Y TURISMO",
+    "codigo": "35",
+    "pim": 100525240.0,
+    "devengado": 71458864.0,
+    "pct": 71.1,
+    "devengado_ago_oct": 19709813.0,
+    "pct_ago_oct": 19.6,
+    "devengado_anual": 88580859.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ENERGIA Y MINAS",
+    "codigo": "16",
+    "pim": 245380087.0,
+    "devengado": 153221977.0,
+    "pct": 62.4,
+    "devengado_ago_oct": 37392631.0,
+    "pct_ago_oct": 15.2,
+    "devengado_anual": 170532136.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "RELACIONES EXTERIORES",
+    "codigo": "08",
+    "pim": 64252757.0,
+    "devengado": 39216594.0,
+    "pct": 61.0,
+    "devengado_ago_oct": 26693232.0,
+    "pct_ago_oct": 41.5,
+    "devengado_anual": 45641072.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRANSPORTES Y COMUNICACIONES",
+    "codigo": "36",
+    "pim": 7483708987.0,
+    "devengado": 4487002306.0,
+    "pct": 60.0,
+    "devengado_ago_oct": 1705480797.0,
+    "pct_ago_oct": 22.8,
+    "devengado_anual": 5922861684.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AGRICULTURA",
+    "codigo": "13",
+    "pim": 997341827.0,
+    "devengado": 560172755.0,
+    "pct": 56.2,
+    "devengado_ago_oct": 182920635.0,
+    "pct_ago_oct": 18.3,
+    "devengado_anual": 755657560.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PODER JUDICIAL",
+    "codigo": "04",
+    "pim": 55346717.0,
+    "devengado": 30466725.0,
+    "pct": 55.0,
+    "devengado_ago_oct": 4659169.0,
+    "pct_ago_oct": 8.4,
+    "devengado_anual": 38756245.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ECONOMIA Y FINANZAS",
+    "codigo": "09",
+    "pim": 364773441.0,
+    "devengado": 192533185.0,
+    "pct": 52.8,
+    "devengado_ago_oct": 78346167.0,
+    "pct_ago_oct": 21.5,
+    "devengado_anual": 245861128.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONSEJO NACIONAL DE LA MAGISTRATURA",
+    "codigo": "21",
+    "pim": 25466766.0,
+    "devengado": 12884449.0,
+    "pct": 50.6,
+    "devengado_ago_oct": 854379.0,
+    "pct_ago_oct": 3.4,
+    "devengado_anual": 15200147.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CULTURA",
+    "codigo": "03",
+    "pim": 74005583.0,
+    "devengado": 37274552.0,
+    "pct": 50.4,
+    "devengado_ago_oct": 10836878.0,
+    "pct_ago_oct": 14.6,
+    "devengado_anual": 46135415.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSA",
+    "codigo": "26",
+    "pim": 1483860216.0,
+    "devengado": 684399022.0,
+    "pct": 46.1,
+    "devengado_ago_oct": 173303879.0,
+    "pct_ago_oct": 11.7,
+    "devengado_anual": 945268777.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRODUCCION",
+    "codigo": "38",
+    "pim": 261219313.0,
+    "devengado": 117311804.0,
+    "pct": 44.9,
+    "devengado_ago_oct": 19778471.0,
+    "pct_ago_oct": 7.6,
+    "devengado_anual": 141062556.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AMBIENTAL",
+    "codigo": "05",
+    "pim": 103658741.0,
+    "devengado": 42457332.0,
+    "pct": 41.0,
+    "devengado_ago_oct": 18195274.0,
+    "pct_ago_oct": 17.6,
+    "devengado_anual": 51579751.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "EDUCACION",
+    "codigo": "10",
+    "pim": 1772059692.0,
+    "devengado": 706635157.0,
+    "pct": 39.9,
+    "devengado_ago_oct": 228598240.0,
+    "pct_ago_oct": 12.9,
+    "devengado_anual": 1089805476.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+    "codigo": "37",
+    "pim": 650951403.0,
+    "devengado": 256992639.0,
+    "pct": 39.5,
+    "devengado_ago_oct": 52724129.0,
+    "pct_ago_oct": 8.1,
+    "devengado_anual": 303640658.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "SALUD",
+    "codigo": "11",
+    "pim": 214277032.0,
+    "devengado": 80801161.0,
+    "pct": 37.7,
+    "devengado_ago_oct": 30332303.0,
+    "pct_ago_oct": 14.2,
+    "devengado_anual": 117736019.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRESIDENCIA CONSEJO MINISTROS",
+    "codigo": "01",
+    "pim": 915037.0,
+    "devengado": 294316.0,
+    "pct": 32.2,
+    "devengado_ago_oct": 150016.0,
+    "pct_ago_oct": 16.4,
+    "devengado_anual": 294316.0,
+    "meses_con_dato": 10,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUSTICIA",
+    "codigo": "06",
+    "pim": 143201267.0,
+    "devengado": 42594053.0,
+    "pct": 29.7,
+    "devengado_ago_oct": 11700371.0,
+    "pct_ago_oct": 8.2,
+    "devengado_anual": 53200441.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "INTERIOR",
+    "codigo": "07",
+    "pim": 406447274.0,
+    "devengado": 107316182.0,
+    "pct": 26.4,
+    "devengado_ago_oct": 64383879.0,
+    "pct_ago_oct": 15.8,
+    "devengado_anual": 206758040.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MINISTERIO PUBLICO",
+    "codigo": "22",
+    "pim": 25480697.0,
+    "devengado": 5183419.0,
+    "pct": 20.3,
+    "devengado_ago_oct": 3166657.0,
+    "pct_ago_oct": 12.4,
+    "devengado_anual": 12809190.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MUJER Y POBLACIONES VULNERABLES",
+    "codigo": "39",
+    "pim": 1152583.0,
+    "devengado": 155799.0,
+    "pct": 13.5,
+    "devengado_ago_oct": 0.0,
+    "pct_ago_oct": 0.0,
+    "devengado_anual": 916589.0,
+    "meses_con_dato": 10,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONGRESO DE LA REPUBLICA",
+    "codigo": "28",
+    "pim": 43817947.0,
+    "devengado": 151540.0,
+    "pct": 0.3,
+    "devengado_ago_oct": 0.0,
+    "pct_ago_oct": 0.0,
+    "devengado_anual": 178680.0,
+    "meses_con_dato": 8,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+    "codigo": "32",
+    "pim": 70571864.0,
+    "devengado": 0.0,
+    "pct": 0.0,
+    "devengado_ago_oct": 0,
+    "pct_ago_oct": 0.0,
+    "devengado_anual": 3800.0,
+    "meses_con_dato": 2,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  ],
+  "2021": [
+   {
+    "sector": "DEFENSORIA DEL PUEBLO",
+    "codigo": "20",
+    "pim": 818767.0,
+    "devengado": 653510.0,
+    "pct": 79.8,
+    "devengado_ago_oct": 40589.0,
+    "pct_ago_oct": 5.0,
+    "devengado_anual": 750437.0,
+    "meses_con_dato": 8,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRODUCCION",
+    "codigo": "38",
+    "pim": 272292339.0,
+    "devengado": 190299571.0,
+    "pct": 69.9,
+    "devengado_ago_oct": 56318896.0,
+    "pct_ago_oct": 20.7,
+    "devengado_anual": 249605282.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MUJER Y POBLACIONES VULNERABLES",
+    "codigo": "39",
+    "pim": 7591335.0,
+    "devengado": 5270525.0,
+    "pct": 69.4,
+    "devengado_ago_oct": 1906263.0,
+    "pct_ago_oct": 25.1,
+    "devengado_anual": 7385283.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRANSPORTES Y COMUNICACIONES",
+    "codigo": "36",
+    "pim": 9733252424.0,
+    "devengado": 6672209959.0,
+    "pct": 68.6,
+    "devengado_ago_oct": 2646346118.0,
+    "pct_ago_oct": 27.2,
+    "devengado_anual": 8219688262.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+    "codigo": "37",
+    "pim": 1023844429.0,
+    "devengado": 679965322.0,
+    "pct": 66.4,
+    "devengado_ago_oct": 264758764.0,
+    "pct_ago_oct": 25.9,
+    "devengado_anual": 875528722.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "COMERCIO EXTERIOR Y TURISMO",
+    "codigo": "35",
+    "pim": 79894212.0,
+    "devengado": 51178366.0,
+    "pct": 64.1,
+    "devengado_ago_oct": 15666509.0,
+    "pct_ago_oct": 19.6,
+    "devengado_anual": 71809097.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ENERGIA Y MINAS",
+    "codigo": "16",
+    "pim": 248428174.0,
+    "devengado": 157708536.0,
+    "pct": 63.5,
+    "devengado_ago_oct": 60325495.0,
+    "pct_ago_oct": 24.3,
+    "devengado_anual": 208818280.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRESIDENCIA CONSEJO MINISTROS",
+    "codigo": "01",
+    "pim": 2645051953.0,
+    "devengado": 1640953431.0,
+    "pct": 62.0,
+    "devengado_ago_oct": 359029671.0,
+    "pct_ago_oct": 13.6,
+    "devengado_anual": 2108042771.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRABAJO Y PROMOCION DEL EMPLEO",
+    "codigo": "12",
+    "pim": 49519441.0,
+    "devengado": 30148765.0,
+    "pct": 60.9,
+    "devengado_ago_oct": 12928274.0,
+    "pct_ago_oct": 26.1,
+    "devengado_anual": 41164346.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ECONOMIA Y FINANZAS",
+    "codigo": "09",
+    "pim": 382811188.0,
+    "devengado": 215651626.0,
+    "pct": 56.3,
+    "devengado_ago_oct": 80406988.0,
+    "pct_ago_oct": 21.0,
+    "devengado_anual": 327456038.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSA",
+    "codigo": "26",
+    "pim": 524363032.0,
+    "devengado": 260653001.0,
+    "pct": 49.7,
+    "devengado_ago_oct": 34789662.0,
+    "pct_ago_oct": 6.6,
+    "devengado_anual": 394894028.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CULTURA",
+    "codigo": "03",
+    "pim": 156851844.0,
+    "devengado": 74843406.0,
+    "pct": 47.7,
+    "devengado_ago_oct": 23377158.0,
+    "pct_ago_oct": 14.9,
+    "devengado_anual": 113324160.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AGRARIO Y DE RIEGO",
+    "codigo": "13",
+    "pim": 1416297256.0,
+    "devengado": 668313257.0,
+    "pct": 47.2,
+    "devengado_ago_oct": 235792168.0,
+    "pct_ago_oct": 16.6,
+    "devengado_anual": 907909205.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "EDUCACION",
+    "codigo": "10",
+    "pim": 2336953901.0,
+    "devengado": 1053107226.0,
+    "pct": 45.1,
+    "devengado_ago_oct": 266954138.0,
+    "pct_ago_oct": 11.4,
+    "devengado_anual": 1754215379.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PODER JUDICIAL",
+    "codigo": "04",
+    "pim": 117017709.0,
+    "devengado": 51560053.0,
+    "pct": 44.1,
+    "devengado_ago_oct": 22151528.0,
+    "pct_ago_oct": 18.9,
+    "devengado_anual": 85499957.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AMBIENTAL",
+    "codigo": "05",
+    "pim": 193727659.0,
+    "devengado": 83329912.0,
+    "pct": 43.0,
+    "devengado_ago_oct": 21742474.0,
+    "pct_ago_oct": 11.2,
+    "devengado_anual": 111695994.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "SALUD",
+    "codigo": "11",
+    "pim": 970552802.0,
+    "devengado": 368507260.0,
+    "pct": 38.0,
+    "devengado_ago_oct": 97743360.0,
+    "pct_ago_oct": 10.1,
+    "devengado_anual": 469749517.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "INTERIOR",
+    "codigo": "07",
+    "pim": 337765251.0,
+    "devengado": 125271968.0,
+    "pct": 37.1,
+    "devengado_ago_oct": 53946335.0,
+    "pct_ago_oct": 16.0,
+    "devengado_anual": 168255164.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONTRALORIA GENERAL",
+    "codigo": "19",
+    "pim": 72072580.0,
+    "devengado": 26742845.0,
+    "pct": 37.1,
+    "devengado_ago_oct": 5963686.0,
+    "pct_ago_oct": 8.3,
+    "devengado_anual": 39469279.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUSTICIA",
+    "codigo": "06",
+    "pim": 216775134.0,
+    "devengado": 68512154.0,
+    "pct": 31.6,
+    "devengado_ago_oct": 21545161.0,
+    "pct_ago_oct": 9.9,
+    "devengado_anual": 101285835.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUNTA NACIONAL DE JUSTICIA",
+    "codigo": "21",
+    "pim": 11121311.0,
+    "devengado": 2648297.0,
+    "pct": 23.8,
+    "devengado_ago_oct": 375272.0,
+    "pct_ago_oct": 3.4,
+    "devengado_anual": 8009164.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "REGISTRO NACIONAL DE IDENTIFICACION Y ESTADO CIVIL",
+    "codigo": "33",
+    "pim": 68305133.0,
+    "devengado": 16031277.0,
+    "pct": 23.5,
+    "devengado_ago_oct": 7236629.0,
+    "pct_ago_oct": 10.6,
+    "devengado_anual": 22382375.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MINISTERIO PUBLICO",
+    "codigo": "22",
+    "pim": 75012372.0,
+    "devengado": 9178876.0,
+    "pct": 12.2,
+    "devengado_ago_oct": 3589786.0,
+    "pct_ago_oct": 4.8,
+    "devengado_anual": 18950347.0,
+    "meses_con_dato": 12,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "RELACIONES EXTERIORES",
+    "codigo": "08",
+    "pim": 7660389.0,
+    "devengado": 272379.0,
+    "pct": 3.6,
+    "devengado_ago_oct": 272379.0,
+    "pct_ago_oct": 3.6,
+    "devengado_anual": 918708.0,
+    "meses_con_dato": 7,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DESARROLLO E INCLUSION SOCIAL",
+    "codigo": "40",
+    "pim": 5102132.0,
+    "devengado": 27840.0,
+    "pct": 0.5,
+    "devengado_ago_oct": 27840.0,
+    "pct_ago_oct": 0.5,
+    "devengado_anual": 4665130.0,
+    "meses_con_dato": 6,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONGRESO DE LA REPUBLICA",
+    "codigo": "28",
+    "pim": 172370.0,
+    "devengado": 0.0,
+    "pct": 0.0,
+    "devengado_ago_oct": 0.0,
+    "pct_ago_oct": 0.0,
+    "devengado_anual": 0.0,
+    "meses_con_dato": 1,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+    "codigo": "32",
+    "pim": 58354927.0,
+    "devengado": 0,
+    "pct": 0.0,
+    "devengado_ago_oct": 0,
+    "pct_ago_oct": 0.0,
+    "devengado_anual": 0.0,
+    "meses_con_dato": 0,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "media"
+   }
+  ],
+  "2026": [
+   {
+    "sector": "CONGRESO DE LA REPUBLICA",
+    "codigo": "28",
+    "pim": 32337694.0,
+    "devengado": 27707510.0,
+    "pct": 85.7,
+    "devengado_ago_oct": 4007326.0,
+    "pct_ago_oct": 12.4,
+    "devengado_anual": 27907862.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRANSPORTES Y COMUNICACIONES",
+    "codigo": "36",
+    "pim": 6415847696.0,
+    "devengado": 5236398223.0,
+    "pct": 81.6,
+    "devengado_ago_oct": 1636258360.0,
+    "pct_ago_oct": 25.5,
+    "devengado_anual": 5294558116.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRESIDENCIA CONSEJO MINISTROS",
+    "codigo": "01",
+    "pim": 3778515429.0,
+    "devengado": 3002264598.0,
+    "pct": 79.5,
+    "devengado_ago_oct": 959399551.0,
+    "pct_ago_oct": 25.4,
+    "devengado_anual": 3044553476.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "COMERCIO EXTERIOR Y TURISMO",
+    "codigo": "35",
+    "pim": 92033650.0,
+    "devengado": 72367146.0,
+    "pct": 78.6,
+    "devengado_ago_oct": 17367237.0,
+    "pct_ago_oct": 18.9,
+    "devengado_anual": 73481315.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "SALUD",
+    "codigo": "11",
+    "pim": 1955105108.0,
+    "devengado": 1482742032.0,
+    "pct": 75.8,
+    "devengado_ago_oct": 364532140.0,
+    "pct_ago_oct": 18.6,
+    "devengado_anual": 1490343149.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CULTURA",
+    "codigo": "03",
+    "pim": 78658604.0,
+    "devengado": 58833850.0,
+    "pct": 74.8,
+    "devengado_ago_oct": 19264626.0,
+    "pct_ago_oct": 24.5,
+    "devengado_anual": 59036546.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PRODUCCION",
+    "codigo": "38",
+    "pim": 95806492.0,
+    "devengado": 70985890.0,
+    "pct": 74.1,
+    "devengado_ago_oct": 18257901.0,
+    "pct_ago_oct": 19.1,
+    "devengado_anual": 71230473.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AMBIENTAL",
+    "codigo": "05",
+    "pim": 207104590.0,
+    "devengado": 149423149.0,
+    "pct": 72.1,
+    "devengado_ago_oct": 34165584.0,
+    "pct_ago_oct": 16.5,
+    "devengado_anual": 149847519.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "REGISTRO NACIONAL DE IDENTIFICACION Y ESTADO CIVIL",
+    "codigo": "33",
+    "pim": 5249626.0,
+    "devengado": 3723118.0,
+    "pct": 70.9,
+    "devengado_ago_oct": 610824.0,
+    "pct_ago_oct": 11.6,
+    "devengado_anual": 3723118.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "AGRARIO Y DE RIEGO",
+    "codigo": "13",
+    "pim": 923527362.0,
+    "devengado": 611542774.0,
+    "pct": 66.2,
+    "devengado_ago_oct": 186717355.0,
+    "pct_ago_oct": 20.2,
+    "devengado_anual": 613031967.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ENERGIA Y MINAS",
+    "codigo": "16",
+    "pim": 445509276.0,
+    "devengado": 293974791.0,
+    "pct": 66.0,
+    "devengado_ago_oct": 127204033.0,
+    "pct_ago_oct": 28.6,
+    "devengado_anual": 295995268.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUSTICIA",
+    "codigo": "06",
+    "pim": 202649747.0,
+    "devengado": 131199907.0,
+    "pct": 64.7,
+    "devengado_ago_oct": 32097322.0,
+    "pct_ago_oct": 15.8,
+    "devengado_anual": 131287452.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "EDUCACION",
+    "codigo": "10",
+    "pim": 2098282892.0,
+    "devengado": 1337111592.0,
+    "pct": 63.7,
+    "devengado_ago_oct": 359753776.0,
+    "pct_ago_oct": 17.1,
+    "devengado_anual": 1352544109.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "RELACIONES EXTERIORES",
+    "codigo": "08",
+    "pim": 15889741.0,
+    "devengado": 9873989.0,
+    "pct": 62.1,
+    "devengado_ago_oct": 3805941.0,
+    "pct_ago_oct": 24.0,
+    "devengado_anual": 10031773.0,
+    "meses_con_dato": 10,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSA",
+    "codigo": "26",
+    "pim": 3864096146.0,
+    "devengado": 2389035010.0,
+    "pct": 61.8,
+    "devengado_ago_oct": 390137294.0,
+    "pct_ago_oct": 10.1,
+    "devengado_anual": 2389283230.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+    "codigo": "37",
+    "pim": 2228557346.0,
+    "devengado": 1316091211.0,
+    "pct": 59.1,
+    "devengado_ago_oct": 333515978.0,
+    "pct_ago_oct": 15.0,
+    "devengado_anual": 1426244931.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "JUNTA NACIONAL DE JUSTICIA",
+    "codigo": "21",
+    "pim": 4440118.0,
+    "devengado": 2616746.0,
+    "pct": 58.9,
+    "devengado_ago_oct": 527798.0,
+    "pct_ago_oct": 11.9,
+    "devengado_anual": 2616745.0,
+    "meses_con_dato": 10,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "TRABAJO Y PROMOCION DEL EMPLEO",
+    "codigo": "12",
+    "pim": 8969709.0,
+    "devengado": 5187166.0,
+    "pct": 57.8,
+    "devengado_ago_oct": 2419629.0,
+    "pct_ago_oct": 27.0,
+    "devengado_anual": 5293164.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "ECONOMIA Y FINANZAS",
+    "codigo": "09",
+    "pim": 1052155891.0,
+    "devengado": 580543419.0,
+    "pct": 55.2,
+    "devengado_ago_oct": 85219794.0,
+    "pct_ago_oct": 8.1,
+    "devengado_anual": 581175381.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MUJER Y POBLACIONES VULNERABLES",
+    "codigo": "39",
+    "pim": 17303944.0,
+    "devengado": 9161262.0,
+    "pct": 52.9,
+    "devengado_ago_oct": 4752022.0,
+    "pct_ago_oct": 27.5,
+    "devengado_anual": 9167261.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "INTERIOR",
+    "codigo": "07",
+    "pim": 551015063.0,
+    "devengado": 273720242.0,
+    "pct": 49.7,
+    "devengado_ago_oct": 38291308.0,
+    "pct_ago_oct": 6.9,
+    "devengado_anual": 280590309.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DEFENSORIA DEL PUEBLO",
+    "codigo": "20",
+    "pim": 4184779.0,
+    "devengado": 1878869.0,
+    "pct": 44.9,
+    "devengado_ago_oct": 383345.0,
+    "pct_ago_oct": 9.2,
+    "devengado_anual": 2068870.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "CONTRALORIA GENERAL",
+    "codigo": "19",
+    "pim": 49437807.0,
+    "devengado": 20786690.0,
+    "pct": 42.0,
+    "devengado_ago_oct": 4139767.0,
+    "pct_ago_oct": 8.4,
+    "devengado_anual": 22325038.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "DESARROLLO E INCLUSION SOCIAL",
+    "codigo": "40",
+    "pim": 50917827.0,
+    "devengado": 17241089.0,
+    "pct": 33.9,
+    "devengado_ago_oct": 5378524.0,
+    "pct_ago_oct": 10.6,
+    "devengado_anual": 17261624.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "MINISTERIO PUBLICO",
+    "codigo": "22",
+    "pim": 47982865.0,
+    "devengado": 15531507.0,
+    "pct": 32.4,
+    "devengado_ago_oct": 6994592.0,
+    "pct_ago_oct": 14.6,
+    "devengado_anual": 15644757.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   {
+    "sector": "PODER JUDICIAL",
+    "codigo": "04",
+    "pim": 144830603.0,
+    "devengado": 44753945.0,
+    "pct": 30.9,
+    "devengado_ago_oct": 25021656.0,
+    "pct_ago_oct": 17.3,
+    "devengado_anual": 45001040.0,
+    "meses_con_dato": 11,
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  ]
+ },
+ "ranking": {
+  "2006": {
+   "ActProy": {
+    "mejores_5": [
+     {
+      "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+      "pct": 86.7
+     },
+     {
+      "sector": "REGISTRO NACIONAL DE IDENTIFICACION Y ESTADO CIVIL",
+      "pct": 79.9
+     },
+     {
+      "sector": "MUJER Y DESARROLLO SOCIAL",
+      "pct": 78.5
+     },
+     {
+      "sector": "DEFENSA",
+      "pct": 77.5
+     },
+     {
+      "sector": "RELACIONES EXTERIORES",
+      "pct": 77.4
+     }
+    ],
+    "peores_5": [
+     {
+      "sector": "ENERGIA Y MINAS",
+      "pct": 39.7
+     },
+     {
+      "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+      "pct": 54.0
+     },
+     {
+      "sector": "TRANSPORTES Y COMUNICACIONES",
+      "pct": 56.0
+     },
+     {
+      "sector": "COMERCIO EXTERIOR Y TURISMO",
+      "pct": 57.6
+     },
+     {
+      "sector": "PRESIDENCIA CONSEJO MINISTROS",
+      "pct": 57.9
+     }
+    ],
+    "criterio": "sectores con PIM >= S/ 50 millones"
+   },
+   "Proyecto": {
+    "mejores_5": [
+     {
+      "sector": "DEFENSA",
+      "pct": 92.5
+     },
+     {
+      "sector": "MUJER Y DESARROLLO SOCIAL",
+      "pct": 76.5
+     },
+     {
+      "sector": "TRABAJO Y PROMOCION DEL EMPLEO",
+      "pct": 65.2
+     },
+     {
+      "sector": "ECONOMIA Y FINANZAS",
+      "pct": 59.9
+     },
+     {
+      "sector": "AGRICULTURA",
+      "pct": 53.7
+     }
+    ],
+    "peores_5": [
+     {
+      "sector": "SALUD",
+      "pct": 24.8
+     },
+     {
+      "sector": "ENERGIA Y MINAS",
+      "pct": 27.1
+     },
+     {
+      "sector": "COMERCIO EXTERIOR Y TURISMO",
+      "pct": 27.5
+     },
+     {
+      "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+      "pct": 40.1
+     },
+     {
+      "sector": "EDUCACION",
+      "pct": 41.5
+     }
+    ],
+    "criterio": "sectores con PIM >= S/ 50 millones"
+   }
+  },
+  "2011": {
+   "ActProy": {
+    "mejores_5": [
+     {
+      "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+      "pct": 78.1
+     },
+     {
+      "sector": "JURADO NACIONAL DE ELECCIONES",
+      "pct": 76.8
+     },
+     {
+      "sector": "TRANSPORTES Y COMUNICACIONES",
+      "pct": 76.1
+     },
+     {
+      "sector": "RELACIONES EXTERIORES",
+      "pct": 74.9
+     },
+     {
+      "sector": "INTERIOR",
+      "pct": 73.6
+     }
+    ],
+    "peores_5": [
+     {
+      "sector": "TRABAJO Y PROMOCION DEL EMPLEO",
+      "pct": 34.1
+     },
+     {
+      "sector": "AGRICULTURA",
+      "pct": 50.7
+     },
+     {
+      "sector": "REGISTRO NACIONAL DE IDENTIFICACION Y ESTADO CIVIL",
+      "pct": 52.0
+     },
+     {
+      "sector": "COMERCIO EXTERIOR Y TURISMO",
+      "pct": 52.8
+     },
+     {
+      "sector": "MUJER Y DESARROLLO SOCIAL",
+      "pct": 53.6
+     }
+    ],
+    "criterio": "sectores con PIM >= S/ 50 millones"
+   },
+   "Proyecto": {
+    "mejores_5": [
+     {
+      "sector": "TRANSPORTES Y COMUNICACIONES",
+      "pct": 77.4
+     },
+     {
+      "sector": "CULTURA",
+      "pct": 72.9
+     },
+     {
+      "sector": "PRESIDENCIA CONSEJO MINISTROS",
+      "pct": 68.3
+     },
+     {
+      "sector": "ENERGIA Y MINAS",
+      "pct": 62.4
+     },
+     {
+      "sector": "DEFENSA",
+      "pct": 59.5
+     }
+    ],
+    "peores_5": [
+     {
+      "sector": "INTERIOR",
+      "pct": 6.1
+     },
+     {
+      "sector": "JUSTICIA",
+      "pct": 32.2
+     },
+     {
+      "sector": "SALUD",
+      "pct": 33.7
+     },
+     {
+      "sector": "ECONOMIA Y FINANZAS",
+      "pct": 35.6
+     },
+     {
+      "sector": "AGRICULTURA",
+      "pct": 40.4
+     }
+    ],
+    "criterio": "sectores con PIM >= S/ 50 millones"
+   }
+  },
+  "2016": {
+   "ActProy": {
+    "mejores_5": [
+     {
+      "sector": "JURADO NACIONAL DE ELECCIONES",
+      "pct": 88.8
+     },
+     {
+      "sector": "TRIBUNAL CONSTITUCIONAL",
+      "pct": 80.9
+     },
+     {
+      "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+      "pct": 80.6
+     },
+     {
+      "sector": "DESARROLLO E INCLUSION SOCIAL",
+      "pct": 78.9
+     },
+     {
+      "sector": "MUJER Y POBLACIONES VULNERABLES",
+      "pct": 77.1
+     }
+    ],
+    "peores_5": [
+     {
+      "sector": "PRODUCCION",
+      "pct": 61.2
+     },
+     {
+      "sector": "PRESIDENCIA CONSEJO MINISTROS",
+      "pct": 61.5
+     },
+     {
+      "sector": "AMBIENTAL",
+      "pct": 61.6
+     },
+     {
+      "sector": "AGRICULTURA",
+      "pct": 62.9
+     },
+     {
+      "sector": "EDUCACION",
+      "pct": 63.3
+     }
+    ],
+    "criterio": "sectores con PIM >= S/ 50 millones"
+   },
+   "Proyecto": {
+    "mejores_5": [
+     {
+      "sector": "COMERCIO EXTERIOR Y TURISMO",
+      "pct": 71.1
+     },
+     {
+      "sector": "ENERGIA Y MINAS",
+      "pct": 62.4
+     },
+     {
+      "sector": "RELACIONES EXTERIORES",
+      "pct": 61.0
+     },
+     {
+      "sector": "TRANSPORTES Y COMUNICACIONES",
+      "pct": 60.0
+     },
+     {
+      "sector": "AGRICULTURA",
+      "pct": 56.2
+     }
+    ],
+    "peores_5": [
+     {
+      "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+      "pct": 0.0
+     },
+     {
+      "sector": "INTERIOR",
+      "pct": 26.4
+     },
+     {
+      "sector": "JUSTICIA",
+      "pct": 29.7
+     },
+     {
+      "sector": "SALUD",
+      "pct": 37.7
+     },
+     {
+      "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+      "pct": 39.5
+     }
+    ],
+    "criterio": "sectores con PIM >= S/ 50 millones"
+   }
+  },
+  "2021": {
+   "ActProy": {
+    "mejores_5": [
+     {
+      "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+      "pct": 86.8
+     },
+     {
+      "sector": "JURADO NACIONAL DE ELECCIONES",
+      "pct": 79.3
+     },
+     {
+      "sector": "DESARROLLO E INCLUSION SOCIAL",
+      "pct": 76.1
+     },
+     {
+      "sector": "MUJER Y POBLACIONES VULNERABLES",
+      "pct": 75.7
+     },
+     {
+      "sector": "INTERIOR",
+      "pct": 75.6
+     }
+    ],
+    "peores_5": [
+     {
+      "sector": "ENERGIA Y MINAS",
+      "pct": 43.0
+     },
+     {
+      "sector": "COMERCIO EXTERIOR Y TURISMO",
+      "pct": 54.3
+     },
+     {
+      "sector": "REGISTRO NACIONAL DE IDENTIFICACION Y ESTADO CIVIL",
+      "pct": 56.9
+     },
+     {
+      "sector": "AGRARIO Y DE RIEGO",
+      "pct": 59.8
+     },
+     {
+      "sector": "PRESIDENCIA CONSEJO MINISTROS",
+      "pct": 61.3
+     }
+    ],
+    "criterio": "sectores con PIM >= S/ 50 millones"
+   },
+   "Proyecto": {
+    "mejores_5": [
+     {
+      "sector": "PRODUCCION",
+      "pct": 69.9
+     },
+     {
+      "sector": "TRANSPORTES Y COMUNICACIONES",
+      "pct": 68.6
+     },
+     {
+      "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+      "pct": 66.4
+     },
+     {
+      "sector": "COMERCIO EXTERIOR Y TURISMO",
+      "pct": 64.1
+     },
+     {
+      "sector": "ENERGIA Y MINAS",
+      "pct": 63.5
+     }
+    ],
+    "peores_5": [
+     {
+      "sector": "OFICINA NACIONAL DE PROCESOS ELECTORALES",
+      "pct": 0.0
+     },
+     {
+      "sector": "MINISTERIO PUBLICO",
+      "pct": 12.2
+     },
+     {
+      "sector": "REGISTRO NACIONAL DE IDENTIFICACION Y ESTADO CIVIL",
+      "pct": 23.5
+     },
+     {
+      "sector": "JUSTICIA",
+      "pct": 31.6
+     },
+     {
+      "sector": "CONTRALORIA GENERAL",
+      "pct": 37.1
+     }
+    ],
+    "criterio": "sectores con PIM >= S/ 50 millones"
+   }
+  },
+  "2026": {
+   "ActProy": {
+    "mejores_5": [
+     {
+      "sector": "MINISTERIO PUBLICO",
+      "pct": 83.8
+     },
+     {
+      "sector": "INTERIOR",
+      "pct": 81.9
+     },
+     {
+      "sector": "JURADO NACIONAL DE ELECCIONES",
+      "pct": 80.6
+     },
+     {
+      "sector": "PRESIDENCIA CONSEJO MINISTROS",
+      "pct": 78.7
+     },
+     {
+      "sector": "ECONOMIA Y FINANZAS",
+      "pct": 78.7
+     }
+    ],
+    "peores_5": [
+     {
+      "sector": "PRODUCCION",
+      "pct": 47.4
+     },
+     {
+      "sector": "AGRARIO Y DE RIEGO",
+      "pct": 52.6
+     },
+     {
+      "sector": "ENERGIA Y MINAS",
+      "pct": 59.1
+     },
+     {
+      "sector": "JUNTA NACIONAL DE JUSTICIA",
+      "pct": 65.4
+     },
+     {
+      "sector": "TRABAJO Y PROMOCION DEL EMPLEO",
+      "pct": 65.6
+     }
+    ],
+    "criterio": "sectores con PIM >= S/ 50 millones"
+   },
+   "Proyecto": {
+    "mejores_5": [
+     {
+      "sector": "TRANSPORTES Y COMUNICACIONES",
+      "pct": 81.6
+     },
+     {
+      "sector": "PRESIDENCIA CONSEJO MINISTROS",
+      "pct": 79.5
+     },
+     {
+      "sector": "COMERCIO EXTERIOR Y TURISMO",
+      "pct": 78.6
+     },
+     {
+      "sector": "SALUD",
+      "pct": 75.8
+     },
+     {
+      "sector": "CULTURA",
+      "pct": 74.8
+     }
+    ],
+    "peores_5": [
+     {
+      "sector": "PODER JUDICIAL",
+      "pct": 30.9
+     },
+     {
+      "sector": "DESARROLLO E INCLUSION SOCIAL",
+      "pct": 33.9
+     },
+     {
+      "sector": "INTERIOR",
+      "pct": 49.7
+     },
+     {
+      "sector": "ECONOMIA Y FINANZAS",
+      "pct": 55.2
+     },
+     {
+      "sector": "VIVIENDA CONSTRUCCION Y SANEAMIENTO",
+      "pct": 59.1
+     }
+    ],
+    "criterio": "sectores con PIM >= S/ 50 millones"
+   }
+  }
+ },
+ "totales_gobierno_nacional": {
+  "2006": {
+   "ActProy": {
+    "pim": 43741717440.0,
+    "devengado_ene_oct": 30636951168.0,
+    "pct": 70.0,
+    "n_sectores": 26,
+    "consultado": "2026-11-07 17:49",
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   "Proyecto": {
+    "pim": 4698704915.0,
+    "devengado_ene_oct": 2340679338.0,
+    "pct": 49.8,
+    "n_sectores": 22,
+    "consultado": "2026-11-07 17:49",
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  },
+  "2011": {
+   "ActProy": {
+    "pim": 68653272986.0,
+    "devengado_ene_oct": 45828020154.0,
+    "pct": 66.8,
+    "n_sectores": 29,
+    "consultado": "2026-11-07 17:47",
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   "Proyecto": {
+    "pim": 11098498319.0,
+    "devengado_ene_oct": 6976903040.0,
+    "pct": 62.9,
+    "n_sectores": 23,
+    "consultado": "2026-11-07 17:48",
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  },
+  "2016": {
+   "ActProy": {
+    "pim": 97567912387.0,
+    "devengado_ene_oct": 67287065791.0,
+    "pct": 69.0,
+    "n_sectores": 30,
+    "consultado": "2026-11-07 17:43",
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   "Proyecto": {
+    "pim": 14693893684.0,
+    "devengado_ene_oct": 7722575109.0,
+    "pct": 52.6,
+    "n_sectores": 29,
+    "consultado": "2026-11-07 17:44",
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  },
+  "2021": {
+   "ActProy": {
+    "pim": 137635723934.0,
+    "devengado_ene_oct": 96719832608.0,
+    "pct": 70.3,
+    "n_sectores": 30,
+    "consultado": "2026-11-07 17:45",
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   "Proyecto": {
+    "pim": 21011610064.0,
+    "devengado_ene_oct": 12453039362.0,
+    "pct": 59.3,
+    "n_sectores": 27,
+    "consultado": "2026-11-07 17:46",
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  },
+  "2026": {
+   "ActProy": {
+    "pim": 170449720301.0,
+    "devengado_ene_oct": 128265241847.0,
+    "pct": 75.3,
+    "n_sectores": 30,
+    "consultado": "2026-11-07 17:43",
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   },
+   "Proyecto": {
+    "pim": 24370410005.0,
+    "devengado_ene_oct": 17164695725.0,
+    "pct": 70.4,
+    "n_sectores": 26,
+    "consultado": "2026-11-07 17:44",
+    "fuente_url": "https://apps5.mineco.gob.pe/transparencia/Navegador/default.aspx",
+    "confianza": "alta"
+   }
+  }
+ },
+ "obras_paralizadas": [
+  {
+   "anio": 2021,
+   "fecha_reporte": "corte jun-2021 (nota 18-jul-2021)",
+   "n_obras": 3055,
+   "monto": 29900000000,
+   "monto_texto": "S/ 29,900 millones (valorizadas)",
+   "fuente_url": "https://rpp.pe/peru/actualidad/contraloria-mas-de-3-000-obras-valorizadas-en-s-299-mil-millones-estan-paralizadas-noticia-1348085",
+   "confianza": "media",
+   "nota": "Cifra dicha por la Contraloría y recogida por la prensa; no es un informe técnico. Incluye todas las modalidades."
+  },
+  {
+   "anio": 2021,
+   "fecha_reporte": "27-oct-2021 (exposición del contralor ante la Comisión de Fiscalización; boletín de oct-2021)",
+   "n_obras": 2445,
+   "monto": 18360000000,
+   "monto_texto": "> S/ 18,360 millones",
+   "fuente_url": "https://cdn.www.gob.pe/uploads/document/file/2353330/Bolet%C3%ADn%20Contralor%C3%ADa%20en%20Acci%C3%B3n%20edici%C3%B3n%20octubre%202021.pdf.pdf",
+   "confianza": "alta",
+   "nota": "Es la cifra más cercana a la ventana 2021. Solo cuenta obras POR CONTRATA (sin administración directa), por lo que no es comparable con 3,055."
+  },
+  {
+   "anio": 2021,
+   "fecha_reporte": "cierre de 2021 (nota 18-ene-2022)",
+   "n_obras": 2369,
+   "monto": 22453000000,
+   "fuente_url": "https://elperuano.pe/noticia/137590-contraloria-advierte-la-paralisis-de-2369-obras",
+   "confianza": "media",
+   "nota": "Solo contexto; la nota no indica el corte exacto"
+  },
+  {
+   "anio": 2022,
+   "fecha_reporte": "corte 30-jun-2022 (reporte técnico)",
+   "n_obras": 2346,
+   "monto": 29732207833,
+   "fuente_url": "https://cdn.www.gob.pe/uploads/document/file/3720744/Reporte%20obras%20paralizadas.pdf.pdf",
+   "confianza": "alta",
+   "nota": "Primer informe técnico con metodología de 3 niveles de gobierno (368 nacionales, 274 regionales, 1,704 locales). Monto = costo de inversión; saldo por ejecutar S/ 14,653,696,867."
+  },
+  {
+   "anio": 2026,
+   "fecha_reporte": "corte 31-mar-2026 (Informe N.° 001-2026-CG/SESNC, publicado 18-may-2026)",
+   "n_obras": 2241,
+   "monto": 73166004078,
+   "fuente_url": "https://cdn.www.gob.pe/uploads/document/file/9989705/8147812-informe-de-obras-paralizadas-en-el-territorio-nacional-a-marzo-2026.PDF",
+   "confianza": "alta",
+   "nota": "Monto = costo de inversión actualizado; saldo por ejecutar S/ 35,196,467,535 según las tablas (el texto dice 32,196 M). 391 nacionales, 317 regionales, 1,533 locales."
+  },
+  {
+   "anio": 2026,
+   "fecha_reporte": "corte jun-2026 (publicado 17-ago-2026)",
+   "n_obras": "no disponible",
+   "monto": "no disponible",
+   "fuente_url": "https://www.gob.pe/institucion/contraloria/informes-publicaciones/8489152-informe-de-obras-paralizadas-en-el-territorio-nacional-a-junio-de-2026",
+   "confianza": "alta (en cuanto a que el informe existe)",
+   "nota": "Es el informe más cercano a la ventana 2026, pero gob.pe bloquea la descarga automatizada. PENDIENTE: descargarlo a mano."
+  },
+  {
+   "anio": 2016,
+   "fecha_reporte": "no existe",
+   "n_obras": "no disponible",
+   "monto": "no disponible",
+   "fuente_url": "https://www.gob.pe/institucion/contraloria/colecciones/18230-obras-paralizadas-documentos",
+   "confianza": "media",
+   "nota": "La serie de reportes empieza alrededor de 2019"
+  },
+  {
+   "anio": 2011,
+   "fecha_reporte": "no existe",
+   "n_obras": "no disponible",
+   "monto": "no disponible",
+   "fuente_url": null,
+   "confianza": "media"
+  },
+  {
+   "anio": 2006,
+   "fecha_reporte": "no existe",
+   "n_obras": "no disponible",
+   "monto": "no disponible",
+   "fuente_url": null,
+   "confianza": "media"
+  }
+ ],
+ "conflictos": [
+  {
+   "anio": 2006,
+   "mes": "julio",
+   "reporte_n": 29,
+   "total": 84,
+   "activos": 8,
+   "latentes": 74,
+   "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2018/05/conflictos_sociales29.pdf",
+   "confianza": "alta",
+   "nota": "Metodología antigua: el total incluye 2 casos resueltos"
+  },
+  {
+   "anio": 2006,
+   "mes": "octubre",
+   "reporte_n": 32,
+   "total": 100,
+   "activos": 13,
+   "latentes": 83,
+   "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2018/05/conflictos_sociales32.pdf",
+   "confianza": "alta",
+   "nota": "Metodología antigua: el total incluye 4 casos resueltos"
+  },
+  {
+   "anio": 2011,
+   "mes": "julio",
+   "reporte_n": 89,
+   "total": 214,
+   "activos": 135,
+   "latentes": 79,
+   "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2018/07/Reporte-89.pdf",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2011,
+   "mes": "octubre",
+   "reporte_n": 92,
+   "total": 217,
+   "activos": 154,
+   "latentes": 63,
+   "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2018/07/reporte-menusal-92.pdf",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2016,
+   "mes": "julio",
+   "reporte_n": 149,
+   "total": 211,
+   "activos": 154,
+   "latentes": 57,
+   "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2018/07/Reporte-Mensual-de-Conflictos-Sociales-N-149-Julio-2016.pdf",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2016,
+   "mes": "octubre",
+   "reporte_n": 152,
+   "total": 212,
+   "activos": 154,
+   "latentes": 58,
+   "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2018/07/Reporte-Mensual-de-Conflictos-Sociales-N-152-Octubre-2016.pdf",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2021,
+   "mes": "julio",
+   "reporte_n": 209,
+   "total": 195,
+   "activos": 137,
+   "latentes": 58,
+   "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2021/08/Reporte-Mensual-de-Conflictos-Sociales-N°-209-julio-2021.pdf",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2021,
+   "mes": "octubre",
+   "reporte_n": 212,
+   "total": 198,
+   "activos": 148,
+   "latentes": 50,
+   "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2021/11/Reporte-Mensual-de-Conflictos-Sociales-n.°-212-octubre-2021.pdf",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2026,
+   "mes": "julio",
+   "reporte_n": 269,
+   "total": 191,
+   "activos": 150,
+   "latentes": 41,
+   "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2026/08/Reporte-de-Conflictos-Sociales-n-269.pdf",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2026,
+   "mes": "agosto",
+   "reporte_n": 270,
+   "total": 188,
+   "activos": 138,
+   "latentes": 50,
+   "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2026/09/Reporte-de-conflictos-sociales-n-270.pdf",
+   "confianza": "alta",
+   "nota": "Contexto"
+  },
+  {
+   "anio": 2026,
+   "mes": "setiembre",
+   "reporte_n": 271,
+   "total": 193,
+   "activos": 144,
+   "latentes": 49,
+   "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2026/10/RCS_271_setiembre_2026.html",
+   "confianza": "alta",
+   "nota": "Último publicado al 7-nov-2026; se usa como SUSTITUTO de octubre"
+  },
+  {
+   "anio": 2026,
+   "mes": "octubre",
+   "reporte_n": 272,
+   "total": "no disponible",
+   "activos": "no disponible",
+   "latentes": "no disponible",
+   "fuente_url": "https://www.defensoria.gob.pe/areas_tematicas/paz-social-y-prevencion-de-conflictos/",
+   "confianza": "alta",
+   "nota": "No publicado al 7-nov-2026; se espera a mediados de noviembre"
+  }
+ ],
+ "rotacion": [
+  {
+   "anio": 2021,
+   "indicador": "Presidentes del Consejo de Ministros en la ventana",
+   "valor": 2,
+   "detalle": "Guido Bellido (29-jul-2021) y Mirtha Vásquez (6-oct-2021)",
+   "fuente_url": "https://andina.pe/agencia/noticia-presidente-castillo-tomo-juramento-a-nuevo-gabinete-encabezado-mirtha-vasquez-864634.aspx",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2021,
+   "indicador": "Ministros reemplazados en la recomposición del 6-oct-2021 (sin contar al Presidente del Consejo)",
+   "valor": 5,
+   "detalle": "Cultura, Trabajo, Interior, Producción, Energía y Minas. Andina y RPP hablan de 'siete nuevos ministros', pero solo se identifican estos 5 más la Presidenta del Consejo.",
+   "fuente_url": "https://andina.pe/agencia/noticia-presidente-castillo-tomo-juramento-a-nuevo-gabinete-encabezado-mirtha-vasquez-864634.aspx",
+   "confianza": "media"
+  },
+  {
+   "anio": 2021,
+   "indicador": "Salida del canciller Héctor Béjar",
+   "valor": 1,
+   "detalle": "Renunció el 17-ago-2021; Óscar Maúrtua juró el 20-ago-2021",
+   "fuente_url": "https://gestion.pe/peru/politica/oscar-maurtua-juro-como-nuevo-canciller-en-reemplazo-de-hector-bejar-pedro-castillo-nndc-noticia/",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2021,
+   "indicador": "Total de cambios en el Consejo de Ministros en la ventana",
+   "valor": 7,
+   "detalle": "Cálculo propio: Béjar + 5 ministros el 6-oct + el Presidente del Consejo. Si se toma la cifra de prensa de 'siete nuevos ministros', serían 8. Barranzuela renunció el 6-nov-2021, fuera de la ventana. Censuras aprobadas: 0.",
+   "fuente_url": "https://rpp.pe/politica/gobierno/cambios-en-el-gabinete-ministerial-cinco-claves-de-la-recomposicion-del-gobierno-de-pedro-castillo-noticia-1361763",
+   "confianza": "media"
+  },
+  {
+   "anio": 2026,
+   "indicador": "Composición inicial del Consejo de Ministros",
+   "valor": "Presidente del Consejo: Luis Galarreta (juró el 28-jul-2026)",
+   "detalle": "Presidenta de la República: Keiko Fujimori",
+   "fuente_url": "https://www.elperuano.pe/noticia/301303-estos-son-los-ministros-que-integran-el-gabinete-presidido-por-luis-galarreta",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2026,
+   "indicador": "Ministros reemplazados en la ventana",
+   "valor": 1,
+   "detalle": "Rafael Rey (Transportes) renunció el 18-sep-2026 por salud; lo reemplazó José Tangherlini (RS N.° 276-2026-PCM). No se encontró otra salida, pero la búsqueda no es exhaustiva.",
+   "fuente_url": "https://elperuano.pe/noticia/305021-pcm-rafael-rey-renuncia-a-cartera-de-transportes-y-comunicaciones-por-motivos-de-salud",
+   "confianza": "media"
+  },
+  {
+   "anio": 2026,
+   "indicador": "Cambios de Presidente del Consejo de Ministros en la ventana",
+   "valor": 0,
+   "detalle": "Galarreta seguía en el cargo en el balance de los 100 días",
+   "fuente_url": "https://canaln.pe/actualidad/luis-galarreta-senala-que-balance-primeros-100-dias-gestion-keiko-fujimori-se-conocera-jueves-n496005",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2026,
+   "indicador": "Censuras de ministros aprobadas en la ventana",
+   "valor": 0,
+   "detalle": "Cero porque no se encontraron resultados; no hay un registro oficial consultado",
+   "fuente_url": "no disponible",
+   "confianza": "media"
+  },
+  {
+   "anio": "2021/2026",
+   "indicador": "Viceministros y jefes de organismos reemplazados",
+   "valor": "no disponible",
+   "detalle": "No existe un conteo sistemático publicado. Habría que contar las resoluciones supremas en El Peruano.",
+   "fuente_url": "no disponible",
+   "confianza": "baja"
+  },
+  {
+   "anio": "2016/2011/2006",
+   "indicador": "Rotación en las ventanas de contexto",
+   "valor": "no disponible",
+   "detalle": "No investigado",
+   "fuente_url": "no disponible",
+   "confianza": "baja"
+  }
+ ],
+ "otros": [
+  {
+   "anio": 2021,
+   "indicador": "Dosis COVID-19 acumuladas al 28-jul-2021",
+   "valor": 13136717,
+   "fuente_url": "https://ourworldindata.org/grapher/cumulative-covid-vaccinations.csv?country=~PER",
+   "confianza": "alta",
+   "nota": "Our World in Data con datos del Minsa"
+  },
+  {
+   "anio": 2021,
+   "indicador": "Dosis COVID-19 acumuladas al 5-nov-2021",
+   "valor": 36568224,
+   "fuente_url": "https://ourworldindata.org/grapher/cumulative-covid-vaccinations.csv?country=~PER",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2021,
+   "indicador": "Dosis aplicadas en la ventana (28-jul a 5-nov-2021)",
+   "valor": 23431507,
+   "fuente_url": "https://ourworldindata.org/grapher/cumulative-covid-vaccinations.csv?country=~PER",
+   "confianza": "alta",
+   "nota": "Diferencia de acumulados"
+  },
+  {
+   "anio": 2021,
+   "indicador": "% de la población con esquema completo",
+   "valor": "15,07 % -> 48,27 %",
+   "fuente_url": "https://ourworldindata.org/grapher/share-people-fully-vaccinated-covid.csv?country=~PER",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2021,
+   "indicador": "% de la población con al menos 1 dosis",
+   "valor": "24,17 % -> 60,11 %",
+   "fuente_url": "https://ourworldindata.org/grapher/share-people-vaccinated-covid.csv?country=~PER",
+   "confianza": "alta"
+  },
+  {
+   "anio": 2026,
+   "indicador": "Métrica oficial de servicio equivalente",
+   "valor": "no disponible",
+   "fuente_url": "no disponible",
+   "confianza": "baja",
+   "nota": "No se encontró una métrica oficial comparable para la ventana de 2026"
+  }
+ ],
+ "caveats": [
+  "Fuente de ejecución: Consulta Amigable del MEF (drill-down Año > Nivel de Gobierno E > Sector > Mes). La API CKAN datastore_search_sql de api.datosabiertos.mef.gob.pe devolvía 404 'Recurso no encontrado' el 7-nov-2026, por eso no se usó.",
+  "PIM: la Consulta Amigable no publica el PIM por mes. Para años cerrados (2006/2011/2016/2021) el denominador es el PIM FINAL al 31-dic; para 2026 es el PIM vigente a la fecha de consulta (~6-7 nov-2026). El PIM final suele ser algo mayor que el PIM a octubre, por lo que el % de años cerrados tiende a estar levemente subestimado frente a 2026.",
+  "Devengado ene-oct = suma de los devengados mensuales de enero a octubre según la fecha de registro en el SIAF; 2026 puede tener ajustes posteriores.",
+  "'ejecucion_sectorial' = toda la ejecución (actividades + proyectos); 'ejecucion_sectorial_proyectos' = solo proyectos de inversión (filtro 'Proyecto' de la consulta).",
+  "Solo Gobierno Nacional: los gobiernos regionales y locales no se desagregan por sector aquí. Los nombres y códigos de sector cambian entre años (p. ej. ministerios creados después de 2006).",
+  "El presupuesto de enero-julio corresponde al gobierno saliente; la columna devengado_ago_oct aproxima lo ejecutado en la ventana de 100 días.",
+  "La inversión pública total (genérica 2.6) se calcula en otro archivo del proyecto; aquí solo el desglose sectorial.",
+  "Obras paralizadas 2021 vs 2026 NO son estrictamente comparables: las cifras de 2021 son declaraciones del contralor (oct-2021 solo por contrata) y desde 2022 hay informes técnicos de 3 niveles de gobierno. Además, el monto de 2026 es 'costo de inversión actualizado'.",
+  "Obras paralizadas 2026: el informe a junio de 2026 (publicado 17-ago-2026) existe, pero sus cifras no se pudieron descargar; se muestra el de marzo de 2026.",
+  "Conflictos 2026: el reporte de octubre (N.° 272) no estaba publicado al 7-nov-2026; se usa setiembre (N.° 271) como sustituto.",
+  "Conflictos 2006: con metodología antigua (casi todos latentes; el total incluye resueltos); no es comparable con 2011 en adelante.",
+  "Rotación: conteo propio a partir de notas de prensa y El Peruano. No hay un conteo oficial de viceministros ni de jefes de organismos; un 0 en 2026 significa que no se encontraron casos.",
+  "Vacunación COVID-19 (2021): Our World in Data, que reproduce los datos del Minsa; no hay un servicio comparable para 2026."
+ ]
+}

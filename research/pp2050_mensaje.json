@@ -1,0 +1,1297 @@
+{
+ "meta": {
+  "titulo": "Mensaje a la Nación por los primeros 100 días de gobierno",
+  "fecha": "2026-11-05",
+  "duracion": "25 min",
+  "url": "https://www.youtube.com/watch?v=9M4H92XuVYE",
+  "canal": "La República (retransmisión)",
+  "nota": "Mensaje grabado y editado (no fue transmitido en vivo). Transcripción propia a partir de los subtítulos automáticos del video; puede haber errores menores en nombres propios.",
+  "corte_verificacion": "2026-11-06",
+  "aviso": "Análisis propio del mensaje presidencial: cada cifra se contrastó con fuentes oficiales cuando existían. «No verificable» significa que no hallamos una fuente independiente a la fecha de corte, no que la cifra sea falsa. Documento de trabajo para validación; no constituye posición institucional del CIP.",
+  "origen": "Plan Perú 2050 – seguimiento del Mensaje a la Nación por los 100 días",
+  "origen_url": "https://planperu2050.pe/mensaje/"
+ },
+ "ejes": [
+  {
+   "id": "nino",
+   "nombre": "Fenómeno El Niño y desastres",
+   "ico": "🌊",
+   "corto": "El Niño y desastres"
+  },
+  {
+   "id": "seguridad",
+   "nombre": "Seguridad ciudadana",
+   "ico": "🚔",
+   "corto": "Seguridad"
+  },
+  {
+   "id": "obras",
+   "nombre": "Destrabe del Estado y obras",
+   "ico": "🏗️",
+   "corto": "Obras y destrabe"
+  },
+  {
+   "id": "social",
+   "nombre": "Servicios sociales y educación",
+   "ico": "🎒",
+   "corto": "Social y educación"
+  },
+  {
+   "id": "economia",
+   "nombre": "Economía y empleo",
+   "ico": "📈",
+   "corto": "Economía y empleo"
+  },
+  {
+   "id": "fiscal",
+   "nombre": "Finanzas públicas y Congreso",
+   "ico": "🏛️",
+   "corto": "Fiscal y Congreso"
+  }
+ ],
+ "resumen": {
+  "n_afirmaciones": 31,
+  "veredictos": {
+   "no_coincide": 6,
+   "coincide_con_matices": 13,
+   "no_verificable": 6,
+   "coincide": 6
+  },
+  "acciones_100_tocadas": 22,
+  "acciones_100_total": 67,
+  "anuncios_28jul": {
+   "reporto": 4,
+   "parcial": 7,
+   "no_menciono": 8
+  },
+  "compromisos_nuevos": 16
+ },
+ "analisis": [
+  "Solo 6 de las 31 afirmaciones con cifra coinciden sin reparos con fuentes oficiales. Otras 13 coinciden con matices, 6 no coinciden y 6 no tienen fuente independiente. Varias cifras de gestión (capturas, títulos, viviendas, kits) solo aparecen en el propio mensaje.",
+  "La cifra central de seguridad (de 7,5 a 6,5 crímenes al día) no coincide con el SINADEF. Ese registro da 5,7 homicidios diarios en agosto, 5,1 en setiembre y 6,4 en octubre: no hay una baja sostenida y ningún mes de 2026 llega a 7,5.",
+  "En economía acierta en el desempleo de Lima: 4,37 %, el más bajo de la serie, que empieza en 2001. Pero los analistas que consulta el BCRP proyectan 3,1 % para 2026, no 4 %. Y el optimismo empresarial a 12 meses cae desde julio: bajó de 72,1 a 63,1.",
+  "Varios logros venían de antes: las defensas ribereñas de Cañete y Chincha, los 13 millones de materiales del año escolar 2026 (entregados entre enero y marzo) y el Tren Macho, que estuvo parado un año, no diez.",
+  "Calló lo que empeora en la brújula 2050. La inflación de Lima subió de 4,07 % a 5,25 %. La inversión pública cae en términos reales (−4,6 % en setiembre) pese al discurso del destrabe. La minería metálica retrocede (−6,1 %).",
+  "Frente al 28 de julio: de 19 anuncios, reportó avance en 4, avance parcial en 7 y omitió 8. Entre los omitidos están Pensión 65 duplicada, el PRONAA, los metros, la Autoridad Nacional Digital y la independencia de poderes. El sueldo mínimo quedó en S/ 1 230, no en los S/ 1 300 anunciados.",
+  "Frente al Plan Perú 2050: el mensaje se concentra en emergencias (El Niño, seguridad) y en obras. No da cifras sobre las metas al 2031 de anemia, riego tecnificado ni formalización de las MYPE."
+ ],
+ "afirmaciones": [
+  {
+   "id": "n1",
+   "eje": "nino",
+   "ts": "00:02:04",
+   "corto": "Niño histórico; «nadie previno»",
+   "texto": "El Fenómeno El Niño de este año es el más intenso de los últimos 100 años; el país no estaba preparado y los gobiernos anteriores no hicieron obras de prevención.",
+   "veredicto": "no_coincide",
+   "verificacion": [
+    {
+     "afirmacion": "El Niño de este año es el más intenso de los últimos 100 años en el Perú",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "Comunicado Oficial ENFEN N.° 16-2026 (setiembre 2026): Niño Costero con mayor probabilidad de magnitud extraordinaria en Niño 1+2 entre set-2026 y ene-2027, durando hasta mediados del otoño 2027; la vocera del ENFEN dijo que el calentamiento estimado podría superar al de 1997-98",
+     "fuente": "Panamericana (16-09-2026) y Canal N, que reportan el comunicado ENFEN N.° 16-2026 (no se abrió el PDF oficial)",
+     "url": "https://panamericana.pe/buenosdiasperu/nacionales/474433-enfen-alerta-nino-devastador-1997",
+     "leido": true,
+     "nota": "Es un pronóstico, no un hecho medido: el ENFEN habla de magnitud 'extraordinaria' y de que podría superar a 1997-98, pero la frase 'el más intenso de los últimos 100 años' no aparece en el ENFEN. No se encontró comunicado posterior al N.° 16."
+    },
+    {
+     "afirmacion": "Los gobiernos precedentes no habían realizado obras de prevención",
+     "veredicto": "no_coincide",
+     "dato_oficial": "Defensa ribereña del río Cañete (11,79 km de diques, PSI-Midagri/JICA): ejecución física concluida en enero de 2026; defensas de los ríos Chico y Matagente en Chincha (62,10 km, S/ 808,8 millones, ANIN, G2G con Reino Unido) ejecutadas antes de este gobierno e inauguradas el 29-09-2026",
+     "fuente": "Caretas (29-09-2026); El Peruano (30-09-2026)",
+     "url": "https://caretas.pe/nacional/obras-contra-inundaciones-chincha-y-canete-refuerzan-sus-defensas-riberenas/",
+     "leido": true,
+     "nota": "El propio gobierno inauguró en setiembre obras de prevención hechas por gobiernos anteriores. Sí es cierto que no había un plan integral, según dijo el ministro Vinelli (opinión del propio gobierno)."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 0,
+     "titulo": "Plan de contingencia nacional frente al fenómeno El Niño"
+    }
+   ]
+  },
+  {
+   "id": "n2",
+   "eje": "nino",
+   "ts": "00:02:33",
+   "corto": "S/ 100 M en prevención",
+   "texto": "S/ 100 millones invertidos en prevención en 3 meses (el doble de lo ejecutado en 2025); Obras por Impuestos de emergencia: de más de 6 meses a 30 días.",
+   "veredicto": "coincide_con_matices",
+   "verificacion": [
+    {
+     "afirmacion": "S/ 100 millones invertidos en prevención en 3 meses, el doble de todo lo ejecutado en 2025",
+     "veredicto": "no_verificable",
+     "dato_oficial": "El ministro Vinelli (23-08-2026) dijo que se habían 'destinado alrededor de S/ 500 millones' por DU y DS para 536 puntos críticos (es asignación, no ejecución). No se encontró la cifra ejecutada en 3 meses ni el total de 2025",
+     "fuente": "El Peruano (24-08-2026)",
+     "url": "https://elperuano.pe/noticia/303107-ejecutan-plan-integral-ante-fenomeno-el-nino",
+     "leido": true,
+     "nota": "Para verificarlo hace falta MEF Consulta Amigable filtrado por función de prevención/PP 0068, y no se consultó. Se desconoce qué universo usa el discurso (¿solo Midagri? ¿todo el Estado?)."
+    },
+    {
+     "afirmacion": "Se reformó la aprobación de Obras por Impuestos en emergencias: de más de 6 meses a 30 días",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "El DU N.° 010-2026 (set-2026) crea OxI Exprés para El Niño 2026-2027, vigente hasta el 31-12-2027: 30 días hábiles (~45 calendario) frente a 'alrededor de cinco meses' en el régimen ordinario",
+     "fuente": "ProInversión vía Energiminas (14-09-2026)",
+     "url": "https://energiminas.com/2026/09/14/obras-por-impuestos-expres-permite-contratar-servicios-en-45-dias-para-enfrentar-el-nino/",
+     "leido": true,
+     "nota": "La norma existe. Los 30 días son hábiles (unos 45 calendario) y ProInversión estima el plazo ordinario en unos 5 meses, no 'más de 6'. fuente: solo el propio gobierno."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 0,
+     "titulo": "Plan de contingencia nacional frente al fenómeno El Niño"
+    },
+    {
+     "i": 4,
+     "titulo": "Decretos de urgencia y facultades delegadas"
+    }
+   ]
+  },
+  {
+   "id": "n3",
+   "eje": "nino",
+   "ts": "00:03:01",
+   "corto": "179 km de ríos descolmatados",
+   "texto": "Descolmatación de 179 km de ríos (85 % de lo programado, 4,5 millones de m³); S/ 320 millones para el río Moche; 35 km de defensas ribereñas en Cañete, Chincha y Pisco.",
+   "veredicto": "no_coincide",
+   "verificacion": [
+    {
+     "afirmacion": "Descolmatación de 179 km de ríos (85% de lo programado), con 4,5 millones de m³ removidos",
+     "veredicto": "no_verificable",
+     "dato_oficial": "No se encontró consolidado oficial de Midagri/ANA/PSI con esas cifras. Solo hay datos parciales: Mindef planea remover 1 millón de m³ en ríos de Piura (8-09-2026)",
+     "fuente": "El Peruano (08-09-2026)",
+     "url": "https://elperuano.pe/noticia/304315-ministerio-de-defensa-busca-potenciar-capacidad-aerea-ante-el-fenomeno-el-nino",
+     "leido": true,
+     "nota": "Habría que pedir el reporte consolidado a Midagri/ANA."
+    },
+    {
+     "afirmacion": "S/ 320 millones para la descolmatación y el enrocado del río Moche; la obra se entregará antes de fin de año",
+     "veredicto": "no_verificable",
+     "dato_oficial": "Proyecto Quebrada San Idelfonso/río Moche (ANIN): 'se destinó un desembolso de 200 millones de soles'; 24,627 de 34,617 km intervenidos (71,14%) al 25-09-2026; los trabajos definitivos siguen hasta diciembre",
+     "fuente": "El Peruano (25-09-2026)",
+     "url": "https://elperuano.pe/noticia/305520-anin-trabaja-a-doble-turno-para-completar-obras-de-proteccion-que-se-ejecutan-en-el-rio-moche",
+     "leido": true,
+     "nota": "La cifra oficial más reciente que se encontró es S/ 200 millones, no 320. El plazo de diciembre coincide. En enero de 2026 la ANIN ya tenía esta obra en curso pero con falta de presupuesto (Correo, 14-01-2026)."
+    },
+    {
+     "afirmacion": "En Cañete, Chincha y Pisco culminamos 35 km de defensas ribereñas (más de 10 000 familias, 33 000 ha)",
+     "veredicto": "no_coincide",
+     "dato_oficial": "Chincha (ríos Chico y Matagente): 62,10 km de diques, S/ 808,8 millones, 39 371 habitantes. Cañete: 11,79 km, 4600 familias, 1200 ha protegidas (16 000 ha con riego), ejecución física concluida en enero de 2026. No se encontró obra culminada en Pisco",
+     "fuente": "Caretas (29-09-2026), con datos del Ejecutivo; El Peruano (30-09-2026)",
+     "url": "https://caretas.pe/nacional/obras-contra-inundaciones-chincha-y-canete-refuerzan-sus-defensas-riberenas/",
+     "leido": true,
+     "nota": "Ni los km ni los beneficiarios cuadran con las cifras oficiales. Además, Cañete terminó antes del 28-07-2026 y Chincha es un proyecto G2G de la ANIN anterior: este gobierno los inauguró, no los 'culminó'."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 0,
+     "titulo": "Plan de contingencia nacional frente al fenómeno El Niño"
+    }
+   ]
+  },
+  {
+   "id": "n4",
+   "eje": "nino",
+   "ts": "00:04:35",
+   "corto": "2 000 máquinas, 77 puentes Bailey",
+   "texto": "Más de 2 000 unidades de maquinaria pesada, 77 puentes Bailey, 5 buques, 23 helicópteros, 17 aviones, 13 000 efectivos, 7 000 t de ayuda y más de 400 puntos para albergues.",
+   "veredicto": "coincide_con_matices",
+   "verificacion": [
+    {
+     "afirmacion": "Compramos 77 puentes Bailey",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "Al 23-08-2026 había 22 puentes Bailey; 'a diciembre se incorporarán 55 adicionales' hasta llegar a 77",
+     "fuente": "El Peruano (23-08-2026), declaraciones del ministro Vinelli",
+     "url": "https://elperuano.pe/noticia/303089-gobierno-dispondra-de-77-puentes-bailey-para-restablecer-rapidamente-la-conectividad-ante-el-nino",
+     "leido": true,
+     "nota": "77 es el total disponible previsto a diciembre (22 ya existían), no 77 compras. No se confirmó que los 55 nuevos ya se hayan entregado. fuente: solo el propio gobierno."
+    },
+    {
+     "afirmacion": "Desplegamos 5 buques, 23 helicópteros, 17 aviones y 13 000 efectivos de las FF.AA.",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "El ministro de Defensa (8-09-2026) informó 23 helicópteros operativos (meta: 30) y 3 buques (Paita, Pisco, Tacna); el MIDAGRI apuntaba a 39 helicópteros a diciembre",
+     "fuente": "El Peruano (08-09-2026)",
+     "url": "https://elperuano.pe/noticia/304315-ministerio-de-defensa-busca-potenciar-capacidad-aerea-ante-el-fenomeno-el-nino",
+     "leido": true,
+     "nota": "Los 23 helicópteros coinciden. No se encontraron fuentes para 5 buques (en setiembre eran 3), 17 aviones ni 13 000 efectivos. fuente: solo el propio gobierno."
+    },
+    {
+     "afirmacion": "Más de 2000 unidades de maquinaria pesada, 7000 t de ayuda humanitaria en almacenes y más de 400 puntos para albergues",
+     "veredicto": "no_verificable",
+     "dato_oficial": "No se encontró fuente para 2000 máquinas ni 400 puntos. Para el stock de ayuda solo hay un snippet de 24 Horas (jun-2026): unas 6700 t de bienes de ayuda humanitaria almacenadas",
+     "fuente": "Panamericana 24 Horas (solo snippet)",
+     "url": null,
+     "leido": false,
+     "nota": "Habría que pedir los datos a INDECI (almacenes, albergues) y al MTC/Mindef/Midagri (maquinaria)."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 0,
+     "titulo": "Plan de contingencia nacional frente al fenómeno El Niño"
+    }
+   ]
+  },
+  {
+   "id": "n5",
+   "eje": "nino",
+   "ts": "00:05:27",
+   "corto": "S/ 350 M contra la sequía",
+   "texto": "S/ 350 millones contra la sequía: 270 000 kits de alimento para ganado, 51 000 veterinarios, 25 000 de insumos, 17 000 de semillas, 4 000 kits de riego y 120 reservorios.",
+   "veredicto": "no_verificable",
+   "verificacion": [
+    {
+     "afirmacion": "Sequía: S/ 350 millones; 270 000 kits de alimento para ganado, 51 000 veterinarios, 25 000 de insumos, 17 000 de semillas; 4000 kits de riego, 4000 bebederos, 120 reservorios",
+     "veredicto": "no_verificable",
+     "dato_oficial": "No se encontró norma ni nota oficial con S/ 350 millones ni con esos kits. Para comparar, el Plan Heladas y Friaje 2026 (El Peruano, 15-07-2026) incluía 17 805 kits veterinarios y 11 700 kits de semillas de pastos (solo snippet)",
+     "fuente": "El Peruano (solo snippet)",
+     "url": null,
+     "leido": false,
+     "nota": "Las cifras del discurso son mucho mayores que las del plan de heladas de julio. Para verificarlas hace falta el DU/DS de déficit hídrico de 2026 o el reporte de Agro Rural."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 0,
+     "titulo": "Plan de contingencia nacional frente al fenómeno El Niño"
+    }
+   ]
+  },
+  {
+   "id": "n6",
+   "eje": "nino",
+   "ts": "00:06:24",
+   "corto": "571 incendios; 19 helibaldes",
+   "texto": "571 incendios forestales este año; el gobierno encontró solo 3 helibaldes; Chile envió un helicóptero 7 días; compra de 19 helibaldes y 500 equipos de protección.",
+   "veredicto": "coincide_con_matices",
+   "verificacion": [
+    {
+     "afirmacion": "571 incendios forestales este año; solo había 3 helibaldes; Kast (Chile) envió un helicóptero por 7 días; compramos 19 helibaldes y 500 EPP",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "Chile: el Gobierno chileno (Subsecretaría del Interior/CONAF) envió un helicóptero AS350B3 con capacidad de 900 L 'por siete días de operación y 35 horas de vuelo' (US$139,997), a pedido de la Embajada del Perú del 13-oct. Helibaldes: Mindef anunció la incorporación de 25 (15 del Ejército, 11 de ellos en 2026, y 10 para la FAP, pendientes de financiamiento del MEF). Incendios: Serfor llegó a 77 incendios simultáneos (10-oct). El COEN/Indeci reportó cero activos el 23-oct.",
+     "fuente": "Emol (24-10-2026); El Peruano notas 307255 (helibaldes) y 307491 (cero activos); Actualidad Ambiental (Serfor)",
+     "url": "https://www.emol.com/noticias/Nacional/2026/10/24/1215093/chile-peru-incendios-forestales-ayuda.html",
+     "leido": true,
+     "nota": "La ayuda chilena por 7 días está confirmada (la nota no nombra a Kast, pero es su gobierno). Hay cuatro discrepancias. La compra oficial anunciada es de 25 helibaldes, no 19. El total de 571 incendios, los 3 helibaldes iniciales y los 500 EPP no aparecen en fuentes públicas consultadas. Serfor registró hasta 77 incendios simultáneos, no 25 (son métricas distintas)."
+    }
+   ],
+   "anuncios_28jul": []
+  },
+  {
+   "id": "s1",
+   "eje": "seguridad",
+   "ts": "00:07:51",
+   "corto": "7,5 → 6,5 crímenes al día",
+   "texto": "Recibió el gobierno con 7,5 crímenes por día y a los 100 días registra 6,5.",
+   "veredicto": "no_coincide",
+   "verificacion": [
+    {
+     "afirmacion": "Recibimos el gobierno con 7.5 crímenes por día; hoy registramos 6.5",
+     "veredicto": "no_coincide",
+     "dato_oficial": "SINADEF (vía Correo, corte 29-oct-2026): agosto 178 homicidios (5.7/día), setiembre 153 (5.1/día), octubre 174 al 29-oct (6.4/día). Nuestro dataset SINADEF (corte 28-set): jul 183, ago 195 (~5.9→6.3/día). Ningún mes de 2026 llega a 7.5/día; los picos del año son marzo y junio con 6.5/día.",
+     "fuente": "Diario Correo con datos del SINADEF/Minsa (01-11-2026); dataset propio SINADEF vía La República",
+     "url": "https://diariocorreo.pe/politica/tasa-de-homicidios-subio-a-64-por-dia-en-octubre-noticia/",
+     "leido": true,
+     "nota": "La presidenta no dice qué métrica ni qué fuente usa. Con el SINADEF, el punto de partida de 7.5/día no aparece por ningún lado (el gobierno empezó en ~5.7–6.3/día) y octubre (6.4/día) está por encima de agosto y setiembre, así que no se ve una baja. Quizá la cifra salga de registros de la PNP o Mininter que no son públicos. El ministro Astudillo habla de una «tendencia decreciente» sin dar números (El Peruano 307345)."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 3,
+     "titulo": "Ofensiva contra mafias, reforma penitenciaria y unidades de flagrancia"
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "eje": "seguridad",
+   "ts": "00:08:03",
+   "corto": "Comando unificado y reforma PNP",
+   "texto": "Comando unificado (1 350 efectivos FF. AA. y PNP), comisión multisectorial de alto nivel contra el crimen organizado y grupo de trabajo para la reforma de la Policía.",
+   "veredicto": "coincide_con_matices",
+   "verificacion": [
+    {
+     "afirmacion": "Creamos el comando unificado: 1,350 efectivos FF.AA. y PNP bajo una sola conducción",
+     "veredicto": "coincide",
+     "dato_oficial": "Anunciado el 7-oct-2026 tras una sesión del Cosedena: 'Fuerzas Combinadas... compuestas por 1,350 efectivos de las FF. AA. y la PNP'. Los decretos supremos de emergencia lo formalizan como 'Comando Unificado PNP-FFAA contra el Crimen Organizado': el DS 146-2026-PCM (VRAEM, desde el 5-nov) y el decreto del 2-nov que modifica el art. 5 del DS de emergencia de Lima/Callao/Piura (El Peruano, 03-11-2026, p. 10).",
+     "fuente": "El Peruano (notas 306386 y 306502; nota 308198 sobre el DS 146-2026-PCM); Normas Legales del 03-11-2026 (PDF en LP Derecho)",
+     "url": "https://elperuano.pe/noticia/306386-comando-unificado-luchara-contra-el-crimen-organizado",
+     "leido": true,
+     "nota": "La cifra de 1,350 cuadra. Un matiz: la norma pone la conducción operativa en la PNP y a las FF.AA. solo en apoyo (inteligencia, logística, transporte), no bajo un mando único. No encontramos un decreto específico de creación fechado en octubre: el comando se anunció el 7-oct y se fue incorporando después en los DS de estado de emergencia."
+    },
+    {
+     "afirmacion": "Creamos la comisión multisectorial de alto nivel contra el crimen organizado",
+     "veredicto": "coincide",
+     "dato_oficial": "DS 141-2026-PCM (firmado el 13-oct, publicado el 14-oct-2026) crea la Comisión Multisectorial permanente de Alto Nivel para Recuperar la Seguridad y el Orden Público «Perú en Orden». La preside el titular de la PCM y la integran los ministros del Interior, Defensa, Justicia y RR.EE.",
+     "fuente": "El Peruano, Normas Legales, dispositivo 2564302-1",
+     "url": "https://busquedas.elperuano.pe/dispositivo/NL/2564302-1",
+     "leido": true,
+     "nota": "La norma prevé sesiones ampliadas con el sector privado, como dijo la presidenta. Su papel es de supervisión y coordinación, sin conducción operativa."
+    },
+    {
+     "afirmacion": "Conformamos un grupo encabezado por el ministro del Interior y el jefe de la PNP para elaborar la reforma policial",
+     "veredicto": "no_verificable",
+     "dato_oficial": "No encontramos una resolución que cree ese grupo. El ministro Astudillo menciona 'la reforma policial que venimos llevando a cabo' sin citar una norma (El Peruano, oct-2026). Por separado, la Comisión de Defensa de la Cámara de Diputados aprobó el 16-set-2026 un grupo de trabajo propio para la reforma de la PNP (solo snippet).",
+     "fuente": "El Peruano (nota 307345); Congreso, nota de prensa (solo snippet)",
+     "url": "https://elperuano.pe/noticia/307345-homicidios-en-el-peru-muestran-una-tendencia-decreciente-asegura-el-ministro-astudillo",
+     "leido": true,
+     "nota": "Habría que revisar las resoluciones ministeriales (IN) o supremas de oct–nov 2026 en El Peruano. No hay que confundir este grupo con el grupo de trabajo parlamentario."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 1,
+     "titulo": "Fuerzas Armadas al mando durante estados de emergencia"
+    },
+    {
+     "i": 3,
+     "titulo": "Ofensiva contra mafias, reforma penitenciaria y unidades de flagrancia"
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "eje": "seguridad",
+   "ts": "00:08:46",
+   "corto": "37 organizaciones, 16 325 capturas",
+   "texto": "37 organizaciones criminales y 2 700 bandas desarticuladas; 16 325 requisitoriados capturados; más de 1 300 armas incautadas; 1 253 órdenes de expulsión.",
+   "veredicto": "no_verificable",
+   "verificacion": [
+    {
+     "afirmacion": "Desarticulamos 37 organizaciones criminales y 2,700 bandas; 16,325 requisitoriados capturados; más de 1,300 armas incautadas; 1,253 órdenes de expulsión",
+     "veredicto": "no_verificable",
+     "dato_oficial": "No hallamos un balance oficial publicado (Mininter/PNP) con esas cifras. Lo más cercano: Migraciones emitió 2,807 órdenes de expulsión en lo que va de 2026 (corte ~mediados de set-2026), sin desglose desde el 28-jul.",
+     "fuente": "Andina (Migraciones, superintendente Luis Yunis)",
+     "url": "https://andina.pe/agencia/noticia-migraciones-emitio-mas-2800-ordenes-expulsion-durante-2026-1091365.aspx",
+     "leido": true,
+     "nota": "La cifra de 1,253 expulsiones desde el 28-jul es compatible en orden de magnitud con el acumulado anual de Migraciones, pero no se puede contrastar. Las cifras de organizaciones, bandas, requisitoriados y armas no aparecen en ninguna fuente pública consultada."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 3,
+     "titulo": "Ofensiva contra mafias, reforma penitenciaria y unidades de flagrancia"
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "eje": "seguridad",
+   "ts": "00:09:07",
+   "corto": "5 penales; 2 megapenales",
+   "texto": "Recuperación del control de cinco penales con las FF. AA.; 7 torres, 33 antenas y 194 equipos ilegales derribados; dos megapenales en los próximos meses.",
+   "veredicto": "coincide_con_matices",
+   "verificacion": [
+    {
+     "afirmacion": "Con las FF.AA. recuperamos el control de 5 penales (Cochamarca, Ancón I, Castro Castro, El Milagro, Challapalca); derribamos 7 torres, 33 antenas y 194 equipos; construiremos dos megapenales",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "Penales: el DS 128-2026-PCM (set-2026), prorrogado 60 días por el DS 148-2026-PCM (El Peruano, 03-11-2026), declara en emergencia Challapalca, Cochamarca, Miguel Castro Castro, Ancón I y Trujillo Varones (El Milagro), con apoyo de las FF.AA. en un perímetro de hasta 200 m. Antenas: megaoperativo en las inmediaciones de Ancón I, Piedras Gordas II, Sarita Colonia y Andahuaylas que 'permitió incautar 7 torres de telecomunicaciones, 33 antenas, repetidores y otros equipos'. El MTC reporta 178 equipos incautados en el año. Megapenales: en El Salvador (29/30-oct) la presidenta anunció 'iniciaremos dos más', uno de alta peligrosidad y otro para reos de menor peligrosidad.",
+     "fuente": "El Peruano, Normas Legales 03-11-2026 (DS 148-2026-PCM); El Peruano nota 307695 (antenas); El Peruano nota 307963 (dos cárceles)",
+     "url": "https://elperuano.pe/noticia/307695-estado-desmantela-antenas-clandestinas-alrededor-de-penales",
+     "leido": true,
+     "nota": "Los cinco penales y las cifras de 7 torres y 33 antenas cuadran. Hay tres matices. Las FF.AA. solo apoyan a la PNP en el perímetro exterior: el INPE mantiene la custodia, así que no 'recuperan el control' del penal. El operativo no incluyó Castro Castro, como dijo la presidenta. Los 194 equipos no coinciden con los 178 del MTC (quizá es un corte posterior). Los megapenales no tienen ubicación, plazo ni presupuesto publicados."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 3,
+     "titulo": "Ofensiva contra mafias, reforma penitenciaria y unidades de flagrancia"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "eje": "seguridad",
+   "ts": "00:09:58",
+   "corto": "Minería ilegal: S/ 876 M destruidos",
+   "texto": "S/ 876 millones en maquinaria de minería ilegal destruida; intervenciones en Pataz y Madre de Dios; 980 ha recuperadas en la Reserva Nacional Tambopata.",
+   "veredicto": "coincide_con_matices",
+   "verificacion": [
+    {
+     "afirmacion": "Destruimos S/876 millones en maquinaria de minería ilegal; recuperamos 980 ha en la Reserva Nacional Tambopata",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "Minam/Sernanp (balance de 100 días, El Peruano 02-11-2026): se recuperó el 95% de las 1,041 ha afectadas en la RN Tambopata, 'más de 980 hectáreas', con 65 interdicciones desde el 28-jul (58 en Tambopata). Para los S/876 millones no hallamos un consolidado oficial. Hay operativos sueltos, por ejemplo S/27.8 millones en Inambari el 22-set (Mininter), y Rumbo Minero cita S/546 millones solo en agosto 2026 (solo snippet).",
+     "fuente": "El Peruano notas 308182 (Minam) y 305427 (Mininter)",
+     "url": "https://elperuano.pe/noticia/308182-madre-de-dios-gobierno-recupera-el-95-de-las-areas-afectadas-por-la-mineria-ilegal-en-tambopata",
+     "leido": true,
+     "nota": "Las 980 ha coinciden con la fuente oficial, pero corresponden a Tambopata (Madre de Dios), no a Pataz. La cifra de S/876 millones no aparece en fuentes públicas y además mide valor 'destruido', una valorización que hace la propia autoridad."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 3,
+     "titulo": "Ofensiva contra mafias, reforma penitenciaria y unidades de flagrancia"
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "eje": "seguridad",
+   "ts": "00:10:18",
+   "corto": "Escudo de las Américas, FBI, Bukele",
+   "texto": "Ingreso al Escudo de las Américas; capturas con el FBI (Los Tiguerones) y la policía boliviana (Los Pulpos); declaración de cooperación con El Salvador.",
+   "veredicto": "coincide",
+   "verificacion": [
+    {
+     "afirmacion": "Perú ingresó al Escudo de las Américas; PNP y FBI detuvieron a 9 Tiguerones Trux en Huanchaco; con la policía boliviana se capturó al cabecilla de Los Pulpos",
+     "veredicto": "coincide",
+     "dato_oficial": "Escudo de las Américas: incorporación confirmada por Marco Rubio el 8-set-2026 (no es un tratado). Tiguerones Trux: 9 ecuatorianos detenidos en Huanchaco en un operativo PNP–FBI (fines de set-2026). Los Pulpos: Jhonsson Smit Cruz Torres fue detenido en La Paz por la Policía de Bolivia (anuncio del Mininter, 1-set-2026) y expulsado al Perú.",
+     "fuente": "Caretas (Escudo; Tiguerones); Mininter gob.pe (Los Pulpos)",
+     "url": "https://www.gob.pe/institucion/mininter/noticias/1437291-ministro-del-interior-anuncia-captura-en-bolivia-del-cabecilla-de-la-organizacion-criminal-los-pulpos-de-trujillo",
+     "leido": true,
+     "nota": "Las tres afirmaciones están documentadas. Otras URL leídas: https://caretas.pe/home_web/home_principal_secundario/escudo-de-las-americas-que-es-y-que-implica-el-ingreso-del-peru/ y https://caretas.pe/nacional/trujillo-pnp-y-fbi-golpean-a-banda-ecuatoriana-los-tiguerones-trux/"
+    },
+    {
+     "afirmacion": "Visitamos El Salvador y su sistema penitenciario; con Bukele firmamos una declaración de cooperación en seguridad, salud, educación y fortalecimiento institucional",
+     "veredicto": "coincide",
+     "dato_oficial": "Visita oficial del 28 al 31-oct-2026: recorrido por el CECOT el 29-oct y firma en la Casa Presidencial de un acuerdo/declaración con 'acciones conjuntas en materia de educación, salud, seguridad y fortalecimiento institucional' (pie de foto de EFE).",
+     "fuente": "Vanguardia/EFE (30-10-2026); El Peruano nota 307963",
+     "url": "https://www.vanguardia.com/mundo/2026/10/30/keiko-fujimori-anuncia-dos-carceles-para-peru-tras-visitar-la-megacarcel-de-bukele/",
+     "leido": true,
+     "nota": "Coincide. Según la prensa, la Cancillería precisó que se trata de una declaración de voluntad política y no de un tratado (solo snippet)."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 18,
+     "titulo": "Integración regional, APEC y Medio Oriente"
+    }
+   ]
+  },
+  {
+   "id": "o1",
+   "eje": "obras",
+   "ts": "00:12:13",
+   "corto": "Longitudinal, Checa–Mazocruz, tren",
+   "texto": "Reinicio de la Longitudinal de la Sierra tramo 2 (tras 7 años), puente San Francisco (Ayna–Kimbiri), carretera Checa–Mazocruz (73 km) y Tren Macho Huancayo–Huancavelica.",
+   "veredicto": "no_coincide",
+   "verificacion": [
+    {
+     "afirmacion": "En Cajamarca, tras 7 años, reiniciamos obras de la Longitudinal de la Sierra Tramo 2 (Chiple–Cutervo–Cochabamba)",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "MTC: acta con la Concesionaria Vial Sierra Norte (jul-2026) para reiniciar 33,8 km pendientes y entrega parcial de 22,24 km del área de la concesión (20-08-2026) 'que permite viabilizar el reinicio'",
+     "fuente": "Energiminas con nota del MTC (20-08-2026)",
+     "url": "https://energiminas.com/?p=50087",
+     "leido": true,
+     "nota": "Los pasos para reiniciar existen, pero no se encontró confirmación del reinicio físico en campo ni de los '7 años'. fuente: solo el propio gobierno."
+    },
+    {
+     "afirmacion": "En Ayacucho se destrabó el proyecto del puente San Francisco (Ayna–Kimbiri) tras casi un año de paralización",
+     "veredicto": "no_verificable",
+     "dato_oficial": "En enero de 2026 (ministro Aldo Prieto, gobierno anterior) el MTC preveía dar la buena pro del nuevo puente definitivo (741 m, más de S/ 500 millones) a fines de febrero y reparar el puente actual tras otro concurso",
+     "fuente": "Energiminas (28-01-2026)",
+     "url": "https://energiminas.com/?p=41381",
+     "leido": true,
+     "nota": "No se encontró ninguna nota de 2026 que confirme el destrabe ni su fecha."
+    },
+    {
+     "afirmacion": "En Puno, tras 9 años, se destrabó la ejecución del saldo de obra de la carretera Checca–Mazocruz (73 km)",
+     "veredicto": "no_coincide",
+     "dato_oficial": "Hace alrededor de un mes, el ministro Tangherlini dijo que habría mantenimiento continuo de los 73 km 'mientras se trabaja para superar los procesos judiciales y arbitrales que actualmente impiden iniciar la ejecución'",
+     "fuente": "Panamericana (nota con fecha relativa 'hace 1 mes', ~oct-2026)",
+     "url": "https://panamericana.pe/nacionales/475188-mtc-garantiza-mantenimiento-carretera-checca-mazocruz-destraba-ejecucion-obra",
+     "leido": true,
+     "nota": "Según la última nota encontrada, la obra seguía bloqueada por procesos judiciales y arbitrales. Puede que haya un avance posterior que no se halló. El Búho (abr-2026, solo snippet) hablaba de 5 años de paralización, no 9."
+    },
+    {
+     "afirmacion": "Se reiniciaron las operaciones del Tren Macho Huancayo–Huancavelica, tramo Chilca–Cuenca, con viajes gratuitos",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "Reinicio el 24-10-2026 en el tramo Chilca–Cuenca; viajes gratuitos los lunes desde el 26-10-2026",
+     "fuente": "El Peruano (25-10-2026); Canal N",
+     "url": "https://elperuano.pe/noticia/307555-reactivacion-del-tren-macho-dinamizara-el-transporte-regional",
+     "leido": true,
+     "nota": "El reinicio y la gratuidad coinciden (fuente: solo el propio gobierno y Canal N)."
+    },
+    {
+     "afirmacion": "El Tren Macho reinició 'después de 10 años'",
+     "veredicto": "no_coincide",
+     "dato_oficial": "El Peruano: reinicio 'tras un año de paralización'. Canal N: 'paralizado durante más de un año'",
+     "fuente": "El Peruano (25-10-2026); Canal N",
+     "url": "https://canaln.pe/peru/tren-macho-reanuda-operaciones-mas-ano-n495908",
+     "leido": true,
+     "nota": "El tren ya había vuelto a operar en dic-2024/mar-2025 tras unos 5 años parado (Gestión/Energiminas, solo snippet). Los '10 años' no tienen sustento."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 11,
+     "titulo": "Infraestructura social y productiva"
+    },
+    {
+     "i": 12,
+     "titulo": "Red de metros y trenes de cercanías"
+    },
+    {
+     "i": 13,
+     "titulo": "Carreteras estratégicas y caminos rurales"
+    }
+   ]
+  },
+  {
+   "id": "o2",
+   "eje": "obras",
+   "ts": "00:13:33",
+   "corto": "Hospitales e historia clínica",
+   "texto": "Hospital Lorena del Cusco y siete centros de salud destrabados; historia clínica electrónica en 4 hospitales y 41 centros de Lima (148 000 referencias digitales); Torre Trecca de EsSalud tras 16 años.",
+   "veredicto": "coincide_con_matices",
+   "verificacion": [
+    {
+     "afirmacion": "Destrabamos la ejecución del Hospital Antonio Lorena del Cusco",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "El PRONIS y el GORE Cusco (29-09-2026) fijaron la transferencia para noviembre de 2026 y el inicio de operaciones el 11-11-2026. La obra estaba en curso, con contrato de 2022 y ~80% de avance físico en dic-2025 (La República, solo snippet)",
+     "fuente": "Gobierno Regional Cusco, gob.pe (29-09-2026)",
+     "url": "https://www.gob.pe/institucion/regioncusco/noticias/1450674-gobierno-regional-y-pronis-definen-ultima-etapa-para-poner-en-servicio-uno-de-los-hospitales-mas-importantes-del-pais",
+     "leido": true,
+     "nota": "Era una obra en su etapa final que venía de gobiernos anteriores: este gobierno la cierra, más que destrabarla. No se verificaron los centros de salud citados (Chalhuahuacho, etc.)."
+    },
+    {
+     "afirmacion": "4 hospitales nacionales y 41 centros de salud de Lima comparten la historia clínica electrónica; más de 148 000 referencias digitales",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "Minsa (16-10-2026): plan piloto en marcha blanca en los hospitales Dos de Mayo, Lima Este-Vitarte, Hipólito Unanue y San Bartolomé, y 41 centros de salud; meta de 25 hospitales y 525 centros entre fines de 2026 y enero de 2027",
+     "fuente": "El Peruano (16-10-2026), declaraciones del ministro Luis Dyer",
+     "url": "https://elperuano.pe/noticia/306940-transformacion-digital-en-el-minsa",
+     "leido": true,
+     "nota": "4 + 41 coincide, pero era un piloto en marcha blanca 'en etapa de adaptación'. No se encontró la cifra de 148 000 referencias. fuente: solo el propio gobierno."
+    },
+    {
+     "afirmacion": "EsSalud: tras 16 años de paralización se inició la recuperación de la Torre Trecca; 1,4 millones de asegurados",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "Inicio de obras el 03-11-2026; APP de S/ 486,3 millones (sin IGV); contrato original de 2010; convenio EsSalud–ProInversión (jul-2025), licencia y Adenda 2 (feb-2026) firmados antes de este gobierno; contratista de obra contratado en setiembre",
+     "fuente": "Andina (03-11-2026); El Peruano (03-11-2026)",
+     "url": "https://andina.pe/agencia/noticia-1403-million-invested-to-bring-essaluds-torre-trecca-into-operation-1098422.aspx",
+     "leido": true,
+     "nota": "El inicio de obras y la cifra de 1,4 millones coinciden. Gran parte del destrabe contractual se hizo con gobiernos anteriores. La promesa de 18 meses contrasta con los 24-26 meses que EsSalud planificó (solo snippet)."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 11,
+     "titulo": "Infraestructura social y productiva"
+    },
+    {
+     "i": 14,
+     "titulo": "Autoridad Nacional Digital e Identidad Digital"
+    }
+   ]
+  },
+  {
+   "id": "o3",
+   "eje": "obras",
+   "ts": "00:14:54",
+   "corto": "71 proyectos de agua; 4 de electrificación",
+   "texto": "71 proyectos de agua y saneamiento destrabados en 21 regiones (2,8 millones de beneficiarios); 117 motobombas; 4 proyectos de electrificación rural (S/ 164 millones, 35 000 habitantes).",
+   "veredicto": "no_verificable",
+   "verificacion": [
+    {
+     "afirmacion": "Destrabamos 71 proyectos de agua y saneamiento en 21 regiones (2,8 millones de beneficiarios)",
+     "veredicto": "no_verificable",
+     "dato_oficial": "No se encontró nota del MVCS con esas cifras",
+     "fuente": "—",
+     "url": null,
+     "leido": false,
+     "nota": "Habría que pedírselo al MVCS (PNSU/PNSR)."
+    },
+    {
+     "afirmacion": "Concluimos 4 proyectos de electrificación rural (Junín, Loreto, Madre de Dios, Moquegua), ~S/ 164 millones, más de 35 000 habitantes en 135 localidades",
+     "veredicto": "no_verificable",
+     "dato_oficial": "Minem (sep-2026, solo snippet): 10 proyectos culminados entre enero y agosto de 2026, S/ 161 millones, 36 396 habitantes, 535 localidades en Amazonas, Áncash, Ayacucho, Huancavelica, Junín, Moquegua y Puno",
+     "fuente": "Energiminas (15-09-2026), solo snippet",
+     "url": null,
+     "leido": false,
+     "nota": "Los montos y beneficiarios son muy parecidos a un balance de enero-agosto que es mayormente anterior a este gobierno y con otras regiones. Puede ser un dato reciclado; falta la nota de la DGER-Minem."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 11,
+     "titulo": "Infraestructura social y productiva"
+    }
+   ]
+  },
+  {
+   "id": "o4",
+   "eje": "obras",
+   "ts": "00:14:41",
+   "corto": "18 000 títulos; 16 000 viviendas",
+   "texto": "18 000 títulos de propiedad urbanos (el doble que en el mismo periodo del año anterior); 16 000 familias con Techo Propio o Bono del Buen Pagador; 3 300 casitas calientes; 700 módulos en Junín para diciembre.",
+   "veredicto": "no_verificable",
+   "verificacion": [
+    {
+     "afirmacion": "18 000 familias urbanas recibieron título de propiedad, el doble que en el mismo periodo del año anterior",
+     "veredicto": "no_verificable",
+     "dato_oficial": "COFOPRI: más de 6900 títulos entregados entre el 1 y el 26 de agosto de 2026; la meta del año es 44 000 títulos",
+     "fuente": "El Peruano (26-08-2026 y 11-09-2026)",
+     "url": "https://elperuano.pe/noticia/303386-cofopri-supera-los-6900-titulos-entregados-y-refuerza-la-formalizacion-de-predios",
+     "leido": true,
+     "nota": "No se encontró el acumulado a noviembre ni la cifra comparable de ago-oct 2025 para comprobar que sea 'el doble'."
+    },
+    {
+     "afirmacion": "Más de 16 000 familias con vivienda nueva o mejorada con Techo Propio y Bono del Buen Pagador; 3300 casitas calientes",
+     "veredicto": "no_verificable",
+     "dato_oficial": "No se encontraron cifras de 2026. Hay una cifra parecida de 2025: 15 986 bonos habitacionales (Techo Propio + Mivivienda) en lo que iba de 2025 (ProActivo, solo snippet)",
+     "fuente": "ProActivo (solo snippet)",
+     "url": null,
+     "leido": false,
+     "nota": "Falta el período al que se refiere; habría que pedirlo al Fondo Mivivienda/MVCS y al PNVR (casitas calientes)."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 11,
+     "titulo": "Infraestructura social y productiva"
+    }
+   ]
+  },
+  {
+   "id": "p1",
+   "eje": "social",
+   "ts": "00:16:21",
+   "corto": "Cuna Más, CEM, 48 000 empleos",
+   "texto": "43 locales de Cuna Más (más de 700 niños), dos nuevos Centros Emergencia Mujer y 48 000 empleos temporales con Llamkasun Perú en 930 distritos.",
+   "veredicto": "no_verificable",
+   "verificacion": [
+    {
+     "afirmacion": "43 locales de Cuna Más en operación y 2 nuevos CEM",
+     "veredicto": "no_verificable",
+     "dato_oficial": "No se encontró nota del Midis/MIMP con esas cifras",
+     "fuente": "—",
+     "url": null,
+     "leido": false,
+     "nota": "Sin fuente localizada."
+    },
+    {
+     "afirmacion": "Llamkasun Perú promovió más de 48 000 empleos en 930 distritos de 24 regiones",
+     "veredicto": "no_verificable",
+     "dato_oficial": "MTPE (23-10-2026): más de 35 000 empleos temporales en 693 distritos de 24 departamentos, S/ 129 millones, con trabajos que empezarían 'progresivamente a inicios de noviembre'",
+     "fuente": "El Peruano (23-10-2026)",
+     "url": "https://elperuano.pe/noticia/307498-llamkasun-peru-generara-mas-de-35000-empleos-temporales-en-cerca-de-700-distritos",
+     "leido": true,
+     "nota": "La última cifra oficial es menor (35 000 en 693 distritos) y está en futuro. Los 48 000 podrían sumar convocatorias previas, pero no se halló fuente."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 5,
+     "titulo": "Política de Protección Integral de la Primera Infancia, la Niñez, la Adolescencia y la Familia"
+    },
+    {
+     "i": 9,
+     "titulo": "Política de Estado “Jóvenes con Futuro”"
+    }
+   ]
+  },
+  {
+   "id": "p2",
+   "eje": "social",
+   "ts": "00:16:41",
+   "corto": "Sueldo mínimo S/ 1 230",
+   "texto": "Desde el 1 de octubre la remuneración mínima vital subió S/ 100, hasta S/ 1 230. «No es suficiente, pero vamos avanzando».",
+   "veredicto": "coincide",
+   "verificacion": [
+    {
+     "afirmacion": "Desde el 1 de octubre la RMV subió S/100 hasta S/1,230",
+     "veredicto": "coincide",
+     "dato_oficial": "El Peruano: la presidenta firmó el decreto supremo de alza progresiva de la RMV hasta S/1,300; el primer tramo rige desde el 1-oct-2026 y lleva la RMV de S/1,130 a S/1,230 (unos 600,000 trabajadores beneficiados). Número de norma: DS N.° 015-2026-TR (dato de snippet de El Peruano, no leído en el texto de la norma).",
+     "fuente": "Diario Oficial El Peruano",
+     "url": "https://elperuano.pe/noticia/305675-gobierno-oficializa-aumento-del-sueldo-minimo-vital-subira-a-s1230-a-partir-del-1-de-octubre",
+     "leido": true,
+     "nota": "Cifra y fecha exactas. El segundo tramo (a S/1,300) quedó para después de El Niño; además hay un bono de S/100 por trabajador para las mypes."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 16,
+     "titulo": "Salario mínimo a S/ 1,300 y reactivación de las MYPE"
+    }
+   ]
+  },
+  {
+   "id": "p3",
+   "eje": "social",
+   "ts": "00:17:05",
+   "corto": "Plan de Educación; disciplina",
+   "texto": "Plan Nacional de Educación presentado el 14 de setiembre con metas a 5 años; reglamento de disciplina escolar para restablecer la autoridad del maestro.",
+   "veredicto": "coincide_con_matices",
+   "verificacion": [
+    {
+     "afirmacion": "El 14 de septiembre presentamos el Plan Nacional de Educación con metas para 5 años",
+     "veredicto": "coincide",
+     "dato_oficial": "Plan Nacional de Educación 2026-2031 presentado el 14-09-2026: 2000 colegios nuevos, intervención de 3000, 100% de escuelas con internet en 2027",
+     "fuente": "Forbes Perú (14-09-2026), basado en gob.pe",
+     "url": "https://forbes.pe/actualidad/2026-09-14/reforma-educativa-gobierno-plantea-construir-2-000-colegios-y-modernizar-otros-3-000/",
+     "leido": true,
+     "nota": "La fecha y el horizonte de 5 años coinciden."
+    },
+    {
+     "afirmacion": "El reglamento de disciplina escolar restablecerá la autoridad del maestro",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "El 12-10-2026 se presentaron los Lineamientos para la Gestión de la Disciplina Escolar; la RM 613-2026-MINEDU prepublicó el proyecto de DS para consulta por 15 días",
+     "fuente": "El Peruano (12-10-2026)",
+     "url": "https://elperuano.pe/noticia/306605-presidenta-fujimori-presenta-nuevos-lineamientos-para-la-gestion-de-la-disciplina-escolar",
+     "leido": true,
+     "nota": "Es un proyecto prepublicado (lineamientos por DS, no un 'reglamento') y no se halló su aprobación final. El discurso usa futuro, lo que es consistente."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 7,
+     "titulo": "Mejora de aprendizajes, formación docente y kits escolares"
+    }
+   ]
+  },
+  {
+   "id": "p4",
+   "eje": "social",
+   "ts": "00:17:38",
+   "corto": "13 M materiales; 2 000 becas COAR",
+   "texto": "13 millones de materiales educativos; 6 500 laptops recuperadas para los COAR; 2 000 becas para egresados COAR; 124 aulas domo y 15 aulas modulares tras el sismo en Junín y Ayacucho.",
+   "veredicto": "no_coincide",
+   "verificacion": [
+    {
+     "afirmacion": "Distribuimos 13 millones de materiales educativos (textos, cuadernos, kits con buzos y mochilas)",
+     "veredicto": "no_coincide",
+     "dato_oficial": "La dotación de materiales 2026 suma 13 121 460 unidades (S/ 42,8 millones), distribuida para el inicio de clases del 16-03-2026 bajo el ministro Jorge Figueroa (gobierno anterior)",
+     "fuente": "Andina (18-01-2026)",
+     "url": "https://andina.pe/agencia/noticia-ano-escolar-2026-minedu-ya-despacho-mas-del-80-del-material-educativo-a-regiones-1059771.aspx",
+     "leido": true,
+     "nota": "La cifra existe, pero corresponde a la distribución del gobierno anterior (ene-mar 2026), antes del 28-07-2026. No se encontró una entrega propia de 13 millones con buzos y mochilas."
+    },
+    {
+     "afirmacion": "En coordinación con la ONPE (transcrito 'OMPE') recuperamos 6500 laptops para estudiantes de los COAR",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "El 03-11-2026 la presidenta entregó 6500 laptops a estudiantes de los COAR (100% de cobertura)",
+     "fuente": "Andina (03-11-2026)",
+     "url": "https://andina.pe/agencia/noticia-president-keiko-fujimori-hands-out-6500-laptops-to-students-at-highperformance-schools-1098469.aspx",
+     "leido": true,
+     "nota": "La entrega de 6500 laptops coincide; no se encontró fuente sobre su origen (ONPE ni 'recuperadas'). fuente: solo el propio gobierno."
+    },
+    {
+     "afirmacion": "Creamos la Beca COAR: 2000 becas para egresados",
+     "veredicto": "no_verificable",
+     "dato_oficial": "No se encontró norma ni convocatoria de Pronabec llamada 'Beca COAR'",
+     "fuente": "—",
+     "url": null,
+     "leido": false,
+     "nota": "Puede ser un anuncio todavía sin norma publicada."
+    },
+    {
+     "afirmacion": "Tras los sismos en Junín y Ayacucho instalamos 124 aulas domo e iniciamos la adquisición de 15 aulas modulares",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "Minedu: 68 aulas domo instaladas en 23 escuelas de Junín (S/ 8,16 millones, 08-09-2026) + 54 domos enviados a Ayacucho (31-08-2026) = 122",
+     "fuente": "gob.pe Minedu (08-09-2026); El Peruano (31-08-2026)",
+     "url": "https://www.gob.pe/institucion/minedu/noticias/1440992-minedu-culmino-instalacion-de-68-aulas-tipo-domo-en-23-escuelas-afectadas-por-sismo-en-junin",
+     "leido": true,
+     "nota": "Las cifras oficiales suman 122, muy cerca de 124. No se verificaron las 15 aulas modulares. fuente: solo el propio gobierno."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 7,
+     "titulo": "Mejora de aprendizajes, formación docente y kits escolares"
+    },
+    {
+     "i": 9,
+     "titulo": "Política de Estado “Jóvenes con Futuro”"
+    }
+   ]
+  },
+  {
+   "id": "e1",
+   "eje": "economia",
+   "ts": "00:18:39",
+   "corto": "Analistas: crecer 4 %",
+   "texto": "Por primera vez en más de 5 años, los analistas que consulta el BCRP proyectan que el Perú crecerá 4 % en los próximos años.",
+   "veredicto": "no_coincide",
+   "verificacion": [
+    {
+     "afirmacion": "Por primera vez en más de 5 años los analistas que consulta el BCRP proyectan que el Perú crecerá 4% en los próximos años",
+     "veredicto": "no_coincide",
+     "dato_oficial": "Encuesta de Expectativas Macroeconómicas del BCRP: en octubre de 2026 los analistas económicos esperan un crecimiento de 3.1% para 2026 (3.2% en agosto y setiembre). En julio subieron su proyección para 2027 y 2028 a 3.7%. En agosto, el rango de los tres grupos para 2027 fue 3.2%-3.4% y para 2028, 3.5%. Ninguna de las encuestas que encontramos muestra un 4%.",
+     "fuente": "BCRP, Encuesta de Expectativas Macroeconómicas (vía Infobae 6-nov-2026, Infomercado jul-2026, Gestión 5-set-2026)",
+     "url": "https://www.infobae.com/peru/2026/11/06/empresas-ahora-ven-con-pesimismo-la-economia-peruana-para-los-proximos-meses/",
+     "leido": true,
+     "nota": "No pudimos abrir la Nota de Estudios del BCRP de octubre (el sitio bloquea descargas automáticas), así que no vimos las cifras de los analistas para 2027-2028 en ese mes. El máximo publicado que encontramos es 3.7% (julio). La tendencia más reciente es a la baja, no hacia 4%."
+    }
+   ],
+   "anuncios_28jul": []
+  },
+  {
+   "id": "e2",
+   "eje": "economia",
+   "ts": "00:18:52",
+   "corto": "Empresarios optimistas",
+   "texto": "Los empresarios no se sentían tan optimistas sobre la economía a 12 meses desde hace muchos años.",
+   "veredicto": "coincide_con_matices",
+   "verificacion": [
+    {
+     "afirmacion": "Los empresarios no se sentían tan optimistas sobre la economía a 12 meses desde hace muchos años",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "Índice de expectativas de la economía a 12 meses (BCRP, serie PD37981AM): jul-2026 = 72.1, el nivel más alto desde nov-2017 (76.1). Después bajó: ago 68.1, set 67.6, oct 63.1, menos que en ene-2026 (64.8). La expectativa a 3 meses cayó de 62.3 (jul) a 56.8 (set) y a 49.5 en octubre, en el tramo pesimista.",
+     "fuente": "BCRPData, Expectativas empresariales (PD37981AM y PD38045AM); Infobae 6-nov-2026",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PD37981AM/html",
+     "leido": true,
+     "nota": "Fue cierto para julio (máximo en unos 9 años), pero el dato vigente cuando habló (octubre, 63.1) ya había caído tres meses seguidos y está por debajo del de enero de 2026. La expectativa a 3 meses entró en octubre al tramo pesimista, y eso no lo mencionó."
+    }
+   ],
+   "anuncios_28jul": []
+  },
+  {
+   "id": "e3",
+   "eje": "economia",
+   "ts": "00:19:05",
+   "corto": "Desempleo Lima 4,4 %",
+   "texto": "Según el INEI, el desempleo en Lima Metropolitana llegó a 4,4 % este trimestre, el más bajo en 25 años.",
+   "veredicto": "coincide",
+   "verificacion": [
+    {
+     "afirmacion": "Según el INEI, el desempleo en Lima Metropolitana fue de 4.4% este trimestre, el más bajo en 25 años",
+     "veredicto": "coincide",
+     "dato_oficial": "INEI (EPE): tasa de desempleo de Lima Metropolitana de 4.4% en jul-ago-set 2026, frente a 5.7% un año antes; unas 274,900 personas buscaban empleo. En la serie de trimestre móvil del BCRP/INEI (PN38063GM, que empieza en mar-may 2001), 4.37% es el valor más bajo de toda la serie.",
+     "fuente": "INEI vía BCRPData (PN38063GM); Andina; Gestión (IPE)",
+     "url": "https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PN38063GM/html",
+     "leido": true,
+     "nota": "Es el mínimo desde que existe la serie (2001), es decir unos 25 años. Hay matices: el MTPE/El Peruano habla de 'más de 20 años' y 'desde 2003 para ese trimestre', y Andina de 'desde 2022'. Además, el 33.4% de la PEA limeña está subempleada (Gestión)."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 9,
+     "titulo": "Política de Estado “Jóvenes con Futuro”"
+    }
+   ]
+  },
+  {
+   "id": "e4",
+   "eje": "economia",
+   "ts": "00:19:20",
+   "corto": "Exportaciones récord US$ 107 mil M",
+   "texto": "Las exportaciones marcarán un récord de US$ 107 000 millones este año, pese a El Niño.",
+   "veredicto": "coincide_con_matices",
+   "verificacion": [
+    {
+     "afirmacion": "Las exportaciones marcarán un récord de US$107 mil millones este año",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "El récord previo es de 2025: US$90,082 millones. El BCRP proyectó US$118,171 millones para 2026 (Reporte de Inflación de junio), la CCL proyecta US$110,794 millones (oct-2026) y ADEX US$107 mil millones (jul-2026, solo snippet). Entre enero y julio de 2026 se exportaron US$63,521 millones (solo snippet).",
+     "fuente": "BCRP (vía Andina); CCL-Idexcam (vía Energiminas); ADEX (solo snippet)",
+     "url": "https://andina.pe/agencia/noticia-peru-bcr-projects-record-118-billion-in-exports-for-2026-1081041.aspx",
+     "leido": true,
+     "nota": "Es una proyección, no un dato cerrado. Que habrá récord es muy probable. US$107 mil millones es una cifra conservadora frente al BCRP (118) y a la CCL (110.8), y coincide con la estimación de ADEX de julio."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 18,
+     "titulo": "Integración regional, APEC y Medio Oriente"
+    }
+   ]
+  },
+  {
+   "id": "e5",
+   "eje": "economia",
+   "ts": "00:19:38",
+   "corto": "Compras MYPErú S/ 513 M",
+   "texto": "S/ 513 millones en nuevas oportunidades de mercado para las MYPE con Compras MYPErú; S/ 43 millones en mercados y centros de innovación.",
+   "veredicto": "no_verificable",
+   "verificacion": [
+    {
+     "afirmacion": "Compras a MYPErú generó más de S/513 millones en nuevas oportunidades de mercado para las mypes",
+     "veredicto": "no_verificable",
+     "dato_oficial": "No encontramos una fuente oficial con S/513 millones. Produce anunció el 23-set-2026 que destinaría más de S/500 millones a comprar kits escolares a mypes mediante Compras a MYPErú. Rumbo Económico/RCR hablan de S/501 millones para 1.2 millones de kits (solo snippet). La Ley 32744 autoriza las transferencias sin fijar un monto (solo snippet).",
+     "fuente": "Produce (vía Infomercado, 23-set-2026)",
+     "url": "https://infomercadodiario.substack.com/p/produce-destinara-mas-de-s500-millones",
+     "leido": true,
+     "nota": "El orden de magnitud cuadra con el presupuesto anunciado para kits escolares, pero es un monto asignado o por adjudicar, no ventas ya realizadas. No hallamos el desglose de los S/513 millones."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 16,
+     "titulo": "Salario mínimo a S/ 1,300 y reactivación de las MYPE"
+    }
+   ]
+  },
+  {
+   "id": "e6",
+   "eje": "economia",
+   "ts": "00:19:54",
+   "corto": "SENACE: 55 expedientes, S/ 10 mil M",
+   "texto": "El SENACE aprobó 55 expedientes ambientales de grandes proyectos con inversiones de más de S/ 10 000 millones.",
+   "veredicto": "coincide",
+   "verificacion": [
+    {
+     "afirmacion": "A través del Senace, el Minam aprobó 55 expedientes ambientales de grandes proyectos por más de S/10,000 millones",
+     "veredicto": "coincide",
+     "dato_oficial": "Balance de 100 días del Minam (El Peruano, nov-2026): el Senace certificó 55 expedientes vinculados a inversiones por más de S/10,000 millones, sobre todo en Arequipa, Cusco, Cajamarca, Lima, Lambayeque y Puno.",
+     "fuente": "Diario Oficial El Peruano (balance del Minam)",
+     "url": "https://elperuano.pe/noticia/308474-minam-muestra-avances-en-lucha-contra-la-mineria-ilegal-inversiones-sostenibles-y-fiscalizacion-ambiental",
+     "leido": true,
+     "nota": "Coincide con la cifra oficial del propio sector; no tiene verificación independiente. Como contexto, el Senace ya había aprobado 138 expedientes por más de US$14,000 millones entre enero y setiembre de 2026 (solo snippet), así que el ritmo de los 100 días no es excepcional."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 15,
+     "titulo": "Transformación de las compras públicas y reforma del servicio civil"
+    }
+   ]
+  },
+  {
+   "id": "f1",
+   "eje": "fiscal",
+   "ts": "00:20:52",
+   "corto": "Deuda ≈ 30 % del PBI",
+   "texto": "El Perú tiene una de las deudas públicas más bajas del mundo, cerca del 30 % del PBI.",
+   "veredicto": "coincide_con_matices",
+   "verificacion": [
+    {
+     "afirmacion": "Tenemos una de las deudas públicas más bajas del mundo, cerca del 30% del PBI",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "El ministro del MEF, Elmer Cuba, dijo el 22-oct-2026 que el paquete se financia con un déficit de 1.6% y una deuda pública de 30% del PBI. El MMM 2026-2029 proyectaba 32.1% del PBI para 2025-2026 (solo snippet).",
+     "fuente": "MEF (declaración vía Infomercado); MMM 2026-2029 (solo snippet)",
+     "url": "https://infomercado.pe/bonos-obras-y-alivio-tributario-asi-respondera-el-gobierno-a-el-nino-en-2027/",
+     "leido": true,
+     "nota": "Está en un rango de 30-32% del PBI, que es bajo para la región y para el mundo, pero no es de 'las más bajas del mundo' en sentido estricto. El paquete de 2027 eleva el déficit, y con él la deuda."
+    }
+   ],
+   "anuncios_28jul": []
+  },
+  {
+   "id": "f2",
+   "eje": "fiscal",
+   "ts": "00:21:09",
+   "corto": "2027: S/ 18 mil M adicionales",
+   "texto": "Para 2027, S/ 18 000 millones adicionales: S/ 2 500 millones en bonos temporales (sur andino, damnificados, jubilados), S/ 6 000 millones para infraestructura educativa y S/ 7 000 millones para obras paralizadas.",
+   "veredicto": "coincide_con_matices",
+   "verificacion": [
+    {
+     "afirmacion": "Para 2027 se asignaron S/18,000 millones adicionales como respuesta fiscal: S/2,500M en bonos temporales, S/6,000M para infraestructura educativa y S/7,000M para obras paralizadas",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "MEF (22-oct-2026): paquete de unos S/18,000 millones para 2027; bonos por unos S/2,500 millones (de 3 a 5 meses); S/13,000 millones para infraestructura, de los cuales S/6,000 millones van a proyectos educativos y S/7,000 millones a terminar obras paralizadas (250 obras con más de 50% de avance, más saldos de Obras por Impuestos). Para financiarlo se propone subir la meta de déficit de 1.4% a 2.4% del PBI (El Peruano/Caretas, solo snippet).",
+     "fuente": "MEF (vía Infomercado); El Peruano (solo snippet)",
+     "url": "https://infomercado.pe/bonos-obras-y-alivio-tributario-asi-respondera-el-gobierno-a-el-nino-en-2027/",
+     "leido": true,
+     "nota": "Los montos coinciden con el anuncio del MEF, pero es una propuesta: necesita que el Congreso modifique la regla fiscal, y no confirmamos que ya esté en la Ley de Presupuesto 2027 aprobada. Decir 'hemos asignado' adelanta un trámite que no ha terminado."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 0,
+     "titulo": "Plan de contingencia nacional frente al fenómeno El Niño"
+    },
+    {
+     "i": 11,
+     "titulo": "Infraestructura social y productiva"
+    }
+   ]
+  },
+  {
+   "id": "f3",
+   "eje": "fiscal",
+   "ts": "00:21:47",
+   "corto": "4 grupos de reforma",
+   "texto": "Grupos de trabajo de alto nivel para reformas de formalización laboral, crédito a las familias, calidad de la inversión pública y eficiencia tributaria.",
+   "veredicto": "coincide_con_matices",
+   "verificacion": [
+    {
+     "afirmacion": "Se conformaron grupos de trabajo de alto nivel para reformas de formalización laboral, crédito a familias, calidad de la inversión pública y eficiencia tributaria",
+     "veredicto": "coincide_con_matices",
+     "dato_oficial": "El MEF presentó en set-2026 a los 'Comisionados de Alto Nivel' en cuatro áreas: Formalización Laboral y Productividad (Jaramillo, Yamada), Inclusión y Acceso al Financiamiento (Naranjo, Palomino), Mejora de la Gestión de la Inversión Pública (Von Hesse, Prialé) e Impulso al Cumplimiento Tributario (Estela). Trabajarán 9 meses con reportes cada 3 meses (Gestión, solo snippet).",
+     "fuente": "Diario Oficial El Peruano (MEF)",
+     "url": "https://elperuano.pe/noticia/304879-mef-destaca-conformacion-de-equipo-para-avanzar-en-reformas-estructurales-de-segunda-generacion",
+     "leido": true,
+     "nota": "Los cuatro frentes coinciden. No encontramos la resolución que formaliza su creación, y aún no han presentado propuestas."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 15,
+     "titulo": "Transformación de las compras públicas y reforma del servicio civil"
+    }
+   ]
+  },
+  {
+   "id": "f4",
+   "eje": "fiscal",
+   "ts": "00:22:11",
+   "corto": "Facultades: 27 de 66",
+   "texto": "Pidió facultades legislativas en 66 materias; el Congreso aprobó solo 27, centradas en seguridad y El Niño. Usará «plenamente» sus atribuciones constitucionales.",
+   "veredicto": "coincide",
+   "verificacion": [
+    {
+     "afirmacion": "Se pidieron facultades legislativas en 66 materias y el Congreso aprobó solo 27, centradas en seguridad ciudadana y El Niño",
+     "veredicto": "coincide",
+     "dato_oficial": "El Ejecutivo pidió facultades en 66 materias (Panamericana). La Ley N.° 32743 (El Peruano, edición extraordinaria del 22-oct-2026) delega 27 materias: 12 de seguridad ciudadana y 15 sobre El Niño, por 90 días calendario (del 23-oct-2026 al 21-ene-2027).",
+     "fuente": "Ley N.° 32743 (vía PPU Legal); Panamericana",
+     "url": "https://ppulegal.com/?p=34487",
+     "leido": true,
+     "nota": "Las cifras son exactas. El plazo otorgado (90 días) fue menor que el pedido (120 días, según prensa; solo snippet). Diputados aprobó 20 materias y el Senado añadió 7."
+    },
+    {
+     "afirmacion": "66 materias pedidas, 27 aprobadas",
+     "veredicto": "coincide",
+     "dato_oficial": "Nuestra matriz de la ley autoritativa registra 66 materias pedidas: 12 delegadas tal cual, 14 acotadas, 1 como disposición y 39 no delegadas (27 aprobadas en total).",
+     "fuente": "Plan Perú 2050, matriz de delegación de facultades",
+     "url": "https://planperu2050.pe/?tab=ley32743",
+     "leido": true,
+     "nota": "Las 14 «acotadas» se aprobaron con un alcance menor al pedido."
+    }
+   ],
+   "anuncios_28jul": [
+    {
+     "i": 4,
+     "titulo": "Decretos de urgencia y facultades delegadas"
+    }
+   ]
+  },
+  {
+   "id": "f5",
+   "eje": "fiscal",
+   "ts": "00:22:44",
+   "corto": "Congreso ahorró S/ 300 M",
+   "texto": "Las mesas directivas del Senado y la Cámara de Diputados ahorraron unos S/ 300 millones que irán a El Niño y la inseguridad.",
+   "veredicto": "coincide",
+   "verificacion": [
+    {
+     "afirmacion": "Las mesas directivas del Senado y de Diputados ahorraron unos S/300 millones eliminando alquileres, para El Niño y la inseguridad",
+     "veredicto": "coincide",
+     "dato_oficial": "Congreso (27-oct-2026): ahorro aproximado de S/303 millones en los primeros 90 días por austeridad, racionalización del gasto y eliminación de alquileres. S/33.6 millones ya se transfirieron a la emergencia por El Niño y S/270 millones se devolverán al Ejecutivo para prioridades urgentes.",
+     "fuente": "Congreso de la República, Oficina de Comunicaciones",
+     "url": "https://comunicaciones.congreso.gob.pe/noticias/congreso-ahorra-s-303-millones-con-medidas-de-austeridad-y-devuelve-s-270-millones-al-ejecutivo-para-atender-prioridades-del-pais/",
+     "leido": true,
+     "nota": "La cifra coincide. Los S/270 millones aún no se transfieren y el Congreso no informó con qué norma lo hará, ni el desglose por rubro (Infomercado, solo snippet). El destino 'seguridad' es un ejemplo que dio el presidente del Senado (patrulleros), no una asignación."
+    }
+   ],
+   "anuncios_28jul": []
+  }
+ ],
+ "rendicion_28jul": [
+  {
+   "i": 0,
+   "tema": "Ambiente/Riesgo",
+   "titulo": "Plan de contingencia nacional frente al fenómeno El Niño",
+   "estado": "reporto",
+   "comentario": "Descolmatación, maquinaria, defensas ribereñas, ayuda humanitaria y apoyo a agricultores.",
+   "comisiones": [
+    "aguas",
+    "medio-ambiente",
+    "agricultura"
+   ]
+  },
+  {
+   "i": 1,
+   "tema": "Seguridad ciudadana",
+   "titulo": "Fuerzas Armadas al mando durante estados de emergencia",
+   "estado": "reporto",
+   "comentario": "Comando unificado FF. AA.–PNP y control de penales con las FF. AA.",
+   "comisiones": [
+    "orden-publico-y-seguridad",
+    "defensa",
+    "drogas"
+   ]
+  },
+  {
+   "i": 2,
+   "tema": "Seguridad ciudadana",
+   "titulo": "Modernización tecnológica de la seguridad con IA",
+   "estado": "no_menciono",
+   "comentario": "No habló de videovigilancia interconectada, C5i ni IA contra el delito.",
+   "comisiones": [
+    "orden-publico-y-seguridad",
+    "inteligencia-artificial",
+    "ciber-seguridad"
+   ]
+  },
+  {
+   "i": 3,
+   "tema": "Seguridad ciudadana",
+   "titulo": "Ofensiva contra mafias, reforma penitenciaria y unidades de flagrancia",
+   "estado": "parcial",
+   "comentario": "Desarticulaciones, capturas y penales; nada sobre unidades de flagrancia ni golpes a la economía criminal.",
+   "comisiones": [
+    "orden-publico-y-seguridad",
+    "drogas",
+    "reforma-judicial"
+   ]
+  },
+  {
+   "i": 4,
+   "tema": "Seguridad ciudadana",
+   "titulo": "Decretos de urgencia y facultades delegadas",
+   "estado": "reporto",
+   "comentario": "Facultades: 27 de 66 materias aprobadas.",
+   "comisiones": [
+    "reforma-del-estado",
+    "orden-publico-y-seguridad",
+    "reforma-judicial"
+   ]
+  },
+  {
+   "i": 5,
+   "tema": "Social",
+   "titulo": "Política de Protección Integral de la Primera Infancia, la Niñez, la Adolescencia y la Familia",
+   "estado": "parcial",
+   "comentario": "Cuna Más y CEM; ninguna cifra de anemia ni desnutrición crónica.",
+   "comisiones": [
+    "la-familia",
+    "seguridad-alimentaria-nutricion",
+    "salud"
+   ]
+  },
+  {
+   "i": 6,
+   "tema": "Social",
+   "titulo": "Relanzamiento del PRONAA para alimentación escolar",
+   "estado": "no_menciono",
+   "comentario": "No mencionó el relanzamiento del PRONAA.",
+   "comisiones": [
+    "seguridad-alimentaria-nutricion",
+    "educacion-tres-niveles"
+   ]
+  },
+  {
+   "i": 7,
+   "tema": "Educación",
+   "titulo": "Mejora de aprendizajes, formación docente y kits escolares",
+   "estado": "parcial",
+   "comentario": "Plan Nacional de Educación y materiales; sin cifras de aprendizajes ni formación docente.",
+   "comisiones": [
+    "educacion-tres-niveles",
+    "capital-del-conocimiento",
+    "mipymes"
+   ]
+  },
+  {
+   "i": 8,
+   "tema": "Salud",
+   "titulo": "Programa multisectorial para prevenir el embarazo adolescente",
+   "estado": "no_menciono",
+   "comentario": "No mencionó el programa contra el embarazo adolescente.",
+   "comisiones": [
+    "salud",
+    "la-familia",
+    "proyecto-pais-joven"
+   ]
+  },
+  {
+   "i": 9,
+   "tema": "Empleo",
+   "titulo": "Política de Estado “Jóvenes con Futuro”",
+   "estado": "parcial",
+   "comentario": "Beca COAR y empleo temporal; sin dato de desempleo juvenil.",
+   "comisiones": [
+    "proyecto-pais-joven",
+    "emprendimiento",
+    "capital-del-conocimiento"
+   ]
+  },
+  {
+   "i": 10,
+   "tema": "Social",
+   "titulo": "“Cuidando la experiencia”: Pensión 65 duplicada",
+   "estado": "no_menciono",
+   "comentario": "No reportó la duplicación de Pensión 65; solo mencionó bonos para jubilados en 2027.",
+   "comisiones": [
+    "pensiones-de-jubilacion",
+    "prevision",
+    "cohesion-social"
+   ]
+  },
+  {
+   "i": 11,
+   "tema": "Infraestructura",
+   "titulo": "Infraestructura social y productiva",
+   "estado": "reporto",
+   "comentario": "Agua y saneamiento, electrificación rural, salud y obras destrabadas.",
+   "comisiones": [
+    "aguas",
+    "infraestructura-y-construccion",
+    "energia-electrica"
+   ]
+  },
+  {
+   "i": 12,
+   "tema": "Infraestructura",
+   "titulo": "Red de metros y trenes de cercanías",
+   "estado": "no_menciono",
+   "comentario": "Ninguna línea de metro ni tren de cercanías; solo el Tren Macho.",
+   "comisiones": [
+    "infraestructura-y-construccion",
+    "transportes",
+    "ciudades-inteligentes"
+   ]
+  },
+  {
+   "i": 13,
+   "tema": "Infraestructura",
+   "titulo": "Carreteras estratégicas y caminos rurales",
+   "estado": "parcial",
+   "comentario": "Longitudinal de la Sierra tramo 2 y Checa–Mazocruz; nada de la Nueva Carretera Central.",
+   "comisiones": [
+    "infraestructura-y-construccion",
+    "transportes",
+    "desarrollo-rural"
+   ]
+  },
+  {
+   "i": 14,
+   "tema": "Gobierno digital",
+   "titulo": "Autoridad Nacional Digital e Identidad Digital",
+   "estado": "no_menciono",
+   "comentario": "No mencionó la Autoridad Nacional Digital ni la identidad digital (sí la historia clínica electrónica).",
+   "comisiones": [
+    "transformacion-digital",
+    "peru-en-la-era-digital",
+    "inteligencia-artificial"
+   ]
+  },
+  {
+   "i": 15,
+   "tema": "Estado de derecho",
+   "titulo": "Transformación de las compras públicas y reforma del servicio civil",
+   "estado": "no_menciono",
+   "comentario": "Ni compras públicas ni servicio civil (solo Compras MYPErú).",
+   "comisiones": [
+    "reforma-del-estado",
+    "promocion-de-la-inversion",
+    "etica"
+   ]
+  },
+  {
+   "i": 16,
+   "tema": "Empleo",
+   "titulo": "Salario mínimo a S/ 1,300 y reactivación de las MYPE",
+   "estado": "parcial",
+   "comentario": "Sueldo mínimo a S/ 1 230, no a S/ 1 300 como anunció; Compras MYPErú.",
+   "comisiones": [
+    "mipymes",
+    "emprendimiento",
+    "competitividad"
+   ]
+  },
+  {
+   "i": 17,
+   "tema": "Estado de derecho",
+   "titulo": "Independencia de poderes y meritocracia judicial",
+   "estado": "no_menciono",
+   "comentario": "No mencionó la independencia de poderes ni la reforma judicial.",
+   "comisiones": [
+    "reforma-judicial",
+    "institucionalidad"
+   ]
+  },
+  {
+   "i": 18,
+   "tema": "Política exterior",
+   "titulo": "Integración regional, APEC y Medio Oriente",
+   "estado": "parcial",
+   "comentario": "Escudo de las Américas, El Salvador y Chile; nada de APEC, Alianza del Pacífico ni CAN.",
+   "comisiones": [
+    "comercio-exterior-e-insercion-en-el-merc",
+    "promocion-de-la-inversion",
+    "imagen-pais"
+   ]
+  }
+ ]
+}

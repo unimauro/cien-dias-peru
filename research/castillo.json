@@ -1,0 +1,299 @@
+{
+  "gobierno": "Pedro Castillo Terrones",
+  "generado": "2026-11-07",
+  "periodo": {
+    "inicio": "2021-07-28",
+    "dia100": "2021-11-05",
+    "nota": "Convención: 28-jul + 100 días = 5-nov-2021 (si el 28-jul cuenta como día 1, el día 100 es el 4-nov). El informe de gestión de los 100 días lo dio Castillo en Ayacucho el 10-nov-2021."
+  },
+  "ecdata": {
+    "titulo": "Los primeros 100 días de Pedro Castillo: El 85% de las promesas no se cumplieron",
+    "medio": "El Comercio – Unidad de Periodismo de Datos (ECData)",
+    "autora": "Mayté Ciriaco Ruiz",
+    "fecha_publicacion_web": "2021-11-08",
+    "fecha_edicion_impresa": "2021-11-07 (suplemento dominical anunciado el 6-nov; la fecha impresa no se verificó en el PDF del diario)",
+    "total": 43,
+    "cumplidas": 3,
+    "en_proceso": 4,
+    "incumplidas": 36,
+    "inviables_dentro_de_incumplidas": 5,
+    "porcentajes_publicados": {"cumplidas": 7, "en_proceso": 8, "incumplidas": 85},
+    "porcentajes_recalculados": {"cumplidas": 7.0, "en_proceso": 9.3, "incumplidas": 83.7},
+    "metodologia": "ECData identificó 'al menos 43 promesas' para los primeros 100 días en el plan de gobierno de segunda vuelta ('Perú al Bicentenario') y en el discurso de toma de mando del 28-jul-2021, en salud, educación y economía/trabajo. Las clasificó como cumplidas, en proceso o incumplidas, y marcó como 'inviables' las que exigían un presupuesto mayor al disponible en el plazo. Contrastó con Minsa, Unicef, el Colegio Médico, la presentación de la premier Mirtha Vásquez ante el Congreso y expertos sectoriales. La nota NO publica criterios operativos de clasificación ni la lista completa de las 43.",
+    "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/",
+    "fuente_url_anuncio": "https://elcomercio.pe/politica/gobierno/los-primeros-100-dias-de-pedro-castillo-este-domingo-las-cifras-e-historias-detras-de-cada-episodio-del-gobierno-especial-ec-data-noticia/",
+    "confianza": "alta (total 43 y desglose 3/4/36 leídos en la nota; ojo: los porcentajes publicados 85/8 no cuadran exactamente con 36/43 y 4/43)",
+    "sobre_infografia_viral": "La infografía que dice '43 promesas, 3 cumplidas (7 %) y 40 no cumplidas (93 %)' tiene bien el total y las cumplidas, pero mete en 'no cumplidas' las 4 'en proceso'. El desglose real de ECData es 3 cumplidas, 4 en proceso y 36 incumplidas (no 37/3/3).",
+    "seguimiento_posterior": "El 6-feb-2022, ECData informó que a seis meses solo se habían sumado 'dos promesas cumplidas más' (5 de 43). Fuente: https://elcomercio.pe/politica/gobierno/pedro-castillo-las-cifras-de-un-gobierno-de-crisis-insostenibles-hector-valer-nuevo-gabinete-mirtha-vasquez-avelino-guillen-pedro-francke-ec-data-noticia/"
+  },
+  "promesas": [
+    {
+      "texto": "Distribución periódica y descentralizada de 20 millones de mascarillas",
+      "estado": "cumplida",
+      "nivel_cadena_valor": "producto",
+      "nota": "Es un bien entregado a la población, o sea un PRODUCTO. Un resultado sería, por ejemplo, menos contagios atribuibles al uso de la mascarilla, y eso no se midió. ECData no dice cuántas mascarillas se entregaron ni dónde: el estado 'cumplida' es suyo y no se verificó de forma independiente.",
+      "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+    },
+    {
+      "texto": "Organización de una estrategia intersectorial de retorno seguro (a clases presenciales)",
+      "estado": "cumplida",
+      "nivel_cadena_valor": "actividad",
+      "nota": "Organizar una estrategia o plan es un proceso interno de gestión: una ACTIVIDAD, o a lo sumo un insumo de planificación. No es un servicio entregado. El resultado sería tener alumnos de vuelta en el aula, y ahí la cifra fue baja: según Unicef, citada por ECData, solo el 6,5 % de estudiantes tenía alguna presencialidad, frente al 88 % en Chile. Las escuelas habilitadas pasaron de 6.019 a 8.887 entre el 16-ago y el 30-oct-2021. El exministro Daniel Alfaro lo calificó de 'cumplimiento débil'.",
+      "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-los-sectores-economia-trabajo-educacion-y-salud-bajo-analisis-especial-ec-data-salud-economia-educacion-trabajo-noticia/"
+    },
+    {
+      "texto": "Lanzamiento de la segunda reforma agraria (3-oct-2021, Cusco)",
+      "estado": "cumplida",
+      "nivel_cadena_valor": "actividad",
+      "nota": "Lo que se cumplió fue el lanzamiento, un acto público y de anuncio: es una ACTIVIDAD. Al día 100 no hay evidencia de productos entregados (créditos, asistencia técnica, etc.) ni de resultados en los ingresos agrarios. Según el balance del IPE (Infobae, 1-nov-2021), seguían sin concretarse 'aspectos mínimos' como la conformación del Gabinete de Desarrollo Agrario y Rural.",
+      "fuente_url": "https://www.infobae.com/america/peru/2021/11/01/ipe-que-hizo-pedro-castillo-en-sus-primeros-100-dias-de-gobierno/"
+    },
+    {
+      "texto": "Tener vacunadas a todas las personas mayores de 18 años a diciembre de 2021",
+      "estado": "en_proceso",
+      "nivel_cadena_valor": "producto (cobertura; es lo más cercano a un resultado intermedio)",
+      "nota": "Es la única de las 4 'en proceso' que ECData nombra; las otras 3 no aparecen en el texto accesible. Según ECData, el 56 % de la población objetivo tenía dos dosis. Las dosis aplicadas son un producto; la cobertura es un resultado inmediato o intermedio; el resultado final sería menos hospitalizaciones y muertes. Parte de las vacunas llegó por contratos de la gestión anterior.",
+      "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+    },
+    {
+      "texto": "Adquirir 100 plantas de oxígeno y 200 tanques criogénicos",
+      "estado": "incumplida",
+      "nivel_cadena_valor": "insumo",
+      "nota": "Según ECData, solo se compraron 7 plantas.",
+      "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+    },
+    {
+      "texto": "Establecer 'Casas Respira' en cada distrito o centro poblado",
+      "estado": "incumplida",
+      "nivel_cadena_valor": "producto",
+      "nota": "No se instaló ninguna. ECData la considera inviable: supera en más de S/ 18 mil millones el presupuesto disponible.",
+      "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+    },
+    {
+      "texto": "Fortalecer el primer nivel de atención (4 mil centros de atención primaria)",
+      "estado": "incumplida",
+      "nivel_cadena_valor": "producto",
+      "nota": "ECData la considera inviable: costaría unos S/ 60 mil millones, más de S/ 53 mil millones por encima del presupuesto.",
+      "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+    },
+    {
+      "texto": "Adquirir mil camas UCI",
+      "estado": "incumplida",
+      "nivel_cadena_valor": "insumo",
+      "nota": "Según ECData, solo se compraron 81.",
+      "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+    },
+    {
+      "texto": "Recibir 60 millones de vacunas en 100 días",
+      "estado": "incumplida",
+      "nivel_cadena_valor": "insumo",
+      "nota": "Se recibieron las dosis que había comprometido la gestión anterior. Hubo acuerdos con Moderna y Pfizer por 55 millones de dosis para 2022 y con Sinopharm por 8 millones; lo de Sputnik no se concretó.",
+      "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+    },
+    {
+      "texto": "Impulsar alianzas con otros países para desarrollar vacunas",
+      "estado": "incumplida",
+      "nivel_cadena_valor": "actividad",
+      "nota": "",
+      "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+    },
+    {
+      "texto": "Implementar el programa 'Chamba Joven'",
+      "estado": "incumplida",
+      "nivel_cadena_valor": "producto",
+      "nota": "",
+      "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+    },
+    {
+      "texto": "Organizar la jornada escolar por turnos y aplicar la educación semipresencial",
+      "estado": "incumplida",
+      "nivel_cadena_valor": "producto",
+      "nota": "",
+      "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+    }
+  ],
+  "evaluacion_cadena_valor": {
+    "conclusion": "Ninguna de las 3 promesas 'cumplidas' es un RESULTADO. Una es un producto (las mascarillas) y dos son actividades (organizar una estrategia y lanzar una reforma). La 'en proceso' sobre vacunación es la que más se acerca a un resultado intermedio (cobertura), pero no estaba cumplida y dependía en parte de contratos previos. Por tanto, la afirmación de que el gobierno de Castillo no tenía resultados al día 100 se sostiene con los datos de ECData.",
+    "matiz_valor_publico": "Decir que 'resultados = valor público' simplifica de más. En el marco de Moore, y en la cadena de valor que usan CEPLAN y el MEF, el valor público se crea sobre todo cuando cambian las condiciones de la población (resultados e impactos), pero los productos bien entregados ya son un servicio con valor para el usuario. La legitimidad y la confianza también cuentan como valor público. Una forma más precisa de decirlo sería: 'a los 100 días no hay resultados medibles atribuibles, y los productos entregados fueron mínimos'. Además, 100 días es poco tiempo para que se vean resultados, en cualquier gobierno.",
+    "confianza": "media (es una clasificación analítica propia sobre la lista de ECData, no un dato publicado)"
+  },
+  "gobernabilidad": {
+    "premieres": {
+      "valor": 2,
+      "detalle": "Guido Bellido (29-jul al 6-oct-2021, unos 70 días) y Mirtha Vásquez (desde el 6-oct-2021).",
+      "fuente_url": "https://rpp.pe/politica/gobierno/cambios-en-el-gabinete-ministerial-cinco-claves-de-la-recomposicion-del-gobierno-de-pedro-castillo-noticia-1361763",
+      "fecha": "2021-10-06",
+      "confianza": "alta"
+    },
+    "gabinetes": {
+      "valor": 2,
+      "fuente_url": "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo",
+      "fecha": "2021-10-06",
+      "confianza": "alta"
+    },
+    "ministros_salientes_100_dias": {
+      "valor": 9,
+      "detalle": "Héctor Béjar (Relaciones Exteriores, renunció el 17-ago). El 6-oct salieron 7, incluido el premier: Bellido (PCM), Juan Carrasco (Interior), Juan Cadillo (Educación), Iber Maraví (Trabajo), Yván Quispe (Producción), Iván Merino (Energía y Minas) y Ciro Gálvez (Cultura). Luis Barranzuela (Interior) renunció el 2-nov.",
+      "metodo": "Conteo propio sobre la tabla de titulares de es.wikipedia, cruzado con RPP ('cambiar a 7 ministros, incluido el premier'). No se halló un cable de AFP que diga 'nueve ministros'.",
+      "fuente_url": "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo",
+      "fuente_url_2": "https://rpp.pe/politica/gobierno/cambios-en-el-gabinete-ministerial-cinco-claves-de-la-recomposicion-del-gobierno-de-pedro-castillo-noticia-1361763",
+      "fecha": "2021-07-28/2021-11-05",
+      "confianza": "media-alta"
+    },
+    "votos_de_confianza": {
+      "valor": 2,
+      "detalle": [
+        {"gabinete": "Bellido", "fecha": "2021-08-27", "a_favor": 73, "en_contra": 50, "abstenciones": 0, "fuente_url": "https://comunicaciones.congreso.gob.pe/noticias/congreso-aprobo-cuestion-de-confianza-al-gabinete-bellido/"},
+        {"gabinete": "Vásquez", "fecha": "2021-11-04", "a_favor": 68, "en_contra": 56, "abstenciones": 1, "nota": "16 de los 37 congresistas de Perú Libre votaron en contra (La República)", "fuente_url": "https://comunicaciones.congreso.gob.pe/noticias/congreso-aprobo-voto-de-confianza-a-gabinete-ministerial-presidido-por-mirtha-vasquez"}
+      ],
+      "confianza": "alta"
+    },
+    "interpelaciones": {
+      "valor": 1,
+      "detalle": "Iber Maraví (Trabajo): la moción se admitió el 16-sep-2021 con 81 votos a favor, 37 en contra y 1 abstención, y el ministro fue citado para el 30-sep. Salió del cargo el 6-oct, antes de que se votara una censura. ECData la calificó como 'la interpelación más temprana'.",
+      "fuente_url": "https://comunicaciones.congreso.gob.pe/noticias/pleno-admite-mocion-de-interpelacion-contra-el-ministro-de-trabajo",
+      "fecha": "2021-09-16",
+      "confianza": "media-alta (no se revisó el registro oficial de todas las mociones presentadas; otras mociones, como las contra Barranzuela y Ayala, son de noviembre, después del día 100)"
+    },
+    "censuras": {
+      "valor": 0,
+      "detalle": "No se halló ninguna censura consumada dentro de los 100 días. La primera censura que registra es.wikipedia es la de Carlos Gallardo (Educación), en diciembre de 2021.",
+      "fuente_url": "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo",
+      "confianza": "media"
+    },
+    "proyectos_de_ley_ejecutivo": {
+      "valor": 60,
+      "desglose": {
+        "tratados_convenios_internacionales": 45,
+        "paquete_presupuestal_y_cuenta_general": 4,
+        "ingreso_de_tropas_extranjeras": 3,
+        "permisos_de_viaje_presidencial": 2,
+        "iniciativas_de_politica_sustantivas": 6
+      },
+      "sustantivas": [
+        "PL 389/2021-PE: deroga la Ley 29613 (Proyecto Geopolítico Bioceánico)",
+        "PL 390/2021-PE: cambia el nombre de Ministerio de Cultura a Ministerio de las Culturas",
+        "PL 473/2021-PE: modifica el DL 1297 (proceso de desprotección familiar)",
+        "PL 474/2021-PE: reforma constitucional sobre gobernabilidad y cuestión de confianza",
+        "PL 530/2021-PE: reforma constitucional sobre la participación de abogados en la JNJ",
+        "PL 583/2021-PE: pide delegación de facultades en materia tributaria, fiscal y de reactivación"
+      ],
+      "metodo": "Consulta propia a la API del Sistema de Proyectos de Ley del Congreso (api.congreso.gob.pe/spley-portal-service), proponente 'PODER EJECUTIVO', fecha de presentación entre el 28-jul y el 5-nov-2021. El desglose en categorías es propio. Coincide con Infobae ('alrededor de 60 propuestas') y con RPP, citado por la prensa ('media docena de proyectos' de fondo).",
+      "fuente_url": "https://wb2server.congreso.gob.pe/spley-portal/#/expediente/search",
+      "fuente_url_2": "https://www.infobae.com/america/peru/2021/11/11/congreso-de-la-republica-los-hechos-mas-relevantes-en-los-primeros-100-dias-del-legislativo/",
+      "fecha": "2021-11-05",
+      "confianza": "alta (el conteo); media (la clasificación)",
+      "nota": "ECData afirmó que fue 'la menor cantidad de iniciativas legislativas presentadas en dos décadas'. No se verificó la serie de 20 años."
+    },
+    "decretos_de_urgencia": {
+      "valor": null,
+      "cota_inferior": 15,
+      "detalle": "NO VERIFICADO. Lo único documentado: el DU 086-2021 (16-sep-2021, firmado por Castillo, Bellido y Francke) y el DU 100-2021 (20-oct-2021) son de este gobierno. Como la numeración de los DU es correlativa por año, se emitieron al menos 15 DU (del 086 al 100) entre el 16-sep y el 20-oct. No se determinó el primer DU de Castillo ni el total al 5-nov.",
+      "fuente_url": "https://www.mef.gob.pe/es/notas-de-prensa-y-comunicados/7237-mef-ratifica-su-posicion-sobre-la-constitucionalidad-de-los-decretos-de-urgencia-n-086-2021-y-n-100-2021",
+      "confianza": "baja"
+    },
+    "decretos_supremos": {
+      "valor": null,
+      "detalle": "NO VERIFICADO. No se pudo contar en El Peruano dentro del tiempo disponible.",
+      "confianza": "n/d"
+    },
+    "leyes_por_insistencia": {
+      "valor": "Ley 31355 (desarrolla la cuestión de confianza)",
+      "detalle": "Aprobada por el Pleno el 16-sep, observada por el Ejecutivo, aprobada por insistencia y publicada el 21-oct-2021 con la firma de la presidenta del Congreso, María del Carmen Alva. El Ejecutivo presentó una demanda ante el TC el 22-oct. Infobae la ubica como la segunda ley por insistencia más temprana en 20 años.",
+      "fuente_url": "https://busquedas.elperuano.pe/normaslegales/ley-que-desarrolla-el-ejercicio-de-la-cuestion-de-confianza-ley-n-31355-2003559-1/",
+      "fecha": "2021-10-21",
+      "confianza": "alta"
+    },
+    "designaciones_analizadas_ecdata": {
+      "valor": "más de 700 resoluciones de designación; casi el 70 % de los puestos para hombres",
+      "fuente_url": "https://elcomercio.pe/politica/gobierno/los-primeros-100-dias-de-pedro-castillo-este-domingo-las-cifras-e-historias-detras-de-cada-episodio-del-gobierno-especial-ec-data-noticia/",
+      "fecha": "2021-11-06",
+      "confianza": "media (solo se leyó el anuncio del especial)"
+    },
+    "conflictos_sociales": {
+      "julio_2021": {
+        "reporte": "Defensoría del Pueblo, Reporte Mensual N.° 209",
+        "total": 195,
+        "activos": 137,
+        "latentes": 58,
+        "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2021/08/Reporte-Mensual-de-Conflictos-Sociales-N%C2%B0-209-julio-2021.pdf",
+        "confianza": "alta (PDF oficial leído)"
+      },
+      "octubre_2021": {
+        "reporte": "Defensoría del Pueblo, Reporte Mensual N.° 212",
+        "total": 198,
+        "activos": 148,
+        "latentes": 50,
+        "acciones_colectivas_protesta": 242,
+        "casos_nuevos": 8,
+        "fuente_url": "https://iuslatin.pe/defensoria-del-pueblo-registro-8-nuevos-casos-nuevos-de-conflictos-sociales/",
+        "confianza": "media (fuente secundaria, publicada el 15-nov-2021; no se ubicó el PDF oficial del N.° 212; el sitio devuelve 520 a curl pero sí se leyó con un lector web)"
+      },
+      "variacion": "+3 en total; los activos pasan de 137 a 148 (+11)"
+    }
+  },
+  "aprobacion": [
+    {"encuestadora": "Ipsos (El Comercio)", "fecha": "2021-08", "aprueba": 38, "desaprueba": 45, "fuente_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2021-10/Informe%20Encuesta%20El%20Comercio%20Ipsos%20Octubre%202021.pdf", "nota": "Dato tomado de la serie histórica del informe de octubre"},
+    {"encuestadora": "Ipsos (El Comercio)", "fecha": "2021-09", "aprueba": 42, "desaprueba": 46, "fuente_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2021-10/Informe%20Encuesta%20El%20Comercio%20Ipsos%20Octubre%202021.pdf"},
+    {"encuestadora": "Ipsos (El Comercio)", "fecha": "2021-10-15", "aprueba": 42, "desaprueba": 48, "fuente_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2021-10/Informe%20Encuesta%20El%20Comercio%20Ipsos%20Octubre%202021.pdf", "nota": "Informe fechado el 15-oct-2021; 1.204 entrevistas"},
+    {"encuestadora": "Ipsos (El Comercio / Opinión Data)", "fecha": "2021-11-12", "aprueba": 35, "desaprueba": 57, "fuente_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2021-12/Opini%C3%B3n%20Data%20Noviembre%202021.pdf", "nota": "Informe fechado el 12-nov, una semana después del día 100. Lo confirma RPP: https://rpp.pe/peru/actualidad/aprobacion-del-presidente-pedro-castillo-pasa-de-42-a-35-puntos-noticia-1369095"},
+    {"encuestadora": "IEP", "fecha": "2021-08-16/19", "aprueba": 38, "desaprueba": 46, "fuente_url": "https://iep.org.pe/wp-content/uploads/2021/08/Informe-OP-Agosto-2021-primera-parte.pdf"},
+    {"encuestadora": "IEP", "fecha": "2021-10-25/28", "aprueba": 35, "desaprueba": 48, "fuente_url": "https://iep.org.pe/wp-content/uploads/2021/10/Informe-OP-Octubre-2021-parte-I.pdf", "nota": "Es la medición más cercana al día 100. El IEP aclara que la caída frente a septiembre (40 %) no es estadísticamente significativa."},
+    {"encuestadora": "IEP", "fecha": "2021-11-22/25", "aprueba": 25, "desaprueba": 65, "fuente_url": "https://iep.org.pe/wp-content/uploads/2021/11/Informe-OP-Noviembre-2021-Parte-I-281121.pdf", "nota": "Posterior al día 100 (ya incluye el escándalo de Bruno Pacheco); se incluye como referencia"},
+    {"encuestadora": "Datum", "fecha": "2021-08", "aprueba": 39, "desaprueba": 41, "fuente_url": "https://www.datum.com.pe/new_web_files/files/pdf/Oct%202021%20Popularidad%20y%20Coyuntura-v_211031075148.pdf", "nota": "Dato tomado de la serie histórica del informe de octubre"},
+    {"encuestadora": "Datum", "fecha": "2021-10-23/26", "aprueba": 40, "desaprueba": 50, "fuente_url": "https://www.datum.com.pe/new_web_files/files/pdf/Oct%202021%20Popularidad%20y%20Coyuntura-v_211031075148.pdf"},
+    {"encuestadora": "CPI", "fecha": "2021-09 (publicada el 6-sep)", "aprueba": 43.5, "desaprueba": 43.5, "fuente_url": "https://larepublica.pe/politica/2021/09/06/pedro-castillo-aprobacion-y-desaprobacion-del-presidente-igualan-en-435-segun-cpi", "nota": "No se verificó un dato de CPI de octubre o noviembre de 2021"}
+  ],
+  "hitos": [
+    {"fecha": "2021-07-28", "texto": "Castillo asume la presidencia y anuncia que no despachará desde Palacio de Gobierno. En las primeras semanas trabaja desde una casa en Breña (pasaje Sarratea).", "fuente_url": "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo"},
+    {"fecha": "2021-08-17", "texto": "Renuncia el canciller Héctor Béjar a los 19 días, tras la difusión de declaraciones de 2020 sobre la Marina y el terrorismo. Lo reemplaza Óscar Maúrtua (20-ago).", "fuente_url": "https://rpp.pe/politica/gobierno/hector-bejar-habria-presentado-su-renuncia-a-la-cancilleria-noticia-1353016"},
+    {"fecha": "2021-08-27", "texto": "El Congreso da la confianza al gabinete Bellido por 73 a 50.", "fuente_url": "https://comunicaciones.congreso.gob.pe/noticias/congreso-aprobo-cuestion-de-confianza-al-gabinete-bellido/"},
+    {"fecha": "2021-09-16", "texto": "El Pleno admite la interpelación al ministro de Trabajo, Iber Maraví (81 votos a favor), cuestionado por presuntos vínculos con Sendero Luminoso.", "fuente_url": "https://comunicaciones.congreso.gob.pe/noticias/pleno-admite-mocion-de-interpelacion-contra-el-ministro-de-trabajo"},
+    {"fecha": "2021-09-26", "texto": "El premier Bellido amenaza en Twitter con la 'recuperación o nacionalización' de Camisea si no se renegocian las utilidades; al día siguiente el sol cae frente al dólar.", "fuente_url": "https://en.mercopress.com/2021/09/28/peruvian-currency-plunges-against-us-dollar-following-pm-s-nationalization-threat-against-gas-supplier"},
+    {"fecha": "2021-10-01", "texto": "Designación cuestionada: Carina Palacios, fundadora de Perú Libre, es nombrada embajadora en Bolivia. Antes, en agosto, se había nombrado a Richard Rojas en Panamá, que no dio el beneplácito.", "fuente_url": "https://larepublica.pe/politica/2021/10/01/peru-libre-dirigente-cercana-a-vladimir-cerron-es-nombrada-como-embajadora-en-bolivia/"},
+    {"fecha": "2021-10-03", "texto": "Lanzamiento de la segunda reforma agraria en Cusco, una de las 3 promesas que ECData califica como cumplidas.", "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"},
+    {"fecha": "2021-10-06", "texto": "Castillo pide la renuncia de Bellido y nombra premier a Mirtha Vásquez; cambian 7 ministros, incluido el premier.", "fuente_url": "https://rpp.pe/politica/gobierno/cambios-en-el-gabinete-ministerial-cinco-claves-de-la-recomposicion-del-gobierno-de-pedro-castillo-noticia-1361763"},
+    {"fecha": "2021-10-21", "texto": "Se publica la Ley 31355, aprobada por insistencia, que limita la cuestión de confianza. El Ejecutivo la demanda ante el TC el 22-oct.", "fuente_url": "https://busquedas.elperuano.pe/normaslegales/ley-que-desarrolla-el-ejercicio-de-la-cuestion-de-confianza-ley-n-31355-2003559-1/"},
+    {"fecha": "2021-11-02", "texto": "Renuncia el ministro del Interior, Luis Barranzuela, tras revelarse que hizo una fiesta en su casa el 31-oct pese a las restricciones sanitarias.", "fuente_url": "https://www.efe.com/efe/america/politica/ministro-peruano-renuncia-tras-ser-acusado-de-organizar-una-fiesta-en-pandemia/20000035-4666708"},
+    {"fecha": "2021-11-04", "texto": "Se da por concluida la designación de los comandantes generales del Ejército y de la FAP; el general Vizcarra denuncia presiones para ascensos irregulares. Ese mismo día el gabinete Vásquez obtiene la confianza por 68 a 56.", "fuente_url": "https://elcomercio.pe/lima/seguridad/presidente-castillo-quiso-ascender-como-generales-a-hijos-de-su-amigo-noticia/"},
+    {"fecha": "2021-11-28", "texto": "FUERA DE LOS 100 DÍAS: Cuarto Poder revela reuniones no registradas de Castillo con funcionarios y empresarios en la casa de Breña (pasaje Sarratea), varias de ellas dentro del periodo. El 19-nov ya se había conocido lo de Bruno Pacheco (US$ 20 mil en el baño de Palacio).", "fuente_url": "https://gestion.pe/peru/politica/procuraduria-solicita-que-palacio-de-gobierno-informe-sobre-las-reuniones-en-brena-del-presidente-nndc-noticia/"}
+  ],
+  "otros_balances": [
+    {"autor": "ECData (El Comercio) – anuncio del especial", "fecha": "2021-11-06", "resumen": "Un gabinete cayó en 70 días; fue la interpelación más temprana; hubo la menor cantidad de iniciativas legislativas en dos décadas; se analizaron más de 700 designaciones; la vacunación triplicó las dosis de la gestión de Sagasti, pero el equipamiento hospitalario quedó rezagado.", "fuente_url": "https://elcomercio.pe/politica/gobierno/los-primeros-100-dias-de-pedro-castillo-este-domingo-las-cifras-e-historias-detras-de-cada-episodio-del-gobierno-especial-ec-data-noticia/"},
+    {"autor": "El Comercio – columnas de expertos (Thorne, Palacios, Del Carpio, Alfaro)", "fecha": "2021-11-07", "resumen": "Avances en vacunación; empleo recuperado pero precarizado; retorno a clases con 'cumplimiento débil'.", "fuente_url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-los-sectores-economia-trabajo-educacion-y-salud-bajo-analisis-especial-ec-data-salud-economia-educacion-trabajo-noticia/"},
+    {"autor": "El Comercio – viabilidad presupuestal (antes del periodo)", "fecha": "2021-07", "resumen": "De 10 propuestas analizadas del plan de 100 días, solo 6 eran financiables.", "fuente_url": "https://elcomercio.pe/economia/peru/promesas-inviables-el-escenario-presupuestal-que-enfrenta-el-plan-de-los-100-primeros-dias-de-pedro-castillo-peru-libre-capacidad-de-ejecucion-presupuesto-nacional-salud-educacion-seguridad-social-noticia/"},
+    {"autor": "IPE (vía Infobae)", "fecha": "2021-11-01", "resumen": "Reactivación 'aún esquiva'; segunda reforma agraria sin pasos mínimos; pedido de facultades tributarias; estatización de Camisea inconclusa; expectativas económicas en mínimos.", "fuente_url": "https://www.infobae.com/america/peru/2021/11/01/ipe-que-hizo-pedro-castillo-en-sus-primeros-100-dias-de-gobierno/"},
+    {"autor": "Infobae – balance del Congreso en 100 días", "fecha": "2021-11-11", "resumen": "El Ejecutivo presentó alrededor de 60 propuestas; solo se aprobaron viajes presidenciales y resoluciones legislativas.", "fuente_url": "https://www.infobae.com/america/peru/2021/11/11/congreso-de-la-republica-los-hechos-mas-relevantes-en-los-primeros-100-dias-del-legislativo/"},
+    {"autor": "Gobierno (Andina) – informe de 100 días en Ayacucho", "fecha": "2021-11-10", "resumen": "Versión oficial: renegociación de Camisea, masificación del gas, reactivación, retorno a clases presenciales en marzo de 2022.", "fuente_url": "https://andina.pe/agencia/noticia-presidente-castillo-las-frases-mas-destacadas-el-balance-los-100-dias-gobierno-868983.aspx"},
+    {"autor": "Infobae – análisis del discurso de los 100 días", "fecha": "2021-11-11", "resumen": "'Poco de balance y mucho de promesa'.", "fuente_url": "https://www.infobae.com/america/peru/2021/11/11/pedro-castillo-y-su-discurso-de-los-primeros-100-dias-poco-de-balance-y-mucho-de-promesa/"},
+    {"autor": "María del Carmen Alva, presidenta del Congreso (opinión política)", "fecha": "2021-11-10", "resumen": "'100 días perdidos, 100 días de desastre'.", "fuente_url": "https://larepublica.pe/politica/2021/11/10/100-dias-de-pedro-castillo-maria-del-carmen-alva-fueron-100-dias-perdidos-de-desastre-es-hora-de-que-se-pongas-las-pilas"},
+    {"autor": "Aníbal Torres, ministro de Justicia (posición del gobierno)", "fecha": "2021-11", "resumen": "Rechaza que el gobierno haya fracasado y lo atribuye a '200 años de improvisación y corrupción'.", "fuente_url": "https://elcomercio.pe/politica/anibal-torres-descarta-que-gobierno-de-pedro-castillo-haya-fracasado-en-sus-primeros-100-dias-de-gestion-nndc-noticia/"},
+    {"autor": "ECData – seguimiento a 6 meses", "fecha": "2022-02-06", "resumen": "5 de 43 promesas cumplidas; 36 polémicas; 65 designaciones cuestionadas; 13 mociones de interpelación.", "fuente_url": "https://elcomercio.pe/politica/gobierno/pedro-castillo-las-cifras-de-un-gobierno-de-crisis-insostenibles-hector-valer-nuevo-gabinete-mirtha-vasquez-avelino-guillen-pedro-francke-ec-data-noticia/"},
+    {"autor": "ECData – primer año", "fecha": "2022-07", "resumen": "Otra base de cálculo: 64 promesas del primer año, 80 % incumplidas (51). No es comparable con las 43 de los 100 días.", "fuente_url": "https://elcomercio.pe/politica/el-primer-ano-de-pedro-castillo-el-presidente-no-ha-cumplido-51-de-sus-promesas-28-de-julio-fiestas-patrias-mensaje-a-la-nacion-ecdata-noticia/"}
+  ],
+  "no_verificado": [
+    "Las otras 3 promesas 'en proceso' de ECData: la nota solo nombra la vacunación de mayores de 18 años.",
+    "La lista completa de las 43 promesas y de las 5 inviables: la nota no la publica en el texto accesible, que puede estar detrás de un muro de pago o en un gráfico.",
+    "La cantidad de decretos supremos y el total de decretos de urgencia al día 100; solo hay una cota inferior de al menos 15 DU.",
+    "Los balances de los 100 días de Ojo Público, Convoca, IDL, Gestión, la Defensoría (balance institucional) y la Contraloría: no se encontraron porque se agotó el presupuesto de búsquedas web de la sesión.",
+    "La afirmación de ECData de 'la menor cantidad de iniciativas legislativas en dos décadas' (no se revisó la serie histórica).",
+    "Un cable de AFP con 'nueve ministros' en 100 días; el 9 es un conteo propio.",
+    "El PDF oficial del Reporte de Conflictos N.° 212 (octubre de 2021).",
+    "Datos de CPI de octubre y noviembre de 2021."
+  ],
+  "caveats": [
+    "ECData no publica criterios operativos para decidir qué es 'cumplida' o 'en proceso'; la clasificación es periodística.",
+    "Los porcentajes publicados (85/8/7) no cuadran exactamente con 36/4/3 sobre 43 (83,7/9,3/7,0). Para el dashboard conviene usar los conteos absolutos.",
+    "El denominador de 43 lo construyó ECData con promesas de salud, educación y economía del plan de segunda vuelta y del discurso del 28-jul. No incluye promesas políticas como la Asamblea Constituyente, ni promesas de campaña de otros sectores. Un balance de otro gobierno con otro método no es comparable uno a uno.",
+    "Las promesas 'cumplidas' son, en la cadena de valor, un producto y dos actividades; ninguna es un resultado. Pero 100 días es un horizonte corto para esperar resultados en cualquier gobierno.",
+    "La aprobación varía según la encuestadora y la fecha de campo. Ipsos de noviembre (12-nov) e IEP de noviembre (22-25 nov) son posteriores al día 100; la medición más cercana es IEP del 25-28 oct (35 %) y Datum del 23-26 oct (40 %).",
+    "El conteo de proyectos de ley del Ejecutivo sale de una consulta propia a la API del Congreso. Incluye 45 tratados o convenios internacionales que suelen ser trámite heredado de gestiones anteriores; solo 6 iniciativas son de política sustantiva.",
+    "Algunas URLs devuelven 403, 406 o 520 a curl por protección contra bots (peru21, lpderecho, euronews, iuslatin) aunque existen; las que no se pudieron leer se excluyeron, salvo iuslatin, que sí se leyó con un lector web. El portal SPL del Congreso es una SPA (la URL carga, pero la búsqueda requiere interacción).",
+    "es.wikipedia se usa solo para la cronología de titulares y se cruzó con RPP y con el Congreso; no es fuente primaria."
+  ],
+  "validacion_urls": {
+    "fecha": "2026-11-07",
+    "metodo": "curl -L con user-agent de navegador",
+    "resultado": "Todas las fuente_url responden 200, salvo iuslatin.pe (520 de Cloudflare a curl; contenido leído con un lector web el mismo día)."
+  }
+}

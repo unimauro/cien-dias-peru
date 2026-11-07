@@ -1,0 +1,496 @@
+{
+  "castillo_2021": {
+    "nombre": "Perú Libre. Ideario y Programa (plan inscrito en el JNE, firmado digitalmente el 22/12/2020)",
+    "url_pdf": "https://apisije-e.jne.gob.pe/TRAMITE/ESCRITO/2108/ARCHIVO/FIRMADO/9716.PDF",
+    "paginas": 77,
+    "n_metas_cuantificadas": 4,
+    "n_metas_cuantificadas_con_plazo": 0,
+    "n_metas_resultado": 0,
+    "n_metas_producto_actividad": 4,
+    "detalle_metas": [
+      {
+        "meta": "Reparto de utilidades 80 % Estado / 20 % transnacional",
+        "pag": 15,
+        "tipo": "insumo/fiscal"
+      },
+      {
+        "meta": "Presupuesto de educación del 3,5 % al 10 % del PBI",
+        "pag": 17,
+        "tipo": "insumo"
+      },
+      {
+        "meta": "Presupuesto de salud al 10 % del PBI",
+        "pag": 22,
+        "tipo": "insumo"
+      },
+      {
+        "meta": "Gobiernos subnacionales administran hasta el 70 % de lo recaudado (40 % regional, 30 % municipal)",
+        "pag": 37,
+        "tipo": "insumo/institucional"
+      }
+    ],
+    "nota_paginas": "Páginas = índice del PDF (el documento no trae numeración impresa).",
+    "plan_segunda_vuelta": {
+      "nombre": "Plan de Gobierno Perú al Bicentenario – Sin corrupción (segunda vuelta, 16-may-2021)",
+      "url_pdf": "https://perulibre.pe/plan-bicentenario.pdf",
+      "paginas": 17,
+      "nota_paginas": "Páginas = índice del PDF; la numeración impresa es 'Página N de 13' = PDF-1. No verificado si se inscribió en el JNE (los medios dicen que lo difundió el partido).",
+      "n_metas_cuantificadas": 13,
+      "n_metas_cuantificadas_con_plazo": 13,
+      "n_metas_resultado": 1,
+      "n_metas_producto_actividad": 12,
+      "detalle_metas": [
+        {
+          "meta": "Vacunar a toda la población mayor de 18 años a diciembre de 2021",
+          "pag": 8,
+          "tipo": "resultado intermedio (cobertura)"
+        },
+        {
+          "meta": "60 millones de vacunas",
+          "pag": 8,
+          "tipo": "producto"
+        },
+        {
+          "meta": "1 millón de vacunados diarios",
+          "pag": 8,
+          "tipo": "actividad"
+        },
+        {
+          "meta": "5 mil equipos de Salud de familia",
+          "pag": 6,
+          "tipo": "producto"
+        },
+        {
+          "meta": "20 millones de mascarillas",
+          "pag": 6,
+          "tipo": "producto"
+        },
+        {
+          "meta": "2 millones de oxímetros",
+          "pag": 6,
+          "tipo": "producto"
+        },
+        {
+          "meta": "2 millones de frascos de alcohol (Kit por la vida)",
+          "pag": 6,
+          "tipo": "producto"
+        },
+        {
+          "meta": "50 mil o más pruebas moleculares por día",
+          "pag": 7,
+          "tipo": "actividad"
+        },
+        {
+          "meta": "100 plantas de oxígeno",
+          "pag": 7,
+          "tipo": "producto"
+        },
+        {
+          "meta": "200 tanques criogénicos",
+          "pag": 7,
+          "tipo": "producto"
+        },
+        {
+          "meta": "1,000 nuevas camas UCI",
+          "pag": 7,
+          "tipo": "producto"
+        },
+        {
+          "meta": "4 mil cánulas de alto flujo",
+          "pag": 7,
+          "tipo": "producto"
+        },
+        {
+          "meta": "5 mil camas hospitalarias adicionales",
+          "pag": 7,
+          "tipo": "producto"
+        }
+      ],
+      "nota_plazo": "El plazo es explícito solo para la vacunación (diciembre de 2021). Las demás metas están bajo el título 'Medidas urgentes para los primeros 100 días' (p4), así que su plazo es implícito."
+    }
+  },
+  "fp_2026": {
+    "nombre": "Plan de Gobierno 2026–2031: PERÚ CON ORDEN (Fuerza Popular; PDF del JNE firmado el 19/12/2025)",
+    "url_pdf": "https://mpesije.jne.gob.pe/docs/da4b943d-4344-4743-9362-a11ccf3054cb.pdf",
+    "paginas": 138,
+    "n_metas_cuantificadas": 61,
+    "n_metas_cuantificadas_con_plazo": 61,
+    "n_filas_tabla_metas": 62,
+    "n_metas_unicas": 59,
+    "n_metas_resultado": 32,
+    "n_metas_producto_actividad": 30,
+    "n_compromisos_100d": 65,
+    "n_compromisos_100d_cuantificados": 12,
+    "nota_paginas": "La numeración impresa coincide con el índice del PDF.",
+    "metodo": "Se contaron las filas de las 22 tablas 'Principales metas e indicadores' (META AL 2031). 61 de 62 tienen cifra; la excepción es 'Implementar un sistema nacional de alertas y reservas alimentarias' (p106). Todas tienen como plazo el año 2031. Resultado (outcome) = cambio en la condición de la población o de la economía (homicidios, anemia, productividad, cobertura de acceso de la población, deforestación, etc.). Producto/actividad = bienes, obras, sistemas, trámites o transferencias que entrega el Estado (C5i, títulos, becas, pavimentación, digitalización, montos de transferencias). Una fila mixta se clasifica por su primera meta o por su indicador.",
+    "metas_resultado_ejemplos": [
+      {
+        "meta": "Reducir en 20 % la tasa nacional de homicidios",
+        "pag": 19
+      },
+      {
+        "meta": "Reducir la impunidad del 90 % al 50 %",
+        "pag": 19
+      },
+      {
+        "meta": "Reducir en 30 % las pérdidas anuales por corrupción",
+        "pag": 21
+      },
+      {
+        "meta": "Déficit fiscal de 1 % del PBI",
+        "pag": 24
+      },
+      {
+        "meta": "Reducir la anemia infantil al 20 %",
+        "pag": 101
+      },
+      {
+        "meta": "Reducir en 50 % la deforestación ilegal",
+        "pag": 78
+      },
+      {
+        "meta": "6 millones de turistas internacionales",
+        "pag": 70
+      },
+      {
+        "meta": "100 % de cobertura de agua potable y alcantarillado",
+        "pag": 116
+      }
+    ],
+    "metas_producto_ejemplos": [
+      {
+        "meta": "C5i en las 24 regiones",
+        "pag": 19
+      },
+      {
+        "meta": "Emitir 1 millón de títulos de propiedad digitales",
+        "pag": 111
+      },
+      {
+        "meta": "Duplicar el acceso a becas y créditos educativos",
+        "pag": 95
+      },
+      {
+        "meta": "4 metros de Lima y 3 regionales operativos, 17 aeropuertos modernizados",
+        "pag": 66
+      },
+      {
+        "meta": "Incrementar en 100 % los montos de las principales transferencias sociales",
+        "pag": 119
+      }
+    ]
+  },
+  "ejes": [
+    {
+      "eje": "Economía / modelo económico",
+      "castillo": {
+        "texto": "«Nuestro Partido plantea la Economía Popular Con Mercados» (inspirada en los modelos de Morales y Correa, p12). En el plan de segunda vuelta: «El estado fortalecerá su rol regulador dentro de un enfoque de economía mixta» (Bicentenario, p8).",
+        "pag": "Ideario p14; Bicentenario p8"
+      },
+      "keiko": {
+        "texto": "«Fuerza Popular propugna una economía social de mercado» (p9); «Aseguramiento de la independencia del BCRP y el respeto a los contratos» y «Sostenimiento del déficit fiscal del 1% del PBI en 2031» (p23); «shock desregulatorio» (p2, p23).",
+        "pag": "9, 23"
+      },
+      "diferencia_clave": "Un Estado interventor, planificador y 'nacionalizador' que renegocia contratos, frente a la economía social de mercado con disciplina fiscal y desregulación."
+    },
+    {
+      "eje": "Constitución / Estado",
+      "castillo": {
+        "texto": "«La nueva CPP debe redactarse mediante una Asamblea Constituyente» (Ideario p12). En segunda vuelta se matiza: un referéndum para decidir si se convoca una Asamblea Constituyente, «en el marco de las actuales reglas constitucionales y legales» (Bicentenario p15).",
+        "pag": "Ideario p12; Bicentenario p14-15"
+      },
+      "keiko": {
+        "texto": "No propone una nueva Constitución (la búsqueda textual de 'nueva Constitución' y 'reforma constitucional' no da resultados). Defiende un «Estado austero, constructivo, promotor, eficiente» (p9) y propone que el 100 % de las entidades nacionales operen con sistemas digitales interoperables (p28).",
+        "pag": "9, 28"
+      },
+      "diferencia_clave": "Cambio del pacto constitucional de 1993 frente a modernización de la gestión dentro de la Constitución vigente."
+    },
+    {
+      "eje": "Educación",
+      "castillo": {
+        "texto": "«Incremento presupuestal del 3,5% al 10% del PBI para la educación», financiado con la renegociación de utilidades.",
+        "pag": "Ideario p17"
+      },
+      "keiko": {
+        "texto": "«Construcción de 3,000 colegios durante el periodo de gestión» (p91). Metas al 2031: reducir en 50 % la brecha de infraestructura, 50 % de inserción laboral de los técnicos y duplicar las becas (p95). La tabla de metas no incluye ninguna meta de aprendizaje.",
+        "pag": "91, 95"
+      },
+      "diferencia_clave": "Meta de insumo (gasto como % del PBI) frente a metas de infraestructura y empleabilidad. Ninguno de los dos planes fija una meta de logro de aprendizaje."
+    },
+    {
+      "eje": "Salud",
+      "castillo": {
+        "texto": "«Necesitamos incrementar el presupuesto al 10% del PBI» y un sistema de salud «Universal, Único, Gratuito» que unifique MINSA y EsSalud (Ideario p22). En segunda vuelta: 1,000 camas UCI, 5 mil equipos de salud de familia y vacunar a todos los mayores de 18 años a diciembre (Bicentenario p6-8).",
+        "pag": "Ideario p22; Bicentenario p6-8"
+      },
+      "keiko": {
+        "texto": "Metas al 2031: «Reducir la anemia infantil al 20%», telemedicina en el 100 % de los centros del primer nivel y 80 % de interoperabilidad de la historia clínica (p101). «Separación de las funciones de financiamiento y prestación» (p100).",
+        "pag": "100-101"
+      },
+      "diferencia_clave": "Sistema único estatal financiado con más gasto, frente a una reforma de gestión (separar el financiamiento de la prestación, convenios público-privados) con metas de resultado como la anemia."
+    },
+    {
+      "eje": "Seguridad ciudadana",
+      "castillo": {
+        "texto": "«Debe procederse a la reorganización de la Policía Nacional del Perú» con ascensos por investigaciones resueltas. Propone que el alcalde sea el responsable político de la seguridad ciudadana (p50) y declarar ilegal la tenencia de armas con amnistía para quien las entregue (p49).",
+        "pag": "Ideario p49-50"
+      },
+      "keiko": {
+        "texto": "Metas al 2031: reducir en 20 % la tasa de homicidios, C5i en las 24 regiones y bajar la impunidad del 90 % al 50 % (p19). Propone un «Comando Unificado Permanente contra la Inseguridad y el Crimen Organizado» (p17).",
+        "pag": "17, 19"
+      },
+      "diferencia_clave": "Ve la inseguridad como un problema estructural que se resuelve con descentralización y atacando la pobreza, frente a control territorial, tecnología (C5i) y flagrancia, con metas cuantificadas."
+    },
+    {
+      "eje": "Minería y recursos",
+      "castillo": {
+        "texto": "Yanacocha, Antamina, Toromocho, Marcona, Cuajone, Quellaveco y Toquepala «deben ser nacionalizados» (Ideario p62); reparto de utilidades 80/20 (p15); «la mal llamada minería ilegal debe ser formalizada» (p66). En segunda vuelta: impuesto a las sobreganancias y regalías sobre ventas (Bicentenario p11).",
+        "pag": "Ideario p15, 62, 66; Bicentenario p11"
+      },
+      "keiko": {
+        "texto": "«Modernización de la Ley General de Minería» con un «fast track para proyectos estratégicos» (p40). Metas: conectar el 80 % de los proyectos mineros a corredores logísticos, reducir en 40 % los accidentes fatales y «erradicar al menos el 50% de la minería ilegal en zonas críticas» (p41-42).",
+        "pag": "40-42"
+      },
+      "diferencia_clave": "Nacionalización o mayor captura de la renta frente a atracción de inversión. Ante la minería ilegal: formalizarla (Castillo) o erradicarla (Keiko)."
+    },
+    {
+      "eje": "Agro",
+      "castillo": {
+        "texto": "«Política agraria como seguridad nacional»: ampliar la frontera agrícola, «siembra de agua» y devolver al Estado las tierras vendidas indebidamente (Ideario p30-31). En segunda vuelta: «Inicio del proceso de Segunda Reforma Agraria» (Bicentenario p9).",
+        "pag": "Ideario p30-31; Bicentenario p9-10"
+      },
+      "keiko": {
+        "texto": "Grandes represamientos como «Chavimochic III, Majes Siguas II, Poechos II, Olmos...» (p52). Metas: riego tecnificado del 34 % al 60 % y productividad agrícola +30 % (p54).",
+        "pag": "52, 54"
+      },
+      "diferencia_clave": "Agricultura familiar y soberanía alimentaria, con enfoque territorial, frente a grandes obras de riego y productividad con metas cuantificadas."
+    },
+    {
+      "eje": "Corrupción / justicia",
+      "castillo": {
+        "texto": "«si no cambiamos el modo de producción en el país la corrupción seguirá campeando» (p45). Propone la «Elección y revocatoria de altos magistrados por voto popular» (p53) y reorganizar el OSCE (p47).",
+        "pag": "Ideario p45, 47, 53"
+      },
+      "keiko": {
+        "texto": "Contraloría con IA para detectar sobrecostos y «Prohibición de la contratación estatal con empresas sancionadas por corrupción» (p20). Meta: reducir en 30 % las pérdidas por corrupción (p21). Expediente judicial electrónico y reducción del 30 % en los tiempos procesales (p28).",
+        "pag": "20-21, 28"
+      },
+      "diferencia_clave": "Diagnóstico sistémico (el modelo económico) con jueces elegidos por voto popular, frente a control preventivo digital con metas medibles."
+    },
+    {
+      "eje": "Programas sociales",
+      "castillo": {
+        "texto": "Los programas sociales se sostendrían con la renta renegociada o nacionalizada (Ideario p16). Sobre pensiones: «fortalecer el SNP y eliminar paulatinamente el SPP» (p44).",
+        "pag": "Ideario p16, 44"
+      },
+      "keiko": {
+        "texto": "«Programa Juntos: aumento de S/ 200 a S/ 400 bimestrales», Pensión 65 de S/ 350 a S/ 700 y Contigo de S/ 300 a S/ 600 (p117-118). Metas: 95 % de afiliación y +100 % en los montos (p119).",
+        "pag": "117-119"
+      },
+      "diferencia_clave": "Programas como derivado del cambio de modelo, sin cifras, frente a la duplicación explícita de las transferencias (metas de insumo)."
+    },
+    {
+      "eje": "Descentralización",
+      "castillo": {
+        "texto": "«República Federal y constitución de Estados federados». Los gobiernos subnacionales «podrían administrar hasta el 70%» de los tributos (p37).",
+        "pag": "Ideario p36-38"
+      },
+      "keiko": {
+        "texto": "«Modernización y revisión del proceso de descentralización» (p24). En los 100 días, el programa «Asiste Regional» del MEF-PCM para destrabar obras (p28).",
+        "pag": "24, 28"
+      },
+      "diferencia_clave": "Federalismo fiscal frente a asistencia técnica central y ajuste del proceso vigente."
+    }
+  ],
+  "compromisos_100d": [
+    {
+      "plan": "castillo_2021",
+      "fuente_plan": "Bicentenario p4: «MEDIDAS URGENTES PARA LOS PRIMEROS 100 DÍAS»",
+      "nota": "El Ideario inscrito en el JNE no tiene compromisos a 100 días. Esta sección sale del plan de segunda vuelta."
+    },
+    {
+      "plan": "castillo_2021",
+      "compromiso": "Vacunar a todos los mayores de 18 años antes de diciembre de 2021",
+      "pag": "Bicentenario p8",
+      "cumplimiento": "En su balance de los 100 días (10-nov-2021), Castillo dijo que se pasó del 15 % de la población vacunada al inicio a «cerca del 60 % de la población objetivo». La cobertura al cierre de 2021 no se verificó.",
+      "fuente": "https://andina.pe/agencia/noticia-presidente-castillo-las-frases-mas-destacadas-el-balance-los-100-dias-gobierno-868983.aspx"
+    },
+    {
+      "plan": "castillo_2021",
+      "compromiso": "Inicio del proceso de Segunda Reforma Agraria",
+      "pag": "Bicentenario p9",
+      "cumplimiento": "Lanzada el 3-oct-2021 en Cusco, dentro de los 100 días. Fue un lanzamiento; el balance no da cifras ni plazos.",
+      "fuente": "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo ; https://andina.pe/agencia/noticia-presidente-castillo-las-frases-mas-destacadas-el-balance-los-100-dias-gobierno-868983.aspx"
+    },
+    {
+      "plan": "castillo_2021",
+      "compromiso": "Aporte justo de empresas: impuesto a las sobreganancias y renegociación de la estabilidad tributaria",
+      "pag": "Bicentenario p11",
+      "cumplimiento": "El 28-oct-2021 pidió facultades al Congreso para legislar en materia tributaria y subir el impuesto minero. No se verificó el resultado.",
+      "fuente": "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo (ref. América Economía, 28-oct-2021)"
+    },
+    {
+      "plan": "castillo_2021",
+      "compromiso": "Gas para todos / gasoducto sur",
+      "pag": "Bicentenario p11-12",
+      "cumplimiento": "Anunció el inicio de la masificación sin cifras. Analistas de la Universidad del Pacífico hablan de «más anuncios que logros».",
+      "fuente": "https://www.infobae.com/america/peru/2021/11/11/pedro-castillo-y-su-discurso-de-los-primeros-100-dias-poco-de-balance-y-mucho-de-promesa/"
+    },
+    {
+      "plan": "castillo_2021",
+      "compromiso": "Convocatoria a un referéndum constituyente",
+      "pag": "Bicentenario p13-15",
+      "cumplimiento": "El 28-jul-2021 anunció un proyecto de reforma constitucional que se sometería a referéndum. Según la nota de Andina, el balance de los 100 días no lo menciona. No se verificó si el proyecto se presentó en ese plazo.",
+      "fuente": "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo (ref. RPP 28-jul-2021); https://andina.pe/agencia/noticia-presidente-castillo-las-frases-mas-destacadas-el-balance-los-100-dias-gobierno-868983.aspx"
+    },
+    {
+      "plan": "castillo_2021",
+      "compromiso": "Creación del Ministerio de Ciencia, Tecnología e Investigación",
+      "pag": "Bicentenario p4",
+      "cumplimiento": "Sin evidencia verificada en esta investigación.",
+      "fuente": null
+    },
+    {
+      "plan": "fp_2026",
+      "fuente_plan": "Cada uno de los 22 temas trae una sección 'Primeros 100 días' (65 viñetas en total; 12 tienen cifras y todas son de producto o actividad).",
+      "nota": "Asumió el 28-jul-2026; el día 100 fue el 5-nov-2026."
+    },
+    {
+      "plan": "fp_2026",
+      "compromiso": "Presentar el Marco Macroeconómico Multianual 2027-2030 con una ruta de déficit hacia el 1 % del PBI",
+      "pag": 24,
+      "cumplimiento": "Cumplido: el MMM 2027-2030 se aprobó el 27-ago-2026 y proyecta un déficit de 1,8 % del PBI (2026) y de 1 % en 2030. Una nota menciona que la regla de 2027 se amplía a 2,4 %; esa cifra no está confirmada.",
+      "fuente": "https://lacamara.pe/?p=99429 ; https://www.expreso.com.pe/opinion/a-dios-rogando-y-con-el-mef-dando/ ; https://mineriaenergia.com/?p=67878"
+    },
+    {
+      "plan": "fp_2026",
+      "compromiso": "Decretos de urgencia para 1,000 patrulleros, 10,000 cámaras y la modernización de 200 comisarías",
+      "pag": 19,
+      "cumplimiento": "No verificado. El Ejecutivo evaluó usar decretos de urgencia si no recibía facultades. Un Plan Nacional de Seguridad Ciudadana 2026-2028 menciona cerca de 1,000 patrulleros a fin de año (fecha de la fuente poco clara).",
+      "fuente": "https://caretas.pe/politica/gobierno-de-keiko-fujimori-evalua-decretos-de-urgencia-para-reforzar-a-la-policia-si-no-recibe-facultades-legislativas/ ; https://elperuano.pe/noticia/304564-gobierno-alista-modernizacion-de-las-comisarias"
+    },
+    {
+      "plan": "fp_2026",
+      "compromiso": "Inicio de operaciones del C5i en Lima y Callao",
+      "pag": 18,
+      "cumplimiento": "No verificado. Las búsquedas no encontraron un decreto específico del C5i; sí se reportó un comité de inteligencia y la integración de cámaras.",
+      "fuente": null
+    },
+    {
+      "plan": "fp_2026",
+      "compromiso": "Comando Unificado contra el crimen (propuesta, p17)",
+      "pag": 17,
+      "cumplimiento": "Creado, según EFE/Primicias. También se declaró en emergencia a cinco penales con control de las FF.AA.",
+      "fuente": "https://www.primicias.ec/internacional/keiko-fujimori-presidenta-peru-100-dias-carceles-aprobacion-seguridad-136364/ ; https://primicias.ec/internacional/peru-carceles-estado-emergencia-militares-keiko-fujimori-131931/"
+    },
+    {
+      "plan": "fp_2026",
+      "compromiso": "Ampliar los programas alimentarios a 500,000 nuevos beneficiarios",
+      "pag": 105,
+      "cumplimiento": "No verificado.",
+      "fuente": null
+    },
+    {
+      "plan": "fp_2026",
+      "compromiso": "Juntos de S/ 200 a S/ 400 (propuesta, no compromiso a 100 días)",
+      "pag": 118,
+      "cumplimiento": "No verificado.",
+      "fuente": null
+    },
+    {
+      "plan": "fp_2026",
+      "balance_general": "Aprobación Ipsos: del 57 % (inicio) al 40 % (octubre); desaprobación del 25 % al 49 %. Según el Registro Nacional de Defunciones, no hay un descenso sostenido de homicidios (la meta del plan es -20 % al 2031). Datum: 47 % califica la gestión de 'regular' y 68 % no ve avances en seguridad (dato del titular, nota no leída). La CCL habla de la mejor confianza económica de un gobierno electo desde 2000.",
+      "fuente": "https://www.primicias.ec/internacional/keiko-fujimori-presidenta-peru-100-dias-carceles-aprobacion-seguridad-136364/ ; https://www.americatv.com.pe/noticias/actualidad/datum-47-califica-regular-gestion-keiko-fujimori-n524045 ; https://lacamara.pe/ccl-peru-recupera-la-confianza-en-los-primeros-100-dias-del-gobierno-de-keiko-fujimori/"
+    }
+  ],
+  "contradicciones": [
+    {
+      "plan": "castillo_2021",
+      "plan_dice": "Nacionalizar los principales yacimientos (Ideario p62) / «No estamos en contra de la empresa privada» (p14)",
+      "hecho": "En el balance de los 100 días negó haber expropiado propiedades. El plan de segunda vuelta ya hablaba de «economía mixta» y de fomentar la empresa privada (Bicentenario p8-9). La contradicción está entre el Ideario y el plan de segunda vuelta, no entre el plan y la gestión.",
+      "fuente": "https://andina.pe/agencia/noticia-presidente-castillo-las-frases-mas-destacadas-el-balance-los-100-dias-gobierno-868983.aspx"
+    },
+    {
+      "plan": "castillo_2021",
+      "plan_dice": "Asamblea Constituyente (Ideario p12) → referéndum dentro de las reglas vigentes (Bicentenario p15)",
+      "hecho": "Lo anunció el 28-jul-2021, pero no figura en el balance de los 100 días. El proyecto del Ejecutivo se habría presentado recién en 2022 (dato del conocimiento previo, NO verificado en esta sesión).",
+      "fuente": "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo"
+    },
+    {
+      "plan": "castillo_2021",
+      "plan_dice": "Vacunar al 100 % de los mayores de 18 años a diciembre de 2021 (Bicentenario p8)",
+      "hecho": "Al día 100, cerca del 60 % de la población objetivo, según el propio presidente. La cifra al 31-dic-2021 no se verificó.",
+      "fuente": "https://andina.pe/agencia/noticia-presidente-castillo-las-frases-mas-destacadas-el-balance-los-100-dias-gobierno-868983.aspx"
+    },
+    {
+      "plan": "castillo_2021",
+      "plan_dice": "El plan no fija un salario mínimo",
+      "hecho": "En el balance de los 100 días anunció que ningún trabajador formal ganaría menos de S/ 1,000. Es una promesa nueva que no está en el plan.",
+      "fuente": "https://lacamara.pe/pedro-castillo-anuncia-aumento-del-sueldo-mimimo-a-s-1-000-para-trabajadores-formales/"
+    },
+    {
+      "plan": "fp_2026",
+      "plan_dice": "«Construcción de 3,000 colegios durante el periodo de gestión» (p91)",
+      "hecho": "En campaña (Cajamarca) prometió 5,000 colegios. Es una incoherencia entre la campaña y el plan, según El Búho, medio crítico.",
+      "fuente": "https://elbuho.pe/?p=441763"
+    },
+    {
+      "plan": "fp_2026",
+      "plan_dice": "El plan no menciona megacárceles ni la figura de 'grupos hostiles' (búsqueda textual sin resultados; solo 'Cárceles productivas' vía APP, p18)",
+      "hecho": "Anunció dos megacárceles y planea declarar 'grupos hostiles' a las bandas para usar a las FF.AA. sin estado de excepción. Es una medida fuera del plan, no una contradicción directa.",
+      "fuente": "https://www.primicias.ec/internacional/keiko-fujimori-presidenta-peru-100-dias-carceles-aprobacion-seguridad-136364/"
+    },
+    {
+      "plan": "fp_2026",
+      "plan_dice": "Decretos de urgencia en los 100 días para financiar 1,000 patrulleros (p19)",
+      "hecho": "Pidió 120 días de facultades; la Cámara de Diputados aprobó 90 días y solo dos ejes (seguridad y El Niño) el 6-oct-2026 (66-34-24), con el Senado pendiente. La herramienta prevista (DU) se cambió por facultades delegadas.",
+      "fuente": "https://www.primicias.ec/internacional/fujimori-peru-camara-diputados-autoriza-legislacion-crimen-congreso-134372/"
+    },
+    {
+      "plan": "fp_2026",
+      "plan_dice": "Meta: -20 % de homicidios al 2031 (p19)",
+      "hecho": "No hay un descenso sostenido a los 100 días (Registro Nacional de Defunciones, vía EFE). No es una contradicción, porque la meta es a 2031, pero sirve como indicador temprano.",
+      "fuente": "https://www.primicias.ec/internacional/keiko-fujimori-presidenta-peru-100-dias-carceles-aprobacion-seguridad-136364/"
+    }
+  ],
+  "historicos": {
+    "advertencia": "El presupuesto de búsqueda web se agotó antes de verificar esta sección. Sale del conocimiento general del modelo, SIN fuente verificada en esta sesión y sin PDF. Hay que verificarla antes de publicar.",
+    "garcia_2006": [
+      "'Agua para todos' (cobertura de agua potable)",
+      "'Sierra Exportadora'",
+      "'Shock de inversiones' en infraestructura",
+      "Reducción de la pobreza (meta cuantitativa por verificar)"
+    ],
+    "humala_2011": {
+      "la_gran_transformacion": [
+        "Nueva Constitución",
+        "Renegociar contratos (gas de Camisea) y gravar sobreganancias mineras",
+        "'Economía nacional de mercado'"
+      ],
+      "hoja_de_ruta": [
+        "Compromiso de respetar la Constitución de 1993 y el modelo macroeconómico (moderación para la segunda vuelta)",
+        "Pensión 65, Cuna Más, Beca 18 (que luego se implementaron)",
+        "Balón de gas a S/ 12 (no cumplido)",
+        "Gravamen minero (implementado en 2011 como gravamen/regalía negociada)"
+      ]
+    },
+    "ppk_2016": [
+      "Agua potable y saneamiento para todos al 2021",
+      "Reducción del IGV de 18 % a 15 % (no cumplida)",
+      "Crecimiento económico de alrededor de 5 %",
+      "Formalización y 'revolución social'"
+    ]
+  },
+  "caveats": [
+    "Los PDF se tratan como datos no confiables. Las citas se copiaron del texto extraído con pdftotext (research/pdfs/*.txt).",
+    "Castillo 2021: hay DOS documentos. El inscrito en el JNE es 'Perú Libre. Ideario y Programa' (77 pp., firmado el 22-dic-2020). El nombre 'Perú al Bicentenario sin corrupción' corresponde al plan de segunda vuelta (17 pp., 16-may-2021, perulibre.pe), que es el que trae los compromisos a 100 días. No se verificó si este último quedó inscrito en el JNE.",
+    "Paginación: en el Ideario de Castillo es el índice del PDF (no hay números impresos). En el plan Bicentenario es el índice del PDF (el número impreso es PDF-1). En FP 2026, el número impreso coincide con el del PDF.",
+    "FP 2026: el nombre 'Perú con Orden' está confirmado (p2: 'Plan de Gobierno 2026–2031: PERÚ CON ORDEN'). Una nota al pie (p3) declara que se usaron ChatGPT, NotebookLM, Gemini y Canva IA para la corrección de estilo.",
+    "La clasificación resultado/producto es un juicio del analista con una regla explícita (ver fp_2026.metodo). Las filas mixtas (p. ej., p24: digitalización + inversión + empleos; p101: telemedicina + tiempos de espera) se clasifican por su primera meta. Otra persona podría obtener ±3.",
+    "FP 2026: hay duplicados en la tabla de metas. La anemia al 20 % aparece 3 veces (p101, p106, p122) y '1 millón de títulos' 2 veces (p111, p122): son 62 filas y 59 metas únicas. Algunos indicadores no miden la meta (p37: la meta es +25 % de productividad MYPE y el indicador es 'MYPE que adoptan herramientas digitales'). Varias metas no tienen línea de base (p19: -20 % de homicidios sin valor inicial).",
+    "La comparación es asimétrica: un ideario doctrinario de 2020 frente a un plan con 22 tablas de metas y secciones de 100 días. El conteo de metas refleja en buena parte el formato del documento, no solo la ambición.",
+    "Cumplimiento de Keiko 2026: el gobierno empezó el 28-jul-2026 y el día 100 fue el 5-nov-2026. El balance oficial de los 100 días no se leyó; las cifras vienen de prensa (EFE/Primicias, El Búho, La Cámara, Caretas). El Búho cita una aprobación de Datum del 10 %, que no cuadra con Ipsos (40 %) ni con otra nota de Datum. Se omitió por inconsistente.",
+    "No se verificaron en esta sesión (el presupuesto de búsqueda se agotó): la fecha del proyecto de referéndum de Castillo, la declaración de Bellido sobre Camisea, la cobertura de vacunación al 31-dic-2021, el resultado de las facultades tributarias de 2021, el estado del C5i, los patrulleros y los 500 mil beneficiarios alimentarios, ni la sección 'historicos' completa.",
+    "Las URL de prensa vienen de resultados de búsqueda o de lecturas con WebFetch. Las que no se abrieron directamente (americatv Datum, lacamara CCL, mineriaenergia) están citadas por su titular o fragmento."
+  ]
+}
