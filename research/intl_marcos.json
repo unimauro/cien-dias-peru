@@ -1,0 +1,275 @@
+{
+  "_meta": {
+    "generado": "2026-11-07",
+    "proposito": "Marcos internacionales para evaluar los primeros 100 días y la gestión por resultados; base metodológica de un dashboard neutral (García 2006, Humala 2011, PPK 2016, Castillo 2021, Keiko Fujimori 2026).",
+    "nota_ventanas": "En el Perú la toma de mando es el 28 de julio, así que el día 100 cae alrededor del 4 de noviembre (28-jul + 99 días). Para 2026 la ventana ya cerró al 7-nov-2026.",
+    "verificacion": "Las cifras del BID PRODEV/SEP del Perú y las categorías de PolitiFact y Chequeado se verificaron por búsqueda web el 7-nov-2026. El resto se apoya en conocimiento bibliográfico y está marcado como 'verificar' cuando corresponde."
+  },
+  "cien_dias_estandar": {
+    "existe_estandar": false,
+    "resumen": "No existe un estándar ni una metodología reconocida internacionalmente para evaluar los 100 días. Es una convención periodística y política que nace con F. D. Roosevelt (1933): el Congreso sesionó en una sesión especial del 9-mar al 16-jun-1933 y aprobó 15 leyes mayores del New Deal; FDR usó la expresión en una charla radial de julio de 1933. Lo que sí existe son tres familias de práctica: (1) trackers de promesas con categorías ordinales (PolitiFact, Chequeado, Ciudadanía Inteligente), que en el día 100 suelen dejar la mayoría en 'In the Works' o 'Not yet rated'; (2) la ciencia de la transición de EE. UU. (Center for Presidential Transition / Partnership for Public Service, White House Transition Project), que mide capacidad de gobierno: nombramientos, confirmaciones y planes de agencia, con la meta de 100 altos cargos confirmados en el día 100; (3) la literatura de aprobación presidencial, que documenta el 'honeymoon' (Mueller 1970; Brody 1991) y, en América Latina, el patrón cíclico de luna de miel, declive y repunte (Executive Approval Project: Carlin, Hartlyn, Hellwig, Love, Martínez-Gallardo). Brookings (p. ej. Kathryn Dunn Tenpas, 'turnover' del 'A Team') aporta la métrica de rotación del equipo, y Pew publica aprobación temprana comparada entre presidentes. Varios autores (Neustadt; Pfiffner, 'The Strategic Presidency'; Kumar) advierten que los 100 días miden sobre todo agenda y señales, no resultados: los productos de política pública rara vez maduran en 3 meses. Por eso un índice serio debe pesar más los procesos (agenda, equipo, integridad, veracidad) y tratar los resultados como señales tempranas.",
+    "fuentes": [
+      {"ref": "Roosevelt, F. D. (1933). Fireside Chat, 24-jul-1933; sesión especial del 73.º Congreso (9-mar a 16-jun-1933).", "url": "https://www.fdrlibrary.org/"},
+      {"ref": "Center for Presidential Transition (Partnership for Public Service). Meta: 100 altos cargos confirmados de inmediato y 300 más al receso de agosto; Political Appointee Tracker con The Washington Post.", "url": "https://presidentialtransition.org/"},
+      {"ref": "Partnership for Public Service. Joe Biden's first year in office: nominations and confirmations (comparación con los 3 presidentes previos).", "url": "https://search.issuelab.org/resource/joe_biden_s_first_year_in_office_nominations_and_confirmations"},
+      {"ref": "White House Transition Project (Martha Joynt Kumar). Informes sobre los primeros 100 días y la organización de la Casa Blanca.", "url": "https://www.whitehousetransitionproject.org/"},
+      {"ref": "Tenpas, K. D. Tracking turnover in the Trump/Biden administration ('A Team'). Brookings.", "url": "https://www.brookings.edu/articles/tracking-turnover-in-the-trump-administration/"},
+      {"ref": "Pew Research Center. Aprobación presidencial temprana comparada (series históricas).", "url": "https://www.pewresearch.org/politics/"},
+      {"ref": "Mueller, J. (1970). Presidential Popularity from Truman to Johnson. American Political Science Review 64(1).", "url": "https://doi.org/10.2307/1955610"},
+      {"ref": "Brody, R. (1991). Assessing the President: The Media, Elite Opinion, and Public Support. Stanford UP.", "url": ""},
+      {"ref": "Carlin, R., Hartlyn, J., Hellwig, T., Love, G., Martínez-Gallardo, C. y Singer, M. (2018). Public support for Latin American presidents: The cyclical model in comparative perspective. Research & Politics. Executive Approval Database: 140 gobiernos, 18 países.", "url": "https://polisci.indiana.edu/research/publications/public-support-for-latin-american-presidents.html"},
+      {"ref": "Pfiffner, J. (1996). The Strategic Presidency: Hitting the Ground Running. 2.ª ed. UP of Kansas.", "url": ""},
+      {"ref": "Dahlberg, R. (2008). Roosevelt's 'First Hundred Days' y el origen del término (verificar referencia exacta).", "url": ""}
+    ]
+  },
+  "trackers_promesas": [
+    {
+      "nombre": "PolitiFact Obameter / Trump-O-Meter / Biden Promise Tracker / MAGA-Meter",
+      "pais": "EE. UU.",
+      "categorias": ["Not Yet Rated", "In the Works", "Stalled", "Compromise", "Promise Kept", "Promise Broken"],
+      "metodologia": "Selecciona cientos de promesas verificables (Obama ~500; Trump 2017 ~100). Califica por resultados, no por intenciones. 'Kept' = cumplida o cumplida en lo esencial; 'Compromise' = avance significativo sin la meta completa; 'In the Works' = el gobierno o sus aliados dieron pasos de implementación; 'Stalled' = sin avance por inacción, falta de fondos u oposición; 'Broken' = no cumplida o abandonada. Las calificaciones cambian con el tiempo y cada cambio se documenta con fuentes.",
+      "url": "https://projects.tampabay.com/projects/2017/politifact/obameter/about/"
+    },
+    {
+      "nombre": "Chequeado: Promesas chequeadas (#PromesasChequeadas)",
+      "pais": "Argentina",
+      "categorias": ["Cumplida", "En proceso: adelantada / en tiempo", "En proceso: demorada", "Incumplida"],
+      "metodologia": "Toma promesas concretas y verificables del discurso de campaña y de asunción, y las contrasta con documentos oficiales y datos. Advierte que el porcentaje agregado engaña porque las promesas no pesan igual. Lo ha aplicado a Macri (2016), Fernández y Milei (2 de 20 promesas cumplidas al año, según un reporte de 2025: verificar).",
+      "url": "https://chequeado.com/por-que-y-como-hicimos-promesaschequeadas/"
+    },
+    {
+      "nombre": "Del Dicho al Hecho (Fundación Ciudadanía Inteligente)",
+      "pais": "Chile",
+      "categorias": ["Porcentaje de cumplimiento legislativo por promesa (0-100 %), según el avance del proyecto de ley y su fidelidad a la promesa"],
+      "metodologia": "Mide solo las promesas legislativas del programa de gobierno, ponderando el avance en el trámite legislativo y la coherencia del contenido con lo prometido. Bachelet II alcanzó 56 %; Piñera II, 3 % en 2020.",
+      "url": "https://deldichoalhecho.cl/"
+    },
+    {
+      "nombre": "Dicho y hecho: Promesómetro (Universidad del Pacífico y El Comercio)",
+      "pais": "Perú (gobiernos regionales)",
+      "categorias": ["Viable y medible / no medible", "Cumplida", "No cumplida (verificar categorías intermedias)"],
+      "metodologia": "Analizó 3,572 promesas de los planes de 26 gobernadores regionales: 1,421 viables y medibles, 169 cumplidas. Usa IA para extraerlas, contraste con fuentes oficiales y validación humana. La fuente hallada es secundaria (LinkedIn): verificar.",
+      "url": "https://www.up.edu.pe/"
+    },
+    {
+      "nombre": "Ojo Público / Convoca / Salud con Lupa: verificación de planes de gobierno (Perú)",
+      "pais": "Perú",
+      "categorias": ["Verificación de afirmaciones (Ojo Biónico: verdadero, impreciso, engañoso, falso, etc.)", "No hay un tracker sistemático de promesas presidenciales a 100 días: verificar"],
+      "metodologia": "Ojo Biónico (Ojo Público) es un verificador de afirmaciones que integra la IFCN. Convoca hace periodismo de datos sobre planes y contrataciones. No se encontró un 'promesómetro' presidencial peruano continuo; sirven como insumo de veracidad y de integridad, no como tracker de promesas.",
+      "url": "https://ojo-publico.com/ojobionico"
+    },
+    {
+      "nombre": "Promessômetro / trackers brasileños (Aos Fatos, Agência Lupa, Estadão)",
+      "pais": "Brasil",
+      "categorias": ["Cumprida", "Em andamento / parcialmente cumprida", "Não cumprida (verificar nomenclatura exacta por medio)"],
+      "metodologia": "Varios medios llevaron seguimiento de promesas de Bolsonaro (2019) y Lula (2023), con escalas ordinales tipo PolitiFact. La búsqueda no confirmó un 'Promessômetro' único ni su metodología: verificar antes de citar.",
+      "url": "https://www.aosfatos.org/"
+    },
+    {
+      "nombre": "Promise Tracker (Code for Africa / PesaCheck) y Altax (Albania)",
+      "pais": "Kenia, Nigeria, Albania",
+      "categorias": ["Completed", "In progress", "Stalled", "Not started (variantes por proyecto)"],
+      "metodologia": "Plataformas cívicas de código abierto que replican el modelo PolitiFact con fichas por promesa y evidencia enlazada; útiles como referencia de diseño de datos abiertos.",
+      "url": "https://ken.promisetracker-v2.dev.codeforafrica.org/the-project"
+    }
+  ],
+  "marcos_resultados": [
+    {
+      "nombre": "Sistema de Evaluación PRODEV (SEP) / Índice de Gestión para Resultados en el Desarrollo (GpRD)",
+      "institucion": "BID (PRODEV) y CLAD",
+      "que_mide": "La capacidad institucional para la GpRD en 5 pilares del ciclo de gestión: (1) planificación orientada a resultados, (2) presupuesto por resultados, (3) gestión financiera pública (auditoría y adquisiciones), (4) gestión de programas y proyectos (bienes y servicios), y (5) seguimiento y evaluación. Usa una escala de 0 a 5 con indicadores y requisitos mínimos; mide la capacidad del sistema, no el desempeño de un gobierno concreto. Ciclos de 2007 y 2013 (publicación 'Construyendo gobiernos efectivos', 2015). Cadena: insumo = recursos y presupuesto; actividad = procesos de gestión; producto = bienes y servicios entregados (pilar 4); resultado e impacto = lo que miden los sistemas de seguimiento y evaluación (pilar 5) y la planificación con metas.",
+      "url": "https://publications.iadb.org/es/metadata/13907/peru-construyendo-gobiernos-efectivos-resumenes-ejecutivos-de-los-informes-nacionales",
+      "valores_peru": {
+        "escala": "0-5",
+        "2007": {"planificacion": 2.4, "presupuesto_por_resultados": 2.6, "gestion_financiera": 3.1, "programas_proyectos": 2.6, "seguimiento_evaluacion": 1.2, "promedio": 2.4},
+        "2013": {"planificacion": 3.4, "presupuesto_por_resultados": 3.0, "gestion_financiera": 3.4, "programas_proyectos": 2.5, "seguimiento_evaluacion": 2.0, "promedio": 2.9},
+        "promedio_ALC_2013": 2.2,
+        "nota": "El promedio regional de 2,2 corresponde al índice de capacidad efectiva de 24 países (blog del BID). No hay ciclo posterior a 2013 que se haya publicado con el mismo instrumento (verificar). El valor de 2013 es de la era Humala; no hay valores para 2006, 2016, 2021 ni 2026."
+      }
+    },
+    {
+      "nombre": "Valor público (Public Value) y triángulo estratégico",
+      "institucion": "Mark H. Moore, Harvard Kennedy School (1995, 'Creating Public Value'; 2013, 'Recognizing Public Value')",
+      "que_mide": "Marco normativo: el gestor público crea valor cuando alinea (a) el valor público sustantivo (resultados socialmente deseados), (b) la fuente de legitimidad y apoyo (entorno autorizante) y (c) la capacidad operativa. La 'Public Value Account' de 2013 compara costos (insumos financieros y coerción) con valor en resultados de misión, satisfacción de usuarios y justicia o equidad. No es un índice cuantitativo estándar. Distingue implícitamente insumos (dinero y autoridad), producción (operaciones y productos) y resultados sociales; el impacto se entiende como valor sustantivo neto.",
+      "url": "https://www.hup.harvard.edu/books/9780674175587",
+      "valores_peru": null
+    },
+    {
+      "nombre": "Cadena de valor público y planificación para resultados",
+      "institucion": "CEPAL / ILPES (Juan Cristóbal Bonnefoy, Marianela Armijo, Jorge Máttar, Luis Mauricio Cuervo)",
+      "que_mide": "Modelo lógico: insumos (recursos humanos, financieros y materiales) → procesos o actividades (transformación) → productos (bienes y servicios entregados a la población, bajo control directo de la entidad) → resultados (cambios de corto y mediano plazo en la población objetivo) → impactos (cambios de largo plazo en el bienestar, atribuibles en parte). Los indicadores de desempeño se clasifican por ámbito (insumo, proceso, producto, resultado e impacto) y por dimensión (eficacia, eficiencia, economía y calidad). Es la base de los manuales del ILPES sobre indicadores (Armijo, 2011; Bonnefoy y Armijo, 2005).",
+      "url": "https://repositorio.cepal.org/handle/11362/5611",
+      "valores_peru": null
+    },
+    {
+      "nombre": "SINAPLAN / Guía de políticas nacionales y planes (CEPLAN) + Presupuesto por Resultados (MEF, Programas Presupuestales)",
+      "institucion": "CEPLAN (Perú) y MEF – Dirección General de Presupuesto Público",
+      "que_mide": "El CEPLAN aplica la cadena de valor público en el ciclo de planeamiento estratégico (Plan Estratégico de Desarrollo Nacional al 2050, PESEM, PEI, POI): objetivos prioritarios → lineamientos → servicios → actividades operativas, con indicadores de objetivo (resultado) y de servicio (producto). El PpR del MEF (Ley 28411 y DL 1440) usa programas presupuestales con modelo lógico: insumo → actividad → producto → resultado específico → resultado final; seguimiento con indicadores de desempeño (ENDES/INEI) y evaluaciones independientes (EDEP). Para 100 días sirven el avance de ejecución del gasto (Consulta Amigable SIAF, mensual) y los productos de los programas presupuestales.",
+      "url": "https://www.gob.pe/ceplan",
+      "valores_peru": "No aplica un índice único. Datos útiles: ejecución presupuestal mensual por pliego y nivel de gobierno (SIAF); reportes de cumplimiento de políticas nacionales del CEPLAN."
+    },
+    {
+      "nombre": "Government at a Glance (GaaG) – América Latina y el Caribe",
+      "institucion": "OCDE (con BID para las ediciones de ALC: 2014, 2017, 2020, 2024)",
+      "que_mide": "Tablero de indicadores comparables: ingresos y gasto, empleo público, prácticas presupuestarias, gestión de RR. HH., compras públicas, gobierno digital y abierto, regulación, integridad, y resultados (confianza en el gobierno y satisfacción con servicios). Su marco explícito sigue el modelo de producción: contexto → insumos → procesos → productos → resultados (outcomes), y declara las limitaciones para medir productos y resultados. El Perú figura en las ediciones de ALC.",
+      "url": "https://www.oecd.org/en/publications/government-at-a-glance-latin-america-and-the-caribbean-2024_4abdba16-en.html",
+      "valores_peru": "Bajar del capítulo de Perú de GaaG ALC 2024 (confianza en el gobierno nacional, gasto per cápita, compras públicas). No se recopilan aquí."
+    },
+    {
+      "nombre": "Centre of Government (CoG)",
+      "institucion": "OCDE (encuestas de CoG 2017 y 2023 sobre 'Steering from the Centre') y BID (Alessandro, Lafuente y Santiso, 2013: 'Gobernar para cumplir')",
+      "que_mide": "La capacidad del núcleo del Ejecutivo (Presidencia, PCM y MEF en el caso peruano) para cumplir 5 funciones: gestión estratégica (prioridades), coordinación de políticas, monitoreo y mejora del desempeño (delivery units), gestión política de las políticas y comunicación y rendición de cuentas. Es especialmente pertinente para los 100 días: definir pocas prioridades medibles, instalar una unidad de cumplimiento y comunicar metas. En el Perú existió la Unidad de Cumplimiento de Gobierno de la PCM (2016-2018, PPK), un caso concreto comparable.",
+      "url": "https://publications.iadb.org/es/gobernar-para-cumplir-el-rol-del-centro-de-gobierno-en-america-latina-y-el-caribe",
+      "valores_peru": "Sin índice numérico. Evidencia cualitativa: existencia de una delivery unit o unidad de cumplimiento (PCM 2016-2018), metas de gobierno publicadas y coordinación interministerial."
+    },
+    {
+      "nombre": "Deliverology (unidades de cumplimiento)",
+      "institucion": "Michael Barber, Prime Minister's Delivery Unit (Reino Unido, 2001-2005); replicado en Chile (2010), Brasil (estados) y Perú (PCM)",
+      "que_mide": "Prioridades con trayectorias (metas por periodo), rutinas de seguimiento ('stocktakes') y calificación de probabilidad de cumplimiento (semáforo). Inspira el uso de semáforos y trayectorias en esta propuesta.",
+      "url": "https://www.mckinsey.com/industries/public-sector/our-insights/deliverology-101",
+      "valores_peru": null
+    }
+  ],
+  "indices_anuales": [
+    {"nombre": "Worldwide Governance Indicators (WGI)", "institucion": "Banco Mundial (Kaufmann, Kraay; ahora DEC)", "mide": "6 dimensiones: voz y rendición de cuentas, estabilidad política y ausencia de violencia, efectividad del gobierno, calidad regulatoria, Estado de derecho y control de la corrupción. Agrega más de 30 fuentes de percepción.", "escala": "Estimado aproximado de -2,5 a +2,5 y rango percentil de 0 a 100. La revisión de 2024 reescaló a 0-100 (verificar).", "frecuencia": "Anual (1996-2002 bianual)", "rezago": "Unos 9-12 meses (datos del año t se publican en septiembre u octubre de t+1)", "sirve_100_dias": false, "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators"},
+    {"nombre": "Índice de Percepción de la Corrupción (CPI)", "institucion": "Transparencia Internacional", "mide": "Corrupción percibida en el sector público, a partir de 13 fuentes de expertos y empresarios.", "escala": "0 (muy corrupto) a 100 (muy limpio)", "frecuencia": "Anual", "rezago": "Se publica en enero o febrero de t+1, con fuentes que cubren unos 24 meses previos", "sirve_100_dias": false, "url": "https://www.transparency.org/en/cpi"},
+    {"nombre": "Varieties of Democracy (V-Dem)", "institucion": "V-Dem Institute, Universidad de Gotemburgo", "mide": "5 principios (electoral, liberal, participativo, deliberativo e igualitario) con más de 500 indicadores codificados por expertos; incluye un índice de corrupción política y episodios de autocratización.", "escala": "Índices de 0 a 1 (p. ej., LDI y EDI)", "frecuencia": "Anual (Democracy Report en marzo)", "rezago": "Unos 3 meses (año t en marzo de t+1)", "sirve_100_dias": false, "url": "https://www.v-dem.net/"},
+    {"nombre": "EIU Democracy Index", "institucion": "Economist Intelligence Unit", "mide": "60 indicadores en 5 categorías: proceso electoral y pluralismo, funcionamiento del gobierno, participación, cultura política y libertades civiles. Clasifica en democracia plena, democracia defectuosa, régimen híbrido o autoritario (el Perú figura como régimen híbrido desde 2022, verificar).", "escala": "0-10", "frecuencia": "Anual", "rezago": "Unos 2 meses (febrero de t+1)", "sirve_100_dias": false, "url": "https://www.eiu.com/n/campaigns/democracy-index/"},
+    {"nombre": "Freedom in the World", "institucion": "Freedom House", "mide": "Derechos políticos (40 puntos) y libertades civiles (60 puntos); estatus de libre, parcialmente libre o no libre.", "escala": "0-100 (agregado)", "frecuencia": "Anual", "rezago": "Unos 2-3 meses (cubre el año calendario t; se publica en feb-mar de t+1)", "sirve_100_dias": false, "url": "https://freedomhouse.org/report/freedom-world"},
+    {"nombre": "WJP Rule of Law Index", "institucion": "World Justice Project", "mide": "8 factores: límites al poder del gobierno, ausencia de corrupción, gobierno abierto, derechos fundamentales, orden y seguridad, cumplimiento regulatorio, justicia civil y justicia penal. Combina una encuesta de hogares y una de expertos.", "escala": "0-1", "frecuencia": "Anual (desde 2022; antes, cada 1-2 años)", "rezago": "Publicación en octubre del año t, con trabajo de campo de t-1 y t", "sirve_100_dias": false, "url": "https://worldjusticeproject.org/rule-of-law-index/"},
+    {"nombre": "Global State of Democracy (GSoD) Indices", "institucion": "International IDEA", "mide": "4 categorías (representación, derechos, Estado de derecho y participación) con 17 factores; el GSoD Tracker publica alertas mensuales de eventos.", "escala": "0-1", "frecuencia": "Índices anuales; Democracy Tracker mensual", "rezago": "Índices de unos 9-12 meses; el Tracker es casi en tiempo real", "sirve_100_dias": "parcial: solo el Democracy Tracker mensual, como registro cualitativo de eventos", "url": "https://www.idea.int/gsod-indices"},
+    {"nombre": "Clasificación Mundial de la Libertad de Prensa", "institucion": "Reporteros Sin Fronteras (RSF)", "mide": "5 indicadores: político, económico, legislativo, social y de seguridad de periodistas.", "escala": "0-100 (100 = mejor)", "frecuencia": "Anual (3 de mayo)", "rezago": "Unos 4 meses (cubre el año calendario previo)", "sirve_100_dias": false, "url": "https://rsf.org/en/index"},
+    {"nombre": "Bertelsmann Transformation Index (BTI)", "institucion": "Bertelsmann Stiftung", "mide": "Estado de transformación política y económica, e índice de gobernanza (capacidad de conducción, eficiencia de recursos, construcción de consensos, cooperación internacional).", "escala": "1-10", "frecuencia": "Bienal (2024, 2026...)", "rezago": "Unos 13-14 meses (BTI 2026 cubre feb-2023 a ene-2025)", "sirve_100_dias": false, "url": "https://bti-project.org/"},
+    {"nombre": "Latinobarómetro", "institucion": "Corporación Latinobarómetro (Chile)", "mide": "Encuesta de opinión en 18 países: apoyo a la democracia, satisfacción con la democracia, confianza en instituciones, aprobación del gobierno y percepción de corrupción.", "escala": "Porcentajes de respuesta", "frecuencia": "Anual o irregular (no hubo encuesta en algunos años, p. ej. 2019-2020)", "rezago": "Unos 3-6 meses desde el trabajo de campo", "sirve_100_dias": "no como medida directa; sí como línea de base de confianza", "url": "https://www.latinobarometro.org/"},
+    {"nombre": "AmericasBarometer (LAPOP)", "institucion": "LAPOP Lab, Vanderbilt University (en el Perú con IEP)", "mide": "Encuesta de cultura política: legitimidad, confianza en el presidente, victimización por corrupción, apoyo al golpe y aprobación del desempeño del presidente.", "escala": "Porcentajes y escalas de 0-100 recodificadas", "frecuencia": "Bienal (2021, 2023, 2025...)", "rezago": "Unos 6-12 meses", "sirve_100_dias": "no como medida directa; sí como línea de base (en el Perú, la victimización por corrupción es comparable entre olas)", "url": "https://www.vanderbilt.edu/lapop/"},
+    {"nombre": "Índice de Desarrollo Humano (IDH) e IDH ajustado por desigualdad (IDH-D)", "institucion": "PNUD (Informe sobre Desarrollo Humano)", "mide": "Salud (esperanza de vida), educación (años esperados y promedio) e ingreso (INB per cápita PPA). El IDH-D descuenta la desigualdad en cada dimensión.", "escala": "0-1", "frecuencia": "Anual (con interrupciones)", "rezago": "Unos 2 años (el informe 2025 usa datos de 2023)", "sirve_100_dias": false, "url": "https://hdr.undp.org/data-center"},
+    {"nombre": "Coeficiente de Gini", "institucion": "INEI (ENAHO) y Banco Mundial (PIP)", "mide": "Desigualdad del ingreso o del gasto de los hogares.", "escala": "0-1 (o 0-100)", "frecuencia": "Anual (ENAHO)", "rezago": "Unos 4-5 meses en el INEI (abril o mayo de t+1); 1-2 años en el Banco Mundial", "sirve_100_dias": false, "url": "https://pip.worldbank.org/"}
+  ],
+  "propuesta_indice": {
+    "nombre": "Índice de los 100 Días (I100) – Perú",
+    "principios": [
+      "Mide el arranque (procesos, señales y decisiones), no resultados de largo plazo; los resultados se tratan como señal temprana con poco peso.",
+      "Usa la misma ventana para todos: del día 1 al día 100 desde el 28 de julio (≈ 28-jul a 4-nov), con fuentes de la época para cada gobierno.",
+      "Cada dimensión se normaliza de 0 a 100 (100 = mejor desempeño) y el índice es la media ponderada. Si falta una dimensión, se reponderan las demás y se marca la cobertura.",
+      "Semáforo común sobre 0-100: verde ≥ 70, amarillo 50-69,9, naranja 30-49,9 y rojo < 30 (en la lógica de las calificaciones RAG de las delivery units de Barber).",
+      "Todo indicador debe tener fuente pública enlazada y ser reproducible por un tercero."
+    ],
+    "dimensiones": [
+      {
+        "id": "D1",
+        "nombre": "Cumplimiento de promesas de 100 días",
+        "indicadores": [
+          "Lista cerrada de compromisos verificables con plazo de 100 días o 'inmediatos' (discurso de 28 de julio, plan de gobierno, presentación del gabinete ante el Congreso para el voto de confianza).",
+          "Calificación por promesa en escala PolitiFact: Cumplida = 1,0; Compromiso = 0,6; En proceso = 0,3; Estancada = 0,1; Incumplida o abandonada = 0."
+        ],
+        "normalizacion": "Puntaje = 100 × Σ(valor × peso_i) / Σ(peso_i), donde el peso_i es 2 para las promesas emblemáticas y 1 para el resto. Se excluyen las promesas sin plazo dentro de la ventana o se reportan aparte.",
+        "umbrales": {"verde": ">= 70", "amarillo": "50-69", "naranja": "30-49", "rojo": "< 30"},
+        "peso": 0.20,
+        "justificacion": "Es la métrica más usada públicamente (PolitiFact, Chequeado, Ciudadanía Inteligente). Pesa más, pero no domina, porque a los 100 días la mayoría de las promesas está legítimamente 'en proceso' y porque las promesas no son equivalentes (advertencia de Chequeado). La literatura del mandato (Naurin 2011; Thomson et al. 2017, AJPS) muestra que los gobiernos cumplen buena parte de sus promesas a lo largo del mandato, no en 100 días.",
+        "fuentes": ["https://projects.tampabay.com/projects/2017/politifact/obameter/about/", "https://chequeado.com/por-que-y-como-hicimos-promesaschequeadas/", "Thomson, R. et al. (2017). The Fulfillment of Parties' Election Pledges: A Comparative Study on the Impact of Power Sharing. AJPS 61(3).", "Naurin, E. (2011). Election Promises, Party Behaviour and Voter Perceptions. Palgrave."]
+      },
+      {
+        "id": "D2",
+        "nombre": "Profundidad en la cadena de valor de lo cumplido",
+        "indicadores": [
+          "Cada acción cumplida o en proceso se codifica según el eslabón más alto alcanzado: anuncio o declaración = 0; norma o dispositivo (DS, DU, RM, proyecto de ley) = 1 (insumo o habilitación); asignación presupuestal o transferencia ejecutada = 2 (insumo financiado); actividad en marcha (convocatoria, contrato, intervención iniciada) = 3; producto entregado y verificable (bien o servicio a la población, con meta física SIAF o registro) = 4; resultado medido (cambio en la población) = 5."
+        ],
+        "normalizacion": "Puntaje = 100 × promedio(nivel) / 4 con tope en 100 (se espera que el nivel 5 sea excepcional en 100 días; si aparece, suma, pero no se exige).",
+        "umbrales": {"verde": ">= 60 (en promedio, al menos actividad en marcha)", "amarillo": "40-59", "naranja": "25-39 (sobre todo normas y presupuesto)", "rojo": "< 25 (sobre todo anuncios)"},
+        "peso": 0.10,
+        "justificacion": "Distingue 'gobernar por decreto o anuncio' de entregar bienes y servicios. Se basa en la cadena de valor de CEPAL e ILPES y en el modelo lógico del PpR del MEF y del CEPLAN, y en el marco de producción de la OCDE (Government at a Glance).",
+        "fuentes": ["https://repositorio.cepal.org/handle/11362/5611", "https://www.gob.pe/ceplan", "https://www.mef.gob.pe/es/presupuesto-por-resultados", "https://www.oecd.org/en/publications/government-at-a-glance-latin-america-and-the-caribbean-2024_4abdba16-en.html"]
+      },
+      {
+        "id": "D3",
+        "nombre": "Estabilidad e idoneidad del gabinete",
+        "indicadores": [
+          "Estabilidad: número de ministros (incluido el presidente del Consejo de Ministros) que salieron entre el día 1 y el 100 (renuncia, censura o remoción), sobre 19 carteras; censuras o interpelaciones; ¿obtuvo el voto de confianza?",
+          "Idoneidad: para cada ministro, una rúbrica de 0 a 3 sobre su perfil frente al puesto (0 = sin formación ni experiencia relevante; 1 = formación relevante sin experiencia de gestión; 2 = experiencia sectorial o de gestión pública; 3 = ambas más trayectoria de alto nivel en el sector). Se resta 1 por investigación fiscal o sentencia vinculada a la función.",
+          "Opcional: viceministros y altos cargos designados al día 100 frente a la estructura (en analogía a la métrica de nombramientos del Center for Presidential Transition)."
+        ],
+        "normalizacion": "Estabilidad = 100 × (1 − salidas / 19) con un descuento de 15 si no hubo voto de confianza y de 10 por cada censura. Idoneidad = 100 × promedio(rúbrica) / 3. Puntaje D3 = 0,5 × Estabilidad + 0,5 × Idoneidad.",
+        "umbrales": {"verde": ">= 75", "amarillo": "55-74", "naranja": "35-54", "rojo": "< 35 (p. ej., 4 o más salidas o un perfil promedio < 1)"},
+        "peso": 0.15,
+        "justificacion": "La rotación temprana del equipo es una señal de capacidad de gobierno documentada (Tenpas, Brookings, 'A Team turnover'; Partnership for Public Service). En América Latina la inestabilidad ministerial se asocia a menor capacidad de las políticas (Martínez-Gallardo 2012, 'Out of the Cabinet', Comparative Political Studies; Camerlo y Martínez-Gallardo, 2018). La idoneidad del gabinete se apoya en la literatura de meritocracia y calidad burocrática (Evans y Rauch 1999; Dahlström y Lapuente 2017) y en el caso peruano de alta rotación (Castillo tuvo unos 4 gabinetes y más de 70 ministros en 16 meses).",
+        "fuentes": ["https://www.brookings.edu/articles/tracking-turnover-in-the-trump-administration/", "https://presidentialtransition.org/", "Martínez-Gallardo, C. (2012). Out of the Cabinet: What Drives Defections from the Government in Presidential Systems? Comparative Political Studies 45(1).", "Camerlo, M. y Martínez-Gallardo, C. (eds.) (2018). Government Formation and Minister Turnover in Presidential Cabinets. Routledge.", "Evans, P. y Rauch, J. (1999). Bureaucracy and Growth. American Sociological Review 64(5).", "Dahlström, C. y Lapuente, V. (2017). Organizing Leviathan. Cambridge UP."]
+      },
+      {
+        "id": "D4",
+        "nombre": "Integridad",
+        "indicadores": [
+          "Número de señales de corrupción o conflicto de interés documentadas en la ventana que involucren al presidente, a ministros o a altos funcionarios de confianza, ponderadas por gravedad: 1 = denuncia periodística con documentos; 2 = investigación preliminar fiscal o informe de control de la Contraloría; 3 = formalización de investigación, allanamiento o detención; 4 = acusación o sentencia.",
+          "Indicadores de transparencia: publicación de agendas oficiales y de declaraciones juradas de intereses (Ley 31227) de los ministros dentro de plazo; contrataciones directas o por emergencia en la ventana (SEACE/OECE) frente a la línea de base."
+        ],
+        "normalizacion": "Puntaje = max(0, 100 − 10 × Σ gravedad) + un bono o malus de transparencia de ±10, acotado a 0-100. Solo cuentan hechos con fuente primaria verificable (Ministerio Público, Contraloría, Poder Judicial, documentos públicos); las acusaciones sin documento no puntúan.",
+        "umbrales": {"verde": ">= 85 (sin señales graves)", "amarillo": "65-84", "naranja": "40-64", "rojo": "< 40"},
+        "peso": 0.15,
+        "justificacion": "El control de la corrupción es una de las 6 dimensiones del WGI y el eje del CPI; la victimización por corrupción erosiona la confianza y la aprobación presidencial (Seligson 2002, Journal of Politics; LAPOP). En el Perú la corrupción presidencial es un factor de crisis recurrente (Lava Jato, vacancias). Como los índices anuales tienen rezago, se reemplazan por un registro de eventos en la ventana, en la lógica del GSoD Democracy Tracker de IDEA.",
+        "fuentes": ["https://www.worldbank.org/en/publication/worldwide-governance-indicators", "https://www.transparency.org/en/cpi", "Seligson, M. (2002). The Impact of Corruption on Regime Legitimacy. Journal of Politics 64(2).", "https://www.idea.int/democracytracker", "https://www.gob.pe/contraloria"]
+      },
+      {
+        "id": "D5",
+        "nombre": "Veracidad del discurso oficial",
+        "indicadores": [
+          "Afirmaciones fácticas del presidente y del presidente del Consejo de Ministros verificadas por verificadores de la IFCN (Ojo Biónico de Ojo Público, Verificador de La República y otros) y por el propio equipo con fuentes oficiales (INEI, BCRP, MEF).",
+          "Escala: verdadero = 1; mayormente verdadero o impreciso = 0,66; engañoso o sin sustento = 0,33; falso = 0."
+        ],
+        "normalizacion": "Puntaje = 100 × promedio de la escala sobre todas las afirmaciones verificadas (n mínimo = 10; si n < 10, la dimensión se marca 'cobertura insuficiente' y se repondera). Se reporta n junto al puntaje.",
+        "umbrales": {"verde": ">= 75", "amarillo": "55-74", "naranja": "35-54", "rojo": "< 35"},
+        "peso": 0.10,
+        "justificacion": "La veracidad sostiene la rendición de cuentas y es lo que miden los verificadores (Graves 2016, 'Deciding What's True'). El sesgo de selección (los verificadores eligen afirmaciones dudosas) obliga a muestrear también afirmaciones de rutina (p. ej., todos los datos del mensaje del 28 de julio) y a ponderarla menos.",
+        "fuentes": ["https://ojo-publico.com/ojobionico", "https://www.ifcncodeofprinciples.poynter.org/", "Graves, L. (2016). Deciding What's True: The Rise of Political Fact-Checking in American Journalism. Columbia UP.", "https://www.politifact.com/article/2018/feb/12/principles-truth-o-meter-politifacts-methodology-i/"]
+      },
+      {
+        "id": "D6",
+        "nombre": "Confianza ciudadana ajustada por la luna de miel",
+        "indicadores": [
+          "Aprobación presidencial en la primera medición (≈ día 15-30) y en la medición más cercana al día 100 (Ipsos Perú, Datum, IEP, CPI), con la misma encuestadora para ambas.",
+          "Δ = aprobación(día 100) − aprobación(inicial). Esperado = la caída típica de la luna de miel en América Latina (parámetro calibrado con la Executive Approval Database para el Perú; valor de trabajo: −10 puntos en 100 días, a calibrar)."
+        ],
+        "normalizacion": "Residual = Δ − Esperado. Puntaje = 50 + 2,5 × Residual (es decir, ±20 puntos sobre lo esperado ⇒ 0 o 100), acotado a 0-100. Además se informa el nivel absoluto de aprobación en el día 100 como dato, sin integrarlo al puntaje.",
+        "umbrales": {"verde": ">= 60 (cae menos de lo esperado o sube)", "amarillo": "45-59 (dentro de lo esperado)", "naranja": "30-44", "rojo": "< 30 (cae 8 o más puntos por encima de lo esperado)"},
+        "peso": 0.15,
+        "justificacion": "La aprobación inicial alta y su erosión natural están documentadas (Mueller 1970; Brody 1991; Carlin et al. 2018, modelo cíclico en América Latina). Comparar niveles brutos favorecería a quien empezó con más votos; el ajuste por la luna de miel aísla el desempeño en la ventana. La confianza es el resultado de corto plazo más directo de un gobierno (OCDE, Trust Survey).",
+        "fuentes": ["https://doi.org/10.2307/1955610", "https://polisci.indiana.edu/research/publications/public-support-for-latin-american-presidents.html", "https://www.executiveapproval.org/", "https://www.oecd.org/en/topics/sub-issues/trust-in-government.html", "https://www.ipsos.com/es-pe"]
+      },
+      {
+        "id": "D7",
+        "nombre": "Resultados tempranos y ejecución del gasto",
+        "indicadores": [
+          "Ejecución del gasto (devengado) de la inversión pública del Gobierno Nacional, de agosto a octubre, frente al promedio del mismo trimestre de los 3 años previos (SIAF, Consulta Amigable). Se controla el ciclo: el Ejecutivo hereda el presupuesto aprobado por el gobierno anterior.",
+          "Variación frente a la tendencia de indicadores mensuales: expectativas empresariales a 3 y 12 meses (BCRP), inflación (INEI), empleo formal (planilla electrónica, MTPE) y denuncias por delitos (SIDPOL), en z-score frente a los 12 meses previos.",
+          "Número de productos de los programas presupuestales prioritarios con avance de meta física igual o superior al histórico."
+        ],
+        "normalizacion": "Gasto: 50 + 50 × (ratio − 1) / 0,25, acotado a 0-100 (ratio = ejecución actual / promedio histórico; ±25 % ⇒ 0 o 100). Indicadores mensuales: 50 + 15 × z (con signo según convenga), acotado a 0-100. Puntaje D7 = 0,5 × gasto + 0,5 × promedio(indicadores mensuales).",
+        "umbrales": {"verde": ">= 60", "amarillo": "45-59", "naranja": "30-44", "rojo": "< 30"},
+        "peso": 0.15,
+        "justificacion": "La ejecución presupuestal es el indicador de capacidad estatal con dato mensual más usado en el Perú (MEF, SIAF) y conecta con los pilares de presupuesto por resultados y gestión de programas del SEP del BID. Las expectativas empresariales reaccionan a señales de política en semanas. Se pondera moderadamente porque en 100 días la mayoría de los movimientos macro responden al contexto externo y a la herencia (la atribución es débil).",
+        "fuentes": ["https://apps5.mineco.gob.pe/transparencia/mensual/", "https://estadisticas.bcrp.gob.pe/", "https://www.inei.gob.pe/", "https://publications.iadb.org/es/metadata/13907/peru-construyendo-gobiernos-efectivos-resumenes-ejecutivos-de-los-informes-nacionales"]
+      }
+    ],
+    "pesos_resumen": {"D1": 0.20, "D2": 0.10, "D3": 0.15, "D4": 0.15, "D5": 0.10, "D6": 0.15, "D7": 0.15, "total": 1.00},
+    "regla_agregada": "I100 = Σ(peso_d × puntaje_d) / Σ(peso_d de las dimensiones con cobertura suficiente). Se publican el semáforo de cada dimensión y la cobertura (% del peso disponible). No se publica un ranking si la cobertura es menor al 70 % del peso. Se presenta un análisis de sensibilidad con pesos iguales (1/7 cada uno) para mostrar que el orden no depende solo de los pesos elegidos (recomendación del Handbook OECD/JRC 2008 de indicadores compuestos).",
+    "limitaciones": [
+      "No existe un estándar internacional para los 100 días: este índice es una propuesta propia, no una medida oficial ni validada.",
+      "Comparabilidad histórica: 2006 y 2011 tienen menos fuentes digitales (verificadores de la IFCN casi inexistentes antes de 2015; SIAF Consulta Amigable disponible, pero ENDES y SIDPOL con series distintas). D5 puede quedar sin cobertura para García y Humala.",
+      "Contexto heterogéneo: Castillo asumió en pandemia, PPK con mayoría opositora en el Congreso, García en auge de materias primas; el ajuste por herencia y ciclo es parcial.",
+      "Los pesos son juicios normativos; el Handbook OECD/JRC (2008) exige análisis de sensibilidad e incertidumbre.",
+      "Codificar promesas, idoneidad y gravedad requiere juicio humano: se recomiendan dos codificadores independientes y reportar el acuerdo (kappa de Cohen ≥ 0,7).",
+      "Sesgo de selección en la verificación de hechos y desigual cobertura mediática entre gobiernos.",
+      "Las encuestas difieren en método (urbana o nacional, presencial o telefónica); usar la misma encuestadora para el Δ y reportar el margen de error.",
+      "Atribución: los resultados tempranos (D7) reflejan en gran parte la herencia, el contexto externo y la estacionalidad.",
+      "Integridad: el riesgo de penalizar denuncias de motivación política se mitiga exigiendo actos formales de autoridades, pero así se subestiman casos aún no investigados en la ventana; la información posterior (p. ej., una sentencia años después) no debe colarse en la puntuación de la ventana o, si se usa, debe marcarse como 'retrospectiva'."
+    ]
+  },
+  "caveats": [
+    "Fecha de corte: 7-nov-2026. Para Keiko Fujimori (asunción el 28-jul-2026, según la premisa del proyecto) la ventana de 100 días cerró alrededor del 4-nov-2026; las encuestas y los datos de octubre aún pueden revisarse.",
+    "Los valores del Perú del BID PRODEV/SEP (2007: 2,4; 2013: 2,9 de 5) son de capacidad del sistema, no de un gobierno; no hay ciclo comparable para 2016, 2021 ni 2026 (verificar si el BID publicó una actualización posterior).",
+    "Las categorías exactas de 'Promessômetro' (Brasil) y de un tracker de promesas presidenciales de Ojo Público o Convoca no se pudieron confirmar; no se deben citar como existentes sin verificar.",
+    "El 'Dicho y hecho: Promesómetro' de la UP y El Comercio se encontró solo por una fuente secundaria (LinkedIn); verificar en la fuente primaria.",
+    "La reescala del WGI en 2024 y la clasificación del Perú en el EIU deben confirmarse en la edición vigente antes de mostrarlas.",
+    "El parámetro de luna de miel esperado (−10 puntos) es de trabajo y debe calibrarse con la Executive Approval Database o con las series de Ipsos y del IEP de los 5 gobiernos.",
+    "Ninguno de los índices anuales sirve para medir la ventana de 100 días; solo aportan contexto o línea de base (el valor del año previo a la asunción).",
+    "Neutralidad: aplicar las mismas reglas y fuentes a los 5 gobiernos, publicar las fichas de codificación y permitir la réplica. No usar los términos 'éxito' o 'fracaso': solo los semáforos con su definición numérica."
+  ]
+}

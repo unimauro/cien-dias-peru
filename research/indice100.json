@@ -1,0 +1,1194 @@
+{
+ "generado": "2026-11-07",
+ "dimensiones": [
+  {
+   "id": "D1",
+   "nombre": "Promesas de 100 días",
+   "peso": 20,
+   "desc": "Cumplidas = 1, en proceso o parciales = 0,5, el resto = 0 (estilo PolitiFact). Balance externo independiente."
+  },
+  {
+   "id": "D2",
+   "nombre": "Profundidad en la cadena de valor",
+   "peso": 10,
+   "desc": "Nivel promedio de lo cumplido: insumo 0, actividad 25, producto 50, resultado 75, impacto 100."
+  },
+  {
+   "id": "D3",
+   "nombre": "Estabilidad e idoneidad del gabinete",
+   "peso": 15,
+   "desc": "La mitad mide la permanencia de los ministros del día 1 (−10 por censura); la otra mitad, su experiencia y formación acordes al puesto."
+  },
+  {
+   "id": "D4",
+   "nombre": "Integridad",
+   "peso": 15,
+   "desc": "Sin puntaje: las fuentes no son comparables entre gobiernos (ver nota). Se muestran los conteos crudos."
+  },
+  {
+   "id": "D5",
+   "nombre": "Veracidad del discurso oficial",
+   "peso": 10,
+   "desc": "Afirmaciones con cifra del mensaje de los 100 días: coincide = 1, con matices = 0,5, no coincide = 0. Las no verificables se excluyen."
+  },
+  {
+   "id": "D6",
+   "nombre": "Confianza ciudadana (ajustada por luna de miel)",
+   "peso": 15,
+   "desc": "Cambio en la aprobación Ipsos/Apoyo desde la primera medición hasta el ~día 100, frente a la caída esperada de −10 puntos. Puntaje = 50 + 2,5 × (Δ + 10)."
+  },
+  {
+   "id": "D7",
+   "nombre": "Ejecución del gasto",
+   "peso": 15,
+   "desc": "Ejecución del Gobierno Nacional a octubre frente al promedio de los cinco años: 50 + 50 × (ratio − 1) / 0,25."
+  }
+ ],
+ "gobiernos": {
+  "castillo": {
+   "dims": {
+    "D1": {
+     "score": 11.6,
+     "valor": "3 cumplidas y 4 en proceso de 43",
+     "fuente": "El Comercio – ECData"
+    },
+    "D2": {
+     "score": 33.3,
+     "valor": "3 promesas cumplidas clasificadas",
+     "fuente": "ECData + clasificación propia"
+    },
+    "D3": {
+     "score": 47.7,
+     "valor": "11 de 19 ministros del día 1 siguen en el cargo; idoneidad 38/100",
+     "fuente": "Prensa, gob.pe; codificación propia"
+    },
+    "D4": {
+     "score": null,
+     "valor": "5 ministros con investigación o proceso reportado (no comparable)",
+     "fuente": "Ver nota de integridad"
+    },
+    "D5": {
+     "score": null,
+     "valor": "Sin verificación sistemática del mensaje de los 100 días",
+     "fuente": ""
+    },
+    "D6": {
+     "score": 67.5,
+     "valor": "38 % → 35 % (ago → 12-nov-2021); Δ -3 pts frente a −10 esperado",
+     "fuente": "Ipsos / Apoyo"
+    },
+    "D7": {
+     "score": 50.1,
+     "valor": "70.3 % ejecutado a octubre (promedio de los cinco años: 70.3 %)",
+     "fuente": "MEF – Consulta Amigable"
+    }
+   },
+   "cobertura": 75,
+   "n_dims": 5,
+   "total": 40.6,
+   "total_pesos_iguales": 42.0,
+   "total_parcial": 40.6
+  },
+  "keiko": {
+   "dims": {
+    "D1": {
+     "score": 2.2,
+     "valor": "0 cumplidas y 3 en proceso de 67",
+     "fuente": "Keiko Gobierna"
+    },
+    "D2": {
+     "score": 28.6,
+     "valor": "7 promesas cumplidas clasificadas",
+     "fuente": "Prensa + clasificación propia"
+    },
+    "D3": {
+     "score": 76.3,
+     "valor": "18 de 19 ministros del día 1 siguen en el cargo; idoneidad 58/100",
+     "fuente": "Prensa, gob.pe; codificación propia"
+    },
+    "D4": {
+     "score": null,
+     "valor": "15 ministros con investigación o proceso reportado (no comparable)",
+     "fuente": "Ver nota de integridad"
+    },
+    "D5": {
+     "score": 50.0,
+     "valor": "6 coinciden, 13 con matices y 6 no coinciden (n = 25)",
+     "fuente": "Plan Perú 2050"
+    },
+    "D6": {
+     "score": 32.5,
+     "valor": "57 % → 40 % (ago → oct-2026); Δ -17 pts frente a −10 esperado",
+     "fuente": "Ipsos / Apoyo"
+    },
+    "D7": {
+     "score": 64.3,
+     "valor": "75.3 % ejecutado a octubre (promedio de los cinco años: 70.3 %)",
+     "fuente": "MEF – Consulta Amigable"
+    }
+   },
+   "cobertura": 85,
+   "n_dims": 6,
+   "total": 40.3,
+   "total_pesos_iguales": 42.3,
+   "total_parcial": 40.3
+  },
+  "ppk": {
+   "dims": {
+    "D1": {
+     "score": 34.0,
+     "valor": "7 cumplidas y 3 parciales de 25 verificables",
+     "fuente": "Convoca (vía América TV)"
+    },
+    "D2": {
+     "score": 25,
+     "valor": "4 promesas cumplidas clasificadas",
+     "fuente": "Promesas emblemáticas + clasificación propia"
+    },
+    "D3": {
+     "score": 89.8,
+     "valor": "19 de 19 ministros del día 1 siguen en el cargo; idoneidad 80/100",
+     "fuente": "Prensa, gob.pe; codificación propia"
+    },
+    "D4": {
+     "score": null,
+     "valor": "0 ministros con investigación o proceso reportado (no comparable)",
+     "fuente": "Ver nota de integridad"
+    },
+    "D5": {
+     "score": null,
+     "valor": "Sin verificación sistemática del mensaje de los 100 días",
+     "fuente": ""
+    },
+    "D6": {
+     "score": 50.0,
+     "valor": "61 % → 51 % (ago → nov-2016); Δ -10 pts frente a −10 esperado",
+     "fuente": "Ipsos / Apoyo"
+    },
+    "D7": {
+     "score": 46.4,
+     "valor": "69.0 % ejecutado a octubre (promedio de los cinco años: 70.3 %)",
+     "fuente": "MEF – Consulta Amigable"
+    }
+   },
+   "cobertura": 75,
+   "n_dims": 5,
+   "total": 49.6,
+   "total_pesos_iguales": 49.0,
+   "total_parcial": 49.6
+  },
+  "humala": {
+   "dims": {
+    "D1": {
+     "score": null,
+     "valor": "No existe un balance cuantitativo independiente",
+     "fuente": ""
+    },
+    "D2": {
+     "score": 30,
+     "valor": "5 promesas cumplidas clasificadas",
+     "fuente": "Promesas emblemáticas + clasificación propia"
+    },
+    "D3": {
+     "score": 85.0,
+     "valor": "18 de 18 ministros del día 1 siguen en el cargo; idoneidad 70/100",
+     "fuente": "Prensa, gob.pe; codificación propia"
+    },
+    "D4": {
+     "score": null,
+     "valor": "1 ministros con investigación o proceso reportado (no comparable)",
+     "fuente": "Ver nota de integridad"
+    },
+    "D5": {
+     "score": null,
+     "valor": "Sin verificación sistemática del mensaje de los 100 días",
+     "fuente": ""
+    },
+    "D6": {
+     "score": 77.5,
+     "valor": "55 % → 56 % (ago → nov-2011); Δ +1 pts frente a −10 esperado",
+     "fuente": "Ipsos / Apoyo"
+    },
+    "D7": {
+     "score": 40.1,
+     "valor": "66.8 % ejecutado a octubre (promedio de los cinco años: 70.3 %)",
+     "fuente": "MEF – Consulta Amigable"
+    }
+   },
+   "cobertura": 55,
+   "n_dims": 4,
+   "total": null,
+   "total_pesos_iguales": null,
+   "total_parcial": 60.7
+  },
+  "garcia": {
+   "dims": {
+    "D1": {
+     "score": null,
+     "valor": "No existe un balance cuantitativo independiente",
+     "fuente": ""
+    },
+    "D2": {
+     "score": 8.3,
+     "valor": "3 promesas cumplidas clasificadas",
+     "fuente": "Promesas emblemáticas + clasificación propia"
+    },
+    "D3": {
+     "score": 85.2,
+     "valor": "16 de 16 ministros del día 1 siguen en el cargo; idoneidad 70/100",
+     "fuente": "Prensa, gob.pe; codificación propia"
+    },
+    "D4": {
+     "score": null,
+     "valor": "0 ministros con investigación o proceso reportado (no comparable)",
+     "fuente": "Ver nota de integridad"
+    },
+    "D5": {
+     "score": null,
+     "valor": "Sin verificación sistemática del mensaje de los 100 días",
+     "fuente": ""
+    },
+    "D6": {
+     "score": 60.0,
+     "valor": "63 % → 57 % (ago → oct-2006); Δ -6 pts frente a −10 esperado",
+     "fuente": "Ipsos / Apoyo"
+    },
+    "D7": {
+     "score": 49.2,
+     "valor": "70.0 % ejecutado a octubre (promedio de los cinco años: 70.3 %)",
+     "fuente": "MEF – Consulta Amigable"
+    }
+   },
+   "cobertura": 55,
+   "n_dims": 4,
+   "total": null,
+   "total_pesos_iguales": null,
+   "total_parcial": 54.5
+  }
+ },
+ "contexto": [
+  {
+   "id": "cpi_score",
+   "nombre": "Índice de Percepción de la Corrupción (CPI) – puntaje",
+   "dimension": "corrupcion",
+   "institucion": "Transparency International",
+   "fuente_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
+   "mejor": "alto",
+   "escala_txt": "escala 0–100; mejor = alto",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": 2020,
+     "recibio": 38,
+     "anio_primer": 2022,
+     "primer": 36,
+     "score_recibio": 38.0,
+     "score_primer": 36.0
+    },
+    "keiko": {
+     "anio_recibio": 2025,
+     "recibio": 30,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 30.0,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": 2015,
+     "recibio": 36,
+     "anio_primer": 2017,
+     "primer": 37,
+     "score_recibio": 36.0,
+     "score_primer": 37.0
+    },
+    "humala": {
+     "anio_recibio": 2010,
+     "recibio": 3.5,
+     "anio_primer": 2012,
+     "primer": 38,
+     "score_recibio": 35.0,
+     "score_primer": 38.0
+    },
+    "garcia": {
+     "anio_recibio": 2005,
+     "recibio": 3.5,
+     "anio_primer": 2007,
+     "primer": 3.5,
+     "score_recibio": 35.0,
+     "score_primer": 35.0
+    }
+   },
+   "advertencias": {
+    "humala": [
+     "ruptura de escala CPI entre ambos valores"
+    ]
+   }
+  },
+  {
+   "id": "wgi_cc_sc",
+   "nombre": "WGI – Control de la corrupción (puntaje 0-100 (nueva métrica de la edición 2025+, NO es el percentil))",
+   "dimension": "corrupcion",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_CC.SC?format=json&per_page=100&source=3",
+   "mejor": "alto",
+   "escala_txt": "escala 0–100; mejor = alto",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": 2020,
+     "recibio": 38.0,
+     "anio_primer": 2022,
+     "primer": 35.1,
+     "score_recibio": 38.0,
+     "score_primer": 35.1
+    },
+    "keiko": {
+     "anio_recibio": 2025,
+     "recibio": 32.8,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 32.8,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": 2015,
+     "recibio": 36.1,
+     "anio_primer": 2017,
+     "primer": 36.1,
+     "score_recibio": 36.1,
+     "score_primer": 36.1
+    },
+    "humala": {
+     "anio_recibio": 2010,
+     "recibio": 42.8,
+     "anio_primer": 2012,
+     "primer": 40.7,
+     "score_recibio": 42.8,
+     "score_primer": 40.7
+    },
+    "garcia": {
+     "anio_recibio": 2005,
+     "recibio": 40.0,
+     "anio_primer": 2007,
+     "primer": 40.9,
+     "score_recibio": 40.0,
+     "score_primer": 40.9
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "vdem_corr",
+   "nombre": "V-Dem – Índice de Corrupción Política",
+   "dimension": "corrupcion",
+   "institucion": "V-Dem Institute (Univ. de Gotemburgo), redistribuido por Our World in Data",
+   "fuente_url": "https://ourworldindata.org/grapher/political-corruption-index.csv?country=~PER&useColumnShortNames=true",
+   "mejor": "bajo",
+   "escala_txt": "escala 0–1; mejor = bajo",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": 2020,
+     "recibio": 0.534,
+     "anio_primer": 2022,
+     "primer": 0.622,
+     "score_recibio": 46.6,
+     "score_primer": 37.8
+    },
+    "keiko": {
+     "anio_recibio": 2025,
+     "recibio": 0.63,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 37.0,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": 2015,
+     "recibio": 0.524,
+     "anio_primer": 2017,
+     "primer": 0.522,
+     "score_recibio": 47.6,
+     "score_primer": 47.8
+    },
+    "humala": {
+     "anio_recibio": 2010,
+     "recibio": 0.544,
+     "anio_primer": 2012,
+     "primer": 0.518,
+     "score_recibio": 45.6,
+     "score_primer": 48.2
+    },
+    "garcia": {
+     "anio_recibio": 2005,
+     "recibio": 0.519,
+     "anio_primer": 2007,
+     "primer": 0.533,
+     "score_recibio": 48.1,
+     "score_primer": 46.7
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "vdem_libdem",
+   "nombre": "V-Dem – Índice de Democracia Liberal",
+   "dimension": "democracia",
+   "institucion": "V-Dem Institute (Univ. de Gotemburgo), redistribuido por Our World in Data",
+   "fuente_url": "https://ourworldindata.org/grapher/liberal-democracy-index.csv?country=~PER&useColumnShortNames=true",
+   "mejor": "alto",
+   "escala_txt": "escala 0–1; mejor = alto",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": 2020,
+     "recibio": 0.706,
+     "anio_primer": 2022,
+     "primer": 0.621,
+     "score_recibio": 70.6,
+     "score_primer": 62.1
+    },
+    "keiko": {
+     "anio_recibio": 2025,
+     "recibio": 0.506,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 50.6,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": 2015,
+     "recibio": 0.688,
+     "anio_primer": 2017,
+     "primer": 0.677,
+     "score_recibio": 68.8,
+     "score_primer": 67.7
+    },
+    "humala": {
+     "anio_recibio": 2010,
+     "recibio": 0.658,
+     "anio_primer": 2012,
+     "primer": 0.698,
+     "score_recibio": 65.8,
+     "score_primer": 69.8
+    },
+    "garcia": {
+     "anio_recibio": 2005,
+     "recibio": 0.659,
+     "anio_primer": 2007,
+     "primer": 0.647,
+     "score_recibio": 65.9,
+     "score_primer": 64.7
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "eiu_democracy",
+   "nombre": "EIU Democracy Index – puntaje global",
+   "dimension": "democracia",
+   "institucion": "Economist Intelligence Unit",
+   "fuente_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index",
+   "mejor": "alto",
+   "escala_txt": "escala 0–10; mejor = alto",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": 2020,
+     "recibio": 6.53,
+     "anio_primer": 2022,
+     "primer": 5.92,
+     "score_recibio": 65.3,
+     "score_primer": 59.2
+    },
+    "keiko": {
+     "anio_recibio": 2025,
+     "recibio": 5.88,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 58.8,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": 2015,
+     "recibio": 6.58,
+     "anio_primer": 2017,
+     "primer": 6.49,
+     "score_recibio": 65.8,
+     "score_primer": 64.9
+    },
+    "humala": {
+     "anio_recibio": 2010,
+     "recibio": 6.4,
+     "anio_primer": 2012,
+     "primer": 6.47,
+     "score_recibio": 64.0,
+     "score_primer": 64.7
+    },
+    "garcia": {
+     "anio_recibio": 2006,
+     "recibio": 6.11,
+     "anio_primer": 2008,
+     "primer": 6.31,
+     "score_recibio": 61.1,
+     "score_primer": 63.1
+    }
+   },
+   "advertencias": {
+    "garcia": [
+     "recibió usa 2006 (no hay 2005)",
+     "primer año usa 2008 (no hay 2007)"
+    ]
+   }
+  },
+  {
+   "id": "fh_total",
+   "nombre": "Freedom House – Freedom in the World, puntaje total",
+   "dimension": "libertades",
+   "institucion": "Freedom House",
+   "fuente_url": "https://ourworldindata.org/grapher/political-rights-score-fh.csv?country=~PER (+ civil-liberties-score-fh)",
+   "mejor": "alto",
+   "escala_txt": "escala 0–100; mejor = alto",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": 2020,
+     "recibio": 71,
+     "anio_primer": 2022,
+     "primer": 70,
+     "score_recibio": 71.0,
+     "score_primer": 70.0
+    },
+    "keiko": {
+     "anio_recibio": 2025,
+     "recibio": 66,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 66.0,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": 2015,
+     "recibio": 71,
+     "anio_primer": 2017,
+     "primer": 73,
+     "score_recibio": 71.0,
+     "score_primer": 73.0
+    },
+    "humala": {
+     "anio_recibio": 2010,
+     "recibio": 72,
+     "anio_primer": 2012,
+     "primer": 71,
+     "score_recibio": 72.0,
+     "score_primer": 71.0
+    },
+    "garcia": {
+     "anio_recibio": 2005,
+     "recibio": 74,
+     "anio_primer": 2007,
+     "primer": 73,
+     "score_recibio": 74.0,
+     "score_primer": 73.0
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "wgi_ge_sc",
+   "nombre": "WGI – Efectividad del gobierno (puntaje 0-100 (nueva métrica de la edición 2025+, NO es el percentil))",
+   "dimension": "efectividad",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_GE.SC?format=json&per_page=100&source=3",
+   "mejor": "alto",
+   "escala_txt": "escala 0–100; mejor = alto",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": 2020,
+     "recibio": 52.0,
+     "anio_primer": 2022,
+     "primer": 52.0,
+     "score_recibio": 52.0,
+     "score_primer": 52.0
+    },
+    "keiko": {
+     "anio_recibio": 2025,
+     "recibio": 49.4,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 49.4,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": 2015,
+     "recibio": 48.1,
+     "anio_primer": 2017,
+     "primer": 51.9,
+     "score_recibio": 48.1,
+     "score_primer": 51.9
+    },
+    "humala": {
+     "anio_recibio": 2010,
+     "recibio": 49.3,
+     "anio_primer": 2012,
+     "primer": 50.8,
+     "score_recibio": 49.3,
+     "score_primer": 50.8
+    },
+    "garcia": {
+     "anio_recibio": 2005,
+     "recibio": 36.7,
+     "anio_primer": 2007,
+     "primer": 38.3,
+     "score_recibio": 36.7,
+     "score_primer": 38.3
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "wgi_rl_sc",
+   "nombre": "WGI – Estado de derecho (puntaje 0-100 (nueva métrica de la edición 2025+, NO es el percentil))",
+   "dimension": "estado_de_derecho",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_RL.SC?format=json&per_page=100&source=3",
+   "mejor": "alto",
+   "escala_txt": "escala 0–100; mejor = alto",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": 2020,
+     "recibio": 52.0,
+     "anio_primer": 2022,
+     "primer": 50.8,
+     "score_recibio": 52.0,
+     "score_primer": 50.8
+    },
+    "keiko": {
+     "anio_recibio": 2025,
+     "recibio": 47.8,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 47.8,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": 2015,
+     "recibio": 51.4,
+     "anio_primer": 2017,
+     "primer": 52.7,
+     "score_recibio": 51.4,
+     "score_primer": 52.7
+    },
+    "humala": {
+     "anio_recibio": 2010,
+     "recibio": 50.5,
+     "anio_primer": 2012,
+     "primer": 50.4,
+     "score_recibio": 50.5,
+     "score_primer": 50.4
+    },
+    "garcia": {
+     "anio_recibio": 2005,
+     "recibio": 51.0,
+     "anio_primer": 2007,
+     "primer": 49.5,
+     "score_recibio": 51.0,
+     "score_primer": 49.5
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "rsf_score",
+   "nombre": "RSF – Clasificación Mundial de la Libertad de Prensa, puntaje",
+   "dimension": "libertades",
+   "institucion": "Reporteros sin Fronteras",
+   "fuente_url": "https://rsf.org/sites/default/files/import_classement/{año}.csv",
+   "mejor": "alto",
+   "escala_txt": "escala 0–100; mejor = alto",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": 2020,
+     "recibio": 69.06,
+     "anio_primer": 2022,
+     "primer": 61.75,
+     "score_recibio": 69.1,
+     "score_primer": 61.8
+    },
+    "keiko": {
+     "anio_recibio": 2025,
+     "recibio": 42.88,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 42.9,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": 2015,
+     "recibio": 68.79,
+     "anio_primer": 2017,
+     "primer": 69.02,
+     "score_recibio": 68.8,
+     "score_primer": 69.0
+    },
+    "humala": {
+     "anio_recibio": null,
+     "recibio": null,
+     "anio_primer": 2013,
+     "primer": 68.13,
+     "score_recibio": null,
+     "score_primer": 68.1
+    }
+   },
+   "advertencias": {
+    "castillo": [
+     "ruptura metodológica RSF 2022: no comparar"
+    ],
+    "humala": [
+     "primer año usa 2013 (no hay 2012)"
+    ]
+   }
+  },
+  {
+   "id": "gini",
+   "nombre": "Coeficiente de Gini (ingreso)",
+   "dimension": "desigualdad",
+   "institucion": "Banco Mundial, WDI SI.POV.GINI (base SEDLAC sobre ENAHO-INEI)",
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/SI.POV.GINI?format=json&per_page=100",
+   "mejor": "bajo",
+   "escala_txt": "índice 0-100; color relativo al rango del Perú 2005–2024 (mejor = bajo)",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": "2020",
+     "recibio": 43.7,
+     "anio_primer": "2022",
+     "primer": 40.3,
+     "score_recibio": 65.0,
+     "score_primer": 98.1
+    },
+    "keiko": {
+     "anio_recibio": "2024",
+     "recibio": 40.1,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 100.0,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": "2015",
+     "recibio": 43.4,
+     "anio_primer": "2017",
+     "primer": 43.3,
+     "score_recibio": 68.0,
+     "score_primer": 68.9
+    },
+    "humala": {
+     "anio_recibio": "2010",
+     "recibio": 45.5,
+     "anio_primer": "2012",
+     "primer": 44.4,
+     "score_recibio": 47.6,
+     "score_primer": 58.3
+    },
+    "garcia": {
+     "anio_recibio": "2005",
+     "recibio": 50.4,
+     "anio_primer": "2007",
+     "primer": 50,
+     "score_recibio": 0.0,
+     "score_primer": 3.9
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "pobreza_monetaria",
+   "nombre": "Pobreza monetaria (% de la población)",
+   "dimension": "pobreza",
+   "institucion": "INEI – ENAHO, informes técnicos de evolución de la pobreza monetaria",
+   "fuente_url": "https://m.inei.gob.pe/estadisticas/indice-tematico/poverty/",
+   "mejor": "bajo",
+   "escala_txt": "%; color relativo al rango del Perú 2005–2025 (mejor = bajo)",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": "2020",
+     "recibio": 30.1,
+     "anio_primer": "2022",
+     "primer": 27.5,
+     "score_recibio": 72.0,
+     "score_primer": 79.4
+    },
+    "keiko": {
+     "anio_recibio": "2025",
+     "recibio": 25.7,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 84.5,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": "2015",
+     "recibio": 21.8,
+     "anio_primer": "2017",
+     "primer": 21.7,
+     "score_recibio": 95.5,
+     "score_primer": 95.8
+    },
+    "humala": {
+     "anio_recibio": "2010",
+     "recibio": 30.8,
+     "anio_primer": "2012",
+     "primer": 25.8,
+     "score_recibio": 70.1,
+     "score_primer": 84.2
+    },
+    "garcia": {
+     "anio_recibio": "2005",
+     "recibio": 55.6,
+     "anio_primer": "2007",
+     "primer": 42.4,
+     "score_recibio": 0.0,
+     "score_primer": 37.3
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "pobreza_extrema",
+   "nombre": "Pobreza extrema (% de la población)",
+   "dimension": "pobreza",
+   "institucion": "INEI – ENAHO",
+   "fuente_url": "https://m.inei.gob.pe/estadisticas/indice-tematico/poverty/",
+   "mejor": "bajo",
+   "escala_txt": "%; color relativo al rango del Perú 2005–2025 (mejor = bajo)",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": "2020",
+     "recibio": 5.1,
+     "anio_primer": "2022",
+     "primer": 5.0,
+     "score_recibio": 82.3,
+     "score_primer": 83.1
+    },
+    "keiko": {
+     "anio_recibio": "2025",
+     "recibio": 4.7,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 85.4,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": "2015",
+     "recibio": 4.1,
+     "anio_primer": "2017",
+     "primer": 3.8,
+     "score_recibio": 90.0,
+     "score_primer": 92.3
+    },
+    "humala": {
+     "anio_recibio": "2010",
+     "recibio": 7.6,
+     "anio_primer": "2012",
+     "primer": 6.0,
+     "score_recibio": 63.1,
+     "score_primer": 75.4
+    },
+    "garcia": {
+     "anio_recibio": "2005",
+     "recibio": 15.8,
+     "anio_primer": "2007",
+     "primer": 11.2,
+     "score_recibio": 0.0,
+     "score_primer": 35.4
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "idh",
+   "nombre": "Índice de Desarrollo Humano (IDH)",
+   "dimension": "desarrollo_humano",
+   "institucion": "PNUD – Informe sobre Desarrollo Humano 2025 (serie temporal de índices compuestos)",
+   "fuente_url": "https://hdr.undp.org/sites/default/files/2025_HDR/HDR25_Composite_indices_complete_time_series.csv",
+   "mejor": "alto",
+   "escala_txt": "índice 0-1; color relativo al rango del Perú 2005–2023 (mejor = alto)",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": "2020",
+     "recibio": 0.769,
+     "anio_primer": "2022",
+     "primer": 0.79,
+     "score_recibio": 75.7,
+     "score_primer": 96.1
+    },
+    "keiko": {
+     "anio_recibio": "2023",
+     "recibio": 0.794,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 100.0,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": "2015",
+     "recibio": 0.768,
+     "anio_primer": "2017",
+     "primer": 0.775,
+     "score_recibio": 74.8,
+     "score_primer": 81.6
+    },
+    "humala": {
+     "anio_recibio": "2010",
+     "recibio": 0.731,
+     "anio_primer": "2012",
+     "primer": 0.748,
+     "score_recibio": 38.8,
+     "score_primer": 55.3
+    },
+    "garcia": {
+     "anio_recibio": "2005",
+     "recibio": 0.691,
+     "anio_primer": "2007",
+     "primer": 0.708,
+     "score_recibio": 0.0,
+     "score_primer": 16.5
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "anemia_6_35m",
+   "nombre": "Anemia en niñas y niños de 6 a 35 meses",
+   "dimension": "desarrollo_humano",
+   "institucion": "INEI – ENDES",
+   "fuente_url": "https://proyectos.inei.gob.pe/endes/2023/INFORME_PRINCIPAL/INFORMES_PRINCIPALES_2023.pdf",
+   "mejor": "bajo",
+   "escala_txt": "%; color relativo al rango del Perú 2009–2025 (mejor = bajo)",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": "2020",
+     "recibio": 40.0,
+     "anio_primer": "2022",
+     "primer": 42.4,
+     "score_recibio": 89.7,
+     "score_primer": 69.0
+    },
+    "keiko": {
+     "anio_recibio": "2025",
+     "recibio": 43.4,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 60.3,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": "2015",
+     "recibio": 43.5,
+     "anio_primer": "2017",
+     "primer": 43.6,
+     "score_recibio": 59.5,
+     "score_primer": 58.6
+    },
+    "humala": {
+     "anio_recibio": "2010",
+     "recibio": 50.3,
+     "anio_primer": "2012",
+     "primer": 44.5,
+     "score_recibio": 0.9,
+     "score_primer": 50.9
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "desnutricion_cronica_5",
+   "nombre": "Desnutrición crónica en menores de 5 años (patrón OMS)",
+   "dimension": "desarrollo_humano",
+   "institucion": "INEI – ENDES",
+   "fuente_url": "https://proyectos.inei.gob.pe/endes/2023/INFORME_PRINCIPAL/INFORMES_PRINCIPALES_2023.pdf",
+   "mejor": "bajo",
+   "escala_txt": "%; color relativo al rango del Perú 2009–2025 (mejor = bajo)",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": "2020",
+     "recibio": 12.1,
+     "anio_primer": "2022",
+     "primer": 11.7,
+     "score_recibio": 95.1,
+     "score_primer": 98.4
+    },
+    "keiko": {
+     "anio_recibio": "2025",
+     "recibio": 12.1,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 95.1,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": "2015",
+     "recibio": 14.4,
+     "anio_primer": "2017",
+     "primer": 12.9,
+     "score_recibio": 76.4,
+     "score_primer": 88.6
+    },
+    "humala": {
+     "anio_recibio": "2010",
+     "recibio": 23.2,
+     "anio_primer": "2012",
+     "primer": 18.1,
+     "score_recibio": 4.9,
+     "score_primer": 46.3
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "lb_apoyo_democracia",
+   "nombre": "Apoyo a la democracia (Latinobarómetro)",
+   "dimension": "confianza",
+   "institucion": "Latinobarómetro (microdatos, ponderador wt; cotejado con los informes)",
+   "fuente_url": "https://www.latinobarometro.org/documents/LAT-2024/latinobarometro-informe-2024.pdf",
+   "mejor": "alto",
+   "escala_txt": "% 'la democracia es preferible'; color relativo al rango del Perú 2005–2026 (mejor = alto)",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": "2020",
+     "recibio": 46.4,
+     "anio_primer": "2023",
+     "primer": 50.4,
+     "score_recibio": 31.5,
+     "score_primer": 50.2
+    },
+    "keiko": {
+     "anio_recibio": "2026",
+     "recibio": 53.0,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 62.4,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": "2015",
+     "recibio": 55.9,
+     "anio_primer": "2017",
+     "primer": 45.1,
+     "score_recibio": 76.1,
+     "score_primer": 25.4
+    },
+    "humala": {
+     "anio_recibio": "2010",
+     "recibio": 61.0,
+     "anio_primer": "2013",
+     "primer": 55.8,
+     "score_recibio": 100.0,
+     "score_primer": 75.6
+    },
+    "garcia": {
+     "anio_recibio": "2005",
+     "recibio": 39.7,
+     "anio_primer": "2007",
+     "primer": 47.4,
+     "score_recibio": 0.0,
+     "score_primer": 36.2
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "lb_confianza_gobierno",
+   "nombre": "Confianza en el gobierno (Latinobarómetro)",
+   "dimension": "confianza",
+   "institucion": "Latinobarómetro (microdatos)",
+   "fuente_url": "https://www.latinobarometro.org/documents/LAT-2024/latinobarometro-informe-2024.pdf",
+   "mejor": "alto",
+   "escala_txt": "% mucha + algo; color relativo al rango del Perú 2005–2024 (mejor = alto)",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": "2020",
+     "recibio": 16.2,
+     "anio_primer": "2023",
+     "primer": 9.2,
+     "score_recibio": 27.1,
+     "score_primer": 2.8
+    },
+    "keiko": {
+     "anio_recibio": "2024",
+     "recibio": 8.4,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 0.0,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": "2015",
+     "recibio": 19.9,
+     "anio_primer": "2017",
+     "primer": 18.4,
+     "score_recibio": 39.9,
+     "score_primer": 34.7
+    },
+    "humala": {
+     "anio_recibio": "2010",
+     "recibio": 24.9,
+     "anio_primer": "2013",
+     "primer": 23.9,
+     "score_recibio": 57.3,
+     "score_primer": 53.8
+    },
+    "garcia": {
+     "anio_recibio": "2005",
+     "recibio": 14.9,
+     "anio_primer": "2007",
+     "primer": 22.2,
+     "score_recibio": 22.6,
+     "score_primer": 47.9
+    }
+   },
+   "advertencias": {}
+  },
+  {
+   "id": "victimizacion",
+   "nombre": "Población urbana de 15+ años víctima de algún hecho delictivo",
+   "dimension": "seguridad",
+   "institucion": "INEI – ENAPRES, Victimización en el Perú 2025 (cuadro 1.1)",
+   "fuente_url": "https://cdn.www.gob.pe/uploads/document/file/9703029/7938429-victimizacion-en-el-peru-2025.pdf",
+   "mejor": "bajo",
+   "escala_txt": "% (últimos 12 meses); color relativo al rango del Perú 2015–2025 (mejor = bajo)",
+   "gobiernos": {
+    "castillo": {
+     "anio_recibio": "2020",
+     "recibio": 23.4,
+     "anio_primer": "2022",
+     "primer": 22.9,
+     "score_recibio": 58.7,
+     "score_primer": 62.7
+    },
+    "keiko": {
+     "anio_recibio": "2025",
+     "recibio": 25.3,
+     "anio_primer": null,
+     "primer": null,
+     "score_recibio": 43.7,
+     "score_primer": null
+    },
+    "ppk": {
+     "anio_recibio": "2015",
+     "recibio": 30.8,
+     "anio_primer": "2017",
+     "primer": 26.4,
+     "score_recibio": 0.0,
+     "score_primer": 34.9
+    }
+   },
+   "advertencias": {}
+  }
+ ],
+ "metodo": [
+  "Índice propio, no oficial: no existe un estándar internacional para evaluar los 100 días (es una convención que nace con Roosevelt en 1933). Combinamos trackers de promesas (PolitiFact, Chequeado), gestión para resultados (BID PRODEV, CEPAL), estabilidad del gabinete (Martínez-Gallardo 2012) y aprobación con luna de miel (Mueller 1970; Carlin et al. 2018).",
+  "Escala de 0 a 100 por dimensión. Semáforo: verde ≥70, amarillo 50-69, naranja 30-49, rojo <30.",
+  "Si falta una dimensión, los pesos se reescalan entre las que tienen dato. No se publica la nota total si la cobertura es menor al 70 % del peso (OECD/JRC 2008); por eso García y Humala no tienen total.",
+  "Integridad (D4) queda sin puntaje: en 2026 los conteos salen de las declaraciones juradas obligatorias (Ley 31227, que pueden incluir casos archivados); de 2006 a 2016, solo de la prensa. Compararlos castigaría la mayor transparencia. Ninguna investigación es una condena.",
+  "Cadena de valor (D2): usamos (nivel − 1) / 4, de modo que un insumo vale 0 y no 25; es más exigente que la propuesta original.",
+  "Ejecución (D7): de enero a julio el gasto corresponde al gobierno anterior, y el PIM de 2026 es el vigente, no el final. Se omitió el componente de indicadores mensuales por falta de historia comparable para 2006-2016.",
+  "Aprobación (D6): la caída esperada de −10 puntos es un valor de trabajo. Un gobierno que empieza bajo (Castillo, 38 %) cae menos; por eso se informa también el nivel absoluto.",
+  "Contexto internacional: los índices con escala fija (CPI, WGI, V-Dem, EIU, Freedom House, RSF) se colorean según su escala absoluta; los indicadores sociales (pobreza, Gini, IDH, anemia, encuestas), según el rango histórico del Perú entre 2005 y 2026. El CPI anterior a 2012 (escala 0-10) se multiplica por 10 para colorearlo. RSF cambió de metodología en 2022. Para Keiko solo hay línea base (el último dato publicado), no su primer año.",
+  "Sensibilidad: con pesos iguales, el total cambia a castillo 42.0, keiko 42.3, ppk 49.0."
+ ]
+}

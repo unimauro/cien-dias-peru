@@ -67,7 +67,7 @@ const stamp = (v, label) => { const c = verdictClass(v); return `<span class="st
 const cap = s => { s = String(s || ''); return s.charAt(0).toUpperCase() + s.slice(1); };
 
 const D = {};
-const FILES = ['pp2050_mensaje', 'pp2050_cumplimiento', 'factcheck', 'castillo', 'keiko', 'indicadores', 'performance', 'noticias', 'videos', 'planes', 'expresidentes', 'resultados'];
+const FILES = ['indice100', 'pp2050_mensaje', 'pp2050_cumplimiento', 'factcheck', 'castillo', 'keiko', 'indicadores', 'performance', 'noticias', 'videos', 'planes', 'expresidentes', 'resultados'];
 
 Promise.all(FILES.map(f => fetch(`research/${f}.json`, { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).catch(() => null)))
   .then(arr => {
@@ -76,7 +76,7 @@ Promise.all(FILES.map(f => fetch(`research/${f}.json`, { cache: 'no-cache' }).th
     run('vs', renderVs); run('claims', renderClaims); run('promesas', renderPromises); run('ladder', renderLadder);
     run('resultados', renderResults); run('gov', renderGov); run('approval', renderApproval); run('eco', renderEco);
     run('estado', renderEstado); run('planes', renderPlanes); run('timeline', renderTimeline); run('videos', renderVideos);
-    run('method', renderMethod); run('mensaje', renderMensaje); run('brujula', renderBrujula);
+    run('method', renderMethod); run('mensaje', renderMensaje); run('brujula', renderBrujula); run('semaforo', renderSemaforo);
   });
 
 /* ---------- helpers de datos ---------- */
@@ -637,5 +637,48 @@ function renderBrujula() {
     <p class="note" style="margin-top:-6px">Indicadores oficiales al inicio del gobierno de Keiko Fujimori frente al último dato. «Mejora» o «empeora» según la dirección deseada de cada indicador; no implica que el cambio lo haya causado el gobierno. Fuente: ${link(D.pp2050_cumplimiento.meta.origen_url, 'Plan Perú 2050')}, corte ${esc(B.corte)}.</p>
     <div class="tbl-wrap"><table><thead><tr><th>Indicador</th><th class="n">Inicio</th><th class="n">Último dato</th><th>Dirección</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
+
+/* ---------- semáforo ---------- */
+const BANDS = [
+  [70, 'Bien', 'sem-g'], [50, 'Regular', 'sem-y'], [30, 'Malo', 'sem-o'], [0, 'Crítico', 'sem-r'],
+];
+const band = sc => isNum(sc) ? BANDS.find(b => sc >= b[0]) : null;
+function semCell(sc, main, sub, tipTxt) {
+  const b = band(sc);
+  if (!b) return `<td class="sem-cell sem-na" data-tip="${esc(tipTxt || 'Sin dato')}"><span class="sv">—</span><span class="sl">sin dato</span></td>`;
+  return `<td class="sem-cell ${b[2]}" data-tip="${esc(tipTxt || '')}"><span class="sv">${main}</span><span class="sl">${b[1]}${sub ? ' · ' + sub : ''}</span></td>`;
+}
+function renderSemaforo() {
+  $('#semLegend').innerHTML = BANDS.map(b => `<span><i class="${b[2]}" style="border-radius:3px"></i>${b[1]} (${{70: '≥70', 50: '50–69', 30: '30–49', 0: '<30'}[b[0]]})</span>`).join('') + '<span><i class="sem-na" style="border-radius:3px"></i>Sin dato</span>';
+  const I = D.indice100;
+  if (!I) { $('#semIndice').innerHTML = '<p class="empty">Índice en preparación.</p>'; return; }
+  const govs = ORDER.filter(k => I.gobiernos?.[k]);
+  const head = `<thead><tr><th>Dimensión <small>(peso)</small></th>${govs.map(k => `<th class="n">${govLabel(k)}</th>`).join('')}</tr></thead>`;
+  const rows = I.dimensiones.map(d => `<tr><td><span class="metric">${esc(d.nombre)}</span> <small>(${d.peso} %)</small><br><small>${esc(d.desc)}</small></td>${govs.map(k => {
+    const c = I.gobiernos[k].dims[d.id] || {};
+    return semCell(c.score, isNum(c.score) ? Math.round(c.score) : '—', '', `${GOV[k].short}: ${c.valor || 'sin dato'}${c.fuente ? ' · ' + c.fuente : ''}`);
+  }).join('')}</tr>`).join('');
+  const tot = `<tr class="sem-total"><td><span class="metric">Índice de los 100 días</span><br><small>Promedio ponderado de las dimensiones con dato (los pesos se reescalan si falta alguna)</small></td>${govs.map(k => {
+    const g = I.gobiernos[k];
+    if (!isNum(g.total)) return `<td class="sem-cell sem-na" data-tip="Solo ${g.cobertura} % del peso tiene dato; con menos del 70 % no se publica el total"><span class="sv">—</span><span class="sl">cobertura ${g.cobertura} % (&lt;70 %)</span></td>`;
+    return semCell(g.total, fmt(g.total, 1), `${g.cobertura} % de cobertura`, `${GOV[k].short}: ${fmt(g.total)} / 100 con ${g.n_dims} de ${I.dimensiones.length} dimensiones`);
+  }).join('')}</tr>`;
+  $('#semIndice').innerHTML = `<div class="tbl-wrap"><table class="sem">${head}<tbody>${rows}${tot}</tbody></table></div>`;
+  const C = I.contexto || [];
+  if (C.length) {
+    const cg = ORDER.filter(k => C.some(r => r.gobiernos?.[k]));
+    const dimLab = { corrupcion: 'Corrupción', democracia: 'Democracia', estado_de_derecho: 'Estado de derecho', efectividad: 'Efectividad del gobierno', libertades: 'Libertades', desigualdad: 'Desigualdad', pobreza: 'Pobreza', desarrollo_humano: 'Desarrollo humano', confianza: 'Confianza ciudadana', seguridad: 'Seguridad' };
+    const groups = [...new Set(C.map(r => r.dimension))];
+    const body = groups.map(g => `<tr class="sem-grp"><td colspan="${cg.length + 1}">${esc(dimLab[g] || cap(g))}</td></tr>` + C.filter(r => r.dimension === g).map(r => `<tr><td><span class="metric">${esc(r.nombre)}</span><br><small>${esc(r.escala_txt || '')} · ${link(r.fuente_url, r.institucion || host(r.fuente_url))}</small></td>${cg.map(k => {
+      const v = r.gobiernos[k]; if (!v) return semCell(null);
+      const arrow = isNum(v.score_primer) && isNum(v.score_recibio) ? (Math.abs(v.score_primer - v.score_recibio) < 0.5 ? '=' : (v.score_primer > v.score_recibio ? '▲' : '▼')) : '';
+      const main = `${fmtSem(v.recibio)}${isNum(v.primer) ? ` → ${fmtSem(v.primer)} <b class="arr">${arrow}</b>` : (k === 'keiko' ? ' <small>(base)</small>' : '')}`;
+      return semCell(isNum(v.score_primer) ? v.score_primer : v.score_recibio, main, '', `${GOV[k].short}: ${v.anio_recibio || ''} = ${fmtSem(v.recibio)}${isNum(v.primer) ? `; ${v.anio_primer} = ${fmtSem(v.primer)}` : ' (primer año aún sin medición)'}`);
+    }).join('')}</tr>`).join('')).join('');
+    $('#semIntl').innerHTML = `<div class="tbl-wrap"><table class="sem">${`<thead><tr><th>Índice</th>${cg.map(k => `<th class="n">${govLabel(k)}</th>`).join('')}</tr></thead>`}<tbody>${body}</tbody></table></div><p class="note">El color corresponde al último valor de la celda, ubicado en su escala de 0 a 100 (mejor = 100). ▲ mejoró y ▼ empeoró en el primer año.</p>`;
+  } else $('#semIntl').innerHTML = '<p class="empty">Índices internacionales en preparación.</p>';
+  if (I.metodo) $('#semMetodo').innerHTML = `<details class="more" style="margin-top:20px"><summary>Cómo se calcula el índice</summary><ul class="sub-claims">${I.metodo.map(m => `<li>${esc(m)}</li>`).join('')}</ul></details>`;
+}
+const fmtSem = v => !isNum(v) ? '—' : Math.abs(v) < 1 ? fmt(v, 2) : Math.abs(v) < 10 ? fmt(v, 1) : fmt(v, 0);
 
 })();

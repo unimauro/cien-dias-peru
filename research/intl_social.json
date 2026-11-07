@@ -1,0 +1,1696 @@
+{
+ "generado": "2026-11-07",
+ "indicadores": [
+  {
+   "id": "gini",
+   "nombre": "Coeficiente de Gini (ingreso)",
+   "dimension": "desigualdad",
+   "unidad": "índice 0-100",
+   "mejor": "bajo",
+   "fuente": "Banco Mundial, WDI SI.POV.GINI (base SEDLAC sobre ENAHO-INEI)",
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/SI.POV.GINI?format=json&per_page=100",
+   "serie": {
+    "2005": 50.4,
+    "2006": 50.3,
+    "2007": 50,
+    "2008": 47.5,
+    "2009": 47,
+    "2010": 45.5,
+    "2011": 44.7,
+    "2012": 44.4,
+    "2013": 43.9,
+    "2014": 43.1,
+    "2015": 43.4,
+    "2016": 43.6,
+    "2017": 43.3,
+    "2018": 42.4,
+    "2019": 41.5,
+    "2020": 43.7,
+    "2021": 40.1,
+    "2022": 40.3,
+    "2023": 40.7,
+    "2024": 40.1,
+    "2025": null,
+    "2026": null
+   },
+   "nota": "Gini de ingreso per cápita del Banco Mundial; 2025 y 2026 aún no publicados. El INEI publica además un Gini del gasto (p. ej. 0,41 en 2007 y 0,35 en 2017, Lib1533 p.21), que no es comparable con esta serie."
+  },
+  {
+   "id": "pobreza_monetaria",
+   "nombre": "Pobreza monetaria (% de la población)",
+   "dimension": "pobreza",
+   "unidad": "%",
+   "mejor": "bajo",
+   "fuente": "INEI – ENAHO, informes técnicos de evolución de la pobreza monetaria",
+   "fuente_url": "https://m.inei.gob.pe/estadisticas/indice-tematico/poverty/",
+   "serie": {
+    "2005": 55.6,
+    "2006": 49.1,
+    "2007": 42.4,
+    "2008": 37.3,
+    "2009": 33.5,
+    "2010": 30.8,
+    "2011": 27.8,
+    "2012": 25.8,
+    "2013": 23.9,
+    "2014": 22.7,
+    "2015": 21.8,
+    "2016": 20.7,
+    "2017": 21.7,
+    "2018": 20.5,
+    "2019": 20.2,
+    "2020": 30.1,
+    "2021": 25.9,
+    "2022": 27.5,
+    "2023": 29.0,
+    "2024": 27.6,
+    "2025": 25.7,
+    "2026": null
+   },
+   "fuente_por_tramo": {
+    "2005-2012": "https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1106/libro.pdf (p.11)",
+    "2009-2014": "https://www.inei.gob.pe/media/cifras_de_pobreza/informetecnico_pobreza2014.pdf (cuadro 3.1)",
+    "2015-2025": "https://m.inei.gob.pe/estadisticas/indice-tematico/poverty/ (cd1_82.xlsx)"
+   },
+   "nota": "Serie con la metodología revisada de 2012 (aplicada hacia atrás desde 2004). El dato de 2025 (25,7 %) lo publicó el INEI el 5-may-2026; 2026 se publicará hacia mayo de 2027."
+  },
+  {
+   "id": "pobreza_extrema",
+   "nombre": "Pobreza extrema (% de la población)",
+   "dimension": "pobreza",
+   "unidad": "%",
+   "mejor": "bajo",
+   "fuente": "INEI – ENAHO",
+   "fuente_url": "https://m.inei.gob.pe/estadisticas/indice-tematico/poverty/",
+   "serie": {
+    "2005": 15.8,
+    "2006": 13.8,
+    "2007": 11.2,
+    "2008": 10.9,
+    "2009": 9.5,
+    "2010": 7.6,
+    "2011": 6.3,
+    "2012": 6.0,
+    "2013": 4.7,
+    "2014": 4.3,
+    "2015": 4.1,
+    "2016": 3.8,
+    "2017": 3.8,
+    "2018": 2.8,
+    "2019": 2.9,
+    "2020": 5.1,
+    "2021": 4.1,
+    "2022": 5.0,
+    "2023": 5.7,
+    "2024": 5.5,
+    "2025": 4.7,
+    "2026": null
+   },
+   "fuente_por_tramo": {
+    "2005-2012": "https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1106/libro.pdf (p.12)",
+    "2009-2014": "https://www.inei.gob.pe/media/cifras_de_pobreza/informetecnico_pobreza2014.pdf (cuadro 3.4)",
+    "2015-2025": "https://m.inei.gob.pe/estadisticas/indice-tematico/poverty/ (cd2_73.xlsx)"
+   },
+   "nota": "En el informe de 2025, la pobreza extrema de 2024 figura como 5,5 % (el xlsx vigente da 5,50)."
+  },
+  {
+   "id": "idh",
+   "nombre": "Índice de Desarrollo Humano (IDH)",
+   "dimension": "desarrollo_humano",
+   "unidad": "índice 0-1",
+   "mejor": "alto",
+   "fuente": "PNUD – Informe sobre Desarrollo Humano 2025 (serie temporal de índices compuestos)",
+   "fuente_url": "https://hdr.undp.org/sites/default/files/2025_HDR/HDR25_Composite_indices_complete_time_series.csv",
+   "serie": {
+    "2005": 0.691,
+    "2006": 0.697,
+    "2007": 0.708,
+    "2008": 0.714,
+    "2009": 0.717,
+    "2010": 0.731,
+    "2011": 0.738,
+    "2012": 0.748,
+    "2013": 0.757,
+    "2014": 0.763,
+    "2015": 0.768,
+    "2016": 0.775,
+    "2017": 0.775,
+    "2018": 0.78,
+    "2019": 0.784,
+    "2020": 0.769,
+    "2021": 0.764,
+    "2022": 0.79,
+    "2023": 0.794,
+    "2024": null,
+    "2025": null,
+    "2026": null
+   },
+   "ranking": {
+    "2023": 79,
+    "de": 193
+   },
+   "nota": "Serie recalculada por el PNUD con la metodología del HDR 2025 (el último dato es 2023). En 2023 el Perú ocupa el puesto 79 de 193. Los rankings publicados en informes anteriores no son comparables entre sí y por eso no se incluyen."
+  },
+  {
+   "id": "idh_ajustado_desigualdad",
+   "nombre": "IDH ajustado por desigualdad (IDH-D)",
+   "dimension": "desarrollo_humano",
+   "unidad": "índice 0-1",
+   "mejor": "alto",
+   "fuente": "PNUD – HDR 2025",
+   "fuente_url": "https://hdr.undp.org/sites/default/files/2025_HDR/HDR25_Composite_indices_complete_time_series.csv",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": null,
+    "2008": null,
+    "2009": null,
+    "2010": 0.541,
+    "2011": 0.547,
+    "2012": 0.557,
+    "2013": 0.574,
+    "2014": 0.579,
+    "2015": 0.586,
+    "2016": 0.596,
+    "2017": 0.601,
+    "2018": 0.61,
+    "2019": 0.62,
+    "2020": 0.591,
+    "2021": 0.608,
+    "2022": 0.63,
+    "2023": 0.633,
+    "2024": null,
+    "2025": null,
+    "2026": null
+   },
+   "nota": "Existe desde 2010. En 2023 la pérdida por desigualdad es (0,794-0,633)/0,794 ≈ 20,3 %."
+  },
+  {
+   "id": "anemia_6_35m",
+   "nombre": "Anemia en niñas y niños de 6 a 35 meses",
+   "dimension": "desarrollo_humano",
+   "unidad": "%",
+   "mejor": "bajo",
+   "fuente": "INEI – ENDES",
+   "fuente_url": "https://proyectos.inei.gob.pe/endes/2023/INFORME_PRINCIPAL/INFORMES_PRINCIPALES_2023.pdf",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": null,
+    "2008": null,
+    "2009": 50.4,
+    "2010": 50.3,
+    "2011": 41.6,
+    "2012": 44.5,
+    "2013": 46.4,
+    "2014": 46.8,
+    "2015": 43.5,
+    "2016": 43.6,
+    "2017": 43.6,
+    "2018": 43.5,
+    "2019": 40.1,
+    "2020": 40.0,
+    "2021": 38.8,
+    "2022": 42.4,
+    "2023": 43.1,
+    "2024": 43.7,
+    "2025": 43.4,
+    "2026": null
+   },
+   "fuente_por_tramo": {
+    "2009-2023": "https://proyectos.inei.gob.pe/endes/2023/INFORME_PRINCIPAL/INFORMES_PRINCIPALES_2023.pdf (Principales indicadores, p.30)",
+    "2024-2025": "https://intranet.mesadeconcertacion.org.pe/storage/documentos/2026-07-14/presentacion-seguimiento-concertado-social-2026-1.pdf (p.5, tabla con fuente INEI/ENDES 2025)"
+   },
+   "nota": "Serie comparable con el ajuste de hemoglobina por altitud anterior. Con la nueva directriz OMS 2024 (RM 251-2024-MINSA) el INEI da 28,4 (2021), 33,5 (2022), 34,6 (2023), 35,3 (2024) y 34,9 (2025); no hay que mezclar las dos series. La ENDES anual nacional empieza en 2009: 2005 y 2007-2008 eran muestras agrupadas (ENDES Continua), así que aquí no se usan."
+  },
+  {
+   "id": "desnutricion_cronica_5",
+   "nombre": "Desnutrición crónica en menores de 5 años (patrón OMS)",
+   "dimension": "desarrollo_humano",
+   "unidad": "%",
+   "mejor": "bajo",
+   "fuente": "INEI – ENDES",
+   "fuente_url": "https://proyectos.inei.gob.pe/endes/2023/INFORME_PRINCIPAL/INFORMES_PRINCIPALES_2023.pdf",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": null,
+    "2008": null,
+    "2009": 23.8,
+    "2010": 23.2,
+    "2011": 19.5,
+    "2012": 18.1,
+    "2013": 17.5,
+    "2014": 14.6,
+    "2015": 14.4,
+    "2016": 13.1,
+    "2017": 12.9,
+    "2018": 12.2,
+    "2019": 12.2,
+    "2020": 12.1,
+    "2021": 11.5,
+    "2022": 11.7,
+    "2023": 11.5,
+    "2024": 12.1,
+    "2025": 12.1,
+    "2026": null
+   },
+   "fuente_por_tramo": {
+    "2009-2023": "https://proyectos.inei.gob.pe/endes/2023/INFORME_PRINCIPAL/INFORMES_PRINCIPALES_2023.pdf (p.30)",
+    "2024-2025": "https://intranet.mesadeconcertacion.org.pe/storage/documentos/2026-07-14/presentacion-seguimiento-concertado-social-2026-1.pdf (p.3, fuente INEI/ENDES 2025)"
+   },
+   "nota": "Antes de 2009 la ENDES no era anual. Como referencia, el Banco Mundial (SH.STA.STNT.ZS) da 29,2 en 2005 y 28,0 en 2007."
+  },
+  {
+   "id": "informalidad_laboral",
+   "nombre": "Tasa de empleo informal (% de la PEA ocupada)",
+   "dimension": "pobreza",
+   "unidad": "%",
+   "mejor": "bajo",
+   "fuente": "INEI – ENAHO (2007-2020) y EPEN (2022-2024)",
+   "fuente_url": "https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1764/libro.pdf",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": 80.0,
+    "2008": 79.2,
+    "2009": 77.2,
+    "2010": 77.1,
+    "2011": 75.1,
+    "2012": 74.3,
+    "2013": 73.7,
+    "2014": 72.8,
+    "2015": 73.2,
+    "2016": 72.0,
+    "2017": 72.5,
+    "2018": 72.4,
+    "2019": 72.7,
+    "2020": 75.3,
+    "2021": null,
+    "2022": 74.0,
+    "2023": 71.1,
+    "2024": 70.9,
+    "2025": null,
+    "2026": null
+   },
+   "fuente_por_tramo": {
+    "2007-2019": "https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1764/libro.pdf (p.64, ENAHO)",
+    "2020": "https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1828/libro.pdf (p.71, ENAHO)",
+    "2022-2023": "https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1972/libro.pdf (cuadro 4.1, EPEN)",
+    "2024": "https://cdn.www.gob.pe/uploads/document/file/9215525/7564428-libro.pdf (p.7 y 36, EPEN)"
+   },
+   "nota": "QUIEBRE DE SERIE en 2022: el INEI pasó de la ENAHO a la EPEN; para el mismo 2022, la ENAHO daba 75,7 y la EPEN 74,0. No hay dato ENAHO de 2005-2006 (la serie empieza en 2007). El 2021 (76,8 según ENAHO) y el 2025 (70,7 según EPEN) solo se vieron en prensa y no se verificaron en el documento del INEI, así que quedan en null. Para dimension se usó 'pobreza' porque el esquema no tiene una categoría de empleo."
+  },
+  {
+   "id": "lb_apoyo_democracia",
+   "nombre": "Apoyo a la democracia (Latinobarómetro)",
+   "dimension": "confianza",
+   "unidad": "% 'la democracia es preferible'",
+   "mejor": "alto",
+   "fuente": "Latinobarómetro (microdatos, ponderador wt; cotejado con los informes)",
+   "fuente_url": "https://www.latinobarometro.org/documents/LAT-2024/latinobarometro-informe-2024.pdf",
+   "serie": {
+    "2005": 39.7,
+    "2006": 54.6,
+    "2007": 47.4,
+    "2008": 45.0,
+    "2009": 51.9,
+    "2010": 61.0,
+    "2011": 58.9,
+    "2012": null,
+    "2013": 55.8,
+    "2014": null,
+    "2015": 55.9,
+    "2016": 52.9,
+    "2017": 45.1,
+    "2018": 42.8,
+    "2019": null,
+    "2020": 46.4,
+    "2021": null,
+    "2022": null,
+    "2023": 50.4,
+    "2024": 44.2,
+    "2025": null,
+    "2026": 53.0
+   },
+   "fuente_por_tramo": {
+    "2005-2024": "https://www.latinobarometro.org/documents/LAT-2024/latinobarometro-informe-2024.pdf (tabla p.34; % de microdatos)",
+    "2026": "https://www.latinobarometro.org/documents/informe-latinobarometro-2026.pdf (tabla 1, p.13; trabajo de campo may-jun 2026)"
+   },
+   "nota": "No hubo encuesta en 2012, 2014, 2019, 2021, 2022 ni 2025. El dato de 2026 (53) se levantó antes de la asunción del 28-jul-2026."
+  },
+  {
+   "id": "lb_satisfaccion_democracia",
+   "nombre": "Satisfacción con la democracia (Latinobarómetro)",
+   "dimension": "confianza",
+   "unidad": "% muy + más bien satisfecho",
+   "mejor": "alto",
+   "fuente": "Latinobarómetro (microdatos)",
+   "fuente_url": "https://www.latinobarometro.org/documents/LAT-2023/latinobarometro-informe-2023.pdf",
+   "serie": {
+    "2005": 13.2,
+    "2006": 22.8,
+    "2007": 17.1,
+    "2008": 15.8,
+    "2009": 22.2,
+    "2010": 28.2,
+    "2011": 30.8,
+    "2012": null,
+    "2013": 24.8,
+    "2014": null,
+    "2015": 24.9,
+    "2016": 24.4,
+    "2017": 15.6,
+    "2018": 10.5,
+    "2019": null,
+    "2020": 10.9,
+    "2021": null,
+    "2022": null,
+    "2023": 7.9,
+    "2024": 10.0,
+    "2025": null,
+    "2026": null
+   },
+   "nota": "Cotejado con los informes de 2023 (p.39) y 2024 (p.42). El dato de 2026 solo aparece en un gráfico como imagen y no se transcribió."
+  },
+  {
+   "id": "lb_confianza_gobierno",
+   "nombre": "Confianza en el gobierno (Latinobarómetro)",
+   "dimension": "confianza",
+   "unidad": "% mucha + algo",
+   "mejor": "alto",
+   "fuente": "Latinobarómetro (microdatos)",
+   "fuente_url": "https://www.latinobarometro.org/documents/LAT-2024/latinobarometro-informe-2024.pdf",
+   "serie": {
+    "2005": 14.9,
+    "2006": 37.2,
+    "2007": 22.2,
+    "2008": 14.8,
+    "2009": 22.1,
+    "2010": 24.9,
+    "2011": 33.5,
+    "2012": null,
+    "2013": 23.9,
+    "2014": null,
+    "2015": 19.9,
+    "2016": 18.7,
+    "2017": 18.4,
+    "2018": 12.9,
+    "2019": null,
+    "2020": 16.2,
+    "2021": null,
+    "2022": null,
+    "2023": 9.2,
+    "2024": 8.4,
+    "2025": null,
+    "2026": null
+   },
+   "nota": "Solo 2024 se cotejó con un informe (8 %, Informe 2024 p.60); los demás años salen de los microdatos. La redacción del ítem cambia (desde 2018 dice 'Gobierno de la Nación'). El dato de 2026 no está disponible."
+  },
+  {
+   "id": "lapop_apoyo_democracia",
+   "nombre": "Apoyo a la democracia (LAPOP, ING4)",
+   "dimension": "confianza",
+   "unidad": "% de acuerdo 5-7 en escala 1-7",
+   "mejor": "alto",
+   "fuente": "LAPOP / AmericasBarometer – informes Perú",
+   "fuente_url": "https://www.vanderbilt.edu/cgd/wp-content/uploads/sites/157/lapop/peru/AB2021PER-Country-Report-Spanish-Final-220411.pdf",
+   "serie": {
+    "2005": null,
+    "2006": 53,
+    "2007": null,
+    "2008": 63,
+    "2009": null,
+    "2010": 52,
+    "2011": null,
+    "2012": 60,
+    "2013": null,
+    "2014": 59,
+    "2015": null,
+    "2016": null,
+    "2017": 53,
+    "2018": null,
+    "2019": 49,
+    "2020": null,
+    "2021": 50,
+    "2022": null,
+    "2023": 51,
+    "2024": null,
+    "2025": 50,
+    "2026": null
+   },
+   "fuente_por_tramo": {
+    "2006-2021": "https://www.vanderbilt.edu/cgd/wp-content/uploads/sites/157/lapop/peru/AB2021PER-Country-Report-Spanish-Final-220411.pdf (p.22-23)",
+    "2017": "AB2016-17 Perú p.33 (52,7)",
+    "2019": "https://www.vanderbilt.edu/cgd/wp-content/uploads/sites/157/lapop/peru/AB2018-19-Peru-Country-Report-Final-W-200811.pdf (49,3)",
+    "2023": "https://www.vanderbilt.edu/cgd/wp-content/uploads/sites/157/lapop/peru/ABPER2023-Pulso-de-la-democracia-20240905.pdf (gráfico 1.6)",
+    "2025": "https://cdn.vanderbilt.edu/vu-wpfsx/wp-content/uploads/sites/157/2026/11/2026_Pulse-of-Democracy_20261105_ESP.pdf (p.48-49)"
+   },
+   "nota": "El año es el del trabajo de campo: la ronda 2016/17 va como 2017, la 2018/19 como 2019 y la del AmericasBarometer 2026 (oct-dic 2025) como 2025. Los informes de 2006-2012 publicaban promedios 0-100; aquí se usa la serie recalculada en %."
+  },
+  {
+   "id": "lapop_corrupcion_funcionarios",
+   "nombre": "Percepción de corrupción en funcionarios públicos (LAPOP, EXC7)",
+   "dimension": "confianza",
+   "unidad": "% muy + algo generalizada",
+   "mejor": "bajo",
+   "fuente": "LAPOP – informe Perú 2018/19, gráfico 4.9",
+   "fuente_url": "https://www.vanderbilt.edu/cgd/wp-content/uploads/sites/157/lapop/peru/AB2018-19-Peru-Country-Report-Final-W-200811.pdf",
+   "serie": {
+    "2005": null,
+    "2006": 85,
+    "2007": null,
+    "2008": 83,
+    "2009": null,
+    "2010": 89,
+    "2011": null,
+    "2012": 81,
+    "2013": null,
+    "2014": 88,
+    "2015": null,
+    "2016": null,
+    "2017": 78,
+    "2018": null,
+    "2019": 76,
+    "2020": null,
+    "2021": null,
+    "2022": null,
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": null
+   },
+   "nota": "La pregunta no se reportó para el Perú en 2021 ni en 2023."
+  },
+  {
+   "id": "lapop_corrupcion_politicos",
+   "nombre": "Políticos involucrados en corrupción (LAPOP, EXC7NEW)",
+   "dimension": "confianza",
+   "unidad": "% 'más de la mitad' + 'todos'",
+   "mejor": "bajo",
+   "fuente": "LAPOP – informes Perú 2018/19 y 2021",
+   "fuente_url": "https://www.vanderbilt.edu/cgd/wp-content/uploads/sites/157/lapop/peru/AB2021PER-Country-Report-Spanish-Final-220411.pdf",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": null,
+    "2008": null,
+    "2009": null,
+    "2010": null,
+    "2011": null,
+    "2012": null,
+    "2013": null,
+    "2014": null,
+    "2015": null,
+    "2016": null,
+    "2017": 77.0,
+    "2018": null,
+    "2019": 84.7,
+    "2020": null,
+    "2021": 88,
+    "2022": null,
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": null
+   },
+   "nota": "Pregunta nueva desde 2016/17. No hay cifra del Perú publicada para 2023 ni para 2025; harían falta los microdatos, que requieren registro."
+  },
+  {
+   "id": "victimizacion",
+   "nombre": "Población urbana de 15+ años víctima de algún hecho delictivo",
+   "dimension": "seguridad",
+   "unidad": "% (últimos 12 meses)",
+   "mejor": "bajo",
+   "fuente": "INEI – ENAPRES, Victimización en el Perú 2025 (cuadro 1.1)",
+   "fuente_url": "https://cdn.www.gob.pe/uploads/document/file/9703029/7938429-victimizacion-en-el-peru-2025.pdf",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": null,
+    "2008": null,
+    "2009": null,
+    "2010": null,
+    "2011": null,
+    "2012": null,
+    "2013": null,
+    "2014": null,
+    "2015": 30.8,
+    "2016": 28.8,
+    "2017": 26.4,
+    "2018": 25.7,
+    "2019": 26.6,
+    "2020": 23.4,
+    "2021": 18.2,
+    "2022": 22.9,
+    "2023": 27.1,
+    "2024": 27.1,
+    "2025": 25.3,
+    "2026": null
+   },
+   "nota": "Ámbito nacional urbano. Desde 2025 el cálculo incluye las tentativas de extorsión, y la serie 2015-2024 publicada en el informe de 2025 es igual a la del informe de 2024. La ENAPRES empezó en 2010, pero los años 2010-2014 no se pudieron verificar en un documento del INEI y quedan en null. 2020-2021 están afectados por la pandemia."
+  },
+  {
+   "id": "percepcion_inseguridad",
+   "nombre": "Percepción de inseguridad (próximos 12 meses)",
+   "dimension": "seguridad",
+   "unidad": "% población urbana 15+",
+   "mejor": "bajo",
+   "fuente": "INEI – ENAPRES, Victimización en el Perú 2025 (cuadro 3.1)",
+   "fuente_url": "https://cdn.www.gob.pe/uploads/document/file/9703029/7938429-victimizacion-en-el-peru-2025.pdf",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": null,
+    "2008": null,
+    "2009": null,
+    "2010": null,
+    "2011": null,
+    "2012": null,
+    "2013": null,
+    "2014": null,
+    "2015": 88.4,
+    "2016": 90.0,
+    "2017": 86.9,
+    "2018": 86.3,
+    "2019": 85.8,
+    "2020": 83.2,
+    "2021": 83.9,
+    "2022": 85.2,
+    "2023": 83.6,
+    "2024": 86.0,
+    "2025": 84.4,
+    "2026": null
+   },
+   "nota": "Los años 2010-2014 no se verificaron."
+  },
+  {
+   "id": "homicidios_tasa",
+   "nombre": "Tasa de homicidios intencionales por 100 mil habitantes",
+   "dimension": "seguridad",
+   "unidad": "por 100 mil hab.",
+   "mejor": "bajo",
+   "fuente": "UNODC (UN-CTS), vía ONU ODS 16.1.1 / Banco Mundial VC.IHR.PSRC.P5",
+   "fuente_url": "https://unstats.un.org/sdgapi/v1/sdg/Series/Data?seriesCode=VC_IHR_PSRC&areaCode=604",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": null,
+    "2008": null,
+    "2009": null,
+    "2010": null,
+    "2011": 5.52,
+    "2012": 6.66,
+    "2013": 6.75,
+    "2014": 6.89,
+    "2015": 7.38,
+    "2016": 7.89,
+    "2017": 7.94,
+    "2018": 7.69,
+    "2019": 7.35,
+    "2020": 5.8,
+    "2021": 8.6,
+    "2022": null,
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": null
+   },
+   "nota": "La serie internacional solo cubre 2011-2021. Para 2022-2025 no se encontró una tasa oficial anual verificada. El proyecto tiene conteos SINADEF en research/resultados.json, pero no son una tasa ni son comparables con esta serie. Por eso Keiko no tiene línea base en este indicador."
+  }
+ ],
+ "por_gobierno": {
+  "garcia": {
+   "nombre": "Alan García",
+   "asuncion": "2006-07-28",
+   "valores": {
+    "gini": {
+     "recibio": {
+      "anio": "2005",
+      "valor": 50.4,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2007",
+      "valor": 50,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -0.4,
+     "sentido": "mejora"
+    },
+    "pobreza_monetaria": {
+     "recibio": {
+      "anio": "2005",
+      "valor": 55.6,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2007",
+      "valor": 42.4,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -13.2,
+     "sentido": "mejora"
+    },
+    "pobreza_extrema": {
+     "recibio": {
+      "anio": "2005",
+      "valor": 15.8,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2007",
+      "valor": 11.2,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -4.6,
+     "sentido": "mejora"
+    },
+    "idh": {
+     "recibio": {
+      "anio": "2005",
+      "valor": 0.691,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2007",
+      "valor": 0.708,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 0.017,
+     "sentido": "mejora"
+    },
+    "idh_ajustado_desigualdad": {
+     "recibio": "sin dato",
+     "primer_anio": "sin dato",
+     "cambio": null,
+     "sentido": null
+    },
+    "anemia_6_35m": {
+     "recibio": "sin dato",
+     "primer_anio": "sin dato",
+     "cambio": null,
+     "sentido": null
+    },
+    "desnutricion_cronica_5": {
+     "recibio": "sin dato",
+     "primer_anio": "sin dato",
+     "cambio": null,
+     "sentido": null
+    },
+    "informalidad_laboral": {
+     "recibio": "sin dato",
+     "primer_anio": {
+      "anio": "2007",
+      "valor": 80.0,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": null,
+     "sentido": null
+    },
+    "lb_apoyo_democracia": {
+     "recibio": {
+      "anio": "2005",
+      "valor": 39.7,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2007",
+      "valor": 47.4,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 7.7,
+     "sentido": "mejora"
+    },
+    "lb_satisfaccion_democracia": {
+     "recibio": {
+      "anio": "2005",
+      "valor": 13.2,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2007",
+      "valor": 17.1,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 3.9,
+     "sentido": "mejora"
+    },
+    "lb_confianza_gobierno": {
+     "recibio": {
+      "anio": "2005",
+      "valor": 14.9,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2007",
+      "valor": 22.2,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 7.3,
+     "sentido": "mejora"
+    },
+    "lapop_apoyo_democracia": {
+     "recibio": {
+      "anio": "2006",
+      "valor": 53,
+      "regla": "año de asunción"
+     },
+     "primer_anio": {
+      "anio": "2008",
+      "valor": 63,
+      "regla": "t+2 (no hay dato en t+1)"
+     },
+     "cambio": 10,
+     "sentido": "mejora"
+    },
+    "lapop_corrupcion_funcionarios": {
+     "recibio": {
+      "anio": "2006",
+      "valor": 85,
+      "regla": "año de asunción"
+     },
+     "primer_anio": {
+      "anio": "2008",
+      "valor": 83,
+      "regla": "t+2 (no hay dato en t+1)"
+     },
+     "cambio": -2,
+     "sentido": "mejora"
+    },
+    "lapop_corrupcion_politicos": {
+     "recibio": "sin dato",
+     "primer_anio": "sin dato",
+     "cambio": null,
+     "sentido": null
+    },
+    "victimizacion": {
+     "recibio": "sin dato",
+     "primer_anio": "sin dato",
+     "cambio": null,
+     "sentido": null
+    },
+    "percepcion_inseguridad": {
+     "recibio": "sin dato",
+     "primer_anio": "sin dato",
+     "cambio": null,
+     "sentido": null
+    },
+    "homicidios_tasa": {
+     "recibio": "sin dato",
+     "primer_anio": "sin dato",
+     "cambio": null,
+     "sentido": null
+    }
+   }
+  },
+  "humala": {
+   "nombre": "Ollanta Humala",
+   "asuncion": "2011-07-28",
+   "valores": {
+    "gini": {
+     "recibio": {
+      "anio": "2010",
+      "valor": 45.5,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2012",
+      "valor": 44.4,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -1.1,
+     "sentido": "mejora"
+    },
+    "pobreza_monetaria": {
+     "recibio": {
+      "anio": "2010",
+      "valor": 30.8,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2012",
+      "valor": 25.8,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -5.0,
+     "sentido": "mejora"
+    },
+    "pobreza_extrema": {
+     "recibio": {
+      "anio": "2010",
+      "valor": 7.6,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2012",
+      "valor": 6.0,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -1.6,
+     "sentido": "mejora"
+    },
+    "idh": {
+     "recibio": {
+      "anio": "2010",
+      "valor": 0.731,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2012",
+      "valor": 0.748,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 0.017,
+     "sentido": "mejora"
+    },
+    "idh_ajustado_desigualdad": {
+     "recibio": {
+      "anio": "2010",
+      "valor": 0.541,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2012",
+      "valor": 0.557,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 0.016,
+     "sentido": "mejora"
+    },
+    "anemia_6_35m": {
+     "recibio": {
+      "anio": "2010",
+      "valor": 50.3,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2012",
+      "valor": 44.5,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -5.8,
+     "sentido": "mejora"
+    },
+    "desnutricion_cronica_5": {
+     "recibio": {
+      "anio": "2010",
+      "valor": 23.2,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2012",
+      "valor": 18.1,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -5.1,
+     "sentido": "mejora"
+    },
+    "informalidad_laboral": {
+     "recibio": {
+      "anio": "2010",
+      "valor": 77.1,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2012",
+      "valor": 74.3,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -2.8,
+     "sentido": "mejora"
+    },
+    "lb_apoyo_democracia": {
+     "recibio": {
+      "anio": "2010",
+      "valor": 61.0,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2013",
+      "valor": 55.8,
+      "regla": "t+2 (no hay dato en t+1)"
+     },
+     "cambio": -5.2,
+     "sentido": "empeora"
+    },
+    "lb_satisfaccion_democracia": {
+     "recibio": {
+      "anio": "2010",
+      "valor": 28.2,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2013",
+      "valor": 24.8,
+      "regla": "t+2 (no hay dato en t+1)"
+     },
+     "cambio": -3.4,
+     "sentido": "empeora"
+    },
+    "lb_confianza_gobierno": {
+     "recibio": {
+      "anio": "2010",
+      "valor": 24.9,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2013",
+      "valor": 23.9,
+      "regla": "t+2 (no hay dato en t+1)"
+     },
+     "cambio": -1.0,
+     "sentido": "empeora"
+    },
+    "lapop_apoyo_democracia": {
+     "recibio": {
+      "anio": "2010",
+      "valor": 52,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2012",
+      "valor": 60,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 8,
+     "sentido": "mejora"
+    },
+    "lapop_corrupcion_funcionarios": {
+     "recibio": {
+      "anio": "2010",
+      "valor": 89,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2012",
+      "valor": 81,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -8,
+     "sentido": "mejora"
+    },
+    "lapop_corrupcion_politicos": {
+     "recibio": "sin dato",
+     "primer_anio": "sin dato",
+     "cambio": null,
+     "sentido": null
+    },
+    "victimizacion": {
+     "recibio": "sin dato",
+     "primer_anio": "sin dato",
+     "cambio": null,
+     "sentido": null
+    },
+    "percepcion_inseguridad": {
+     "recibio": "sin dato",
+     "primer_anio": "sin dato",
+     "cambio": null,
+     "sentido": null
+    },
+    "homicidios_tasa": {
+     "recibio": {
+      "anio": "2011",
+      "valor": 5.52,
+      "regla": "año de asunción"
+     },
+     "primer_anio": {
+      "anio": "2012",
+      "valor": 6.66,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 1.14,
+     "sentido": "empeora"
+    }
+   }
+  },
+  "ppk": {
+   "nombre": "Pedro Pablo Kuczynski",
+   "asuncion": "2016-07-28",
+   "valores": {
+    "gini": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 43.4,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 43.3,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -0.1,
+     "sentido": "mejora"
+    },
+    "pobreza_monetaria": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 21.8,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 21.7,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -0.1,
+     "sentido": "mejora"
+    },
+    "pobreza_extrema": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 4.1,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 3.8,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -0.3,
+     "sentido": "mejora"
+    },
+    "idh": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 0.768,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 0.775,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 0.007,
+     "sentido": "mejora"
+    },
+    "idh_ajustado_desigualdad": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 0.586,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 0.601,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 0.015,
+     "sentido": "mejora"
+    },
+    "anemia_6_35m": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 43.5,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 43.6,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 0.1,
+     "sentido": "empeora"
+    },
+    "desnutricion_cronica_5": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 14.4,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 12.9,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -1.5,
+     "sentido": "mejora"
+    },
+    "informalidad_laboral": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 73.2,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 72.5,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -0.7,
+     "sentido": "mejora"
+    },
+    "lb_apoyo_democracia": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 55.9,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 45.1,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -10.8,
+     "sentido": "empeora"
+    },
+    "lb_satisfaccion_democracia": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 24.9,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 15.6,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -9.3,
+     "sentido": "empeora"
+    },
+    "lb_confianza_gobierno": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 19.9,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 18.4,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -1.5,
+     "sentido": "empeora"
+    },
+    "lapop_apoyo_democracia": {
+     "recibio": {
+      "anio": "2014",
+      "valor": 59,
+      "regla": "dos años antes (no hay t-1 ni t)"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 53,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -6,
+     "sentido": "empeora"
+    },
+    "lapop_corrupcion_funcionarios": {
+     "recibio": {
+      "anio": "2014",
+      "valor": 88,
+      "regla": "dos años antes (no hay t-1 ni t)"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 78,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -10,
+     "sentido": "mejora"
+    },
+    "lapop_corrupcion_politicos": {
+     "recibio": "sin dato",
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 77.0,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": null,
+     "sentido": null
+    },
+    "victimizacion": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 30.8,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 26.4,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -4.4,
+     "sentido": "mejora"
+    },
+    "percepcion_inseguridad": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 88.4,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 86.9,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -1.5,
+     "sentido": "mejora"
+    },
+    "homicidios_tasa": {
+     "recibio": {
+      "anio": "2015",
+      "valor": 7.38,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2017",
+      "valor": 7.94,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 0.56,
+     "sentido": "empeora"
+    }
+   }
+  },
+  "castillo": {
+   "nombre": "Pedro Castillo",
+   "asuncion": "2021-07-28",
+   "valores": {
+    "gini": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 43.7,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2022",
+      "valor": 40.3,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -3.4,
+     "sentido": "mejora"
+    },
+    "pobreza_monetaria": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 30.1,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2022",
+      "valor": 27.5,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -2.6,
+     "sentido": "mejora"
+    },
+    "pobreza_extrema": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 5.1,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2022",
+      "valor": 5.0,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -0.1,
+     "sentido": "mejora"
+    },
+    "idh": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 0.769,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2022",
+      "valor": 0.79,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 0.021,
+     "sentido": "mejora"
+    },
+    "idh_ajustado_desigualdad": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 0.591,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2022",
+      "valor": 0.63,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 0.039,
+     "sentido": "mejora"
+    },
+    "anemia_6_35m": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 40.0,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2022",
+      "valor": 42.4,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 2.4,
+     "sentido": "empeora"
+    },
+    "desnutricion_cronica_5": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 12.1,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2022",
+      "valor": 11.7,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -0.4,
+     "sentido": "mejora"
+    },
+    "informalidad_laboral": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 75.3,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2022",
+      "valor": 74.0,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -1.3,
+     "sentido": "mejora"
+    },
+    "lb_apoyo_democracia": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 46.4,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2023",
+      "valor": 50.4,
+      "regla": "t+2 (no hay dato en t+1)"
+     },
+     "cambio": 4.0,
+     "sentido": "mejora"
+    },
+    "lb_satisfaccion_democracia": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 10.9,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2023",
+      "valor": 7.9,
+      "regla": "t+2 (no hay dato en t+1)"
+     },
+     "cambio": -3.0,
+     "sentido": "empeora"
+    },
+    "lb_confianza_gobierno": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 16.2,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2023",
+      "valor": 9.2,
+      "regla": "t+2 (no hay dato en t+1)"
+     },
+     "cambio": -7.0,
+     "sentido": "empeora"
+    },
+    "lapop_apoyo_democracia": {
+     "recibio": {
+      "anio": "2021",
+      "valor": 50,
+      "regla": "año de asunción"
+     },
+     "primer_anio": {
+      "anio": "2023",
+      "valor": 51,
+      "regla": "t+2 (no hay dato en t+1)"
+     },
+     "cambio": 1,
+     "sentido": "mejora"
+    },
+    "lapop_corrupcion_funcionarios": {
+     "recibio": {
+      "anio": "2019",
+      "valor": 76,
+      "regla": "dos años antes (no hay t-1 ni t)"
+     },
+     "primer_anio": "sin dato",
+     "cambio": null,
+     "sentido": null
+    },
+    "lapop_corrupcion_politicos": {
+     "recibio": {
+      "anio": "2021",
+      "valor": 88,
+      "regla": "año de asunción"
+     },
+     "primer_anio": "sin dato",
+     "cambio": null,
+     "sentido": null
+    },
+    "victimizacion": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 23.4,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2022",
+      "valor": 22.9,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": -0.5,
+     "sentido": "mejora"
+    },
+    "percepcion_inseguridad": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 83.2,
+      "regla": "año previo"
+     },
+     "primer_anio": {
+      "anio": "2022",
+      "valor": 85.2,
+      "regla": "primer año (t+1)"
+     },
+     "cambio": 2.0,
+     "sentido": "empeora"
+    },
+    "homicidios_tasa": {
+     "recibio": {
+      "anio": "2020",
+      "valor": 5.8,
+      "regla": "año previo"
+     },
+     "primer_anio": "sin dato",
+     "cambio": null,
+     "sentido": null
+    }
+   }
+  },
+  "keiko": {
+   "nombre": "Keiko Fujimori",
+   "asuncion": "2026-07-28",
+   "valores": {
+    "gini": {
+     "recibio": {
+      "anio": "2024",
+      "valor": 40.1,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "pobreza_monetaria": {
+     "recibio": {
+      "anio": "2025",
+      "valor": 25.7,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "pobreza_extrema": {
+     "recibio": {
+      "anio": "2025",
+      "valor": 4.7,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "idh": {
+     "recibio": {
+      "anio": "2023",
+      "valor": 0.794,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "idh_ajustado_desigualdad": {
+     "recibio": {
+      "anio": "2023",
+      "valor": 0.633,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "anemia_6_35m": {
+     "recibio": {
+      "anio": "2025",
+      "valor": 43.4,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "desnutricion_cronica_5": {
+     "recibio": {
+      "anio": "2025",
+      "valor": 12.1,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "informalidad_laboral": {
+     "recibio": {
+      "anio": "2024",
+      "valor": 70.9,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "lb_apoyo_democracia": {
+     "recibio": {
+      "anio": "2026",
+      "valor": 53.0,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "lb_satisfaccion_democracia": {
+     "recibio": {
+      "anio": "2024",
+      "valor": 10.0,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "lb_confianza_gobierno": {
+     "recibio": {
+      "anio": "2024",
+      "valor": 8.4,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "lapop_apoyo_democracia": {
+     "recibio": {
+      "anio": "2025",
+      "valor": 50,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "lapop_corrupcion_funcionarios": {
+     "recibio": {
+      "sin_dato_reciente": true,
+      "ultimo_disponible": {
+       "anio": "2019",
+       "valor": 76
+      },
+      "regla": "última medición > 3 años de antigüedad; no se usa como línea base"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "lapop_corrupcion_politicos": {
+     "recibio": {
+      "sin_dato_reciente": true,
+      "ultimo_disponible": {
+       "anio": "2021",
+       "valor": 88
+      },
+      "regla": "última medición > 3 años de antigüedad; no se usa como línea base"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "victimizacion": {
+     "recibio": {
+      "anio": "2025",
+      "valor": 25.3,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "percepcion_inseguridad": {
+     "recibio": {
+      "anio": "2025",
+      "valor": 84.4,
+      "regla": "última medición disponible (línea base)"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    },
+    "homicidios_tasa": {
+     "recibio": {
+      "sin_dato_reciente": true,
+      "ultimo_disponible": {
+       "anio": "2021",
+       "valor": 8.6
+      },
+      "regla": "última medición > 3 años de antigüedad; no se usa como línea base"
+     },
+     "primer_anio": "aún no existe",
+     "cambio": null,
+     "sentido": null
+    }
+   }
+  }
+ },
+ "caveats": [
+  "Regla: «recibió» = año previo a la asunción (t-1), luego el año de asunción (t), luego t-2; «primer año» = t+1, o t+2 si no hay dato en t+1. Cada valor lleva el año que se usó y la regla aplicada.",
+  "Keiko Fujimori asumió el 28-jul-2026: su «primer año» aún no existe. Su línea base es la última medición publicada, que en varios indicadores es 2025 o anterior (IDH 2023, Gini 2024) y no refleja su gestión.",
+  "Las encuestas anuales (ENAHO, ENDES, ENAPRES) de un año t cubren en parte al gobierno saliente. El año de asunción mezcla a los dos gobiernos.",
+  "Castillo recibió el país de 2020 (pandemia): el desplome de 2020 y el rebote de 2021-2022 son efecto del COVID-19, no de la gestión.",
+  "Latinobarómetro y LAPOP no son anuales; cuando falta un año se usa el más cercano según la regla y se indica.",
+  "Informalidad: quiebre ENAHO→EPEN en 2022. No hay que comparar valores de antes y después de ese año como si fueran la misma serie.",
+  "Anemia: hay que usar la serie con el ajuste por altitud anterior; la cifra de 34,9 % de 2025 (nueva directriz OMS 2024) no es comparable con los años previos.",
+  "Faltan sin verificar: victimización y percepción de inseguridad 2010-2014, homicidios 2005-2010 y 2022-2026, informalidad 2021 y 2025, satisfacción y confianza Latinobarómetro 2026, y LAPOP EXC7NEW 2023 y 2025.",
+  "El semáforo solo debe leerse como dirección del cambio en el primer año; los indicadores estructurales (pobreza, anemia, IDH) responden con rezago y no pueden atribuirse solo a un gobierno."
+ ]
+}

@@ -1,0 +1,1714 @@
+{
+ "_meta": {
+  "generado": "2026-11-07",
+  "autor": "investigación asistida por IA para cien-dias-peru; revisión humana pendiente",
+  "archivo": "research/idoneidad.json"
+ },
+ "criterio": "La idoneidad se mide solo contra el perfil del puesto: formación académica y experiencia previa. Nunca por ideología, partido, afiliación, identidad, género ni religión. Se aplica el mismo criterio a los cinco gabinetes. EXPERIENCIA: 'si' = cargo directivo previo en el mismo sector (ministro, viceministro, jefe de organismo o alto directivo sectorial, gerente de una entidad del sector) o experto reconocido en la materia; 'parcial' = alta gestión pública fuera del sector (ministro de otra cartera, gobernador, alcalde, congresista, alto directivo) o experiencia sectorial privada, gremial o municipal; 'no' = ninguna de las anteriores. Para la PCM, cuenta como 'si' haber sido ministro o haber dirigido un poder o una gran entidad pública (incluye alcalde de Lima y presidente del Congreso). FORMACIÓN: 'si' = título o posgrado en una disciplina directamente vinculada a la cartera; 'parcial' = disciplina afín o posgrado relacionado; 'no' = no vinculada; 'no_verificado' = sin fuente. INVESTIGACIÓN: 'si' = investigación fiscal o proceso judicial reportado públicamente al designarlo o dentro de los 100 días (incluye autodeclarados en la declaración jurada); 'no' = sin reporte hallado en una búsqueda dirigida (no prueba su inexistencia); 'no_verificado' = hay indicios sin fecha o fuente sólida. Una investigación NO es una condena. Los porcentajes excluyen los casos 'no_verificado' del denominador. Ventana: del día de la juramentación al día 100.",
+ "gabinetes": {
+  "garcia_2006": {
+   "presidente": "Alan García Pérez",
+   "premier": "Jorge del Castillo Gálvez",
+   "fecha": "2006-07-28",
+   "ventana_100d": "2006-07-28 a 2006-11-05",
+   "ministros": [
+    {
+     "cartera": "PCM",
+     "nombre": "Jorge del Castillo Gálvez",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://wikileaks.jcvignoli.com/cable_06LIMA3102"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Abogado (maestría en derecho constitucional); exalcalde de Lima (1987-89) y de Barranco; congresista desde 1990."
+    },
+    {
+     "cartera": "Relaciones Exteriores",
+     "nombre": "José Antonio García Belaunde",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://wikileaks.jcvignoli.com/cable_06LIMA3102"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Diplomático de carrera; exembajador; director-secretario de la Junta del Acuerdo de Cartagena."
+    },
+    {
+     "cartera": "Defensa",
+     "nombre": "Allan Wagner Tizón",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://wikileaks.jcvignoli.com/cable_06LIMA3102"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Diplomático; excanciller (1985-88, 2002-03), exembajador en EE.UU., secretario general de la CAN. Alta gestión pública, no en Defensa."
+    },
+    {
+     "cartera": "Economía y Finanzas",
+     "nombre": "Luis Carranza Ugarte",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Economista; según Infobae, exdirectivo del BCRP; exviceministro de Hacienda (dato de conocimiento general, no leído en la fuente)."
+    },
+    {
+     "cartera": "Interior",
+     "nombre": "Pilar Mazzetti Soler",
+     "experiencia": "parcial",
+     "formacion": "no",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://wikileaks.jcvignoli.com/cable_06LIMA3102"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Neuróloga; ministra de Salud hasta ese día. El cable de EE.UU. anota que no tenía experiencia en policía u orden interno."
+    },
+    {
+     "cartera": "Justicia",
+     "nombre": "María Zavala Valladares",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://m.scoop.co.nz/stories/WL0608/S00917/cablegate-bios-for-new-justice-labor-education-health.htm"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Abogada; ~25 años en la judicatura; presidenta de la Corte Superior de Lima."
+    },
+    {
+     "cartera": "Educación",
+     "nombre": "José Antonio Chang Escobedo",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://m.scoop.co.nz/stories/WL0608/S00917/cablegate-bios-for-new-justice-labor-education-health.htm"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Ingeniero industrial con maestría en educación; rector de la USMP (1996-2006)."
+    },
+    {
+     "cartera": "Salud",
+     "nombre": "Carlos Vallejos Sologuren",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://m.scoop.co.nz/stories/WL0608/S00917/cablegate-bios-for-new-justice-labor-education-health.htm"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Médico oncólogo; jefe del INEN desde 2002; exsecretario general del Minsa."
+    },
+    {
+     "cartera": "Agricultura",
+     "nombre": "Juan José Salazar García",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://m.scoop.co.nz/stories/WL0608/S00900/cablegate-bios-for-agriculture-energy-transport-housing.htm"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Ingeniero agrónomo; expresidente de la Región Nororiental del Marañón (1989-92); alcalde de Ferreñafe; productor agrícola."
+    },
+    {
+     "cartera": "Trabajo y Promoción del Empleo",
+     "nombre": "Susana Pinilla Cisneros",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://m.scoop.co.nz/stories/WL0608/S00917/cablegate-bios-for-new-justice-labor-education-health.htm"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Antropóloga con posgrado en administración y gobernabilidad; fundadora de entidades de microfinanzas y del sector informal; consultora de OIT/UNICEF."
+    },
+    {
+     "cartera": "Producción",
+     "nombre": "Rafael Rey Rey",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://www.exitosanoticias.pe/politica/gabinete-ministerial-quienes-son-ministros-asumen-carteras-gobierno-keiko-fujimori-n180511"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Ingeniero industrial; congresista en varios periodos (perfil tomado de una fuente de 2026)."
+    },
+    {
+     "cartera": "Comercio Exterior y Turismo",
+     "nombre": "Mercedes Aráoz Fernández",
+     "experiencia": "parcial",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/"
+     ],
+     "confianza": "baja",
+     "perfil_nota": "Economista (Infobae). Trayectoria en comercio e integración (BID) por conocimiento general; no se leyó un perfil."
+    },
+    {
+     "cartera": "Energía y Minas",
+     "nombre": "Juan Valdivia Romero",
+     "experiencia": "parcial",
+     "formacion": "no",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://m.scoop.co.nz/stories/WL0608/S00900/cablegate-bios-for-agriculture-energy-transport-housing.htm"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Arquitecto; congresista tres veces; presidió la Comisión de Energía y Minas (2005-06); exalcalde provincial del Santa."
+    },
+    {
+     "cartera": "Transportes y Comunicaciones",
+     "nombre": "Verónica Zavala Lombardi",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://m.scoop.co.nz/stories/WL0608/S00900/cablegate-bios-for-agriculture-energy-transport-housing.htm"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Abogada con MPA de Harvard; secretaria de Gestión Pública de la PCM; directora ejecutiva de FONAFE; directora de proyectos en COPRI."
+    },
+    {
+     "cartera": "Vivienda, Construcción y Saneamiento",
+     "nombre": "Hernán Garrido Lecca Montañez",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://m.scoop.co.nz/stories/WL0608/S00900/cablegate-bios-for-agriculture-energy-transport-housing.htm"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Economista (MPA Harvard, MIT); asesor económico en el primer gobierno de García; exfuncionario de la IFC; banca de inversión."
+    },
+    {
+     "cartera": "Mujer y Desarrollo Social",
+     "nombre": "Virginia Borra Toledo",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://www.infobae.com/2006/07/27/267938-alan-garcia-presento-su-primer-gabinete-ministros/",
+      "https://m.scoop.co.nz/stories/WL0608/S00917/cablegate-bios-for-new-justice-labor-education-health.htm"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Estudios de economía y educación con posgrado en administración social; exdirectora ejecutiva de un programa de asistencia directa de la PCM."
+    }
+   ],
+   "notas": [
+    "15 carteras más la PCM (el cable 06LIMA3102 habla de 16 ministros, contando al premier). Ambiente (2008), Cultura (2010) y Midis (2011) aún no existían.",
+    "No se identificaron salidas de ministros en la ventana (confianza media): Mazzetti, Wagner y otros salieron en 2007 o después."
+   ],
+   "agregados": {
+    "n_ministros_dia1_incl_premier": 16,
+    "pct_experiencia_si": 43.8,
+    "pct_experiencia_si_o_parcial": 100.0,
+    "n_validos_experiencia": 16,
+    "pct_formacion_si": 50.0,
+    "pct_formacion_si_o_parcial": 87.5,
+    "n_validos_formacion": 16,
+    "n_investigacion_reportada_si": 0,
+    "n_investigacion_no_verificado": 0,
+    "n_salidas_100d": 0,
+    "rotacion_premier_100d": 0,
+    "rotacion_premier_nota": "Del Castillo siguió hasta oct-2008."
+   }
+  },
+  "humala_2011": {
+   "presidente": "Ollanta Humala Tasso",
+   "premier": "Salomón Lerner Ghitis",
+   "fecha": "2011-07-28",
+   "ventana_100d": "2011-07-28 a 2011-11-05",
+   "ministros": [
+    {
+     "cartera": "PCM",
+     "nombre": "Salomón Lerner Ghitis",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala"
+     ],
+     "confianza": "baja",
+     "perfil_nota": "Empresario; líder de Ciudadanos por el Cambio. No se leyó un perfil sobre su paso por cargos públicos."
+    },
+    {
+     "cartera": "Relaciones Exteriores",
+     "nombre": "Rafael Roncagliolo Orbegoso",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala"
+     ],
+     "confianza": "baja",
+     "perfil_nota": "Sociólogo. Perfil por conocimiento general (sin cargo diplomático previo); no se leyó un perfil."
+    },
+    {
+     "cartera": "Defensa",
+     "nombre": "Daniel Mora Zevallos",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala",
+      "https://ihu.unisinos.br/noticias/45752-humala-se-rodeia-de-tecnocratas-e-toledistas"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Militar en retiro (IHU); congresista."
+    },
+    {
+     "cartera": "Economía y Finanzas",
+     "nombre": "Luis Miguel Castilla Rubio",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala",
+      "https://ihu.unisinos.br/noticias/45752-humala-se-rodeia-de-tecnocratas-e-toledistas"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Economista; exviceministro de Hacienda (2009-2011)."
+    },
+    {
+     "cartera": "Interior",
+     "nombre": "Óscar Valdés Dancuart",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala",
+      "https://ihu.unisinos.br/noticias/45752-humala-se-rodeia-de-tecnocratas-e-toledistas"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Teniente coronel en retiro y empresario (IHU)."
+    },
+    {
+     "cartera": "Justicia",
+     "nombre": "Francisco Eguiguren Praeli",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala"
+     ],
+     "confianza": "baja",
+     "perfil_nota": "Constitucionalista y académico reconocido (conocimiento general; no se leyó un perfil)."
+    },
+    {
+     "cartera": "Educación",
+     "nombre": "Patricia Salas O'Brien",
+     "experiencia": "si",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala"
+     ],
+     "confianza": "baja",
+     "perfil_nota": "Socióloga; expresidenta del Consejo Nacional de Educación (conocimiento general; no se leyó un perfil)."
+    },
+    {
+     "cartera": "Salud",
+     "nombre": "Alberto Tejada Noriega",
+     "experiencia": "parcial",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala",
+      "https://ihu.unisinos.br/noticias/45752-humala-se-rodeia-de-tecnocratas-e-toledistas"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Médico; exárbitro de fútbol; exalcalde (distrital)."
+    },
+    {
+     "cartera": "Agricultura",
+     "nombre": "Miguel Caillaux Zazzali",
+     "experiencia": "parcial",
+     "formacion": "no_verificado",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala",
+      "https://ihu.unisinos.br/noticias/45752-humala-se-rodeia-de-tecnocratas-e-toledistas",
+      "https://pdba.georgetown.edu/Executive/Peru/cabinet.html"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Empresario ganadero; presidente de la Asociación Nacional de Productores de Leche."
+    },
+    {
+     "cartera": "Trabajo y Promoción del Empleo",
+     "nombre": "Rudecindo Vega Carreazo",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala",
+      "https://ihu.unisinos.br/noticias/45752-humala-se-rodeia-de-tecnocratas-e-toledistas"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Exministro de Vivienda (2005, gobierno de Toledo)."
+    },
+    {
+     "cartera": "Producción",
+     "nombre": "Kurt Burneo Farfán",
+     "experiencia": "parcial",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala",
+      "https://ihu.unisinos.br/noticias/45752-humala-se-rodeia-de-tecnocratas-e-toledistas"
+     ],
+     "confianza": "baja",
+     "perfil_nota": "Economista (IHU). Exviceministro de Hacienda (conocimiento general; no verificado)."
+    },
+    {
+     "cartera": "Comercio Exterior y Turismo",
+     "nombre": "José Luis Silva Martinot",
+     "experiencia": "si",
+     "formacion": "no_verificado",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala",
+      "https://ihu.unisinos.br/noticias/45752-humala-se-rodeia-de-tecnocratas-e-toledistas"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Empresario exportador; presidente de ADEX (2007-2009)."
+    },
+    {
+     "cartera": "Energía y Minas",
+     "nombre": "Carlos Herrera Descalzi",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Ingeniero; exministro de Energía y Minas (2000-01)."
+    },
+    {
+     "cartera": "Transportes y Comunicaciones",
+     "nombre": "Carlos Paredes Rodríguez",
+     "experiencia": "parcial",
+     "formacion": "no_verificado",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala",
+      "https://ihu.unisinos.br/noticias/45752-humala-se-rodeia-de-tecnocratas-e-toledistas"
+     ],
+     "confianza": "baja",
+     "perfil_nota": "Empresario."
+    },
+    {
+     "cartera": "Vivienda, Construcción y Saneamiento",
+     "nombre": "René Cornejo Díaz",
+     "experiencia": "si",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala",
+      "https://ihu.unisinos.br/noticias/45752-humala-se-rodeia-de-tecnocratas-e-toledistas"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Exdirector de ProInversión."
+    },
+    {
+     "cartera": "Mujer y Desarrollo Social",
+     "nombre": "Aída García Naranjo Morales",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "En oct-2011 la prensa difundió un proceso judicial por presunta corrupción y colusión en agravio del Estado, originado en 1994 (gestión municipal de Lima de inicios de los 90), aún sin resolver. El Consejo de Ministros la respaldó. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala",
+      "https://panamericana.pe/politica/93557"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Dirigente del Partido Socialista; exregidora de Lima (conocimiento general)."
+    },
+    {
+     "cartera": "Ambiente",
+     "nombre": "Ricardo Giesecke Sara-Lafosse",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala",
+      "https://ihu.unisinos.br/noticias/45752-humala-se-rodeia-de-tecnocratas-e-toledistas"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Físico y ambientalista (IHU)."
+    },
+    {
+     "cartera": "Cultura",
+     "nombre": "Susana Baca de la Colina",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://en.wikipedia.org/wiki/Presidency_of_Ollanta_Humala"
+     ],
+     "confianza": "baja",
+     "perfil_nota": "Intérprete e investigadora de la música afroperuana; figura cultural reconocida. Formación en educación (conocimiento general)."
+    }
+   ],
+   "notas": [
+    "El Midis se creó el 20-oct-2011 y Carolina Trivelli juró el 21-oct: no es una ministra del día 1.",
+    "El gabinete Lerner no tuvo cambios hasta su renuncia el 10-dic-2011, fuera de la ventana.",
+    "Varios perfiles de este gabinete tienen confianza baja: no se encontró una nota de perfiles de 2011 legible."
+   ],
+   "agregados": {
+    "n_ministros_dia1_incl_premier": 18,
+    "pct_experiencia_si": 38.9,
+    "pct_experiencia_si_o_parcial": 100.0,
+    "n_validos_experiencia": 18,
+    "pct_formacion_si": 40.0,
+    "pct_formacion_si_o_parcial": 100.0,
+    "n_validos_formacion": 15,
+    "n_investigacion_reportada_si": 1,
+    "n_investigacion_no_verificado": 0,
+    "n_salidas_100d": 0,
+    "rotacion_premier_100d": 0,
+    "rotacion_premier_nota": "Lerner renunció el 10-dic-2011, fuera de la ventana."
+   }
+  },
+  "ppk_2016": {
+   "presidente": "Pedro Pablo Kuczynski",
+   "premier": "Fernando Zavala Lombardi",
+   "fecha": "2016-07-28",
+   "ventana_100d": "2016-07-28 a 2016-11-05",
+   "ministros": [
+    {
+     "cartera": "PCM",
+     "nombre": "Fernando Zavala Lombardi",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Economista (MBA); exministro de Economía (2005-06)."
+    },
+    {
+     "cartera": "Relaciones Exteriores",
+     "nombre": "Ricardo Luna Mendoza",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Diplomático de carrera; exrepresentante ante la ONU."
+    },
+    {
+     "cartera": "Defensa",
+     "nombre": "Mariano González Fernández",
+     "experiencia": "parcial",
+     "formacion": "no_verificado",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "Renunció el 28-nov-2016 (fuera de la ventana).",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Jefe del Gabinete de Asesores de la Alta Dirección del Mininter; parlamentario andino electo."
+    },
+    {
+     "cartera": "Economía y Finanzas",
+     "nombre": "Alfredo Thorne Vetter",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Economista (doctorado en Oxford); macroeconomista reconocido (Banco Mundial y banca de inversión)."
+    },
+    {
+     "cartera": "Interior",
+     "nombre": "Carlos Basombrío Iglesias",
+     "experiencia": "si",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Sociólogo y especialista en seguridad; exviceministro del Interior."
+    },
+    {
+     "cartera": "Justicia y Derechos Humanos",
+     "nombre": "Marisol Pérez Tello",
+     "experiencia": "parcial",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Abogada y notaria; excongresista."
+    },
+    {
+     "cartera": "Educación",
+     "nombre": "Jaime Saavedra Chanduví",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "Censurado el 17-dic-2016 (fuera de la ventana).",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Economista; ministro de Educación desde 2013 (continuó en el cargo)."
+    },
+    {
+     "cartera": "Salud",
+     "nombre": "Patricia García Funegra",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Médica con maestría en salud pública; decana de Salud Pública de la UPCH. Fue jefa del INS (conocimiento general)."
+    },
+    {
+     "cartera": "Agricultura y Riego",
+     "nombre": "José Manuel Hernández Calderón",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Agrónomo con maestría; 43 años de experiencia en desarrollo y planificación agraria."
+    },
+    {
+     "cartera": "Trabajo y Promoción del Empleo",
+     "nombre": "Alfonso Grados Carraro",
+     "experiencia": "no",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Administrador; gerente general del Instituto Libertad y Democracia."
+    },
+    {
+     "cartera": "Producción",
+     "nombre": "Bruno Giuffra Monteverde",
+     "experiencia": "parcial",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Economista; 25 años como empresario."
+    },
+    {
+     "cartera": "Comercio Exterior y Turismo",
+     "nombre": "Eduardo Ferreyros Küppers",
+     "experiencia": "si",
+     "formacion": "no_verificado",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Exministro (2010) y exviceministro de Comercio Exterior."
+    },
+    {
+     "cartera": "Energía y Minas",
+     "nombre": "Gonzalo Tamayo Flores",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Economista con estudios doctorales; especialista en regulación (sin cargos listados)."
+    },
+    {
+     "cartera": "Transportes y Comunicaciones",
+     "nombre": "Martín Vizcarra Cornejo",
+     "experiencia": "parcial",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Ingeniero civil; presidente regional de Moquegua (2011-14)."
+    },
+    {
+     "cartera": "Vivienda, Construcción y Saneamiento",
+     "nombre": "Edmer Trujillo Mori",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte en la ventana. Las investigaciones por el caso del hospital de Moquegua se reportaron a partir de 2019.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski",
+      "https://www.americatv.com.pe/noticias/actualidad/fiscalia-reabre-investigacion-edmer-trujillo-hospital-moquegua-n400756"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Ingeniero; más de 20 años en empresas de agua y saneamiento."
+    },
+    {
+     "cartera": "Mujer y Poblaciones Vulnerables",
+     "nombre": "Ana María Romero-Lozada Lauezzari",
+     "experiencia": "si",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Socióloga; exministra de la Mujer."
+    },
+    {
+     "cartera": "Ambiente",
+     "nombre": "Elsa Galarza Contreras",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Economista ambiental; directora del Centro de Investigación de la Universidad del Pacífico."
+    },
+    {
+     "cartera": "Cultura",
+     "nombre": "Jorge Nieto Montesinos",
+     "experiencia": "no",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Sociólogo y politólogo (sin cargos listados)."
+    },
+    {
+     "cartera": "Desarrollo e Inclusión Social",
+     "nombre": "Cayetana Aljovín Gazzani",
+     "experiencia": "no_verificado",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://elperuano.pe/noticia/43792-futuros-ministros-tienen-reconocida-trayectoria",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Pablo_Kuczynski"
+     ],
+     "confianza": "baja",
+     "perfil_nota": "Abogada con maestría en negocios (sin cargos listados en la fuente)."
+    }
+   ],
+   "notas": [
+    "Sin cambios de ministros en la ventana. Las primeras salidas fueron la de Mariano González (28-nov) y la censura de Saavedra (17-dic-2016)."
+   ],
+   "agregados": {
+    "n_ministros_dia1_incl_premier": 19,
+    "pct_experiencia_si": 61.1,
+    "pct_experiencia_si_o_parcial": 88.9,
+    "n_validos_experiencia": 18,
+    "pct_formacion_si": 64.7,
+    "pct_formacion_si_o_parcial": 100.0,
+    "n_validos_formacion": 17,
+    "n_investigacion_reportada_si": 0,
+    "n_investigacion_no_verificado": 0,
+    "n_salidas_100d": 0,
+    "rotacion_premier_100d": 0,
+    "rotacion_premier_nota": "Zavala siguió hasta sep-2017."
+   }
+  },
+  "castillo_2021": {
+   "presidente": "Pedro Castillo Terrones",
+   "premier": "Guido Bellido Ugarte",
+   "fecha": "2021-07-29",
+   "ventana_100d": "2021-07-29 a 2021-11-06",
+   "ministros": [
+    {
+     "cartera": "PCM",
+     "nombre": "Guido Bellido Ugarte",
+     "experiencia": "no",
+     "formacion": "parcial",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Al designarlo, la prensa informó de una investigación del Ministerio Público por presunta apología del terrorismo, por declaraciones públicas. Luego se reportaron pesquisas por lavado de activos y terrorismo. Él las atribuyó a una estrategia de desprestigio. No es una condena.",
+     "salio_100d": true,
+     "motivo_salida": "Renunció el 6-oct-2021 y lo reemplazó Mirtha Vásquez.",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://www.bloomberglinea.com/2021/07/30/castillo-tomo-juramento-del-gabinete-bellido-sin-carteras-de-economia-y-justicia-conoce-a-los-nuevos-ministros/",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/",
+      "https://diariocorreo.pe/politica/guido-bellido-no-se-va-pese-a-triple-investigacion-palacio-de-gobierno-noticia/",
+      "https://rpp.pe/politica/gobierno/cambios-en-el-gabinete-ministerial-cinco-claves-de-la-recomposicion-del-gobierno-de-pedro-castillo-noticia-1361763"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Ingeniero electrónico con maestría en economía; congresista electo; coordinador zonal del INEI."
+    },
+    {
+     "cartera": "Relaciones Exteriores",
+     "nombre": "Héctor Béjar Rivera",
+     "experiencia": "no",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": true,
+     "motivo_salida": "Renunció el 17-ago-2021 tras la controversia por declaraciones suyas de 2020 sobre la Marina.",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Abogado y sociólogo; docente de la PUCP; trabajó en SINAMOS en los años 70."
+    },
+    {
+     "cartera": "Defensa",
+     "nombre": "Walter Ayala Gonzales",
+     "experiencia": "no",
+     "formacion": "no",
+     "investigacion_reportada": "no_verificado",
+     "investigacion_detalle": "La investigación por presuntas irregularidades en ascensos militares se reportó hacia el fin de la ventana o después; no se verificó la fecha.",
+     "salio_100d": false,
+     "motivo_salida": "Renunció el 14-nov-2021 (fuera de la ventana).",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Abogado; juez desde 2007."
+    },
+    {
+     "cartera": "Economía y Finanzas",
+     "nombre": "Pedro Francke Ballvé",
+     "experiencia": "parcial",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Economista; exgerente general de EsSalud; exdirector ejecutivo de Foncodes. Juró el 30-jul-2021."
+    },
+    {
+     "cartera": "Interior",
+     "nombre": "Juan Manuel Carrasco Millones",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "En ago-2021 el Ministerio Público abrió una indagación por presunta incompatibilidad: asumió el ministerio con licencia, sin renunciar a su plaza de fiscal provincial.",
+     "salio_100d": true,
+     "motivo_salida": "Salió en la recomposición del gabinete del 6-oct-2021, tras la renuncia del premier Bellido.",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/",
+      "https://www.ntn24.com/noticias-judicial/fiscalia-de-peru-investiga-a-ministro-del-interior-tras-recibir-licencia-137865",
+      "https://rpp.pe/politica/gobierno/cambios-en-el-gabinete-ministerial-cinco-claves-de-la-recomposicion-del-gobierno-de-pedro-castillo-noticia-1361763"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Abogado con maestría en derecho penal; fiscal provincial contra el crimen organizado en Lambayeque."
+    },
+    {
+     "cartera": "Justicia y Derechos Humanos",
+     "nombre": "Aníbal Torres Vásquez",
+     "experiencia": "parcial",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/",
+      "https://es.wikipedia.org/wiki/Gobierno_de_Pedro_Castillo"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Abogado y catedrático de derecho civil. Juró el 30-jul-2021."
+    },
+    {
+     "cartera": "Educación",
+     "nombre": "Juan Cadillo León",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": true,
+     "motivo_salida": "Salió en la recomposición del gabinete del 6-oct-2021, tras la renuncia del premier Bellido.",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/",
+      "https://rpp.pe/politica/gobierno/cambios-en-el-gabinete-ministerial-cinco-claves-de-la-recomposicion-del-gobierno-de-pedro-castillo-noticia-1361763"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Licenciado en educación con doctorado; presidente del directorio del Fondep desde 2019."
+    },
+    {
+     "cartera": "Salud",
+     "nombre": "Hernando Cevallos Flores",
+     "experiencia": "parcial",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Médico pediatra; exdecano del Colegio Médico de Piura; excongresista."
+    },
+    {
+     "cartera": "Desarrollo Agrario y Riego",
+     "nombre": "Víctor Maita Frisancho",
+     "experiencia": "parcial",
+     "formacion": "no",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Bachiller en derecho y ciencia política; dirigente gremial agrario (FARTAC, CNA)."
+    },
+    {
+     "cartera": "Trabajo y Promoción del Empleo",
+     "nombre": "Iber Maraví Olarte",
+     "experiencia": "parcial",
+     "formacion": "no",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "En ago-2021 la prensa difundió atestados policiales de 1981-82 de Ayacucho que lo mencionaban, y una requisitoria de la época. El ministro afirmó que fue absuelto o liberado judicialmente y que los testimonios se obtuvieron bajo tortura. Se trata de un proceso antiguo reportado dentro de la ventana, no de una condena.",
+     "salio_100d": true,
+     "motivo_salida": "Salió en la recomposición del gabinete del 6-oct-2021, tras la renuncia del premier Bellido. Antes, el Congreso admitió una interpelación en su contra (16-sep).",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://rpp.pe/politica/gobierno/iber-maravi-niega-responsabilidad-en-actos-terroristas-y-afirma-que-buscan-condenarlo-con-atestados-policiales-noticia-1354062",
+      "https://larepublica.pe/politica/2021/09/05/iber-maravi-si-tuvo-requisitoria-por-el-delito-de-terrorismo",
+      "https://rpp.pe/politica/gobierno/cambios-en-el-gabinete-ministerial-cinco-claves-de-la-recomposicion-del-gobierno-de-pedro-castillo-noticia-1361763"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Docente; dirigente gremial magisterial y regional en Ayacucho."
+    },
+    {
+     "cartera": "Producción",
+     "nombre": "Yván Quispe Apaza",
+     "experiencia": "parcial",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": true,
+     "motivo_salida": "Salió en la recomposición del gabinete del 6-oct-2021, tras la renuncia del premier Bellido.",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/",
+      "https://rpp.pe/politica/gobierno/cambios-en-el-gabinete-ministerial-cinco-claves-de-la-recomposicion-del-gobierno-de-pedro-castillo-noticia-1361763"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Ingeniero economista con maestría en economía; congresista (2020-21)."
+    },
+    {
+     "cartera": "Comercio Exterior y Turismo",
+     "nombre": "Roberto Sánchez Palomino",
+     "experiencia": "parcial",
+     "formacion": "no",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Su declaración jurada consignaba procesos fiscales, entre ellos uno por presunto fraude administrativo. Según la prensa, en oct-2021 fue incluido en una pesquisa por presunto financiamiento ilícito de campañas.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://panamericana.pe/24horas/politica/364243-roberto-sanchez-fiscalia-incluye-investigacion-pedro-castillo-ministro-mincetur/amp",
+      "https://diariocorreo.pe/politica/el-gabinete-tiene-siete-ministros-en-manos-de-fiscalia-noticia/"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Psicólogo social; gerente de administración de Sisol; director en Concytec."
+    },
+    {
+     "cartera": "Energía y Minas",
+     "nombre": "Iván Merino Aguirre",
+     "experiencia": "no",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": true,
+     "motivo_salida": "Salió en la recomposición del gabinete del 6-oct-2021, tras la renuncia del premier Bellido.",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/",
+      "https://rpp.pe/politica/gobierno/cambios-en-el-gabinete-ministerial-cinco-claves-de-la-recomposicion-del-gobierno-de-pedro-castillo-noticia-1361763"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Economista; gerente general de una consultora privada."
+    },
+    {
+     "cartera": "Transportes y Comunicaciones",
+     "nombre": "Juan Francisco Silva Villegas",
+     "experiencia": "no",
+     "formacion": "no",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte en la ventana. Las investigaciones en su contra son de 2022.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Bachiller en educación; director de colegio."
+    },
+    {
+     "cartera": "Vivienda, Construcción y Saneamiento",
+     "nombre": "Geiner Alvarado López",
+     "experiencia": "parcial",
+     "formacion": "no_verificado",
+     "investigacion_reportada": "no_verificado",
+     "investigacion_detalle": "La prensa reportó en 2022 investigaciones consignadas en su declaración jurada (negociación incompatible y otras). No se verificó si ya figuraban al asumir en 2021.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/",
+      "https://diariocorreo.pe/politica/el-gabinete-tiene-siete-ministros-en-manos-de-fiscalia-noticia/"
+     ],
+     "confianza": "baja",
+     "perfil_nota": "Gerente de infraestructura en municipalidades provinciales (Chachapoyas, Luya)."
+    },
+    {
+     "cartera": "Cultura",
+     "nombre": "Ciro Gálvez Herrera",
+     "experiencia": "no",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": true,
+     "motivo_salida": "Salió en la recomposición del gabinete del 6-oct-2021, tras la renuncia del premier Bellido.",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/",
+      "https://rpp.pe/politica/gobierno/cambios-en-el-gabinete-ministerial-cinco-claves-de-la-recomposicion-del-gobierno-de-pedro-castillo-noticia-1361763"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Abogado con maestría en antropología jurídica; compositor; excandidato presidencial."
+    },
+    {
+     "cartera": "Ambiente",
+     "nombre": "Rubén Ramírez Mateo",
+     "experiencia": "no",
+     "formacion": "no",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Abogado; asesor en el Congreso."
+    },
+    {
+     "cartera": "Desarrollo e Inclusión Social",
+     "nombre": "Dina Boluarte Zegarra",
+     "experiencia": "no",
+     "formacion": "no",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según Correo (2022), en oct-2021 fue incluida en una pesquisa fiscal por presunto financiamiento ilícito de campañas partidarias. Confianza media: no se leyó la disposición fiscal.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/",
+      "https://diariocorreo.pe/politica/el-gabinete-tiene-siete-ministros-en-manos-de-fiscalia-noticia/"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Abogada; jefa de una oficina registral del Reniec."
+    },
+    {
+     "cartera": "Mujer y Poblaciones Vulnerables",
+     "nombre": "Anahí Durand Guevara",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "Sin reporte hallado en la búsqueda dirigida (ventana: designación + 100 días).",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://lacamara.pe/conoce-quienes-integran-el-gabinete-de-pedro-castillo/?print=pdf",
+      "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Socióloga con maestría en FLACSO; exdirectora de Políticas Indígenas del Ministerio de Cultura."
+    }
+   ],
+   "notas": [
+    "Bellido juró el 29-jul y la mayoría de ministros esa noche. Francke (MEF) y Torres (Justicia) juraron el 30-jul y se cuentan como gabinete inicial.",
+    "Luis Barranzuela (Interior, desde el 6-oct, renunció el 2-nov) no se cuenta: no era ministro del día 1.",
+    "Diario Correo (4-ago-2021) contó 13 ministros sin experiencia en gestión pública y 6 con ella."
+   ],
+   "agregados": {
+    "n_ministros_dia1_incl_premier": 19,
+    "pct_experiencia_si": 5.3,
+    "pct_experiencia_si_o_parcial": 57.9,
+    "n_validos_experiencia": 19,
+    "pct_formacion_si": 27.8,
+    "pct_formacion_si_o_parcial": 61.1,
+    "n_validos_formacion": 18,
+    "n_investigacion_reportada_si": 5,
+    "n_investigacion_no_verificado": 2,
+    "n_salidas_100d": 8,
+    "rotacion_premier_100d": 1,
+    "rotacion_premier_nota": "Bellido salió el 6-oct-2021 (unos 70 días) y lo reemplazó Mirtha Vásquez."
+   }
+  },
+  "keiko_2026": {
+   "presidente": "Keiko Fujimori Higuchi",
+   "premier": "Luis Fernando Galarreta Velarde",
+   "fecha": "2026-07-28",
+   "ventana_100d": "2026-07-28 a 2026-11-05",
+   "ministros": [
+    {
+     "cartera": "PCM",
+     "nombre": "Luis Fernando Galarreta Velarde",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): investigaciones por lavado de activos, abuso de autoridad y organización criminal; antes, indagaciones por fraude electoral y nombramiento ilegal. Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://caretas.pe/politica/lista-de-ministros-de-keiko-fujimori-confirmada-al-28-de-julio-perfiles/",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Abogado; excongresista y expresidente del Congreso (2017-18)."
+    },
+    {
+     "cartera": "Relaciones Exteriores",
+     "nombre": "Alfonso Carlos Espá y Garcés-Alvear",
+     "experiencia": "no",
+     "formacion": "parcial",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): un caso por presunto cohecho. Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://www.exitosanoticias.pe/politica/gabinete-ministerial-quienes-son-ministros-asumen-carteras-gobierno-keiko-fujimori-n180511",
+      "https://gestion.pe/peru/politica/carlos-espa-hoja-de-vida-y-perfil-del-nuevo-canciller-noticia/",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Abogado (PUCP) y magíster; periodista y comunicador; excandidato presidencial. No es diplomático de carrera (Gestión), aunque Caretas lo describe así: dato en conflicto."
+    },
+    {
+     "cartera": "Defensa",
+     "nombre": "Rafael Jorge Belaunde Llosa",
+     "experiencia": "parcial",
+     "formacion": "no",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): se menciona un caso. Según la nota, uno se originó en un error del BBVA con una firma falsificada, del que él dice haber sido víctima. No se detalla el delito. Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://www.exitosanoticias.pe/politica/gabinete-ministerial-quienes-son-ministros-asumen-carteras-gobierno-keiko-fujimori-n180511",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Economista y empresario; exministro de Energía y Minas (2020)."
+    },
+    {
+     "cartera": "Economía y Finanzas",
+     "nombre": "Elmer Rafael Cuba Bustinza",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "No figura entre los 15 ministros con investigaciones o procesos declarados que listan La República y N60.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://www.exitosanoticias.pe/politica/gabinete-ministerial-quienes-son-ministros-asumen-carteras-gobierno-keiko-fujimori-n180511",
+      "https://caretas.pe/politica/lista-de-ministros-de-keiko-fujimori-confirmada-al-28-de-julio-perfiles/"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Economista; exdirector del BCRP; socio de Macroconsult."
+    },
+    {
+     "cartera": "Interior",
+     "nombre": "César Augusto Astudillo Salcedo",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): una investigación por presunto peculado y un antecedente por lesiones graves. Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "La moción de censura (oct-2026) no prosperó.",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://caretas.pe/politica/lista-de-ministros-de-keiko-fujimori-confirmada-al-28-de-julio-perfiles/",
+      "https://www.exitosanoticias.pe/politica/gabinete-ministerial-quienes-son-ministros-asumen-carteras-gobierno-keiko-fujimori-n180511",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+     ],
+     "confianza": "media",
+     "perfil_nota": "General de división del Ejército en retiro; exjefe del Comando Conjunto de las FF.AA."
+    },
+    {
+     "cartera": "Justicia y Derechos Humanos",
+     "nombre": "Ernesto Julio Álvarez Miranda",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): acusaciones constitucionales en trámite, sin especificar el delito. Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://caretas.pe/politica/lista-de-ministros-de-keiko-fujimori-confirmada-al-28-de-julio-perfiles/",
+      "https://www.exitosanoticias.pe/politica/gabinete-ministerial-quienes-son-ministros-asumen-carteras-gobierno-keiko-fujimori-n180511",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Abogado constitucionalista; expresidente del Tribunal Constitucional."
+    },
+    {
+     "cartera": "Educación",
+     "nombre": "José Antonio Chang Escobedo",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): ocho procesos o investigaciones (usurpación de funciones, lavado de activos, delitos contra el patrimonio, asociación ilícita, entre otros). Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://caretas.pe/politica/lista-de-ministros-de-keiko-fujimori-confirmada-al-28-de-julio-perfiles/",
+      "https://www.exitosanoticias.pe/politica/gabinete-ministerial-quienes-son-ministros-asumen-carteras-gobierno-keiko-fujimori-n180511",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Ingeniero industrial y doctor en educación; exministro de Educación (2006-11), expremier y exrector de la USMP."
+    },
+    {
+     "cartera": "Salud",
+     "nombre": "Luis Williams Dyer Fernández",
+     "experiencia": "no",
+     "formacion": "no",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): investigaciones fiscales por presunta falsificación de documentos y dos por declaraciones falsas. Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://caretas.pe/politica/lista-de-ministros-de-keiko-fujimori-confirmada-al-28-de-julio-perfiles/",
+      "https://caretas.pe/politica/colegio-medico-cuestiona-designacion-de-luis-dyer-como-ministro-de-salud-por-falta-de-experiencia/",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Empresario del acero; estudió negocios internacionales; jefe de personeros de su partido en la campaña. El Colegio Médico objetó su falta de experiencia en salud."
+    },
+    {
+     "cartera": "Desarrollo Agrario y Riego",
+     "nombre": "Marco Antonio Vinelli Ruiz",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): diez investigaciones (delitos contra la administración pública, abuso de autoridad, negociación incompatible, concusión, cohecho). Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://caretas.pe/politica/lista-de-ministros-de-keiko-fujimori-confirmada-al-28-de-julio-perfiles/",
+      "https://www.exitosanoticias.pe/politica/gabinete-ministerial-quienes-son-ministros-asumen-carteras-gobierno-keiko-fujimori-n180511",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Economista con formación en finanzas (Exitosa); Caretas lo describe como ingeniero agrónomo (dato en conflicto). Directivo agroindustrial y consultor del BID, el Banco Mundial y el FIDA."
+    },
+    {
+     "cartera": "Trabajo y Promoción del Empleo",
+     "nombre": "Juan Manuel Sheput Moore",
+     "experiencia": "si",
+     "formacion": "parcial",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): casos por presunto tráfico de influencias y colusión agravada. Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://caretas.pe/politica/lista-de-ministros-de-keiko-fujimori-confirmada-al-28-de-julio-perfiles/",
+      "https://www.exitosanoticias.pe/politica/gabinete-ministerial-quienes-son-ministros-asumen-carteras-gobierno-keiko-fujimori-n180511",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Ingeniero industrial; exministro de Trabajo (dos periodos); excongresista."
+    },
+    {
+     "cartera": "Producción",
+     "nombre": "Juan Carlos Requejo Alemán",
+     "experiencia": "si",
+     "formacion": "no",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): diez investigaciones (abuso y resistencia a la autoridad, negociación incompatible, lavado de activos, delitos ambientales, cohecho pasivo). Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://www.udep.edu.pe/hoy/2026/07/mara-seminario-juan-carlos-requejo-y-rafael-rey-juramentan-como-ministros/",
+      "https://elperuano.pe/noticia/301300-juan-carlos-requejo-asume-la-cartera-del-ministerio-de-la-produccion",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Abogado (UDEP); viceministro de MYPE e Industria hasta el 28-jul-2026; exviceministro de Pesquería y de Trabajo."
+    },
+    {
+     "cartera": "Comercio Exterior y Turismo",
+     "nombre": "Rogers Martín Valencia Espinoza",
+     "experiencia": "si",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "No figura entre los 15 ministros con investigaciones o procesos declarados que listan La República y N60.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://caretas.pe/politica/lista-de-ministros-de-keiko-fujimori-confirmada-al-28-de-julio-perfiles/",
+      "https://www.exitosanoticias.pe/politica/gabinete-ministerial-quienes-son-ministros-asumen-carteras-gobierno-keiko-fujimori-n180511"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Administrador especializado en turismo; exviceministro de Turismo y exministro de Comercio Exterior y Turismo."
+    },
+    {
+     "cartera": "Energía y Minas",
+     "nombre": "Guillermo Shinno Huamaní",
+     "experiencia": "si",
+     "formacion": "si",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): entre 10 y 20 investigaciones, según la nota, sin precisar delitos. N60 dice que están en trámite administrativo. Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://www.energiaestrategica.com/es/notes/fujimori-asume-la-presidencia-de-peru-y-designa-a-guillermo-shinno-al-frente-de-energia-y-minas",
+      "https://www.gob.pe/institucion/minem/funcionarios/261414-guillermo-shinno-huamani",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Ingeniero mecánico (UNI) con MBA; viceministro de Minas (2012-16); exdirector general de Minería; exgerente de Osinergmin."
+    },
+    {
+     "cartera": "Transportes y Comunicaciones",
+     "nombre": "Rafael Rey Rey",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): un caso judicial por delito contra la fe pública. Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": true,
+     "motivo_salida": "Renunció el 18-sep-2026 por motivos de salud. Lo reemplazó José Tangherlini.",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://caretas.pe/politica/lista-de-ministros-de-keiko-fujimori-confirmada-al-28-de-julio-perfiles/",
+      "https://www.exitosanoticias.pe/politica/gabinete-ministerial-quienes-son-ministros-asumen-carteras-gobierno-keiko-fujimori-n180511",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/",
+      "https://www.infobae.com/peru/2026/09/18/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-razones-de-salud-me-impiden-continuar/"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Ingeniero industrial; exministro de Defensa y de la Producción; congresista en varios periodos."
+    },
+    {
+     "cartera": "Vivienda, Construcción y Saneamiento",
+     "nombre": "Mauricio Fernando Arnillas Gonzales",
+     "experiencia": "parcial",
+     "formacion": "si",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "La República informó que fue sentenciado a un año de pena suspendida por lesiones, tras un accidente de 1996. Él sostiene que una resolución de 2009 lo absolvió o rehabilitó. Su declaración jurada consigna además antecedentes por falsedad ideológica y estafa. N60 lo describe como una condena rehabilitada, no un caso abierto.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://caretas.pe/politica/lista-de-ministros-de-keiko-fujimori-confirmada-al-28-de-julio-perfiles/",
+      "https://larepublica.pe/politica/2026/07/29/mauricio-arnillas-nuevo-ministro-de-vivienda-de-keiko-fujimori-fue-sentenciado-por-lesiones-culposas-hnews-1361869",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Empresario inmobiliario; ingeniero o arquitecto (las fuentes difieren) con más de 30 años en el rubro."
+    },
+    {
+     "cartera": "Mujer y Poblaciones Vulnerables",
+     "nombre": "María Magdalena Seminario Marón",
+     "experiencia": "parcial",
+     "formacion": "no",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "No figura entre los 15 ministros con investigaciones o procesos declarados que listan La República y N60.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://www.udep.edu.pe/hoy/2026/07/mara-seminario-juan-carlos-requejo-y-rafael-rey-juramentan-como-ministros/",
+      "https://elperuano.pe/noticia/301297--maria-seminario-jura-como-nueva-ministra-de-la-mujer-y-poblaciones-vulnerables"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Administradora de empresas (UDEP) con máster en comunicación política; exviceministra de Turismo y exdirectora de Promperú."
+    },
+    {
+     "cartera": "Ambiente",
+     "nombre": "Vladimiro Huaroc Portocarrero",
+     "experiencia": "parcial",
+     "formacion": "no",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): 51 investigaciones (desobediencia y abuso de autoridad, colusión, peculado, negociación incompatible, entre otras), muchas probablemente ligadas a su gestión regional. Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://caretas.pe/politica/lista-de-ministros-de-keiko-fujimori-confirmada-al-28-de-julio-perfiles/",
+      "https://www.exitosanoticias.pe/politica/gabinete-ministerial-quienes-son-ministros-asumen-carteras-gobierno-keiko-fujimori-n180511",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Sociólogo; expresidente regional de Junín; exalto comisionado del Ejecutivo."
+    },
+    {
+     "cartera": "Cultura",
+     "nombre": "Alberto Ismael Beingolea Delgado",
+     "experiencia": "parcial",
+     "formacion": "no",
+     "investigacion_reportada": "si",
+     "investigacion_detalle": "Según su declaración jurada, reportada por La República y N60 (30/31-jul-2026): procesos por colusión agravada, lavado de activos y cohecho pasivo. Es información autodeclarada. Las notas no precisan el estado procesal y pueden incluir casos archivados. No es una condena.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://caretas.pe/politica/lista-de-ministros-de-keiko-fujimori-confirmada-al-28-de-julio-perfiles/",
+      "https://www.exitosanoticias.pe/politica/gabinete-ministerial-quienes-son-ministros-asumen-carteras-gobierno-keiko-fujimori-n180511",
+      "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+      "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+     ],
+     "confianza": "alta",
+     "perfil_nota": "Abogado y periodista; excongresista; excandidato presidencial."
+    },
+    {
+     "cartera": "Desarrollo e Inclusión Social",
+     "nombre": "Maritza Ivonne Canales Martínez",
+     "experiencia": "parcial",
+     "formacion": "parcial",
+     "investigacion_reportada": "no",
+     "investigacion_detalle": "No figura entre los 15 ministros con investigaciones o procesos declarados que listan La República y N60.",
+     "salio_100d": false,
+     "motivo_salida": "",
+     "fuentes": [
+      "https://andina.pe/agencia/noticia-estos-son-los-ministros-integran-gabinete-presidido-luis-galarreta-1085465.aspx",
+      "https://peru21.pe/politica/maritza-canales-nueva-ministra-del-midis-en-gobierno-de-fujimori/"
+     ],
+     "confianza": "media",
+     "perfil_nota": "Ingeniera en industrias alimentarias (UNALM) con maestrías en agronegocios y antropología social; trabajó en cooperación internacional; asesora en el Congreso; cargos de confianza en Cancillería."
+    }
+   ],
+   "notas": [
+    "Verificado al 7-nov-2026: Galarreta sigue como premier y la única baja es Rafael Rey (MTC, 18-sep-2026, salud).",
+    "Las investigaciones de 2026 provienen de las declaraciones juradas de intereses (obligatorias y públicas desde la Ley 31227 de 2021), que obligan a consignar procesos e investigaciones, incluso algunos concluidos. En 2006-2016 no había ese instrumento, así que la cifra de 2026 no es comparable directamente: mide más exhaustivamente."
+   ],
+   "agregados": {
+    "n_ministros_dia1_incl_premier": 19,
+    "pct_experiencia_si": 42.1,
+    "pct_experiencia_si_o_parcial": 89.5,
+    "n_validos_experiencia": 19,
+    "pct_formacion_si": 31.6,
+    "pct_formacion_si_o_parcial": 68.4,
+    "n_validos_formacion": 19,
+    "n_investigacion_reportada_si": 15,
+    "n_investigacion_no_verificado": 0,
+    "n_salidas_100d": 1,
+    "rotacion_premier_100d": 0,
+    "rotacion_premier_nota": "Galarreta seguía en el cargo al día 100."
+   }
+  }
+ },
+ "evaluaciones_externas": [
+  {
+   "gabinete": "castillo_2021",
+   "fuente": "Diario Correo",
+   "fecha": "2021-08-04",
+   "hallazgo": "13 ministros del gabinete Bellido sin experiencia en gestión pública; 6 con alguna experiencia (Francke, Boluarte, Durand, Quispe, Sánchez, Alvarado).",
+   "url": "https://diariocorreo.pe/politica/trece-ministros-no-tienen-experiencia-en-gestion-publica-guido-bellido-pedro-castillo-gabinete-ministerial-noticia/"
+  },
+  {
+   "gabinete": "castillo_2021",
+   "fuente": "El Comercio – ECData",
+   "fecha": "2021-11-08",
+   "hallazgo": "Balance de los 100 días: de 43 promesas, 3 cumplidas, 4 en proceso y 36 incumplidas. Mide promesas, no idoneidad; se cita como contexto.",
+   "url": "https://elcomercio.pe/peru/los-primeros-100-dias-de-pedro-castillo-el-85-de-las-promesas-no-se-cumplieron-especial-ec-data-salud-economia-educacion-trabajo-ecdata-noticia/"
+  },
+  {
+   "gabinete": "keiko_2026",
+   "fuente": "La República (sobre las declaraciones juradas)",
+   "fecha": "2026-07-30",
+   "hallazgo": "15 de 19 ministros declararon investigaciones o procesos, autoreportados y sin estado procesal precisado.",
+   "url": "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020"
+  },
+  {
+   "gabinete": "keiko_2026",
+   "fuente": "N60",
+   "fecha": "2026-07-31",
+   "hallazgo": "14 ministros con investigaciones o antecedentes según sus declaraciones juradas y hojas de vida. La nota advierte que lo de Arnillas es una condena rehabilitada.",
+   "url": "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+  },
+  {
+   "gabinete": "keiko_2026",
+   "fuente": "Colegio Médico del Perú (vía Caretas y La República)",
+   "fecha": "2026-07-29",
+   "hallazgo": "Cuestionó la designación del ministro de Salud, Luis Dyer, por falta de experiencia en el sector. La presidenta respondió que priorizó un perfil de gestión.",
+   "url": "https://caretas.pe/politica/colegio-medico-cuestiona-designacion-de-luis-dyer-como-ministro-de-salud-por-falta-de-experiencia/"
+  },
+  {
+   "gabinete": "garcia_2006",
+   "fuente": "Embajada de EE.UU. en Lima (cables 06LIMA3102 y 06LIMA3137, difundidos por WikiLeaks)",
+   "fecha": "2006-08",
+   "hallazgo": "Perfiles del gabinete. Anota que Mazzetti (Interior) no tenía experiencia en temas policiales y que Vallejos (Salud) tenía un perfil más clínico que de salud pública. Es una fuente gubernamental extranjera, no una evaluación independiente.",
+   "url": "https://wikileaks.jcvignoli.com/cable_06LIMA3102"
+  },
+  {
+   "gabinete": "todos",
+   "fuente": "Proética, IDL, Ojo Público, Convoca, Videnza, SERVIR",
+   "hallazgo": "No se encontró una evaluación sistemática de la idoneidad de estos cinco gabinetes. El presupuesto de búsqueda web se agotó antes de completar la revisión de Ojo Público y Convoca para 2021.",
+   "url": null
+  }
+ ],
+ "caveats": [
+  "Los perfiles con 'confianza: baja' (sobre todo del gabinete Lerner 2011 y algunos de 2006) se basan en una sola fuente o en conocimiento general no contrastado con un perfil leído. Conviene revisarlos antes de publicar.",
+  "La cifra de investigaciones NO es comparable entre gobiernos. En 2026 proviene de declaraciones juradas autoreportadas y exhaustivas (Ley 31227), que incluyen casos antiguos o archivados. En 2006-2016 solo se cuentan los casos que la prensa reportó, y en 2021 hay una mezcla. Un gabinete con más 'si' no es necesariamente menos íntegro.",
+  "Un 'no' en investigación significa que no se halló un reporte en una búsqueda dirigida, no que el caso no exista.",
+  "Ninguna investigación listada es una condena, salvo Arnillas: según la prensa, una sentencia de 1996 a pena suspendida, que él afirma rehabilitada o absuelta.",
+  "Las categorías 'si', 'parcial' y 'no' son un juicio codificado con un criterio explícito. Personas razonables pueden discrepar en los casos frontera (por ejemplo, un militar en Interior o un expresidente regional en MTC).",
+  "Gabinete 2006: Rafael Rey aparece como 'Rafel Rey' en Infobae; su perfil se tomó de una fuente de 2026.",
+  "Gabinete 2026: hay datos en conflicto entre fuentes sobre Espá (diplomático de carrera según Caretas, comunicador y abogado según Gestión), Vinelli (economista o agrónomo) y Arnillas (ingeniero o arquitecto). Se usó la lectura más prudente.",
+  "Se agotó el presupuesto de búsquedas web antes de terminar. No se revisaron directamente Ojo Público, Convoca, Proética ni Videnza para 2021 y 2016.",
+  "Solo se usaron datos de los funcionarios en su rol público. No se incluyen datos personales sensibles."
+ ]
+}

@@ -21,14 +21,15 @@
     <a class="brand" href="#inicio">100 días</a>
     <nav class="nav" aria-label="Secciones">
       <a href="#conclusion">Conclusión</a>
+      <a href="#semaforo">Semáforo</a>
       <a href="#veredictos">Veredictos</a>
       <a href="#mensaje">Mensaje 100 días</a>
       <a href="#promesas">Promesas</a>
       <a href="#valor">Valor público</a>
       <a href="#resultados">Resultados</a>
       <a href="#gobernabilidad">Gobernabilidad</a>
-      <a href="#economia">Economía</a>
       <a href="#estado">Estado</a>
+      <a href="#economia">Mercados</a>
       <a href="#planes">Planes</a>
       <a href="#linea">Línea de tiempo</a>
       <a href="#videos">Videos</a>
@@ -54,13 +55,13 @@
       <div class="sec-head">
         <h2>La conclusión, sin relato</h2>
       </div>
-      <p class="verdict-lede">Los dos llegan al día 100 sin resultados de valor público medibles, igual que todos los gobiernos desde 2006. Pero <em>igual de malos</em> no se sostiene con los datos: fallaron en cosas distintas. Castillo, en gobernabilidad. Keiko, en cumplir su propia hoja de 100 días y en sostener la confianza que recibió.</p>
+      <p class="verdict-lede">Los dos llegan al día 100 sin resultados de valor público medibles, igual que todos los gobiernos desde 2006. En nuestro índice quedan prácticamente empatados en naranja: <b>Castillo 40,6 y Keiko 40,3 sobre 100</b> (PPK 49,6). <em>Igual de malos</em> en el total, pero por razones opuestas: Castillo falló en gobernabilidad e idoneidad del gabinete; Keiko, en cumplir su propia hoja de 100 días y en sostener la confianza que recibió.</p>
 
       <div class="hyp">
         <div class="hyp-row">
-          <span class="stamp v-warn"><span class="ic" aria-hidden="true">!</span>Engañoso</span>
+          <span class="stamp v-ok"><span class="ic" aria-hidden="true">✓</span>Cierto en el total</span>
           <div><h3>«Los 100 días de ambos gobiernos son igual de malos»</h3>
-          <p>Son malos de forma diferente. Castillo: 2 premieres, 9 ministros salientes, 2 votos de confianza ajustados y 60 proyectos de ley, de los cuales solo 6 eran de política sustantiva. Keiko: gabinete estable con 1 cambio y facultades delegadas, pero 0 de sus 67 acciones de 100 días acreditadas con una norma y la mayor caída de aprobación de los cinco gobiernos comparados.</p></div>
+          <p>En el índice de los 100 días empatan (40,6 frente a 40,3; con pesos iguales, 42,0 frente a 42,3), pero la composición es opuesta. Castillo: 2 premieres, 9 ministros salientes, 2 votos de confianza ajustados y 60 proyectos de ley, de los cuales solo 6 eran de política sustantiva. Keiko: gabinete estable con 1 cambio y facultades delegadas, pero 0 de sus 67 acciones de 100 días acreditadas con una norma y la mayor caída de aprobación de los cinco gobiernos comparados.</p></div>
         </div>
         <div class="hyp-row">
           <span class="stamp v-warn"><span class="ic" aria-hidden="true">!</span>Cierto, pero prematuro</span>
@@ -109,6 +110,22 @@
         </div>
       </div>
       <p class="note">Aprobación a los ~100 días (Ipsos/Apoyo), como vara histórica: García 63 → 57, Humala 55 → 56, PPK 61 → 51, Castillo 38 → 35, Keiko 57 → 40. Todo el detalle y las fuentes están en las secciones siguientes.</p>
+    </div>
+  </section>
+
+  <section class="block" id="semaforo">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Semáforo de los 100 días</h2>
+        <p>Un índice propio basado en promesas e indicadores medibles en 100 días, inspirado en marcos internacionales (seguimiento de promesas tipo PolitiFact, gestión para resultados del BID, gobernanza del Banco Mundial). Al lado, el país que recibió cada gobierno según los índices internacionales anuales.</p>
+      </div>
+      <div class="legend" id="semLegend"></div>
+      <h3 class="group-h">Índice de los 100 días</h3>
+      <div id="semIndice"><p class="empty">Calculando…</p></div>
+      <h3 class="group-h">El país que recibieron: índices internacionales</h3>
+      <p class="note" style="margin-top:-6px">Año previo a asumir → primer año de gobierno. Estos índices son anuales: miden el contexto heredado y el primer año, no los 100 días.</p>
+      <div id="semIntl"><p class="empty">Cargando…</p></div>
+      <div id="semMetodo"></div>
     </div>
   </section>
 
@@ -186,18 +203,6 @@
     </div>
   </section>
 
-  <section class="block" id="economia">
-    <div class="wrap">
-      <div class="sec-head">
-        <h2>Lo que dijeron los mercados</h2>
-        <p>Cada serie está indexada a 100 el día en que asumió el gobierno, para que las cinco ventanas se puedan leer en un mismo eje. Los mercados también reaccionan al contexto global (la Fed, el cobre, China), no solo al presidente.</p>
-      </div>
-      <div class="seg" id="ecoSeg" role="group" aria-label="Gobiernos visibles"></div>
-      <div class="charts" id="ecoCharts"></div>
-      <div class="tbl-wrap" style="margin-top:36px"><table id="ecoTable"></table></div>
-    </div>
-  </section>
-
   <section class="block" id="estado">
     <div class="wrap">
       <div class="sec-head">
@@ -205,6 +210,18 @@
         <p>Ejecución del presupuesto, obras paralizadas y conflictos sociales. Es la maquinaria que convierte las promesas en servicios.</p>
       </div>
       <div id="estadoBody"><p class="empty">Cargando…</p></div>
+    </div>
+  </section>
+
+  <section class="block" id="economia">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Mercados (contexto)</h2>
+        <p>Cada serie está indexada a 100 el día en que asumió el gobierno, para que las cinco ventanas se puedan leer en un mismo eje. Los mercados también reaccionan al contexto global (la Fed, el cobre, China), no solo al presidente.</p>
+      </div>
+      <div class="seg" id="ecoSeg" role="group" aria-label="Gobiernos visibles"></div>
+      <div class="charts" id="ecoCharts"></div>
+      <div class="tbl-wrap" style="margin-top:36px"><table id="ecoTable"></table></div>
     </div>
   </section>
 

@@ -1,0 +1,2729 @@
+{
+ "generado": "2026-11-07",
+ "descripcion": "Valores de Perú en índices internacionales de gobernanza, corrupción y democracia, 2005-2026, y comparación por gobierno.",
+ "scripts": [
+  "etl/intl_gob_wgi.py",
+  "etl/intl_gob_cpi.py",
+  "etl/intl_gob_rsf.py",
+  "etl/intl_gob_wjp.py",
+  "etl/intl_gob_bti.py",
+  "etl/intl_gob_build.py"
+ ],
+ "indices": [
+  {
+   "id": "wgi_cc_est",
+   "nombre": "WGI – Control de la corrupción (estimación (aprox. -2.5 a +2.5))",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "dimension": "corrupcion",
+   "escala": {
+    "min": -2.5,
+    "max": 2.5,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_CC.EST?format=json&per_page=100&source=3",
+   "serie": {
+    "2005": -0.4,
+    "2006": -0.262,
+    "2007": -0.355,
+    "2008": -0.304,
+    "2009": -0.385,
+    "2010": -0.26,
+    "2011": -0.247,
+    "2012": -0.362,
+    "2013": -0.401,
+    "2014": -0.583,
+    "2015": -0.593,
+    "2016": -0.507,
+    "2017": -0.592,
+    "2018": -0.594,
+    "2019": -0.49,
+    "2020": -0.498,
+    "2021": -0.51,
+    "2022": -0.643,
+    "2023": -0.648,
+    "2024": -0.711,
+    "2025": -0.755,
+    "2026": null
+   },
+   "nota": "Código API GOV_WGI_CC.EST (los códigos CC.EST / CC.PER.RNK ya no existen: la API devuelve 'Invalid value'). Año = año de los datos. El percentil (PER.RNK) fue retirado del API source=3 en la revisión metodológica 2025; se usa el puntaje 0-100 (.SC). Último dato: 2025. La serie entera se re-estima en cada edición, por eso puede diferir de cifras publicadas antes."
+  },
+  {
+   "id": "wgi_cc_sc",
+   "nombre": "WGI – Control de la corrupción (puntaje 0-100 (nueva métrica de la edición 2025+, NO es el percentil))",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "dimension": "corrupcion",
+   "escala": {
+    "min": 0,
+    "max": 100,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_CC.SC?format=json&per_page=100&source=3",
+   "serie": {
+    "2005": 40.0,
+    "2006": 42.8,
+    "2007": 40.9,
+    "2008": 41.9,
+    "2009": 40.3,
+    "2010": 42.8,
+    "2011": 43.1,
+    "2012": 40.7,
+    "2013": 40.0,
+    "2014": 36.3,
+    "2015": 36.1,
+    "2016": 37.8,
+    "2017": 36.1,
+    "2018": 36.1,
+    "2019": 38.2,
+    "2020": 38.0,
+    "2021": 37.8,
+    "2022": 35.1,
+    "2023": 35.0,
+    "2024": 33.7,
+    "2025": 32.8,
+    "2026": null
+   },
+   "nota": "Código API GOV_WGI_CC.SC (los códigos CC.EST / CC.PER.RNK ya no existen: la API devuelve 'Invalid value'). Año = año de los datos. El percentil (PER.RNK) fue retirado del API source=3 en la revisión metodológica 2025; se usa el puntaje 0-100 (.SC). Último dato: 2025. La serie entera se re-estima en cada edición, por eso puede diferir de cifras publicadas antes."
+  },
+  {
+   "id": "wgi_ge_est",
+   "nombre": "WGI – Efectividad del gobierno (estimación (aprox. -2.5 a +2.5))",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "dimension": "efectividad",
+   "escala": {
+    "min": -2.5,
+    "max": 2.5,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_GE.EST?format=json&per_page=100&source=3",
+   "serie": {
+    "2005": -0.766,
+    "2006": -0.699,
+    "2007": -0.687,
+    "2008": -0.465,
+    "2009": -0.319,
+    "2010": -0.15,
+    "2011": -0.122,
+    "2012": -0.077,
+    "2013": -0.076,
+    "2014": -0.166,
+    "2015": -0.206,
+    "2016": -0.111,
+    "2017": -0.024,
+    "2018": -0.121,
+    "2019": 0.064,
+    "2020": -0.017,
+    "2021": 0.021,
+    "2022": -0.015,
+    "2023": -0.151,
+    "2024": -0.15,
+    "2025": -0.144,
+    "2026": null
+   },
+   "nota": "Código API GOV_WGI_GE.EST (los códigos CC.EST / CC.PER.RNK ya no existen: la API devuelve 'Invalid value'). Año = año de los datos. El percentil (PER.RNK) fue retirado del API source=3 en la revisión metodológica 2025; se usa el puntaje 0-100 (.SC). Último dato: 2025. La serie entera se re-estima en cada edición, por eso puede diferir de cifras publicadas antes."
+  },
+  {
+   "id": "wgi_ge_sc",
+   "nombre": "WGI – Efectividad del gobierno (puntaje 0-100 (nueva métrica de la edición 2025+, NO es el percentil))",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "dimension": "efectividad",
+   "escala": {
+    "min": 0,
+    "max": 100,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_GE.SC?format=json&per_page=100&source=3",
+   "serie": {
+    "2005": 36.7,
+    "2006": 38.0,
+    "2007": 38.3,
+    "2008": 42.8,
+    "2009": 45.8,
+    "2010": 49.3,
+    "2011": 49.8,
+    "2012": 50.8,
+    "2013": 50.8,
+    "2014": 49.0,
+    "2015": 48.1,
+    "2016": 50.1,
+    "2017": 51.9,
+    "2018": 49.9,
+    "2019": 53.7,
+    "2020": 52.0,
+    "2021": 52.8,
+    "2022": 52.0,
+    "2023": 49.2,
+    "2024": 49.3,
+    "2025": 49.4,
+    "2026": null
+   },
+   "nota": "Código API GOV_WGI_GE.SC (los códigos CC.EST / CC.PER.RNK ya no existen: la API devuelve 'Invalid value'). Año = año de los datos. El percentil (PER.RNK) fue retirado del API source=3 en la revisión metodológica 2025; se usa el puntaje 0-100 (.SC). Último dato: 2025. La serie entera se re-estima en cada edición, por eso puede diferir de cifras publicadas antes."
+  },
+  {
+   "id": "wgi_rl_est",
+   "nombre": "WGI – Estado de derecho (estimación (aprox. -2.5 a +2.5))",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "dimension": "estado_de_derecho",
+   "escala": {
+    "min": -2.5,
+    "max": 2.5,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_RL.EST?format=json&per_page=100&source=3",
+   "serie": {
+    "2005": -0.463,
+    "2006": -0.531,
+    "2007": -0.553,
+    "2008": -0.598,
+    "2009": -0.512,
+    "2010": -0.492,
+    "2011": -0.462,
+    "2012": -0.501,
+    "2013": -0.555,
+    "2014": -0.541,
+    "2015": -0.439,
+    "2016": -0.327,
+    "2017": -0.36,
+    "2018": -0.426,
+    "2019": -0.437,
+    "2020": -0.405,
+    "2021": -0.509,
+    "2022": -0.475,
+    "2023": -0.491,
+    "2024": -0.517,
+    "2025": -0.659,
+    "2026": null
+   },
+   "nota": "Código API GOV_WGI_RL.EST (los códigos CC.EST / CC.PER.RNK ya no existen: la API devuelve 'Invalid value'). Año = año de los datos. El percentil (PER.RNK) fue retirado del API source=3 en la revisión metodológica 2025; se usa el puntaje 0-100 (.SC). Último dato: 2025. La serie entera se re-estima en cada edición, por eso puede diferir de cifras publicadas antes."
+  },
+  {
+   "id": "wgi_rl_sc",
+   "nombre": "WGI – Estado de derecho (puntaje 0-100 (nueva métrica de la edición 2025+, NO es el percentil))",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "dimension": "estado_de_derecho",
+   "escala": {
+    "min": 0,
+    "max": 100,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_RL.SC?format=json&per_page=100&source=3",
+   "serie": {
+    "2005": 51.0,
+    "2006": 49.9,
+    "2007": 49.5,
+    "2008": 48.8,
+    "2009": 50.2,
+    "2010": 50.5,
+    "2011": 51.0,
+    "2012": 50.4,
+    "2013": 49.5,
+    "2014": 49.7,
+    "2015": 51.4,
+    "2016": 53.3,
+    "2017": 52.7,
+    "2018": 51.6,
+    "2019": 51.4,
+    "2020": 52.0,
+    "2021": 50.2,
+    "2022": 50.8,
+    "2023": 50.5,
+    "2024": 50.1,
+    "2025": 47.8,
+    "2026": null
+   },
+   "nota": "Código API GOV_WGI_RL.SC (los códigos CC.EST / CC.PER.RNK ya no existen: la API devuelve 'Invalid value'). Año = año de los datos. El percentil (PER.RNK) fue retirado del API source=3 en la revisión metodológica 2025; se usa el puntaje 0-100 (.SC). Último dato: 2025. La serie entera se re-estima en cada edición, por eso puede diferir de cifras publicadas antes."
+  },
+  {
+   "id": "wgi_rq_est",
+   "nombre": "WGI – Calidad regulatoria (estimación (aprox. -2.5 a +2.5))",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "dimension": "efectividad",
+   "escala": {
+    "min": -2.5,
+    "max": 2.5,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_RQ.EST?format=json&per_page=100&source=3",
+   "serie": {
+    "2005": 0.028,
+    "2006": 0.169,
+    "2007": 0.237,
+    "2008": 0.243,
+    "2009": 0.312,
+    "2010": 0.342,
+    "2011": 0.353,
+    "2012": 0.295,
+    "2013": 0.277,
+    "2014": 0.316,
+    "2015": 0.355,
+    "2016": 0.363,
+    "2017": 0.323,
+    "2018": 0.38,
+    "2019": 0.433,
+    "2020": 0.327,
+    "2021": 0.162,
+    "2022": 0.146,
+    "2023": 0.198,
+    "2024": 0.159,
+    "2025": 0.119,
+    "2026": null
+   },
+   "nota": "Código API GOV_WGI_RQ.EST (los códigos CC.EST / CC.PER.RNK ya no existen: la API devuelve 'Invalid value'). Año = año de los datos. El percentil (PER.RNK) fue retirado del API source=3 en la revisión metodológica 2025; se usa el puntaje 0-100 (.SC). Último dato: 2025. La serie entera se re-estima en cada edición, por eso puede diferir de cifras publicadas antes."
+  },
+  {
+   "id": "wgi_rq_sc",
+   "nombre": "WGI – Calidad regulatoria (puntaje 0-100 (nueva métrica de la edición 2025+, NO es el percentil))",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "dimension": "efectividad",
+   "escala": {
+    "min": 0,
+    "max": 100,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_RQ.SC?format=json&per_page=100&source=3",
+   "serie": {
+    "2005": 56.0,
+    "2006": 58.4,
+    "2007": 59.6,
+    "2008": 59.7,
+    "2009": 60.9,
+    "2010": 61.4,
+    "2011": 61.6,
+    "2012": 60.6,
+    "2013": 60.3,
+    "2014": 60.9,
+    "2015": 61.6,
+    "2016": 61.7,
+    "2017": 61.1,
+    "2018": 62.0,
+    "2019": 62.9,
+    "2020": 61.1,
+    "2021": 58.3,
+    "2022": 58.0,
+    "2023": 58.9,
+    "2024": 58.2,
+    "2025": 57.5,
+    "2026": null
+   },
+   "nota": "Código API GOV_WGI_RQ.SC (los códigos CC.EST / CC.PER.RNK ya no existen: la API devuelve 'Invalid value'). Año = año de los datos. El percentil (PER.RNK) fue retirado del API source=3 en la revisión metodológica 2025; se usa el puntaje 0-100 (.SC). Último dato: 2025. La serie entera se re-estima en cada edición, por eso puede diferir de cifras publicadas antes."
+  },
+  {
+   "id": "wgi_va_est",
+   "nombre": "WGI – Voz y rendición de cuentas (estimación (aprox. -2.5 a +2.5))",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "dimension": "libertades",
+   "escala": {
+    "min": -2.5,
+    "max": 2.5,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_VA.EST?format=json&per_page=100&source=3",
+   "serie": {
+    "2005": 0.183,
+    "2006": 0.199,
+    "2007": 0.212,
+    "2008": 0.327,
+    "2009": 0.273,
+    "2010": 0.302,
+    "2011": 0.331,
+    "2012": 0.365,
+    "2013": 0.267,
+    "2014": 0.258,
+    "2015": 0.306,
+    "2016": 0.316,
+    "2017": 0.342,
+    "2018": 0.392,
+    "2019": 0.379,
+    "2020": 0.388,
+    "2021": 0.258,
+    "2022": 0.152,
+    "2023": 0.121,
+    "2024": 0.014,
+    "2025": -0.054,
+    "2026": null
+   },
+   "nota": "Código API GOV_WGI_VA.EST (los códigos CC.EST / CC.PER.RNK ya no existen: la API devuelve 'Invalid value'). Año = año de los datos. El percentil (PER.RNK) fue retirado del API source=3 en la revisión metodológica 2025; se usa el puntaje 0-100 (.SC). Último dato: 2025. La serie entera se re-estima en cada edición, por eso puede diferir de cifras publicadas antes."
+  },
+  {
+   "id": "wgi_va_sc",
+   "nombre": "WGI – Voz y rendición de cuentas (puntaje 0-100 (nueva métrica de la edición 2025+, NO es el percentil))",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "dimension": "libertades",
+   "escala": {
+    "min": 0,
+    "max": 100,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_VA.SC?format=json&per_page=100&source=3",
+   "serie": {
+    "2005": 61.1,
+    "2006": 61.4,
+    "2007": 61.6,
+    "2008": 63.7,
+    "2009": 62.7,
+    "2010": 63.3,
+    "2011": 63.8,
+    "2012": 64.4,
+    "2013": 62.6,
+    "2014": 62.5,
+    "2015": 63.3,
+    "2016": 63.5,
+    "2017": 64.0,
+    "2018": 64.9,
+    "2019": 64.7,
+    "2020": 64.8,
+    "2021": 62.5,
+    "2022": 60.5,
+    "2023": 59.9,
+    "2024": 58.0,
+    "2025": 56.7,
+    "2026": null
+   },
+   "nota": "Código API GOV_WGI_VA.SC (los códigos CC.EST / CC.PER.RNK ya no existen: la API devuelve 'Invalid value'). Año = año de los datos. El percentil (PER.RNK) fue retirado del API source=3 en la revisión metodológica 2025; se usa el puntaje 0-100 (.SC). Último dato: 2025. La serie entera se re-estima en cada edición, por eso puede diferir de cifras publicadas antes."
+  },
+  {
+   "id": "wgi_pv_est",
+   "nombre": "WGI – Estabilidad política y ausencia de violencia (estimación (aprox. -2.5 a +2.5))",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "dimension": "democracia",
+   "escala": {
+    "min": -2.5,
+    "max": 2.5,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_PV.EST?format=json&per_page=100&source=3",
+   "serie": {
+    "2005": -0.889,
+    "2006": -0.699,
+    "2007": -0.532,
+    "2008": -0.664,
+    "2009": -0.898,
+    "2010": -0.751,
+    "2011": -0.644,
+    "2012": -0.676,
+    "2013": -0.687,
+    "2014": -0.41,
+    "2015": -0.326,
+    "2016": -0.177,
+    "2017": -0.223,
+    "2018": -0.168,
+    "2019": -0.093,
+    "2020": -0.31,
+    "2021": -0.347,
+    "2022": -0.667,
+    "2023": -0.725,
+    "2024": -0.542,
+    "2025": -0.497,
+    "2026": null
+   },
+   "nota": "Código API GOV_WGI_PV.EST (los códigos CC.EST / CC.PER.RNK ya no existen: la API devuelve 'Invalid value'). Año = año de los datos. El percentil (PER.RNK) fue retirado del API source=3 en la revisión metodológica 2025; se usa el puntaje 0-100 (.SC). Último dato: 2025. La serie entera se re-estima en cada edición, por eso puede diferir de cifras publicadas antes."
+  },
+  {
+   "id": "wgi_pv_sc",
+   "nombre": "WGI – Estabilidad política y ausencia de violencia (puntaje 0-100 (nueva métrica de la edición 2025+, NO es el percentil))",
+   "institucion": "Banco Mundial (Worldwide Governance Indicators)",
+   "dimension": "democracia",
+   "escala": {
+    "min": 0,
+    "max": 100,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://api.worldbank.org/v2/country/PER/indicator/GOV_WGI_PV.SC?format=json&per_page=100&source=3",
+   "serie": {
+    "2005": 50.0,
+    "2006": 53.4,
+    "2007": 56.3,
+    "2008": 54.0,
+    "2009": 49.9,
+    "2010": 52.5,
+    "2011": 54.3,
+    "2012": 53.8,
+    "2013": 53.6,
+    "2014": 58.4,
+    "2015": 59.9,
+    "2016": 62.5,
+    "2017": 61.7,
+    "2018": 62.7,
+    "2019": 64.0,
+    "2020": 60.2,
+    "2021": 59.5,
+    "2022": 53.9,
+    "2023": 52.9,
+    "2024": 56.1,
+    "2025": 56.9,
+    "2026": null
+   },
+   "nota": "Código API GOV_WGI_PV.SC (los códigos CC.EST / CC.PER.RNK ya no existen: la API devuelve 'Invalid value'). Año = año de los datos. El percentil (PER.RNK) fue retirado del API source=3 en la revisión metodológica 2025; se usa el puntaje 0-100 (.SC). Último dato: 2025. La serie entera se re-estima en cada edición, por eso puede diferir de cifras publicadas antes."
+  },
+  {
+   "id": "cpi_score",
+   "nombre": "Índice de Percepción de la Corrupción (CPI) – puntaje",
+   "institucion": "Transparency International",
+   "dimension": "corrupcion",
+   "escala": {
+    "min": 0,
+    "max": 100,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
+   "serie": {
+    "2005": 3.5,
+    "2006": 3.3,
+    "2007": 3.5,
+    "2008": 3.6,
+    "2009": 3.7,
+    "2010": 3.5,
+    "2011": 3.4,
+    "2012": 38,
+    "2013": 38,
+    "2014": 38,
+    "2015": 36,
+    "2016": 35,
+    "2017": 37,
+    "2018": 35,
+    "2019": 36,
+    "2020": 38,
+    "2021": 36,
+    "2022": 36,
+    "2023": 33,
+    "2024": 31,
+    "2025": 30,
+    "2026": null
+   },
+   "nota": "RUPTURA DE ESCALA: 2005-2011 en escala 0-10 (valores originales, p. ej. 3.5), 2012-2025 en 0-100. TI advierte que no son comparables (no basta multiplicar por 10). 2005-2011 de los CSV del archivo histórico transparency.org/en/cpi/<año>; 2012-2025 de la hoja 'CPI Historical' del XLSX oficial. Año = edición (publicada en enero-febrero del año siguiente). CPI 2026 se publicará ~feb-2027."
+  },
+  {
+   "id": "cpi_rank",
+   "nombre": "CPI – puesto en el ranking mundial",
+   "institucion": "Transparency International",
+   "dimension": "corrupcion",
+   "escala": {
+    "min": 1,
+    "max": 182,
+    "mejor": "bajo"
+   },
+   "fuente_url": "https://images.transparencycdn.org/images/CPI2025_Results.xlsx",
+   "serie": {
+    "2005": 65,
+    "2006": 70,
+    "2007": 72,
+    "2008": 72,
+    "2009": 75,
+    "2010": 87,
+    "2011": 80,
+    "2012": 83,
+    "2013": 83,
+    "2014": 85,
+    "2015": 88,
+    "2016": 101,
+    "2017": 96,
+    "2018": 105,
+    "2019": 101,
+    "2020": 94,
+    "2021": 105,
+    "2022": 101,
+    "2023": 121,
+    "2024": 127,
+    "2025": 130,
+    "2026": null
+   },
+   "nota": "Puesto (1 = menos corrupto). El número de países cambia cada año: 2005: 159, 2006: 163, 2007: 180, 2008: 180, 2009: 180, 2010: 178, 2011: 183, 2012: 176, 2013: 177, 2014: 175, 2015: 168, 2016: 176, 2017: 180, 2018: 180, 2019: 180, 2020: 180, 2021: 180, 2022: 180, 2023: 180, 2024: 180, 2025: 182."
+  },
+  {
+   "id": "vdem_libdem",
+   "nombre": "V-Dem – Índice de Democracia Liberal",
+   "institucion": "V-Dem Institute (Univ. de Gotemburgo), redistribuido por Our World in Data",
+   "dimension": "democracia",
+   "escala": {
+    "min": 0,
+    "max": 1,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://ourworldindata.org/grapher/liberal-democracy-index.csv?country=~PER&useColumnShortNames=true",
+   "serie": {
+    "2005": 0.659,
+    "2006": 0.652,
+    "2007": 0.647,
+    "2008": 0.65,
+    "2009": 0.649,
+    "2010": 0.658,
+    "2011": 0.67,
+    "2012": 0.698,
+    "2013": 0.689,
+    "2014": 0.691,
+    "2015": 0.688,
+    "2016": 0.673,
+    "2017": 0.677,
+    "2018": 0.698,
+    "2019": 0.694,
+    "2020": 0.706,
+    "2021": 0.66,
+    "2022": 0.621,
+    "2023": 0.572,
+    "2024": 0.501,
+    "2025": 0.506,
+    "2026": null
+   },
+   "nota": "Estimación central (best). Año = año evaluado. Último dato disponible en OWID: 2025. "
+  },
+  {
+   "id": "vdem_electdem",
+   "nombre": "V-Dem – Índice de Democracia Electoral",
+   "institucion": "V-Dem Institute (Univ. de Gotemburgo), redistribuido por Our World in Data",
+   "dimension": "democracia",
+   "escala": {
+    "min": 0,
+    "max": 1,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://ourworldindata.org/grapher/electoral-democracy-index.csv?country=~PER&useColumnShortNames=true",
+   "serie": {
+    "2005": 0.792,
+    "2006": 0.792,
+    "2007": 0.796,
+    "2008": 0.801,
+    "2009": 0.8,
+    "2010": 0.804,
+    "2011": 0.812,
+    "2012": 0.827,
+    "2013": 0.821,
+    "2014": 0.822,
+    "2015": 0.817,
+    "2016": 0.788,
+    "2017": 0.789,
+    "2018": 0.81,
+    "2019": 0.801,
+    "2020": 0.818,
+    "2021": 0.771,
+    "2022": 0.733,
+    "2023": 0.7,
+    "2024": 0.642,
+    "2025": 0.667,
+    "2026": null
+   },
+   "nota": "Estimación central (best). Año = año evaluado. Último dato disponible en OWID: 2025. "
+  },
+  {
+   "id": "vdem_corr",
+   "nombre": "V-Dem – Índice de Corrupción Política",
+   "institucion": "V-Dem Institute (Univ. de Gotemburgo), redistribuido por Our World in Data",
+   "dimension": "corrupcion",
+   "escala": {
+    "min": 0,
+    "max": 1,
+    "mejor": "bajo"
+   },
+   "fuente_url": "https://ourworldindata.org/grapher/political-corruption-index.csv?country=~PER&useColumnShortNames=true",
+   "serie": {
+    "2005": 0.519,
+    "2006": 0.531,
+    "2007": 0.533,
+    "2008": 0.533,
+    "2009": 0.533,
+    "2010": 0.544,
+    "2011": 0.506,
+    "2012": 0.518,
+    "2013": 0.54,
+    "2014": 0.54,
+    "2015": 0.524,
+    "2016": 0.527,
+    "2017": 0.522,
+    "2018": 0.51,
+    "2019": 0.526,
+    "2020": 0.534,
+    "2021": 0.525,
+    "2022": 0.622,
+    "2023": 0.576,
+    "2024": 0.619,
+    "2025": 0.63,
+    "2026": null
+   },
+   "nota": "Estimación central (best). Año = año evaluado. Último dato disponible en OWID: 2025. Más alto = MÁS corrupción."
+  },
+  {
+   "id": "eiu_democracy",
+   "nombre": "EIU Democracy Index – puntaje global",
+   "institucion": "Economist Intelligence Unit",
+   "dimension": "democracia",
+   "escala": {
+    "min": 0,
+    "max": 10,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index",
+   "serie": {
+    "2005": null,
+    "2006": 6.11,
+    "2007": null,
+    "2008": 6.31,
+    "2009": null,
+    "2010": 6.4,
+    "2011": 6.59,
+    "2012": 6.47,
+    "2013": 6.54,
+    "2014": 6.54,
+    "2015": 6.58,
+    "2016": 6.65,
+    "2017": 6.49,
+    "2018": 6.6,
+    "2019": 6.6,
+    "2020": 6.53,
+    "2021": 6.09,
+    "2022": 5.92,
+    "2023": 5.81,
+    "2024": 5.69,
+    "2025": 5.88,
+    "2026": null
+   },
+   "nota": "FUENTE SECUNDARIA: Our World in Data devuelve 403 (datos no redistribuibles) y la EIU exige registro; los valores vienen de la tabla de Wikipedia (que transcribe los informes EIU). Sin ediciones 2005, 2007 ni 2009 (el índice fue bienal hasta 2010). Ranking 2025: puesto 76. Desglose 2025: proceso electoral 8.75, funcionamiento del gobierno 5.71, participación 5.00, cultura política 2.50, libertades civiles 6.47."
+  },
+  {
+   "id": "eiu_regimen",
+   "nombre": "EIU Democracy Index – tipo de régimen",
+   "institucion": "Economist Intelligence Unit",
+   "dimension": "democracia",
+   "escala": {
+    "min": null,
+    "max": null,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://en.wikipedia.org/wiki/The_Economist_Democracy_Index",
+   "serie": {
+    "2005": null,
+    "2006": "Democracia defectuosa",
+    "2007": null,
+    "2008": "Democracia defectuosa",
+    "2009": null,
+    "2010": "Democracia defectuosa",
+    "2011": "Democracia defectuosa",
+    "2012": "Democracia defectuosa",
+    "2013": "Democracia defectuosa",
+    "2014": "Democracia defectuosa",
+    "2015": "Democracia defectuosa",
+    "2016": "Democracia defectuosa",
+    "2017": "Democracia defectuosa",
+    "2018": "Democracia defectuosa",
+    "2019": "Democracia defectuosa",
+    "2020": "Democracia defectuosa",
+    "2021": "Democracia defectuosa",
+    "2022": "Régimen híbrido",
+    "2023": "Régimen híbrido",
+    "2024": "Régimen híbrido",
+    "2025": "Régimen híbrido",
+    "2026": null
+   },
+   "nota": "Derivado de los umbrales EIU (>8 plena; >6 defectuosa; >4 híbrido; ≤4 autoritario). Wikipedia confirma 'Hybrid regime' para 2025; los años previos se derivan del puntaje."
+  },
+  {
+   "id": "fh_total",
+   "nombre": "Freedom House – Freedom in the World, puntaje total",
+   "institucion": "Freedom House",
+   "dimension": "libertades",
+   "escala": {
+    "min": 0,
+    "max": 100,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://ourworldindata.org/grapher/political-rights-score-fh.csv?country=~PER (+ civil-liberties-score-fh)",
+   "serie": {
+    "2005": 74,
+    "2006": 73,
+    "2007": 73,
+    "2008": 73,
+    "2009": 72,
+    "2010": 72,
+    "2011": 71,
+    "2012": 71,
+    "2013": 71,
+    "2014": 71,
+    "2015": 71,
+    "2016": 72,
+    "2017": 73,
+    "2018": 73,
+    "2019": 72,
+    "2020": 71,
+    "2021": 72,
+    "2022": 70,
+    "2023": 66,
+    "2024": 67,
+    "2025": 66,
+    "2026": null
+   },
+   "nota": "Total = derechos políticos (0-40) + libertades civiles (0-60), según los subpuntajes agregados de FH que redistribuye OWID. Año = AÑO CUBIERTO (la edición 'Freedom in the World 2026' cubre 2025). Verificado contra freedomhouse.org: 2025 = 66 (PR 27, CL 39; 'Partly Free'); 2024 = 67; 2020 = 71 (PR 29, CL 42; 'Partly Free'). FH publica el puntaje agregado de forma prominente desde ~2013; antes se usaban las calificaciones 1-7."
+  },
+  {
+   "id": "fh_status",
+   "nombre": "Freedom House – estatus",
+   "institucion": "Freedom House",
+   "dimension": "libertades",
+   "escala": {
+    "min": null,
+    "max": null,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://ourworldindata.org/grapher/political-regime-fh.csv?country=~PER&useColumnShortNames=true",
+   "serie": {
+    "2005": "Libre",
+    "2006": "Libre",
+    "2007": "Libre",
+    "2008": "Libre",
+    "2009": "Libre",
+    "2010": "Libre",
+    "2011": "Libre",
+    "2012": "Libre",
+    "2013": "Libre",
+    "2014": "Libre",
+    "2015": "Libre",
+    "2016": "Libre",
+    "2017": "Libre",
+    "2018": "Libre",
+    "2019": "Libre",
+    "2020": "Parcialmente libre",
+    "2021": "Libre",
+    "2022": "Parcialmente libre",
+    "2023": "Parcialmente libre",
+    "2024": "Parcialmente libre",
+    "2025": "Parcialmente libre",
+    "2026": null
+   },
+   "nota": "Libre / Parcialmente libre / No libre. Año = año cubierto. Perú pasó a 'Parcialmente libre' en 2020, volvió a 'Libre' en 2021 y es 'Parcialmente libre' desde 2022."
+  },
+  {
+   "id": "wjp_rol",
+   "nombre": "WJP Rule of Law Index – puntaje global",
+   "institucion": "World Justice Project",
+   "dimension": "estado_de_derecho",
+   "escala": {
+    "min": 0,
+    "max": 1,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/downloads/2025_wjp_rule_of_law_index_HISTORICAL_DATA_FILE.xlsx",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": null,
+    "2008": null,
+    "2009": null,
+    "2010": null,
+    "2011": null,
+    "2012": 0.5147,
+    "2013": null,
+    "2014": 0.4889,
+    "2015": 0.5059,
+    "2016": 0.5174,
+    "2017": 0.5236,
+    "2018": null,
+    "2019": 0.5068,
+    "2020": 0.4991,
+    "2021": 0.4893,
+    "2022": 0.4853,
+    "2023": 0.4863,
+    "2024": 0.4822,
+    "2025": 0.4766,
+    "2026": null
+   },
+   "nota": "Año = edición. La edición '2012-2013' se guarda en 2012 y la '2017-2018' en 2017 (no hubo ediciones 2013 ni 2018). Puntajes 2015-2017 re-estimados por WJP con la metodología 2017-18. No hay datos de Perú antes de 2012 en el archivo histórico oficial. Edición 2026 no encontrada al 7-nov-2026 (se usa 2025, publicada en oct-2025)."
+  },
+  {
+   "id": "wjp_rank",
+   "nombre": "WJP Rule of Law Index – puesto (calculado)",
+   "institucion": "World Justice Project",
+   "dimension": "estado_de_derecho",
+   "escala": {
+    "min": 1,
+    "max": 143,
+    "mejor": "bajo"
+   },
+   "fuente_url": "https://worldjusticeproject.org/rule-of-law-index/downloads/2025_wjp_rule_of_law_index_HISTORICAL_DATA_FILE.xlsx",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": null,
+    "2008": null,
+    "2009": null,
+    "2010": null,
+    "2011": null,
+    "2012": 55,
+    "2013": null,
+    "2014": 61,
+    "2015": 56,
+    "2016": 62,
+    "2017": 60,
+    "2018": null,
+    "2019": 67,
+    "2020": 73,
+    "2021": 81,
+    "2022": 81,
+    "2023": 79,
+    "2024": 89,
+    "2025": 90,
+    "2026": null
+   },
+   "nota": "Puesto CALCULADO por nosotros ordenando los puntajes (redondeados a 2 decimales) de cada hoja anual; puede diferir ±1 del puesto oficial. N.º de países: 2012: 97, 2014: 99, 2015: 102, 2016: 113, 2017: 113, 2019: 126, 2020: 128, 2021: 139, 2022: 140, 2023: 142, 2024: 142, 2025: 143."
+  },
+  {
+   "id": "rsf_score",
+   "nombre": "RSF – Clasificación Mundial de la Libertad de Prensa, puntaje",
+   "institucion": "Reporteros sin Fronteras",
+   "dimension": "libertades",
+   "escala": {
+    "min": 0,
+    "max": 100,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://rsf.org/sites/default/files/import_classement/{año}.csv",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": null,
+    "2008": null,
+    "2009": null,
+    "2010": null,
+    "2011": null,
+    "2012": null,
+    "2013": 68.13,
+    "2014": 68.3,
+    "2015": 68.79,
+    "2016": 70.01,
+    "2017": 69.02,
+    "2018": 69.73,
+    "2019": 69.78,
+    "2020": 69.06,
+    "2021": 68.29,
+    "2022": 61.75,
+    "2023": 52.74,
+    "2024": 47.76,
+    "2025": 42.88,
+    "2026": 37.86
+   },
+   "nota": "RUPTURA METODOLÓGICA en 2022: 2013-2021 (metodología antigua; en los CSV oficiales de RSF ya figura reexpresada como alto = mejor) NO es comparable con 2022-2026. Año = edición (publicada en abril-mayo; refleja sobre todo el año anterior). Los CSV anteriores a 2013 no están en esa ruta."
+  },
+  {
+   "id": "rsf_rank",
+   "nombre": "RSF – puesto en la clasificación",
+   "institucion": "Reporteros sin Fronteras",
+   "dimension": "libertades",
+   "escala": {
+    "min": 1,
+    "max": 180,
+    "mejor": "bajo"
+   },
+   "fuente_url": "https://rsf.org/sites/default/files/import_classement/{año}.csv",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": null,
+    "2008": null,
+    "2009": null,
+    "2010": null,
+    "2011": null,
+    "2012": null,
+    "2013": 105,
+    "2014": 104,
+    "2015": 92,
+    "2016": 84,
+    "2017": 90,
+    "2018": 88,
+    "2019": 85,
+    "2020": 90,
+    "2021": 91,
+    "2022": 77,
+    "2023": 110,
+    "2024": 125,
+    "2025": 130,
+    "2026": 144
+   },
+   "nota": "Sobre 179-180 países. 2026: puesto 144 (37.86); 2025: 130 (42.88) — coincide con rsf.org/en/country/peru."
+  },
+  {
+   "id": "bti_si",
+   "nombre": "BTI – Estado de la democracia",
+   "institucion": "Bertelsmann Stiftung (BTI)",
+   "dimension": "democracia",
+   "escala": {
+    "min": 1,
+    "max": 10,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://bti-project.org/fileadmin/api/content/en/downloads/data/BTI_2006-2026_Scores.xlsx",
+   "serie": {
+    "2005": null,
+    "2006": 6.85,
+    "2007": null,
+    "2008": 6.6,
+    "2009": null,
+    "2010": 6.7,
+    "2011": null,
+    "2012": 6.7,
+    "2013": null,
+    "2014": 6.75,
+    "2015": null,
+    "2016": 6.55,
+    "2017": null,
+    "2018": 6.6,
+    "2019": null,
+    "2020": 6.55,
+    "2021": null,
+    "2022": 6.45,
+    "2023": null,
+    "2024": 5.95,
+    "2025": null,
+    "2026": 5.85
+   },
+   "nota": "BIENAL. Año = EDICIÓN; la edición E evalúa el periodo 1-feb-(E-3) a 31-ene-(E-1) (p. ej., BTI 2026 = feb-2023 a ene-2025). Puestos del Status Index: 2026: 41, 2024: 36, 2022: 31, 2020: 29, 2018: 29, 2016: 31, 2014: 32, 2012: 34, 2010: 36, 2008: 38, 2006: 39; del Governance Index: 2026: 77, 2024: 72, 2022: 32, 2020: 39, 2018: 41, 2016: 51, 2014: 36, 2012: 41, 2010: 49, 2008: 38, 2006: 46."
+  },
+  {
+   "id": "bti_g",
+   "nombre": "BTI – Índice de gobernanza",
+   "institucion": "Bertelsmann Stiftung (BTI)",
+   "dimension": "efectividad",
+   "escala": {
+    "min": 1,
+    "max": 10,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://bti-project.org/fileadmin/api/content/en/downloads/data/BTI_2006-2026_Scores.xlsx",
+   "serie": {
+    "2005": null,
+    "2006": 5.35,
+    "2007": null,
+    "2008": 5.78,
+    "2009": null,
+    "2010": 5.65,
+    "2011": null,
+    "2012": 5.73,
+    "2013": null,
+    "2014": 5.94,
+    "2015": null,
+    "2016": 5.4,
+    "2017": null,
+    "2018": 5.81,
+    "2019": null,
+    "2020": 5.79,
+    "2021": null,
+    "2022": 5.77,
+    "2023": null,
+    "2024": 4.61,
+    "2025": null,
+    "2026": 4.45
+   },
+   "nota": "BIENAL. Año = EDICIÓN; la edición E evalúa el periodo 1-feb-(E-3) a 31-ene-(E-1) (p. ej., BTI 2026 = feb-2023 a ene-2025). Puestos del Status Index: 2026: 41, 2024: 36, 2022: 31, 2020: 29, 2018: 29, 2016: 31, 2014: 32, 2012: 34, 2010: 36, 2008: 38, 2006: 39; del Governance Index: 2026: 77, 2024: 72, 2022: 32, 2020: 39, 2018: 41, 2016: 51, 2014: 36, 2012: 41, 2010: 49, 2008: 38, 2006: 46."
+  },
+  {
+   "id": "bti_q15_3",
+   "nombre": "BTI – Política anticorrupción (pregunta 15.3)",
+   "institucion": "Bertelsmann Stiftung (BTI)",
+   "dimension": "corrupcion",
+   "escala": {
+    "min": 1,
+    "max": 10,
+    "mejor": "alto"
+   },
+   "fuente_url": "https://bti-project.org/fileadmin/api/content/en/downloads/data/BTI_2006-2026_Scores.xlsx",
+   "serie": {
+    "2005": null,
+    "2006": 4,
+    "2007": null,
+    "2008": 4,
+    "2009": null,
+    "2010": 4,
+    "2011": null,
+    "2012": 5,
+    "2013": null,
+    "2014": 6,
+    "2015": null,
+    "2016": 5,
+    "2017": null,
+    "2018": 5,
+    "2019": null,
+    "2020": 6,
+    "2021": null,
+    "2022": 6,
+    "2023": null,
+    "2024": 5,
+    "2025": null,
+    "2026": 5
+   },
+   "nota": "BIENAL. Año = EDICIÓN; la edición E evalúa el periodo 1-feb-(E-3) a 31-ene-(E-1) (p. ej., BTI 2026 = feb-2023 a ene-2025). Puestos del Status Index: 2026: 41, 2024: 36, 2022: 31, 2020: 29, 2018: 29, 2016: 31, 2014: 32, 2012: 34, 2010: 36, 2008: 38, 2006: 39; del Governance Index: 2026: 77, 2024: 72, 2022: 32, 2020: 39, 2018: 41, 2016: 51, 2014: 36, 2012: 41, 2010: 49, 2008: 38, 2006: 46."
+  },
+  {
+   "id": "contraloria_perjuicio",
+   "nombre": "Contraloría – perjuicio económico estimado por corrupción e inconducta funcional (S/ millones)",
+   "institucion": "Contraloría General de la República",
+   "dimension": "corrupcion",
+   "escala": {
+    "min": 0,
+    "max": null,
+    "mejor": "bajo"
+   },
+   "fuente_url": "https://www.infobae.com/america/peru/2022/07/06/peru-perdio-mas-de-24-mil-millones-de-soles-por-corrupcion-estimo-la-contraloria/",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": null,
+    "2008": null,
+    "2009": null,
+    "2010": null,
+    "2011": null,
+    "2012": null,
+    "2013": null,
+    "2014": null,
+    "2015": null,
+    "2016": null,
+    "2017": null,
+    "2018": null,
+    "2019": null,
+    "2020": null,
+    "2021": 24262,
+    "2022": null,
+    "2023": null,
+    "2024": null,
+    "2025": null,
+    "2026": null
+   },
+   "nota": "Solo se verificó 2021: 'alrededor de 24,262 millones de soles' ('13 de cada 100 soles'), presentación 'Balance del Control Gubernamental del Primer Semestre 2022 y Resultados de la Estimación de la Corrupción 2021' (contralor Nelson Shack, 6-jul-2022), vía Infobae. Otros años (estimación iniciada con datos de 2019) NO verificados: gob.pe bloquea la descarga automática (HTTP 418) y se agotó el presupuesto de búsquedas. Es una estimación, no una medición."
+  },
+  {
+   "id": "proetica_corrupcion_problema",
+   "nombre": "Proética – % que menciona la corrupción entre los principales problemas del país",
+   "institucion": "Proética (Encuesta Nacional sobre Percepciones de la Corrupción, trabajo de campo de Ipsos)",
+   "dimension": "corrupcion",
+   "escala": {
+    "min": 0,
+    "max": 100,
+    "mejor": "bajo"
+   },
+   "fuente_url": "https://www.proetica.org.pe/contenido/encuesta-nacional-sobre-percepciones-de-la-corrupcion-en-el-peru/",
+   "serie": {
+    "2005": null,
+    "2006": null,
+    "2007": null,
+    "2008": null,
+    "2009": null,
+    "2010": null,
+    "2011": null,
+    "2012": null,
+    "2013": 44,
+    "2014": null,
+    "2015": null,
+    "2016": null,
+    "2017": 52,
+    "2018": null,
+    "2019": 62,
+    "2020": null,
+    "2021": null,
+    "2022": null,
+    "2023": null,
+    "2024": null,
+    "2025": 67,
+    "2026": null
+   },
+   "nota": "Pregunta: '¿Cuáles son los tres principales problemas del país?' (respuesta múltiple; no es 'el principal problema'). 2013 y 2019: nota de la XI encuesta (2019, 'de 44% en 2013 a 62% en 2019'); 2017: X encuesta, PDF p. 21, total nacional (1,314 entrevistas, Ipsos, ago-2017); 2025: XIII encuesta (dic-2025), 'máximo histórico con un 67%' (cifra de la publicación de Proética embebida en la nota; confianza media). Ediciones 2006, 2008, 2010, 2012, 2015 y 2022 existen, pero no se extrajo el dato de forma verificable."
+  }
+ ],
+ "por_gobierno": {
+  "garcia_2006": {
+   "asume": "2006-07-28",
+   "indices": {
+    "wgi_cc_est": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": -0.4
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": -0.355
+     }
+    },
+    "wgi_cc_sc": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 40.0
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 40.9
+     }
+    },
+    "wgi_ge_est": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": -0.766
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": -0.687
+     }
+    },
+    "wgi_ge_sc": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 36.7
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 38.3
+     }
+    },
+    "wgi_rl_est": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": -0.463
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": -0.553
+     }
+    },
+    "wgi_rl_sc": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 51.0
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 49.5
+     }
+    },
+    "wgi_rq_est": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 0.028
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 0.237
+     }
+    },
+    "wgi_rq_sc": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 56.0
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 59.6
+     }
+    },
+    "wgi_va_est": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 0.183
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 0.212
+     }
+    },
+    "wgi_va_sc": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 61.1
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 61.6
+     }
+    },
+    "wgi_pv_est": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": -0.889
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": -0.532
+     }
+    },
+    "wgi_pv_sc": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 50.0
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 56.3
+     }
+    },
+    "cpi_score": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 3.5
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 3.5
+     }
+    },
+    "cpi_rank": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 65
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 72
+     }
+    },
+    "vdem_libdem": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 0.659
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 0.647
+     }
+    },
+    "vdem_electdem": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 0.792
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 0.796
+     }
+    },
+    "vdem_corr": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 0.519
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 0.533
+     }
+    },
+    "eiu_democracy": {
+     "recibio_anio": {
+      "anio": 2006,
+      "valor": 6.11
+     },
+     "primer_anio": {
+      "anio": 2008,
+      "valor": 6.31
+     },
+     "advertencias": [
+      "recibió usa 2006 (no hay 2005)",
+      "primer año usa 2008 (no hay 2007)"
+     ]
+    },
+    "eiu_regimen": {
+     "recibio_anio": {
+      "anio": 2006,
+      "valor": "Democracia defectuosa"
+     },
+     "primer_anio": {
+      "anio": 2008,
+      "valor": "Democracia defectuosa"
+     },
+     "advertencias": [
+      "recibió usa 2006 (no hay 2005)",
+      "primer año usa 2008 (no hay 2007)"
+     ]
+    },
+    "fh_total": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": 74
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": 73
+     }
+    },
+    "fh_status": {
+     "recibio_anio": {
+      "anio": 2005,
+      "valor": "Libre"
+     },
+     "primer_anio": {
+      "anio": 2007,
+      "valor": "Libre"
+     }
+    },
+    "wjp_rol": {
+     "recibio_anio": null,
+     "primer_anio": null
+    },
+    "wjp_rank": {
+     "recibio_anio": null,
+     "primer_anio": null
+    },
+    "rsf_score": {
+     "recibio_anio": null,
+     "primer_anio": null
+    },
+    "rsf_rank": {
+     "recibio_anio": null,
+     "primer_anio": null
+    },
+    "bti_si": {
+     "recibio_anio": {
+      "anio": 2006,
+      "valor": 6.85
+     },
+     "primer_anio": {
+      "anio": 2010,
+      "valor": 6.7
+     },
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "bti_g": {
+     "recibio_anio": {
+      "anio": 2006,
+      "valor": 5.35
+     },
+     "primer_anio": {
+      "anio": 2010,
+      "valor": 5.65
+     },
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "bti_q15_3": {
+     "recibio_anio": {
+      "anio": 2006,
+      "valor": 4
+     },
+     "primer_anio": {
+      "anio": 2010,
+      "valor": 4
+     },
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "contraloria_perjuicio": {
+     "recibio_anio": null,
+     "primer_anio": null
+    },
+    "proetica_corrupcion_problema": {
+     "recibio_anio": null,
+     "primer_anio": null
+    }
+   }
+  },
+  "humala_2011": {
+   "asume": "2011-07-28",
+   "indices": {
+    "wgi_cc_est": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": -0.26
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": -0.362
+     }
+    },
+    "wgi_cc_sc": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 42.8
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 40.7
+     }
+    },
+    "wgi_ge_est": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": -0.15
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": -0.077
+     }
+    },
+    "wgi_ge_sc": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 49.3
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 50.8
+     }
+    },
+    "wgi_rl_est": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": -0.492
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": -0.501
+     }
+    },
+    "wgi_rl_sc": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 50.5
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 50.4
+     }
+    },
+    "wgi_rq_est": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 0.342
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 0.295
+     }
+    },
+    "wgi_rq_sc": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 61.4
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 60.6
+     }
+    },
+    "wgi_va_est": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 0.302
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 0.365
+     }
+    },
+    "wgi_va_sc": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 63.3
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 64.4
+     }
+    },
+    "wgi_pv_est": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": -0.751
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": -0.676
+     }
+    },
+    "wgi_pv_sc": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 52.5
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 53.8
+     }
+    },
+    "cpi_score": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 3.5
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 38
+     },
+     "advertencias": [
+      "ruptura de escala CPI entre ambos valores"
+     ]
+    },
+    "cpi_rank": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 87
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 83
+     }
+    },
+    "vdem_libdem": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 0.658
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 0.698
+     }
+    },
+    "vdem_electdem": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 0.804
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 0.827
+     }
+    },
+    "vdem_corr": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 0.544
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 0.518
+     }
+    },
+    "eiu_democracy": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 6.4
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 6.47
+     }
+    },
+    "eiu_regimen": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": "Democracia defectuosa"
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": "Democracia defectuosa"
+     }
+    },
+    "fh_total": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": 72
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 71
+     }
+    },
+    "fh_status": {
+     "recibio_anio": {
+      "anio": 2010,
+      "valor": "Libre"
+     },
+     "primer_anio": {
+      "anio": 2012,
+      "valor": "Libre"
+     }
+    },
+    "wjp_rol": {
+     "recibio_anio": null,
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 0.5147
+     }
+    },
+    "wjp_rank": {
+     "recibio_anio": null,
+     "primer_anio": {
+      "anio": 2012,
+      "valor": 55
+     }
+    },
+    "rsf_score": {
+     "recibio_anio": null,
+     "primer_anio": {
+      "anio": 2013,
+      "valor": 68.13
+     },
+     "advertencias": [
+      "primer año usa 2013 (no hay 2012)"
+     ]
+    },
+    "rsf_rank": {
+     "recibio_anio": null,
+     "primer_anio": {
+      "anio": 2013,
+      "valor": 105
+     },
+     "advertencias": [
+      "primer año usa 2013 (no hay 2012)"
+     ]
+    },
+    "bti_si": {
+     "recibio_anio": {
+      "anio": 2012,
+      "valor": 6.7
+     },
+     "primer_anio": {
+      "anio": 2014,
+      "valor": 6.75
+     },
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "bti_g": {
+     "recibio_anio": {
+      "anio": 2012,
+      "valor": 5.73
+     },
+     "primer_anio": {
+      "anio": 2014,
+      "valor": 5.94
+     },
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "bti_q15_3": {
+     "recibio_anio": {
+      "anio": 2012,
+      "valor": 5
+     },
+     "primer_anio": {
+      "anio": 2014,
+      "valor": 6
+     },
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "contraloria_perjuicio": {
+     "recibio_anio": null,
+     "primer_anio": null
+    },
+    "proetica_corrupcion_problema": {
+     "recibio_anio": null,
+     "primer_anio": {
+      "anio": 2013,
+      "valor": 44
+     },
+     "advertencias": [
+      "primer año usa 2013 (no hay 2012)"
+     ]
+    }
+   }
+  },
+  "ppk_2016": {
+   "asume": "2016-07-28",
+   "indices": {
+    "wgi_cc_est": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": -0.593
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": -0.592
+     }
+    },
+    "wgi_cc_sc": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 36.1
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 36.1
+     }
+    },
+    "wgi_ge_est": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": -0.206
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": -0.024
+     }
+    },
+    "wgi_ge_sc": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 48.1
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 51.9
+     }
+    },
+    "wgi_rl_est": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": -0.439
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": -0.36
+     }
+    },
+    "wgi_rl_sc": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 51.4
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 52.7
+     }
+    },
+    "wgi_rq_est": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 0.355
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 0.323
+     }
+    },
+    "wgi_rq_sc": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 61.6
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 61.1
+     }
+    },
+    "wgi_va_est": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 0.306
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 0.342
+     }
+    },
+    "wgi_va_sc": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 63.3
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 64.0
+     }
+    },
+    "wgi_pv_est": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": -0.326
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": -0.223
+     }
+    },
+    "wgi_pv_sc": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 59.9
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 61.7
+     }
+    },
+    "cpi_score": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 36
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 37
+     }
+    },
+    "cpi_rank": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 88
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 96
+     }
+    },
+    "vdem_libdem": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 0.688
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 0.677
+     }
+    },
+    "vdem_electdem": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 0.817
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 0.789
+     }
+    },
+    "vdem_corr": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 0.524
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 0.522
+     }
+    },
+    "eiu_democracy": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 6.58
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 6.49
+     }
+    },
+    "eiu_regimen": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": "Democracia defectuosa"
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": "Democracia defectuosa"
+     }
+    },
+    "fh_total": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 71
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 73
+     }
+    },
+    "fh_status": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": "Libre"
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": "Libre"
+     }
+    },
+    "wjp_rol": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 0.5059
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 0.5236
+     }
+    },
+    "wjp_rank": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 56
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 60
+     }
+    },
+    "rsf_score": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 68.79
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 69.02
+     }
+    },
+    "rsf_rank": {
+     "recibio_anio": {
+      "anio": 2015,
+      "valor": 92
+     },
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 90
+     }
+    },
+    "bti_si": {
+     "recibio_anio": {
+      "anio": 2016,
+      "valor": 6.55
+     },
+     "primer_anio": {
+      "anio": 2020,
+      "valor": 6.55
+     },
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "bti_g": {
+     "recibio_anio": {
+      "anio": 2016,
+      "valor": 5.4
+     },
+     "primer_anio": {
+      "anio": 2020,
+      "valor": 5.79
+     },
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "bti_q15_3": {
+     "recibio_anio": {
+      "anio": 2016,
+      "valor": 5
+     },
+     "primer_anio": {
+      "anio": 2020,
+      "valor": 6
+     },
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "contraloria_perjuicio": {
+     "recibio_anio": null,
+     "primer_anio": null
+    },
+    "proetica_corrupcion_problema": {
+     "recibio_anio": null,
+     "primer_anio": {
+      "anio": 2017,
+      "valor": 52
+     }
+    }
+   }
+  },
+  "castillo_2021": {
+   "asume": "2021-07-28",
+   "indices": {
+    "wgi_cc_est": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": -0.498
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": -0.643
+     }
+    },
+    "wgi_cc_sc": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 38.0
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 35.1
+     }
+    },
+    "wgi_ge_est": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": -0.017
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": -0.015
+     }
+    },
+    "wgi_ge_sc": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 52.0
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 52.0
+     }
+    },
+    "wgi_rl_est": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": -0.405
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": -0.475
+     }
+    },
+    "wgi_rl_sc": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 52.0
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 50.8
+     }
+    },
+    "wgi_rq_est": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 0.327
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 0.146
+     }
+    },
+    "wgi_rq_sc": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 61.1
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 58.0
+     }
+    },
+    "wgi_va_est": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 0.388
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 0.152
+     }
+    },
+    "wgi_va_sc": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 64.8
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 60.5
+     }
+    },
+    "wgi_pv_est": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": -0.31
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": -0.667
+     }
+    },
+    "wgi_pv_sc": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 60.2
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 53.9
+     }
+    },
+    "cpi_score": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 38
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 36
+     }
+    },
+    "cpi_rank": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 94
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 101
+     }
+    },
+    "vdem_libdem": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 0.706
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 0.621
+     }
+    },
+    "vdem_electdem": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 0.818
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 0.733
+     }
+    },
+    "vdem_corr": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 0.534
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 0.622
+     }
+    },
+    "eiu_democracy": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 6.53
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 5.92
+     }
+    },
+    "eiu_regimen": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": "Democracia defectuosa"
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": "Régimen híbrido"
+     }
+    },
+    "fh_total": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 71
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 70
+     }
+    },
+    "fh_status": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": "Parcialmente libre"
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": "Parcialmente libre"
+     }
+    },
+    "wjp_rol": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 0.4991
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 0.4853
+     }
+    },
+    "wjp_rank": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 73
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 81
+     }
+    },
+    "rsf_score": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 69.06
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 61.75
+     },
+     "advertencias": [
+      "ruptura metodológica RSF 2022: no comparar"
+     ]
+    },
+    "rsf_rank": {
+     "recibio_anio": {
+      "anio": 2020,
+      "valor": 90
+     },
+     "primer_anio": {
+      "anio": 2022,
+      "valor": 77
+     },
+     "advertencias": [
+      "ruptura metodológica RSF 2022: no comparar"
+     ]
+    },
+    "bti_si": {
+     "recibio_anio": {
+      "anio": 2022,
+      "valor": 6.45
+     },
+     "primer_anio": {
+      "anio": 2024,
+      "valor": 5.95
+     },
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "bti_g": {
+     "recibio_anio": {
+      "anio": 2022,
+      "valor": 5.77
+     },
+     "primer_anio": {
+      "anio": 2024,
+      "valor": 4.61
+     },
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "bti_q15_3": {
+     "recibio_anio": {
+      "anio": 2022,
+      "valor": 6
+     },
+     "primer_anio": {
+      "anio": 2024,
+      "valor": 5
+     },
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "contraloria_perjuicio": {
+     "recibio_anio": {
+      "anio": 2021,
+      "valor": 24262
+     },
+     "primer_anio": null,
+     "advertencias": [
+      "recibió usa 2021 (no hay 2020)"
+     ]
+    },
+    "proetica_corrupcion_problema": {
+     "recibio_anio": {
+      "anio": 2019,
+      "valor": 62
+     },
+     "primer_anio": null,
+     "advertencias": [
+      "recibió usa 2019 (no hay 2020)"
+     ]
+    }
+   }
+  },
+  "keiko_2026": {
+   "asume": "2026-07-28",
+   "indices": {
+    "wgi_cc_est": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": -0.755
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": -0.755
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "wgi_cc_sc": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 32.8
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 32.8
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "wgi_ge_est": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": -0.144
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": -0.144
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "wgi_ge_sc": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 49.4
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 49.4
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "wgi_rl_est": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": -0.659
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": -0.659
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "wgi_rl_sc": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 47.8
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 47.8
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "wgi_rq_est": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 0.119
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 0.119
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "wgi_rq_sc": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 57.5
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 57.5
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "wgi_va_est": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": -0.054
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": -0.054
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "wgi_va_sc": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 56.7
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 56.7
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "wgi_pv_est": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": -0.497
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": -0.497
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "wgi_pv_sc": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 56.9
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 56.9
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "cpi_score": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 30
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 30
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "cpi_rank": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 130
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 130
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "vdem_libdem": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 0.506
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 0.506
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "vdem_electdem": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 0.667
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 0.667
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "vdem_corr": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 0.63
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 0.63
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "eiu_democracy": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 5.88
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 5.88
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "eiu_regimen": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": "Régimen híbrido"
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": "Régimen híbrido"
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "fh_total": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 66
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 66
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "fh_status": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": "Parcialmente libre"
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": "Parcialmente libre"
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "wjp_rol": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 0.4766
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 0.4766
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "wjp_rank": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 90
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 90
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "rsf_score": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 42.88
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2026,
+      "valor": 37.86
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "rsf_rank": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 130
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2026,
+      "valor": 144
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "bti_si": {
+     "recibio_anio": {
+      "anio": 2026,
+      "valor": 5.85
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2026,
+      "valor": 5.85
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026.",
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "bti_g": {
+     "recibio_anio": {
+      "anio": 2026,
+      "valor": 4.45
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2026,
+      "valor": 4.45
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026.",
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "bti_q15_3": {
+     "recibio_anio": {
+      "anio": 2026,
+      "valor": 5
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2026,
+      "valor": 5
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026.",
+     "advertencias": [
+      "BTI: edición cuyo periodo termina antes de asumir"
+     ]
+    },
+    "contraloria_perjuicio": {
+     "recibio_anio": null,
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2021,
+      "valor": 24262
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    },
+    "proetica_corrupcion_problema": {
+     "recibio_anio": {
+      "anio": 2025,
+      "valor": 67
+     },
+     "primer_anio": null,
+     "linea_base": {
+      "anio": 2025,
+      "valor": 67
+     },
+     "nota": "Primer año aún no medido; línea base = última medición disponible al 7-nov-2026."
+    }
+   }
+  },
+  "_regla": "recibio_anio = dato del año t-1 (último año completo antes de asumir el 28-jul-t); si no existe, el de asunción t, luego t-2. primer_anio = año t+1 (primer año calendario completo); si no existe, t+2. Para BTI (bienal, por edición): recibió = última edición cuyo periodo termina antes de asumir; primer año = edición t+3 (cubre feb-(t) a ene-(t+2)). Keiko (t=2026): sin primer año; linea_base = última medición."
+ },
+ "caveats": [
+  "Fecha de corte: 7-nov-2026. Ningún índice anual mide aún el gobierno iniciado el 28-jul-2026: las últimas mediciones (WGI 2025, CPI 2025, V-Dem 2025, EIU 2025, FH 2025, WJP 2025, RSF 2026, BTI 2026) describen el país que RECIBE Keiko Fujimori, no su gestión.",
+  "Atribución: el año t-1 de cada gobierno es también el último año del gobierno anterior; además, entre 2016 y 2026 hubo presidentes no electos (Vizcarra, Merino, Sagasti, Boluarte y sucesores) cuyos años cuentan como 'país que recibió'. El índice mide al país, no al presidente.",
+  "Los índices de percepción (CPI, WGI, V-Dem por expertos) reaccionan a escándalos y destapes: más investigaciones pueden empeorar la percepción aunque haya más control.",
+  "WGI: el Banco Mundial cambió de metodología (2025): los códigos antiguos (CC.EST, CC.PER.RNK) ya no responden; se usan GOV_WGI_*.EST y GOV_WGI_*.SC (0-100, no percentil). La serie completa se re-estima en cada edición; los intervalos de confianza son amplios (diferencias < ~0.2 en la estimación no son significativas).",
+  "CPI: escala 0-10 hasta 2011 y 0-100 desde 2012 (no comparables). García (2005 vs 2007) y Humala recibió (2010, 0-10) vs primer año (2012, 0-100) cruzan la ruptura en Humala.",
+  "RSF: metodología nueva desde 2022; Castillo recibió (2020) y primer año (2022) no son comparables. El año RSF es la edición (abr-may), que refleja sobre todo el año anterior.",
+  "EIU: valores tomados de Wikipedia (fuente secundaria) porque OWID no redistribuye (HTTP 403) y la EIU pide registro. Sin datos 2005, 2007 ni 2009.",
+  "Freedom House: año = año cubierto (edición siguiente). Total = PR + CL (OWID). Verificado contra freedomhouse.org en 2020, 2024 y 2025.",
+  "WJP: rango calculado por nosotros (posible diferencia de ±1 con el oficial). Sin datos de Perú antes de 2012 en el archivo histórico. El número de países varía (97 a 143), por lo que el puesto no es comparable entre años; usar el puntaje.",
+  "BTI: bienal; año = edición, cuyo periodo de evaluación termina el 31 de enero del año anterior.",
+  "Global State of Democracy (IDEA): NO incluido; no se halló una descarga directa sin buscador (se agotó el presupuesto de búsquedas web de la sesión).",
+  "Contraloría: solo 2021 verificado (S/ 24,262 millones). Proética: solo 2013, 2017, 2019 y 2025 verificados; el dato 2025 (67 %) proviene de una publicación de Proética embebida, no del PDF.",
+  "Semáforo sugerido: comparar cada valor contra el 'recibió' del mismo gobierno (dirección del cambio) y no contra otros índices; para puestos, considerar que el número de países cambia."
+ ]
+}

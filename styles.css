@@ -304,3 +304,22 @@ footer { padding: 40px 0 60px; font-family: var(--f-display); font-size: 14px; c
 .msg-eje summary { font-size: 16px; }
 .msg-eje .claim { grid-template-columns: 190px minmax(0, 1fr); }
 @media (max-width: 760px) { .msg-eje .claim { grid-template-columns: 1fr; } }
+
+/* semáforo */
+:root { --sem-g: #2fa84f; --sem-y: #f6c744; --sem-o: #f08a3c; --sem-r: #d9443f; --sem-na: var(--sunk); }
+table.sem { border-collapse: separate; border-spacing: 3px; }
+table.sem th, table.sem td { border-bottom: 0; }
+table.sem td:first-child { min-width: 220px; padding-right: 14px; }
+.sem-cell { text-align: center !important; vertical-align: middle !important; border-radius: 6px; padding: 10px 8px !important; min-width: 108px; font-family: var(--f-display); }
+.sem-cell .sv { display: block; font-weight: 800; font-size: 19px; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.sem-cell .sl { display: block; font-size: 11.5px; margin-top: 3px; opacity: .9; }
+.sem-g, i.sem-g { background: var(--sem-g); color: #fff; }
+.sem-y, i.sem-y { background: var(--sem-y); color: #2b2100; }
+.sem-o, i.sem-o { background: var(--sem-o); color: #2b1300; }
+.sem-r, i.sem-r { background: var(--sem-r); color: #fff; }
+.sem-na, i.sem-na { background: var(--sem-na); color: var(--muted); }
+.sem-total td { padding-top: 14px !important; }
+.sem-total .sem-cell { outline: 2px solid var(--ink); outline-offset: 1px; }
+.sem-total .sv { font-size: 26px; }
+.sem-grp td { font-family: var(--f-display); font-weight: 700; font-size: 13px; color: var(--muted); padding: 14px 0 2px !important; }
+.sem-cell .arr { font-size: 13px; }
