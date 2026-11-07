@@ -1,269 +1,335 @@
 {
  "generado": "2026-11-07",
+ "version": 2,
+ "sensibilidad": {
+  "castillo": {
+   "p5": 29.0,
+   "p50": 45.1,
+   "p95": 60.4
+  },
+  "keiko": {
+   "p5": 23.0,
+   "p50": 42.7,
+   "p95": 61.6
+  },
+  "ppk": {
+   "p5": 37.5,
+   "p50": 53.0,
+   "p95": 74.1
+  },
+  "p_castillo_mayor_keiko": 0.59,
+  "p_ppk_primero": 0.77,
+  "nota": "N = 20 000 simulaciones: pesos aleatorios Dirichlet(1) para D1, D2, D3, D6 y D7; D6 con caída proporcional o por nivel absoluto; D7 con inversión de ago-oct o gasto total de ene-oct. La revisión metodológica externa (review/02) obtuvo un rango similar con 35 variantes."
+ },
  "dimensiones": [
   {
    "id": "D1",
    "nombre": "Promesas de 100 días",
    "peso": 20,
-   "desc": "Cumplidas = 1, en proceso o parciales = 0,5, el resto = 0 (estilo PolitiFact). Balance externo independiente."
+   "desc": "Escala PolitiFact: cumplida = 1, en proceso = 0,3, el resto = 0. Ojo: cada gobierno tiene un tracker distinto (ECData, Keiko Gobierna, Convoca), con criterios diferentes."
   },
   {
    "id": "D2",
    "nombre": "Profundidad en la cadena de valor",
    "peso": 10,
-   "desc": "Nivel promedio de lo cumplido: insumo 0, actividad 25, producto 50, resultado 75, impacto 100."
+   "desc": "Solo las promesas cumplidas por completo, según su eslabón: insumo (normas, presupuesto) 0, actividad 25, producto 50, resultado 75, impacto 100. Hay muy pocos casos (3 a 7 por gobierno)."
   },
   {
    "id": "D3",
    "nombre": "Estabilidad e idoneidad del gabinete",
    "peso": 15,
-   "desc": "La mitad mide la permanencia de los ministros del día 1 (−10 por censura); la otra mitad, su experiencia y formación acordes al puesto."
+   "desc": "La mitad mide la permanencia de los ministros del día 1; la otra mitad, su experiencia y formación acordes al puesto (codificación propia, sin revisión independiente)."
   },
   {
    "id": "D4",
-   "nombre": "Integridad",
-   "peso": 15,
-   "desc": "Sin puntaje: las fuentes no son comparables entre gobiernos (ver nota). Se muestran los conteos crudos."
+   "nombre": "Integridad (sin puntaje)",
+   "peso": 0,
+   "desc": "Se muestran los conteos crudos, pero no entran al total: en 2026 vienen de declaraciones juradas obligatorias (Ley 31227) y en 2006-2021 solo de la prensa. Omitirla no es neutro (ver nota)."
   },
   {
    "id": "D5",
-   "nombre": "Veracidad del discurso oficial",
-   "peso": 10,
-   "desc": "Afirmaciones con cifra del mensaje de los 100 días: coincide = 1, con matices = 0,5, no coincide = 0. Las no verificables se excluyen."
+   "nombre": "Veracidad del discurso (solo Keiko, no entra al total)",
+   "peso": 0,
+   "desc": "Solo existe la verificación del mensaje de los 100 días de Keiko, así que no compara nada y queda fuera del total."
   },
   {
    "id": "D6",
-   "nombre": "Confianza ciudadana (ajustada por luna de miel)",
+   "nombre": "Confianza ciudadana",
    "peso": 15,
-   "desc": "Cambio en la aprobación Ipsos/Apoyo desde la primera medición hasta el ~día 100, frente a la caída esperada de −10 puntos. Puntaje = 50 + 2,5 × (Δ + 10)."
+   "desc": "Ipsos/Apoyo: primera medición frente a la última publicada ANTES del día 100 (la misma regla para todos), comparada con la caída esperada proporcional al nivel inicial (−10 × inicio / 55)."
   },
   {
    "id": "D7",
-   "nombre": "Ejecución del gasto",
+   "nombre": "Ejecución de la inversión en la ventana",
    "peso": 15,
-   "desc": "Ejecución del Gobierno Nacional a octubre frente al promedio de los cinco años: 50 + 50 × (ratio − 1) / 0,25."
+   "desc": "Devengado de agosto a octubre en proyectos del Gobierno Nacional / PIM, frente al promedio de los cinco años. El PIM de 2026 aún es el vigente, lo que lo favorece levemente."
   }
  ],
  "gobiernos": {
   "castillo": {
    "dims": {
     "D1": {
-     "score": 11.6,
+     "score": 9.8,
      "valor": "3 cumplidas y 4 en proceso de 43",
-     "fuente": "El Comercio – ECData"
+     "fuente": "El Comercio – ECData (plan + discurso, criterio periodístico)",
+     "corto": null
     },
     "D2": {
      "score": 33.3,
-     "valor": "3 promesas cumplidas clasificadas",
-     "fuente": "ECData + clasificación propia"
+     "valor": "3 promesas cumplidas por completo, clasificadas",
+     "fuente": "ECData + clasificación propia",
+     "corto": null
     },
     "D3": {
      "score": 47.7,
      "valor": "11 de 19 ministros del día 1 siguen en el cargo; idoneidad 38/100",
-     "fuente": "Prensa, gob.pe; codificación propia"
+     "fuente": "Prensa, gob.pe; codificación propia",
+     "corto": null
     },
     "D4": {
      "score": null,
-     "valor": "5 ministros con investigación o proceso reportado (no comparable)",
-     "fuente": "Ver nota de integridad"
+     "valor": "5 ministros con investigación o proceso reportado (prensa; no comparable)",
+     "fuente": "Ver nota de integridad",
+     "corto": "5 (prensa)"
     },
     "D5": {
      "score": null,
      "valor": "Sin verificación sistemática del mensaje de los 100 días",
-     "fuente": ""
+     "fuente": "",
+     "corto": "no medido"
     },
     "D6": {
-     "score": 67.5,
-     "valor": "38 % → 35 % (ago → 12-nov-2021); Δ -3 pts frente a −10 esperado",
-     "fuente": "Ipsos / Apoyo"
+     "score": 77.3,
+     "valor": "38 % → 42 % (ago → 15-oct-2021); Δ +4 pts frente a -6.9 esperado",
+     "fuente": "Ipsos / Apoyo",
+     "corto": null
     },
     "D7": {
-     "score": 50.1,
-     "valor": "70.3 % ejecutado a octubre (promedio de los cinco años: 70.3 %)",
-     "fuente": "MEF – Consulta Amigable"
+     "score": 69.8,
+     "valor": "20.4 % del PIM de inversión devengado en ago-oct (promedio de los cinco años: 18.6 %)",
+     "fuente": "MEF – Consulta Amigable",
+     "corto": null
     }
    },
-   "cobertura": 75,
+   "total": 46.0,
+   "total_comun": 64.9,
+   "cobertura": 100,
    "n_dims": 5,
-   "total": 40.6,
-   "total_pesos_iguales": 42.0,
-   "total_parcial": 40.6
+   "rango": {
+    "p5": 29.0,
+    "p50": 45.1,
+    "p95": 60.4
+   }
   },
   "keiko": {
    "dims": {
     "D1": {
-     "score": 2.2,
+     "score": 1.3,
      "valor": "0 cumplidas y 3 en proceso de 67",
-     "fuente": "Keiko Gobierna"
+     "fuente": "Keiko Gobierna (solo normas en El Peruano)",
+     "corto": null
     },
     "D2": {
-     "score": 28.6,
-     "valor": "7 promesas cumplidas clasificadas",
-     "fuente": "Prensa + clasificación propia"
+     "score": 25,
+     "valor": "5 promesas cumplidas por completo, clasificadas",
+     "fuente": "Prensa + clasificación propia (incluye medidas fuera de la lista de 100 días)",
+     "corto": null
     },
     "D3": {
      "score": 76.3,
      "valor": "18 de 19 ministros del día 1 siguen en el cargo; idoneidad 58/100",
-     "fuente": "Prensa, gob.pe; codificación propia"
+     "fuente": "Prensa, gob.pe; codificación propia",
+     "corto": null
     },
     "D4": {
      "score": null,
-     "valor": "15 ministros con investigación o proceso reportado (no comparable)",
-     "fuente": "Ver nota de integridad"
+     "valor": "15 ministros con investigación o proceso reportado (declaraciones juradas; no comparable)",
+     "fuente": "Ver nota de integridad",
+     "corto": "15 (declaraciones juradas)"
     },
     "D5": {
-     "score": 50.0,
+     "score": null,
      "valor": "6 coinciden, 13 con matices y 6 no coinciden (n = 25)",
-     "fuente": "Plan Perú 2050"
+     "fuente": "Plan Perú 2050",
+     "corto": "6/13/6 de 25"
     },
     "D6": {
-     "score": 32.5,
-     "valor": "57 % → 40 % (ago → oct-2026); Δ -17 pts frente a −10 esperado",
-     "fuente": "Ipsos / Apoyo"
+     "score": 33.4,
+     "valor": "57 % → 40 % (ago → 7/8-oct-2026); Δ -17 pts frente a -10.4 esperado",
+     "fuente": "Ipsos / Apoyo",
+     "corto": null
     },
     "D7": {
-     "score": 64.3,
-     "valor": "75.3 % ejecutado a octubre (promedio de los cinco años: 70.3 %)",
-     "fuente": "MEF – Consulta Amigable"
+     "score": 55.7,
+     "valor": "19.1 % del PIM de inversión devengado en ago-oct (promedio de los cinco años: 18.6 %)",
+     "fuente": "MEF – Consulta Amigable",
+     "corto": null
     }
    },
-   "cobertura": 85,
-   "n_dims": 6,
-   "total": 40.3,
-   "total_pesos_iguales": 42.3,
-   "total_parcial": 40.3
+   "total": 36.8,
+   "total_comun": 55.1,
+   "cobertura": 100,
+   "n_dims": 5,
+   "rango": {
+    "p5": 23.0,
+    "p50": 42.7,
+    "p95": 61.6
+   }
   },
   "ppk": {
    "dims": {
     "D1": {
-     "score": 34.0,
+     "score": 31.6,
      "valor": "7 cumplidas y 3 parciales de 25 verificables",
-     "fuente": "Convoca (vía América TV)"
+     "fuente": "Convoca (metas anunciadas por el Ejecutivo; medido meses después)",
+     "corto": null
     },
     "D2": {
      "score": 25,
-     "valor": "4 promesas cumplidas clasificadas",
-     "fuente": "Promesas emblemáticas + clasificación propia"
+     "valor": "2 promesas cumplidas por completo, clasificadas",
+     "fuente": "Promesas emblemáticas + clasificación propia",
+     "corto": null
     },
     "D3": {
      "score": 89.8,
      "valor": "19 de 19 ministros del día 1 siguen en el cargo; idoneidad 80/100",
-     "fuente": "Prensa, gob.pe; codificación propia"
+     "fuente": "Prensa, gob.pe; codificación propia",
+     "corto": null
     },
     "D4": {
      "score": null,
-     "valor": "0 ministros con investigación o proceso reportado (no comparable)",
-     "fuente": "Ver nota de integridad"
+     "valor": "0 ministros con investigación o proceso reportado (prensa; no comparable)",
+     "fuente": "Ver nota de integridad",
+     "corto": "0 (prensa)"
     },
     "D5": {
      "score": null,
      "valor": "Sin verificación sistemática del mensaje de los 100 días",
-     "fuente": ""
+     "fuente": "",
+     "corto": "no medido"
     },
     "D6": {
-     "score": 50.0,
-     "valor": "61 % → 51 % (ago → nov-2016); Δ -10 pts frente a −10 esperado",
-     "fuente": "Ipsos / Apoyo"
+     "score": 62.7,
+     "valor": "61 % → 55 % (ago → oct-2016); Δ -6 pts frente a -11.1 esperado",
+     "fuente": "Ipsos / Apoyo",
+     "corto": null
     },
     "D7": {
-     "score": 46.4,
-     "valor": "69.0 % ejecutado a octubre (promedio de los cinco años: 70.3 %)",
-     "fuente": "MEF – Consulta Amigable"
+     "score": 46.1,
+     "valor": "18.2 % del PIM de inversión devengado en ago-oct (promedio de los cinco años: 18.6 %)",
+     "fuente": "MEF – Consulta Amigable",
+     "corto": null
     }
    },
-   "cobertura": 75,
+   "total": 51.5,
+   "total_comun": 66.2,
+   "cobertura": 100,
    "n_dims": 5,
-   "total": 49.6,
-   "total_pesos_iguales": 49.0,
-   "total_parcial": 49.6
+   "rango": {
+    "p5": 37.5,
+    "p50": 53.0,
+    "p95": 74.1
+   }
   },
   "humala": {
    "dims": {
     "D1": {
      "score": null,
      "valor": "No existe un balance cuantitativo independiente",
-     "fuente": ""
+     "fuente": "",
+     "corto": "sin balance"
     },
     "D2": {
      "score": 30,
-     "valor": "5 promesas cumplidas clasificadas",
-     "fuente": "Promesas emblemáticas + clasificación propia"
+     "valor": "5 promesas cumplidas por completo, clasificadas",
+     "fuente": "Promesas emblemáticas + clasificación propia",
+     "corto": null
     },
     "D3": {
      "score": 85.0,
      "valor": "18 de 18 ministros del día 1 siguen en el cargo; idoneidad 70/100",
-     "fuente": "Prensa, gob.pe; codificación propia"
+     "fuente": "Prensa, gob.pe; codificación propia",
+     "corto": null
     },
     "D4": {
      "score": null,
-     "valor": "1 ministros con investigación o proceso reportado (no comparable)",
-     "fuente": "Ver nota de integridad"
+     "valor": "1 ministros con investigación o proceso reportado (prensa; no comparable)",
+     "fuente": "Ver nota de integridad",
+     "corto": "1 (prensa)"
     },
     "D5": {
      "score": null,
      "valor": "Sin verificación sistemática del mensaje de los 100 días",
-     "fuente": ""
+     "fuente": "",
+     "corto": "no medido"
     },
     "D6": {
-     "score": 77.5,
-     "valor": "55 % → 56 % (ago → nov-2011); Δ +1 pts frente a −10 esperado",
-     "fuente": "Ipsos / Apoyo"
+     "score": 92.5,
+     "valor": "55 % → 62 % (ago → oct-2011); Δ +7 pts frente a -10.0 esperado",
+     "fuente": "Ipsos / Apoyo",
+     "corto": null
     },
     "D7": {
-     "score": 40.1,
-     "valor": "66.8 % ejecutado a octubre (promedio de los cinco años: 70.3 %)",
-     "fuente": "MEF – Consulta Amigable"
+     "score": 48.4,
+     "valor": "18.4 % del PIM de inversión devengado en ago-oct (promedio de los cinco años: 18.6 %)",
+     "fuente": "MEF – Consulta Amigable",
+     "corto": null
     }
    },
-   "cobertura": 55,
-   "n_dims": 4,
    "total": null,
-   "total_pesos_iguales": null,
-   "total_parcial": 60.7
+   "total_comun": 75.3,
+   "cobertura": 73,
+   "n_dims": 4
   },
   "garcia": {
    "dims": {
     "D1": {
      "score": null,
      "valor": "No existe un balance cuantitativo independiente",
-     "fuente": ""
+     "fuente": "",
+     "corto": "sin balance"
     },
     "D2": {
      "score": 8.3,
-     "valor": "3 promesas cumplidas clasificadas",
-     "fuente": "Promesas emblemáticas + clasificación propia"
+     "valor": "3 promesas cumplidas por completo, clasificadas",
+     "fuente": "Promesas emblemáticas + clasificación propia",
+     "corto": null
     },
     "D3": {
      "score": 85.2,
      "valor": "16 de 16 ministros del día 1 siguen en el cargo; idoneidad 70/100",
-     "fuente": "Prensa, gob.pe; codificación propia"
+     "fuente": "Prensa, gob.pe; codificación propia",
+     "corto": null
     },
     "D4": {
      "score": null,
-     "valor": "0 ministros con investigación o proceso reportado (no comparable)",
-     "fuente": "Ver nota de integridad"
+     "valor": "0 ministros con investigación o proceso reportado (prensa; no comparable)",
+     "fuente": "Ver nota de integridad",
+     "corto": "0 (prensa)"
     },
     "D5": {
      "score": null,
      "valor": "Sin verificación sistemática del mensaje de los 100 días",
-     "fuente": ""
+     "fuente": "",
+     "corto": "no medido"
     },
     "D6": {
-     "score": 60.0,
-     "valor": "63 % → 57 % (ago → oct-2006); Δ -6 pts frente a −10 esperado",
-     "fuente": "Ipsos / Apoyo"
+     "score": 63.6,
+     "valor": "63 % → 57 % (ago → 11/13-oct-2006); Δ -6 pts frente a -11.5 esperado",
+     "fuente": "Ipsos / Apoyo",
+     "corto": null
     },
     "D7": {
-     "score": 49.2,
-     "valor": "70.0 % ejecutado a octubre (promedio de los cinco años: 70.3 %)",
-     "fuente": "MEF – Consulta Amigable"
+     "score": 29.9,
+     "valor": "16.7 % del PIM de inversión devengado en ago-oct (promedio de los cinco años: 18.6 %)",
+     "fuente": "MEF – Consulta Amigable",
+     "corto": null
     }
    },
-   "cobertura": 55,
-   "n_dims": 4,
    "total": null,
-   "total_pesos_iguales": null,
-   "total_parcial": 54.5
+   "total_comun": 59.6,
+   "cobertura": 73,
+   "n_dims": 4
   }
  },
  "contexto": [
@@ -1181,14 +1247,15 @@
   }
  ],
  "metodo": [
-  "Índice propio, no oficial: no existe un estándar internacional para evaluar los 100 días (es una convención que nace con Roosevelt en 1933). Combinamos trackers de promesas (PolitiFact, Chequeado), gestión para resultados (BID PRODEV, CEPAL), estabilidad del gabinete (Martínez-Gallardo 2012) y aprobación con luna de miel (Mueller 1970; Carlin et al. 2018).",
+  "Índice propio y experimental: no existe un estándar internacional para evaluar los 100 días (es una convención que nace con Roosevelt en 1933). Combinamos trackers de promesas (PolitiFact, Chequeado), gestión para resultados (BID PRODEV, CEPAL), estabilidad del gabinete (Martínez-Gallardo 2012) y aprobación con luna de miel (Mueller 1970; Carlin et al. 2018).",
   "Escala de 0 a 100 por dimensión. Semáforo: verde ≥70, amarillo 50-69, naranja 30-49, rojo <30.",
-  "Si falta una dimensión, los pesos se reescalan entre las que tienen dato. No se publica la nota total si la cobertura es menor al 70 % del peso (OECD/JRC 2008); por eso García y Humala no tienen total.",
-  "Integridad (D4) queda sin puntaje: en 2026 los conteos salen de las declaraciones juradas obligatorias (Ley 31227, que pueden incluir casos archivados); de 2006 a 2016, solo de la prensa. Compararlos castigaría la mayor transparencia. Ninguna investigación es una condena.",
-  "Cadena de valor (D2): usamos (nivel − 1) / 4, de modo que un insumo vale 0 y no 25; es más exigente que la propuesta original.",
-  "Ejecución (D7): de enero a julio el gasto corresponde al gobierno anterior, y el PIM de 2026 es el vigente, no el final. Se omitió el componente de indicadores mensuales por falta de historia comparable para 2006-2016.",
-  "Aprobación (D6): la caída esperada de −10 puntos es un valor de trabajo. Un gobierno que empieza bajo (Castillo, 38 %) cae menos; por eso se informa también el nivel absoluto.",
-  "Contexto internacional: los índices con escala fija (CPI, WGI, V-Dem, EIU, Freedom House, RSF) se colorean según su escala absoluta; los indicadores sociales (pobreza, Gini, IDH, anemia, encuestas), según el rango histórico del Perú entre 2005 y 2026. El CPI anterior a 2012 (escala 0-10) se multiplica por 10 para colorearlo. RSF cambió de metodología en 2022. Para Keiko solo hay línea base (el último dato publicado), no su primer año.",
-  "Sensibilidad: con pesos iguales, el total cambia a castillo 42.0, keiko 42.3, ppk 49.0."
+  "El total solo se calcula si hay dato en las cinco dimensiones del núcleo (promesas, cadena de valor, gabinete, confianza e inversión). García y Humala no tienen balance de promesas, así que solo tienen el «núcleo común» (gabinete, confianza e inversión), que sí existe para los cinco.",
+  "Incertidumbre: el total depende mucho de los pesos y de las fórmulas. Publicamos el rango del 5 % al 95 % de 20 000 simulaciones; si los rangos de dos gobiernos se superponen, no se pueden distinguir. Castillo supera a Keiko en el 59% de las simulaciones; PPK queda primero en el 77%.",
+  "Integridad (D4) no entra al total: en 2026 los conteos salen de declaraciones juradas obligatorias (Ley 31227, que pueden incluir casos archivados); de 2006 a 2021, solo de la prensa. Omitirla no es neutro: con una medida simple de ministros investigados, Keiko bajaría unos 3 puntos y Castillo subiría unos 5 (review/02). Ninguna investigación es una condena.",
+  "Promesas (D1): los tres trackers no son homogéneos. ECData (Castillo) usó un criterio periodístico sobre el plan y el discurso; Keiko Gobierna solo cuenta normas publicadas en El Peruano; Convoca (PPK) midió metas anunciadas por el Ejecutivo, meses después del día 100.",
+  "Confianza (D6): se usa la última medición Ipsos/Apoyo publicada antes del día 100, con la misma regla para todos (Castillo 42 % el 15-oct-2021; Keiko 40 % el 7/8-oct-2026). Quien empieza más alto suele caer más, así que la caída esperada es proporcional al nivel inicial.",
+  "Inversión (D7): solo cuenta agosto-octubre, que es la gestión propia. El PIM de 2026 es el vigente (todavía puede crecer), lo que la favorece levemente.",
+  "Cadena de valor (D2) e idoneidad (D3): son codificaciones propias, sin un segundo codificador independiente. Reclasificar una sola promesa de D2 puede mover el total en más de un punto.",
+  "Contexto internacional: describe el país que recibió cada gobierno, no evalúa su gestión. Los índices con escala fija (CPI, WGI, V-Dem, EIU, Freedom House, RSF) se colorean por su escala; los sociales, por el rango histórico del Perú entre 2005 y 2026, así que un verde en pobreza solo significa «menor que en 2006». El CPI anterior a 2012 (escala 0-10) se multiplica por 10; RSF cambió de metodología en 2022."
  ]
 }

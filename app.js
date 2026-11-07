@@ -115,7 +115,7 @@ function approvals(k) {
   use.sort((a, b) => dkey(a).localeCompare(dkey(b)));
   if (use.length < 1) return null;
   const first = use[0];
-  const limit = `${GOV[k].year}-11-30`;
+  const limit = `${GOV[k].year}-11-04`;
   const inWin = use.filter(a => dkey(a) <= limit);
   const last = inWin[inWin.length - 1] || use[use.length - 1];
   return { first, last, n: use.length };
@@ -134,11 +134,11 @@ function renderVs() {
     const pm = g ? (g.premieres?.valor ?? g.n_premieres?.valor ?? g.premieres ?? null) : null;
     const rows = [];
     rows.push([pb ? `${pb.c}/${pb.total}` : '—', pb ? `promesas cumplidas según ${esc(pb.src)}` : 'sin balance independiente con metodología pública']);
-    if (ap) rows.push([`${ap.first.aprueba}→${ap.last.aprueba}`, `% de aprobación (${esc(ap.first.encuestadora)}, primera medición → ~día 100)`]);
+    if (ap) rows.push([`${ap.first.aprueba}→${ap.last.aprueba}`, `% de aprobación (${esc(ap.first.encuestadora)}, primera medición → última antes del día 100)`]);
     if (hom !== null) rows.push([`${hom > 0 ? '+' : ''}${fmt(hom)}%`, 'homicidios (SINADEF) frente a los 100 días previos']);
     return `<div>
       <div class="who">${sw(k)}${esc(GOV[k].name)}</div>
-      <div class="when">28-jul-${GOV[k].year} → 5-nov-${GOV[k].year}</div>
+      <div class="when">28-jul-${GOV[k].year} → 4-nov-${GOV[k].year} (día 100)</div>
       <dl>${rows.map(([a, b]) => `<dt>${a}</dt><dd>${b}</dd>`).join('')}</dl>
     </div>`;
   }).join('');
@@ -170,8 +170,8 @@ function renderClaims() {
       cc.resumen || cc.hechos || txt(cc), cc.fuentes || []));
   }
   const rc = D.resultados?.conclusion_neutral;
-  if (rc) out.push(claim('prematuro', '«Ninguno de los dos gobiernos tiene resultados = valor público»', 'Comentario en el grupo',
-    rc, [], null, null, 'Prematuro'));
+  if (rc) out.push(claim('no verificable', '«Ninguno de los dos gobiernos tiene resultados = valor público»', 'Comentario en el grupo',
+    rc, [], null, null, 'Prematuro / no verificable'));
   $('#claims').innerHTML = out.join('') || '<p class="empty">Sin datos de verificación.</p>';
 }
 function txt(o) { if (!o) return ''; if (typeof o === 'string') return o; return Object.entries(o).filter(([k, v]) => typeof v === 'string' && !/url|fuente|veredicto/.test(k)).map(([, v]) => v).join(' '); }
@@ -232,7 +232,7 @@ const LEVELS = [
   ['impacto', 'Impacto', 'Cambio de largo plazo en bienestar o desarrollo.'],
 ];
 const normLevel = s => { s = String(s || '').toLowerCase(); return LEVELS.find(([k]) => s.startsWith(k) || s.includes(k))?.[0] || null; };
-const isDone = s => /^cumplid|^cumple|^s[ií]\b|^logrado|^hecho/i.test(String(s || '').trim());
+const isDone = s => { s = String(s || '').trim().toLowerCase(); return /^cumplid/.test(s) && !/parcial/.test(s); };
 
 function ladderItems() {
   const items = [];
@@ -294,7 +294,7 @@ function govFacts(k) {
     f.cambios = `${g.ministros_salientes_100_dias?.valor ?? '—'} ministros salientes, 2 gabinetes, ${g.interpelaciones?.valor ?? 0} interpelación, ${g.censuras?.valor ?? 0} censuras`;
     f.u.cambios = g.ministros_salientes_100_dias?.fuente_url;
     const pl = g.proyectos_de_ley_ejecutivo;
-    f.facultades = `${pl?.valor ?? '—'} proyectos de ley del Ejecutivo (${pl?.desglose?.iniciativas_de_politica_sustantiva ?? '?'} de política sustantiva; el resto, tratados y trámites). No pidió facultades.`;
+    f.facultades = `${pl?.valor ?? '—'} proyectos de ley del Ejecutivo (${pl?.desglose?.iniciativas_de_politica_sustantivas ?? '?'} de política sustantiva; el resto, tratados y trámites). Pidió facultades tributarias al Congreso el 28-oct-2021; no se aprobaron dentro de la ventana.`;
     f.u.facultades = pl?.fuente_url;
     return f;
   }
@@ -583,10 +583,18 @@ function renderMethod() {
     ['Línea de tiempo', D.noticias?.caveats],
     ['Videos', D.videos?.caveats],
   ].filter(([, c]) => Array.isArray(c) && c.length);
-  $('#method').innerHTML = `<h3>Cómo se hizo</h3><ul>
+  const fixes = [
+    'Cinco revisores adversariales (cifras, metodología, sesgo, QA y afirmaciones) atacaron la primera versión. Sus informes están en /review del repositorio.',
+    'Día 100 = 4-nov (antes 5-nov, día 101). Cambiaron la Bolsa con Keiko (−1,9 %, no −4,0 %), con Castillo (+7,9 %) y los homicidios (+3,4 % y +1,9 %, ahora con ventanas de 100 días).',
+    'Aprobación con la misma regla para todos (última medición antes del día 100). Antes se usaba para Castillo una encuesta del día ~107.',
+    'Índice v2: la inversión se mide solo de agosto a octubre, la caída esperada de aprobación es proporcional, la escala de promesas sigue a PolitiFact, la veracidad queda fuera del total (solo se midió para Keiko) y se agregan rangos de incertidumbre. El «empate exacto» de la v1 (40,6 frente a 40,3) no era robusto: hoy decimos «no distinguibles».',
+    'Se corrigió: los 9 cambios de ministro de Castillo (había cifras de 7, 8 y 9), que Castillo sí pidió facultades (28-oct-2021), que Pensión 65 a S/700 todavía no se había pagado al día 100, que el salario mínimo es un primer tramo y que hay 3 acciones de Keiko con norma parcial (antes decíamos «0 acreditadas con una norma»).',
+    'Neutralidad: el título ya no es la cita del chat; Keiko ya no usa el naranja de su partido (que además coincidía con el «Malo» del semáforo); los conteos de integridad se ven en la tabla; se quitó una inferencia causal sobre el dólar; se sumaron hechos omitidos de ambos gobiernos.',
+  ];
+  $('#method').innerHTML = `<h3>Qué corregimos tras la revisión adversarial</h3><ul>${fixes.map(f => `<li>${esc(f)}</li>`).join('')}</ul><h3>Cómo se hizo</h3><ul>
     <li>Diez líneas de investigación paralelas, asistidas por IA, cada una con su propia fuente de verdad (archivos en <a href="https://github.com/unimauro/cien-dias-peru/tree/main/research" target="_blank" rel="noopener">/research</a>).</li>
     <li>Series macro tomadas directamente de la API del BCRPData, con el código de serie verificado contra su metadata. Resultados con datos de INEI, SINADEF/MINSA y MEF.</li>
-    <li>Ventana: del 28 de julio (asunción) al 5 de noviembre (día 100) de cada año. Cuando no hay dato ese día, se usa el último día hábil.</li>
+    <li>Ventana: del 28 de julio (asunción) al 4 de noviembre (día 100, contando el 28-jul como día 1) de cada año. Cuando no hay dato ese día, se usa el último día hábil. Corregido tras la revisión adversarial: antes usábamos el 5-nov (día 101).</li>
     <li>La cadena de valor público (insumo → actividad → producto → resultado → impacto) la clasificamos nosotros; otra persona podría ubicar alguna promesa un escalón más arriba o más abajo.</li>
     <li>Enlaces y videos validados el 7-nov-2026; algunos medios bloquean clientes automáticos.</li>
   </ul>` + groups.map(([t, c]) => `<h3>${esc(t)}: límites</h3><ul>${c.map(x => `<li>${esc(typeof x === 'string' ? x : x.texto || JSON.stringify(x))}</li>`).join('')}</ul>`).join('');
@@ -627,14 +635,15 @@ function renderBrujula() {
     const a = +i.inicio.valor, b = +i.actual.valor;
     const better = i.deseado === 'baja' ? b < a : i.deseado === 'sube' || i.deseado === 'alta' ? b > a : null;
     const same = Math.abs(b - a) < 1e-9;
-    const st = better === null ? ['·', 'Contexto (sin dirección deseada)', 'var(--muted)'] : same ? ['=', 'Sin cambio', 'var(--muted)'] : better ? ['▲', 'Mejora', 'var(--ok-ink)'] : ['▼', 'Empeora', 'var(--bad-ink)'];
+    const growth = /var|crec|%/i.test((i.unidad || '') + ' ' + (i.nombre || '')) && i.deseado === 'sube' && b < a && b > 0;
+    const st = growth ? ['▽', 'Crece menos', 'var(--muted)'] : better === null ? ['·', 'Contexto (sin dirección deseada)', 'var(--muted)'] : same ? ['=', 'Sin cambio', 'var(--muted)'] : better ? ['▲', 'Mejora', 'var(--ok-ink)'] : ['▼', 'Empeora', 'var(--bad-ink)'];
     return `<tr><td><span class="metric">${esc(i.nombre)}</span><br><small>${esc(i.unidad)}</small></td>
       <td class="n" data-tip="${esc(i.inicio.fuente || '')}">${fmtNum(a)}<br><small>${esc(i.inicio.periodo)}</small></td>
       <td class="n" data-tip="${esc(i.actual.fuente || '')}">${fmtNum(b)}<br><small>${esc(i.actual.periodo)}</small></td>
       <td><b style="color:${st[2]};font-family:Archivo">${st[0]} ${st[1]}</b>${i.nota ? `<br><small>${esc(i.nota)}</small>` : ''}<div class="srcs">${link(i.actual.url)}</div></td></tr>`;
   }).join('');
-  box.innerHTML = `<h3 class="group-h">Brújula 2026: ¿el país está mejor o peor que el 28 de julio?</h3>
-    <p class="note" style="margin-top:-6px">Indicadores oficiales al inicio del gobierno de Keiko Fujimori frente al último dato. «Mejora» o «empeora» según la dirección deseada de cada indicador; no implica que el cambio lo haya causado el gobierno. Fuente: ${link(D.pp2050_cumplimiento.meta.origen_url, 'Plan Perú 2050')}, corte ${esc(B.corte)}.</p>
+  box.innerHTML = `<h3 class="group-h">Brújula 2026 (solo Keiko): ¿el país está mejor o peor que el 28 de julio?</h3>
+    <p class="note" style="margin-top:-6px">Indicadores oficiales al inicio del gobierno de Keiko Fujimori frente al último dato. «Mejora» o «empeora» según la dirección deseada de cada indicador; no implica que el cambio lo haya causado el gobierno. No existe una brújula equivalente para 2021. Fuente: ${link(D.pp2050_cumplimiento.meta.origen_url, 'Plan Perú 2050')}, corte ${esc(B.corte)}.</p>
     <div class="tbl-wrap"><table><thead><tr><th>Indicador</th><th class="n">Inicio</th><th class="n">Último dato</th><th>Dirección</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 
@@ -654,16 +663,21 @@ function renderSemaforo() {
   if (!I) { $('#semIndice').innerHTML = '<p class="empty">Índice en preparación.</p>'; return; }
   const govs = ORDER.filter(k => I.gobiernos?.[k]);
   const head = `<thead><tr><th>Dimensión <small>(peso)</small></th>${govs.map(k => `<th class="n">${govLabel(k)}</th>`).join('')}</tr></thead>`;
-  const rows = I.dimensiones.map(d => `<tr><td><span class="metric">${esc(d.nombre)}</span> <small>(${d.peso} %)</small><br><small>${esc(d.desc)}</small></td>${govs.map(k => {
+  const rows = I.dimensiones.map(d => `<tr${d.peso ? '' : ' class="sem-info"'}><td><span class="metric">${esc(d.nombre)}</span> <small>(${d.peso ? d.peso + ' %' : 'fuera del total'})</small><br><small>${esc(d.desc)}</small></td>${govs.map(k => {
     const c = I.gobiernos[k].dims[d.id] || {};
-    return semCell(c.score, isNum(c.score) ? Math.round(c.score) : '—', '', `${GOV[k].short}: ${c.valor || 'sin dato'}${c.fuente ? ' · ' + c.fuente : ''}`);
+    if (!isNum(c.score)) return `<td class="sem-cell sem-na" data-tip="${esc(GOV[k].short + ': ' + (c.valor || 'sin dato'))}"><span class="sl" style="font-size:12.5px;opacity:1">${esc(c.corto || 'sin dato')}</span></td>`;
+    return semCell(c.score, Math.round(c.score), '', `${GOV[k].short}: ${c.valor || ''}${c.fuente ? ' · ' + c.fuente : ''}`);
   }).join('')}</tr>`).join('');
-  const tot = `<tr class="sem-total"><td><span class="metric">Índice de los 100 días</span><br><small>Promedio ponderado de las dimensiones con dato (los pesos se reescalan si falta alguna)</small></td>${govs.map(k => {
+  const tot = `<tr class="sem-total"><td><span class="metric">Índice de los 100 días</span><br><small>Promedio ponderado del núcleo (promesas, cadena de valor, gabinete, confianza e inversión). Debajo, el rango del 5 % al 95 % de 20 000 simulaciones con otros pesos y fórmulas.</small></td>${govs.map(k => {
     const g = I.gobiernos[k];
-    if (!isNum(g.total)) return `<td class="sem-cell sem-na" data-tip="Solo ${g.cobertura} % del peso tiene dato; con menos del 70 % no se publica el total"><span class="sv">—</span><span class="sl">cobertura ${g.cobertura} % (&lt;70 %)</span></td>`;
-    return semCell(g.total, fmt(g.total, 1), `${g.cobertura} % de cobertura`, `${GOV[k].short}: ${fmt(g.total)} / 100 con ${g.n_dims} de ${I.dimensiones.length} dimensiones`);
-  }).join('')}</tr>`;
-  $('#semIndice').innerHTML = `<div class="tbl-wrap"><table class="sem">${head}<tbody>${rows}${tot}</tbody></table></div>`;
+    if (!isNum(g.total)) return `<td class="sem-cell sem-na" data-tip="Sin balance de promesas: no se calcula el total"><span class="sv">—</span><span class="sl">sin balance de promesas</span></td>`;
+    const r = g.rango;
+    return semCell(g.total, fmt(g.total, 1), r ? `rango ${fmt(r.p5, 0)}–${fmt(r.p95, 0)}` : '', `${GOV[k].short}: ${fmt(g.total)} / 100${r ? `; en el 90 % de las simulaciones queda entre ${fmt(r.p5)} y ${fmt(r.p95)}` : ''}`);
+  }).join('')}</tr>
+  <tr class="sem-total"><td><span class="metric">Núcleo común</span><br><small>Solo gabinete, confianza e inversión: las tres dimensiones que existen para los cinco gobiernos.</small></td>${govs.map(k => semCell(I.gobiernos[k].total_comun, fmt(I.gobiernos[k].total_comun, 1), '', `${GOV[k].short}: ${fmt(I.gobiernos[k].total_comun)} / 100 (gabinete, confianza e inversión)`)).join('')}</tr>`;
+  const S = I.sensibilidad;
+  const sensTxt = S ? `<p class="note"><b>¿Se pueden distinguir?</b> Castillo y Keiko, no: sus rangos se superponen (${fmt(S.castillo.p5, 0)}–${fmt(S.castillo.p95, 0)} frente a ${fmt(S.keiko.p5, 0)}–${fmt(S.keiko.p95, 0)}), y Castillo queda arriba solo en el ${Math.round(S.p_castillo_mayor_keiko * 100)} % de las simulaciones. Lo que sí se sostiene: PPK queda por encima de ambos en el ${Math.round(S.p_ppk_primero * 100)} % de las simulaciones.</p>` : '';
+  $('#semIndice').innerHTML = `<div class="tbl-wrap"><table class="sem">${head}<tbody>${rows}${tot}</tbody></table></div>${sensTxt}`;
   const C = I.contexto || [];
   if (C.length) {
     const cg = ORDER.filter(k => C.some(r => r.gobiernos?.[k]));

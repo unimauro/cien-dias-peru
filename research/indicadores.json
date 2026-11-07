@@ -28,10 +28,10 @@
      "valor": 3.9223
     },
     "d100": {
-     "fecha": "2021-11-05",
-     "valor": 4.0148
+     "fecha": "2021-11-04",
+     "valor": 4.0107
     },
-    "var_pct": 2.36,
+    "var_pct": 2.25,
     "serie": [
      [
       "2021-07-27",
@@ -317,10 +317,10 @@
      "valor": 3.4066
     },
     "d100": {
-     "fecha": "2026-11-05",
-     "valor": 3.4487
+     "fecha": "2026-11-04",
+     "valor": 3.4471
     },
-    "var_pct": 1.23,
+    "var_pct": 1.19,
     "serie": [
      [
       "2026-07-24",
@@ -622,10 +622,10 @@
      "valor": 182.0
     },
     "d100": {
-     "fecha": "2021-11-05",
-     "valor": 182.0
+     "fecha": "2021-11-04",
+     "valor": 179.0
     },
-    "var_pct": 0.0,
+    "var_pct": -1.65,
     "serie": [
      [
       "2021-07-28",
@@ -1139,10 +1139,10 @@
      "valor": 18775.12
     },
     "d100": {
-     "fecha": "2021-11-05",
-     "valor": 20420.1
+     "fecha": "2021-11-04",
+     "valor": 20254.71
     },
-    "var_pct": 8.76,
+    "var_pct": 7.88,
     "serie": [
      [
       "2021-07-27",
@@ -1428,10 +1428,10 @@
      "valor": 57237.6
     },
     "d100": {
-     "fecha": "2026-11-05",
-     "valor": 54971.46
+     "fecha": "2026-11-04",
+     "valor": 56145.18
     },
-    "var_pct": -3.96,
+    "var_pct": -1.91,
     "serie": [
      [
       "2026-07-24",
@@ -1732,7 +1732,7 @@
      "valor": 0.25
     },
     "d100": {
-     "fecha": "2021-11-05",
+     "fecha": "2021-11-04",
      "valor": 1.5
     },
     "var_pct": null,
@@ -2022,7 +2022,7 @@
      "valor": 4.25
     },
     "d100": {
-     "fecha": "2026-11-05",
+     "fecha": "2026-11-04",
      "valor": 4.25
     },
     "var_pct": null,
@@ -2733,10 +2733,10 @@
      "valor": 439.8485
     },
     "d100": {
-     "fecha": "2021-11-05",
-     "valor": 441.799
+     "fecha": "2021-11-04",
+     "valor": 443.8401
     },
-    "var_pct": 0.44,
+    "var_pct": 0.91,
     "serie": [
      [
       "2021-07-28",
@@ -3351,10 +3351,10 @@
      "valor": 399.0
     },
     "d100": {
-     "fecha": "2021-11-05",
-     "valor": 406.0
+     "fecha": "2021-11-04",
+     "valor": 405.0
     },
-    "var_pct": 1.75,
+    "var_pct": 1.5,
     "serie": [
      [
       "2021-07-28",
@@ -4057,6 +4057,7 @@
   "Correlación no es causalidad: las variaciones no se atribuyen al gobierno en este dataset.",
   "EMBIG Perú diario en BCRPData termina el 2026-09-03 (consultado 7-nov-2026): el día 100 de V2 no está disponible; se da la comparación al mismo horizonte (~día 37) y la serie mensual PN01129XM.",
   "Todas las series del BCRP se verificaron contra el título de su metadata (campo titulo_metadata_bcrp). Datos 2026 consultados el 7-nov-2026; pueden revisarse.",
-  "Las expectativas empresariales y de inflación son encuestas de percepción, no mediciones de actividad."
+  "Las expectativas empresariales y de inflación son encuestas de percepción, no mediciones de actividad.",
+  "Revisión del 7-nov: el día 100 se fijó en el 4-nov (el 28-jul es el día 1); los valores d100 se recalcularon sobre el último dato hábil hasta el 4-nov."
  ]
 }

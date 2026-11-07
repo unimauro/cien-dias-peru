@@ -17,8 +17,8 @@
      "valor": 370
     },
     "durante": {
-     "periodo": "2021-07-28 a 2021-11-05 (100 días de gobierno)",
-     "valor": 380
+     "periodo": "2021-07-28 a 2021-11-04 (100 días de gobierno)",
+     "valor": 377
     },
     "serie": [
      [
@@ -77,8 +77,8 @@
      "valor": 560
     },
     "durante": {
-     "periodo": "2026-07-28 a 2026-11-05 (100 días de gobierno)",
-     "valor": 584
+     "periodo": "2026-07-28 a 2026-11-04 (100 días de gobierno)",
+     "valor": 579
     },
     "serie": [
      [
@@ -127,7 +127,7 @@
      ]
     ]
    },
-   "rezago_nota": "SINADEF se completa con semanas de retraso (p. ej. junio-2026 pasó de 188 a 196 entre el 22-jul y el 1-nov), así que las cifras de oct-nov 2026 todavía subirán. Las medidas de seguridad (estados de emergencia, facultades delegadas aprobadas en oct-2026) tardan meses en reflejarse. 2021: +2.7 % frente a los 100 días previos; 2026: +4.3 % (cifra provisional). Ninguna de las dos variaciones es grande frente al ruido mensual (±15 %).",
+   "rezago_nota": "Ventanas de 100 días (corregidas el 7-nov): 2021 +1,9 % y 2026 +3,4 % frente a los 100 días previos; ambas variaciones están dentro del ruido mensual. El dato de 2026 es provisional (el SINADEF registra con semanas de rezago).",
    "confianza": "media: fuente oficial, pero procesada por un tercero (el filtro exige necropsia) y con subregistro reciente. Los totales mensuales de 2026 coinciden ±5 con los que publicó la prensa (ago 178, set 153-158, mar 202)."
   },
   {
@@ -1065,7 +1065,7 @@
    "confianza": "n/a"
   }
  ],
- "conclusion_neutral": "Con datos oficiales mensuales, ninguno de los dos gobiernos muestra un cambio en los indicadores de resultado que se pueda atribuir a su gestión en 100 días. Tampoco es justo concluir que 'no tienen resultados': con el rezago de estos indicadores, 100 días no alcanzan para medirlo. Homicidios (SINADEF): 2021 pasó de 370 a 380 y 2026 de 560 a 584 (provisional) frente a los 100 días previos: una ligera alza en ambos casos, dentro del ruido; 2026 parte de un nivel ~50 % más alto. El desempleo de Lima bajó en ambos casos (10.3→10.0 % en 2021; 4.9→4.4 % en 2026, mínimo histórico para un tercer trimestre), pero son tendencias que ya venían de antes (rebote pospandemia en 2021; ciclo económico en 2026). La inflación de alimentos subió en ambos: en 2021 con fuerza (3.7→7.5 %), con un choque global y la depreciación del sol por la incertidumbre política; en 2026 menos (3.5→5.3 %), con un salto en octubre ligado a choques de oferta. El único indicador que se movió mucho fue la vacunación COVID en 2021: 23.5 M dosis, el doble que en los 100 días previos. Es cobertura, no un resultado final, y heredaba compras previas. Lo honesto es decir que en 100 días se puede juzgar la dirección de las decisiones (insumos, actividades, productos) y advertir alertas tempranas, pero no el valor público, que requiere 12-24 meses y encuestas anuales (ENDES, ENAHO, ENAPRES).",
+ "conclusion_neutral": "Con datos oficiales mensuales, ninguno de los dos gobiernos muestra un cambio en los indicadores de resultado que se pueda atribuir a su gestión en 100 días. Tampoco es justo concluir que 'no tienen resultados': con el rezago de estos indicadores, 100 días no alcanzan para medirlo. Homicidios (SINADEF): 2021 pasó de 370 a 377 y 2026 de 560 a 579 (provisional) frente a los 100 días previos: una ligera alza en ambos casos, dentro del ruido; 2026 parte de un nivel ~50 % más alto. El desempleo de Lima bajó en ambos casos (10.3→10.0 % en 2021; 4.9→4.4 % en 2026, mínimo histórico para un tercer trimestre), pero son tendencias que ya venían de antes (rebote pospandemia en 2021; ciclo económico en 2026). La inflación de alimentos subió en ambos: en 2021 con fuerza (3.7→7.5 %), con un choque global y la depreciación del sol por la incertidumbre política; en 2026 menos (3.5→5.3 %), con un salto en octubre ligado a choques de oferta. El único indicador que se movió mucho fue la vacunación COVID en 2021: 23.5 M dosis, el doble que en los 100 días previos. Es cobertura, no un resultado final, y heredaba compras previas. Lo honesto es decir que en 100 días se puede juzgar la dirección de las decisiones (insumos, actividades, productos) y advertir alertas tempranas, pero no el valor público, que requiere 12-24 meses y encuestas anuales (ENDES, ENAHO, ENAPRES).",
  "caveats": [
   "Efecto rezago: la mayoría de resultados (homicidios, empleo, inflación, anemia, pobreza) responde a políticas con 6-24 meses de retraso y a factores externos (ciclo global, clima, El Niño 2026, pandemia en 2021).",
   "Comparar 'antes' contra 'durante' no es un análisis causal: no hay contrafactual, y la estacionalidad (feriados, fiestas patrias, campaña agrícola) afecta los meses de jul-nov.",

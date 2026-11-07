@@ -1,723 +1,759 @@
 {
-  "castillo": [
-    {
-      "fecha": "2021-07-28",
-      "dia_n": 0,
-      "titulo": "Castillo asume la presidencia y anuncia proyecto de Asamblea Constituyente",
-      "resumen": "En su mensaje ante el Congreso, Pedro Castillo anunció que presentaría un proyecto de reforma constitucional para convocar una Asamblea Constituyente y que no despacharía desde Palacio de Gobierno. Ofreció un cambio 'responsable' del modelo económico; las bancadas reaccionaron de forma dividida.",
-      "categoria": "anuncio_politica",
-      "tono": "neutro",
-      "fuentes": [
-        "https://elcomercio.pe/politica/actualidad/pedro-castillo-congresistas-le-ponen-nota-a-su-primer-mensaje-a-la-nacion-peru-libre-ec-data-noticia/",
-        "https://www.bloomberglinea.com/2021/07/28/castillo-ofrece-cambio-responsable-al-modelo-economico-de-peru-y-otros-anuncios-destacados/"
-      ]
-    },
-    {
-      "fecha": "2021-07-29",
-      "dia_n": 1,
-      "titulo": "Juramenta el gabinete de Guido Bellido sin titulares de Economía ni Justicia",
-      "resumen": "Guido Bellido, congresista de Perú Libre, juró como presidente del Consejo de Ministros junto a 16 ministros; las carteras de Economía y Justicia quedaron sin titular esa noche. Héctor Béjar asumió la Cancillería e Iber Maraví el Ministerio de Trabajo.",
-      "categoria": "gabinete",
-      "tono": "neutro",
-      "fuentes": [
-        "https://diariocorreo.pe/politica/nuevos-ministros-perfiles-guido-bellido-pedro-castillo-juramentacion-noticia/",
-        "https://gestion.pe/peru/politica/guido-bellido-presento-su-renuncia-a-pedido-de-pedro-castillo-nndc-noticia/"
-      ]
-    },
-    {
-      "fecha": "2021-07-30",
-      "dia_n": 2,
-      "titulo": "El dólar cierra en máximo histórico de S/ 4,07",
-      "resumen": "El tipo de cambio cerró en S/ 4,07 por dólar, su mayor nivel hasta entonces, en medio de la incertidumbre por la designación de Bellido y la ausencia de ministro de Economía. Pedro Francke juraría luego como titular del MEF.",
-      "categoria": "economia",
-      "tono": "negativo",
-      "fuentes": [
-        "https://www.bloomberglinea.com/2021/07/30/tipo-de-cambio-en-peru-dolar-cierra-en-407-soles-su-maximo-historico-ante-gabinete-bellido-y-ausencia-de-titular-del-mef/"
-      ]
-    },
-    {
-      "fecha": "2021-08-02",
-      "dia_n": 5,
-      "titulo": "Bellido logra tregua en el corredor minero de Chumbivilcas con plazo de 60 días",
-      "resumen": "Tras dialogar con comunidades de Chumbivilcas (Cusco) que bloqueaban el Corredor Minero del Sur usado por Las Bambas, el premier comprometió atender sus demandas en 60 días. El bloqueo se retomó el 10 de setiembre y el plazo venció el 1 de octubre con una nueva tregua hasta el 5 de octubre.",
-      "categoria": "protesta_social",
-      "tono": "neutro",
-      "fuentes": [
-        "https://rpp.pe/peru/cusco/guido-bellido-las-bambas-se-cumplen-60-dias-del-plazo-que-dio-el-premier-para-resolver-el-conflicto-en-el-corredor-minero-noticia-1360612"
-      ]
-    },
-    {
-      "fecha": "2021-08-10",
-      "dia_n": 13,
-      "titulo": "El dólar supera los S/ 4,11 y marca nuevo récord",
-      "resumen": "El tipo de cambio interbancario cerró en S/ 4,11, por encima del récord previo de S/ 4,096, pese a las ventas de dólares del BCR. El mercado seguía atento a las señales del nuevo gobierno.",
-      "categoria": "economia",
-      "tono": "negativo",
-      "fuentes": [
-        "https://infomercado.pe/tipo-de-cambio-precio-del-dolar-hoy-en-peru-10-de-agosto-del-2021/",
-        "https://larepublica.pe/economia/precio-del-dolar/2021/08/12/tipo-de-cambio-cotizacion-del-dolar-este-jueves-12-de-agosto-del-2021-atmp"
-      ]
-    },
-    {
-      "fecha": "2021-08-12",
-      "dia_n": 15,
-      "titulo": "BCR sube su tasa de referencia por primera vez desde 2020",
-      "resumen": "El Banco Central de Reserva elevó la tasa de referencia de 0,25 % a 0,50 %, primer cambio desde abril de 2020, ante el aumento de la inflación.",
-      "categoria": "economia",
-      "tono": "neutro",
-      "fuentes": [
-        "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2021/nota-informativa-2021-08-12-1.pdf",
-        "https://bbvaresearch.com/wp-content/uploads/2021/08/Nota-de-politica-monetaria_20210812.pdf"
-      ]
-    },
-    {
-      "fecha": "2021-08-17",
-      "dia_n": 20,
-      "titulo": "Renuncia el canciller Héctor Béjar a los 19 días de gestión",
-      "resumen": "Béjar dejó la Cancillería tras la difusión de declaraciones de febrero de 2021 en las que atribuía a la Marina el inicio del terrorismo. Fue la primera baja del gabinete; Béjar afirmó luego que su salida fue pedida por el premier.",
-      "categoria": "gabinete",
-      "tono": "negativo",
-      "fuentes": [
-        "https://larepublica.pe/politica/2021/08/17/hector-bejar-tras-renunciar-al-cargo-de-canciller-vuelvo-a-ser-libre",
-        "https://www.bloomberglinea.com/2021/08/17/hector-bejar-canciller-del-peru-renuncia-tras-19-dias-en-el-cargo/"
-      ]
-    },
-    {
-      "fecha": "2021-08-23",
-      "dia_n": 26,
-      "titulo": "INEI: el PBI creció 41,9 % en el segundo trimestre",
-      "resumen": "La economía creció 41,9 % frente al mismo trimestre de 2020, impulsada por la demanda interna (+44,8 %) y la inversión bruta fija (+157,1 %). El nivel aún quedó 0,4 % por debajo del segundo trimestre de 2019.",
-      "categoria": "economia",
-      "tono": "positivo",
-      "fuentes": [
-        "https://andina.pe/ingles/noticia-economia-peruana-crecio-419-segundo-trimestre-impulsada-por-demanda-interna-858712.aspx",
-        "https://elperuano.pe/noticia/127498-pbi-crecio-419-en-el-segundo-trimestre"
-      ]
-    },
-    {
-      "fecha": "2021-08-24",
-      "dia_n": 27,
-      "titulo": "Revelan atestados policiales que mencionan al ministro Iber Maraví",
-      "resumen": "El Comercio reveló que el nombre del ministro de Trabajo figura en atestados policiales de 1980-1982 sobre atentados de Sendero Luminoso en Ayacucho. Maraví negó toda responsabilidad, señaló que no tiene condena y descartó renunciar.",
-      "categoria": "gabinete",
-      "tono": "negativo",
-      "fuentes": [
-        "https://rpp.pe/politica/gobierno/iber-maravi-niega-responsabilidad-en-actos-terroristas-y-afirma-que-buscan-condenarlo-con-atestados-policiales-noticia-1354062",
-        "https://larepublica.pe/politica/2021/09/05/iber-maravi-si-tuvo-requisitoria-por-el-delito-de-terrorismo"
-      ]
-    },
-    {
-      "fecha": "2021-08-27",
-      "dia_n": 30,
-      "titulo": "El Congreso otorga el voto de confianza al gabinete Bellido",
-      "resumen": "Tras dos días de debate, el pleno aprobó la confianza con 73 votos a favor, 50 en contra y 0 abstenciones. Fuerza Popular, Renovación Popular y Avanza País votaron en contra.",
-      "categoria": "congreso",
-      "tono": "positivo",
-      "fuentes": [
-        "https://larepublica.pe/politica/2021/08/27/voto-de-confianza-congreso-otorga-la-investidura-al-gabinete-de-guido-bellido",
-        "https://comunicaciones.congreso.gob.pe/noticias/congreso-aprobo-cuestion-de-confianza-al-gabinete-bellido/"
-      ]
-    },
-    {
-      "fecha": "2021-09-09",
-      "dia_n": 43,
-      "titulo": "BCR eleva la tasa de referencia a 1 %",
-      "resumen": "El directorio del BCR subió la tasa en 50 puntos básicos, de 0,50 % a 1,00 %, y precisó que la decisión no implicaba necesariamente un ciclo de alzas sucesivas.",
-      "categoria": "economia",
-      "tono": "neutro",
-      "fuentes": [
-        "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2021/nota-informativa-2021-09-09-1.pdf",
-        "https://www.bloomberglinea.com/2021/09/09/bcr-continuaria-con-lento-endurecimiento-de-tasa-de-interes-de-referencia-bloomberg-intelligence/"
-      ]
-    },
-    {
-      "fecha": "2021-09-13",
-      "dia_n": 47,
-      "titulo": "Comienza el pago del Bono Yanapay de S/ 350",
-      "resumen": "El Midis inició el pago del bono de S/ 350 por persona adulta (mínimo S/ 700 por hogar) con el primer grupo, usuarios de Pensión 65, Juntos y Contigo; el Gobierno estimó unos 14,4 millones de beneficiarios. El cronograma por grupos fue reprogramado después.",
-      "categoria": "obra_servicio",
-      "tono": "positivo",
-      "fuentes": [
-        "https://diariocorreo.pe/economia/bono-350-desde-este-lunes-13-se-iniciara-el-pago-indica-el-midis-nndc-noticia/",
-        "https://elbuho.pe/2021/09/bono-yanapay-gobierno-aplaza-pagos-de-segundo-tercer-y-cuarto-grupo-de-beneficiarios/"
-      ]
-    },
-    {
-      "fecha": "2021-09-15",
-      "dia_n": 49,
-      "titulo": "Lima inicia piloto de clases semipresenciales",
-      "resumen": "El Minedu arrancó en Lima Metropolitana un piloto de retorno semipresencial en 16 colegios de la UGEL 7. A nivel nacional, 6019 escuelas con 246 760 estudiantes ya tenían clases semipresenciales.",
-      "categoria": "educacion",
-      "tono": "positivo",
-      "fuentes": [
-        "https://www.infobae.com/america/2021/09/12/clases-semipresenciales-inician-este-15-de-setiembre-en-estos-colegios-de-lima/"
-      ]
-    },
-    {
-      "fecha": "2021-09-17",
-      "dia_n": 51,
-      "titulo": "El Congreso admite la interpelación al ministro Maraví",
-      "resumen": "El pleno admitió la moción de interpelación contra el ministro de Trabajo, Iber Maraví, con 81 votos a favor, 37 en contra y 1 abstención.",
-      "categoria": "congreso",
-      "tono": "negativo",
-      "fuentes": [
-        "https://comunicaciones.congreso.gob.pe/noticias/pleno-admite-mocion-de-interpelacion-contra-el-ministro-de-trabajo"
-      ]
-    },
-    {
-      "fecha": "2021-09-18",
-      "dia_n": 52,
-      "titulo": "Castillo participa en la cumbre de la CELAC en México",
-      "resumen": "En su primer viaje oficial, Castillo asistió a la VI Cumbre de la CELAC en Ciudad de México, se reunió con López Obrador y llamó a la integración regional. Lo acompañaron cuatro ministros.",
-      "categoria": "politica_exterior",
-      "tono": "neutro",
-      "fuentes": [
-        "https://andina.pe/ingles/noticia-perus-president-participates-in-vi-celac-summit-862145.aspx",
-        "https://rpp.pe/politica/gobierno/cuatro-ministros-acompanan-a-pedro-castillo-en-su-viaje-a-mexico-y-estados-unidos-noticia-1358103"
-      ]
-    },
-    {
-      "fecha": "2021-09-21",
-      "dia_n": 55,
-      "titulo": "Castillo interviene en la 76.ª Asamblea General de la ONU",
-      "resumen": "En Nueva York, el presidente habló sobre la desigualdad, la pandemia y la cooperación internacional, y condenó el terrorismo 'en todas sus formas'.",
-      "categoria": "politica_exterior",
-      "tono": "neutro",
-      "fuentes": [
-        "https://elperuano.pe/noticia/129527-presidente-castillo-llega-a-sede-de-la-onu-para-asamblea-general-de-naciones-unidas",
-        "https://www.exitosanoticias.pe/politica/presidente-castillo-onu-condenamos-rechazamos-terrorismo-todas-sus-formas-n60676"
-      ]
-    },
-    {
-      "fecha": "2021-09-26",
-      "dia_n": 60,
-      "titulo": "Bellido plantea nacionalizar Camisea; el dólar sube a S/ 4,12",
-      "resumen": "El premier tuiteó que, si no se renegociaba el reparto de utilidades, se nacionalizaría Camisea; Castillo matizó horas después que cualquier renegociación respetaría el Estado de derecho. El 27 de setiembre el dólar tocó un récord de S/ 4,12.",
-      "categoria": "economia",
-      "tono": "negativo",
-      "fuentes": [
-        "https://www.infobae.com/america/peru/2021/09/27/choque-de-posiciones-entre-pedro-castillo-y-guido-bellido-por-el-gas-de-camisea-provoca-nueva-crisis-en-el-peru/",
-        "https://diariocorreo.pe/economia/precio-del-dolar-en-peru-tipo-de-cambio-se-cotiza-a-s-412-hoy-lunes-27-de-septiembre-nndc-noticia/"
-      ]
-    },
-    {
-      "fecha": "2021-10-03",
-      "dia_n": 67,
-      "titulo": "Lanzan la Segunda Reforma Agraria en Sacsayhuamán",
-      "resumen": "Castillo presentó en Cusco la Segunda Reforma Agraria, con cinco ejes orientados a más de 2 millones de pequeños productores de la agricultura familiar. Descartó expropiaciones; la propuesta generó opiniones divididas entre especialistas.",
-      "categoria": "anuncio_politica",
-      "tono": "neutro",
-      "fuentes": [
-        "https://elperuano.pe/noticia/130405-conozca-los-cinco-ejes-de-la-segunda-reforma-agraria",
-        "https://larepublica.pe/economia/2021/10/07/segunda-reforma-agraria-en-que-consiste-y-en-que-se-parece-a-la-de-velasco"
-      ]
-    },
-    {
-      "fecha": "2021-10-06",
-      "dia_n": 70,
-      "titulo": "Renuncia Bellido; Mirtha Vásquez juramenta como premier",
-      "resumen": "Castillo aceptó la renuncia de Guido Bellido 'para garantizar la gobernabilidad' y tomó juramento a Mirtha Vásquez, expresidenta del Congreso. El nuevo gabinete pasó de dos a cuatro ministras.",
-      "categoria": "gabinete",
-      "tono": "neutro",
-      "fuentes": [
-        "https://andina.pe/agencia/noticia-presidente-castillo-tomo-juramento-a-nuevo-gabinete-encabezado-mirtha-vasquez-864634.aspx",
-        "https://rpp.pe/politica/gobierno/mirtha-vasquez-trabajare-por-las-reformas-que-necesita-el-pais-desde-la-pcm-noticia-1361755"
-      ]
-    },
-    {
-      "fecha": "2021-10-07",
-      "dia_n": 71,
-      "titulo": "BCR eleva la tasa de referencia a 1,5 %",
-      "resumen": "El BCR subió la tasa de referencia en medio punto, de 1,00 % a 1,50 %, en su tercera alza consecutiva ante presiones inflacionarias.",
-      "categoria": "economia",
-      "tono": "neutro",
-      "fuentes": [
-        "https://www.bloomberglinea.com/2021/10/07/bcr-vuelve-a-elevar-tasa-de-interes-de-referencia-de-peru-en-medio-punto-a-150/"
-      ]
-    },
-    {
-      "fecha": "2021-10-08",
-      "dia_n": 72,
-      "titulo": "El Gobierno ratifica a Julio Velarde al frente del BCR",
-      "resumen": "Se oficializó la ratificación de Julio Velarde como presidente del BCR para un nuevo periodo y la designación de Roxana Barrantes, José Távara y Germán Alarco como directores. El Gobierno ya lo había adelantado el 1 de octubre.",
-      "categoria": "economia",
-      "tono": "positivo",
-      "fuentes": [
-        "https://www.infobae.com/america/peru/2021/10/08/julio-velarde-es-ratificado-como-presidente-del-bcr-por-pedro-castillo/",
-        "https://elcomercio.pe/economia/pcm-confirma-ratificacion-de-julio-velarde-al-frente-del-banco-central-de-reserva-nndc-noticia"
-      ]
-    },
-    {
-      "fecha": "2021-10-16",
-      "dia_n": 80,
-      "titulo": "Perú vacuna con dos dosis al 50 % de su población objetivo",
-      "resumen": "El Minsa informó que más de 13,8 millones de personas mayores de 12 años completaron dos dosis contra la COVID-19, el 50 % de la población objetivo de unos 28 millones. La meta se había fijado para el 15 de octubre.",
-      "categoria": "salud",
-      "tono": "positivo",
-      "fuentes": [
-        "https://rpp.pe/peru/actualidad/minsa-el-50-de-la-poblacion-objetivo-ya-esta-vacunada-con-las-dos-dosis-contra-la-covid-19-noticia-1363638",
-        "https://www.infobae.com/america/peru/2021/10/16/covid-19-peru-esta-a-1-de-inmunizar-a-la-mitad-de-su-poblacion-con-ambas-dosis/"
-      ]
-    },
-    {
-      "fecha": "2021-10-21",
-      "dia_n": 85,
-      "titulo": "Se publica la Ley 31355, que limita la cuestión de confianza",
-      "resumen": "El Congreso promulgó por insistencia (79 votos a favor y 43 en contra) la ley que impide plantear la cuestión de confianza sobre reformas constitucionales o competencias exclusivas del Congreso. Al día siguiente, el Ejecutivo presentó una demanda de inconstitucionalidad ante el TC.",
-      "categoria": "congreso",
-      "tono": "neutro",
-      "fuentes": [
-        "https://busquedas.elperuano.pe/normaslegales/ley-que-desarrolla-el-ejercicio-de-la-cuestion-de-confianza-ley-n-31355-2003559-1/"
-      ]
-    },
-    {
-      "fecha": "2021-11-02",
-      "dia_n": 97,
-      "titulo": "Renuncia el ministro del Interior Luis Barranzuela tras reunión en su casa",
-      "resumen": "Barranzuela dejó el cargo tras difundirse que el 31 de octubre hubo una reunión en su vivienda pese a que su sector había prohibido fiestas por Halloween y el Día de la Canción Criolla. Él negó la fiesta y la llamó 'reunión de trabajo'; fue el segundo ministro del Interior en salir en tres meses.",
-      "categoria": "gabinete",
-      "tono": "negativo",
-      "fuentes": [
-        "https://forbes.pe/actualidad/2021-11-02/luis-barranzuela-renuncio-al-ministerio-del-interior/",
-        "https://larepublica.pe/politica/2021/11/01/luis-barranzuela-niega-fiesta-por-dia-de-la-cancion-criolla-en-su-casa-lo-que-hemos-tenido-es-una-reunion-de-trabajo-ministerio-del-interior"
-      ]
-    },
-    {
-      "fecha": "2021-11-03",
-      "dia_n": 98,
-      "titulo": "Pasan al retiro a los comandantes generales del Ejército y de la FAP",
-      "resumen": "El Ejecutivo pasó al retiro al general José Vizcarra (Ejército) y al teniente general Chaparro Pinto (FAP), y designó a Walter Córdova y Alfonso Artadi. Vizcarra afirmó que se enteró por El Peruano y que no hubo motivación previa.",
-      "categoria": "seguridad",
-      "tono": "negativo",
-      "fuentes": [
-        "https://elperuano.pe/noticia/132650-designan-comandantes-generales-en-el-ejercito-y-la-fuerza-aerea",
-        "https://larepublica.pe/politica/2021/11/06/fuerzas-armadas-jose-vizcarra-tenian-la-obligacion-y-deber-moral-de-comunicar-el-relevo"
-      ]
-    },
-    {
-      "fecha": "2021-11-04",
-      "dia_n": 99,
-      "titulo": "El Congreso otorga la confianza al gabinete Vásquez",
-      "resumen": "El pleno aprobó la confianza con 68 votos a favor, 56 en contra y 1 abstención; se necesitaban 64. Acción Popular y APP aportaron 27 votos a favor, mientras 16 congresistas de Perú Libre no la respaldaron.",
-      "categoria": "congreso",
-      "tono": "positivo",
-      "fuentes": [
-        "https://rpp.pe/politica/congreso/voto-de-confianza-asi-se-dio-en-el-parlamento-la-votacion-al-pedido-del-gabinete-ministerial-noticia-1367462",
-        "https://larepublica.pe/politica/2021/11/05/voto-de-confianza-accion-popular-y-app-evitaron-la-caida-del-gabinete-de-mirtha-vasquez"
-      ]
-    },
-    {
-      "fecha": "2021-11-06",
-      "dia_n": 101,
-      "titulo": "Excomandante denuncia presiones para ascensos en el Ejército",
-      "resumen": "El general José Vizcarra sostuvo que fue retirado por negarse a ascender a oficiales recomendados por Palacio; El Comercio informó que se propuso a dos coroneles hijos de un amigo del presidente. El ministro de Defensa, Walter Ayala, negó haber presionado y calificó las denuncias de 'pataletas'.",
-      "categoria": "corrupcion_investigaciones",
-      "tono": "negativo",
-      "fuentes": [
-        "https://gestion.pe/peru/ex-comandante-general-del-ejercito-castillo-me-saco-porque-no-acepte-a-sus-recomendados-nndc-noticia/",
-        "https://elcomercio.pe/lima/seguridad/presidente-castillo-quiso-ascender-como-generales-a-hijos-de-su-amigo-noticia/"
-      ]
-    }
-  ],
-  "keiko": [
-    {
-      "fecha": "2026-07-28",
-      "dia_n": 0,
-      "titulo": "Keiko Fujimori asume la presidencia para el periodo 2026-2031",
-      "resumen": "Jura ante el Congreso tras ganar la segunda vuelta por menos de 50 000 votos. En su primer mensaje promete combatir el crimen con 'mano dura', subir el salario mínimo de S/1130 a S/1300 y duplicar Pensión 65 de S/350 a S/700.",
-      "categoria": "anuncio_politica",
-      "tono": "neutro",
-      "fuentes": [
-        "https://andina.pe/agencia/noticia-peru-keiko-fujimori-sworn-in-as-president-of-republic-1085378.aspx",
-        "https://npr.org/2026/07/28/nx-s1-5910830/peru-president-keiko-fujimori-inaugurated"
-      ]
-    },
-    {
-      "fecha": "2026-07-28",
-      "dia_n": 0,
-      "titulo": "Opositores y familiares de víctimas de 2022-2023 protestan durante la asunción",
-      "resumen": "Legisladores de oposición se manifiestan frente al Parlamento con fotos de fallecidos en las protestas de 2022-2023; familiares afirman no reconocer a la nueva presidenta.",
-      "categoria": "protesta_social",
-      "tono": "negativo",
-      "fuentes": [
-        "https://www.inquirer.com/news/nation-world/peru-inauguration-keiko-fujimori-president-conservative-20260728.html"
-      ]
-    },
-    {
-      "fecha": "2026-07-28",
-      "dia_n": 0,
-      "titulo": "Juramenta el primer gabinete, presidido por Luis Galarreta",
-      "resumen": "El primer vicepresidente y secretario general de Fuerza Popular encabeza la PCM. Elmer Cuba asume Economía, Carlos Espá Relaciones Exteriores y el general (r) César Astudillo el Interior.",
-      "categoria": "gabinete",
-      "tono": "neutro",
-      "fuentes": [
-        "https://rpp.pe/politica/gobierno/keiko-fujimori-tomo-juramento-a-su-primer-gabinete-ministerial-presidido-por-luis-galarreta-noticia-1699158",
-        "https://www.gob.pe/institucion/presidencia/noticias/1423625-presidenta-keiko-fujimori-tomo-juramento-a-su-primer-gabinete-liderado-por-luis-galarreta"
-      ]
-    },
-    {
-      "fecha": "2026-07-28",
-      "dia_n": 0,
-      "titulo": "Perú y Colombia ratifican el retorno de embajadores",
-      "resumen": "Tras reunirse con el vicepresidente colombiano José Manuel Restrepo, ambos gobiernos confirman la restitución plena de relaciones diplomáticas.",
-      "categoria": "politica_exterior",
-      "tono": "positivo",
-      "fuentes": [
-        "https://www.abc.com.py/internacionales/2026/07/28/peru-y-colombia-ratifican-el-envio-de-embajadores-tras-la-reunion-de-fujimori-con-restrepo/"
-      ]
-    },
-    {
-      "fecha": "2026-08-07",
-      "dia_n": 10,
-      "titulo": "Perú y México restablecen relaciones diplomáticas tras nueve meses de ruptura",
-      "resumen": "Las relaciones se habían roto en noviembre de 2025 por el asilo mexicano a Betssy Chávez. Ambas cancillerías preparan la reapertura de embajadas.",
-      "categoria": "politica_exterior",
-      "tono": "positivo",
-      "fuentes": [
-        "https://www.excelsior.com.mx/nacional/mexico-y-peru-restablecen-relaciones-diplomaticas",
-        "https://www.poresto.com/mexico/2026/8/7/mexico-y-peru-reanudan-relaciones-diplomaticas-tras-nueve-meses-de-ruptura.html"
-      ]
-    },
-    {
-      "fecha": "2026-08-18",
-      "dia_n": 21,
-      "titulo": "Decreto de urgencia 008-2026 destina más de S/179 millones a la prevención de El Niño",
-      "resumen": "El DU autoriza medidas extraordinarias ante lluvias intensas: limpieza y descolmatación de ríos y quebradas, vigentes hasta el 31 de diciembre.",
-      "categoria": "obra_servicio",
-      "tono": "positivo",
-      "fuentes": [
-        "https://larepublica.pe/politica/2026/08/18/gobierno-de-keiko-fujimori-publica-decreto-de-urgencia-ante-riesgo-por-fenomeno-el-nino-hnews-797274"
-      ]
-    },
-    {
-      "fecha": "2026-08-20",
-      "dia_n": 23,
-      "titulo": "Galarreta expone la política general ante Diputados, sin voto de confianza",
-      "resumen": "Es el primer gabinete que, por la reforma bicameral (Ley 31988), presenta su política general sin investidura. El pedido de facultades legislativas queda pendiente.",
-      "categoria": "congreso",
-      "tono": "neutro",
-      "fuentes": [
-        "https://larepublica.pe/politica/2026/08/20/en-vivo-luis-galarreta-y-sus-ministros-llegan-al-congreso-primer-ministro-y-gabinete-ministerial-expone-su-plan-de-gobierno-hnews-1369349",
-        "https://elperuano.pe/noticia/302761-gabinete-galarreta-expondra-este-jueves-la-politica-general-de-gobierno-ante-diputados"
-      ]
-    },
-    {
-      "fecha": "2026-08-22",
-      "dia_n": 25,
-      "titulo": "Tras reunirse con la presidenta, la mayoría de gremios de transporte se aparta del paro del 25 de agosto",
-      "resumen": "Gremios de Lima y Callao que denunciaban extorsiones dicen respaldar las medidas anunciadas; un sector minoritario mantiene la convocatoria por unos días.",
-      "categoria": "protesta_social",
-      "tono": "positivo",
-      "fuentes": [
-        "https://canaln.pe/actualidad/sector-transporitstas-anuncia-que-no-acatara-paro-25-agosto-reunion-keiko-fujimori-n494443",
-        "https://caretas.pe/?p=829423"
-      ]
-    },
-    {
-      "fecha": "2026-08-27",
-      "dia_n": 30,
-      "titulo": "El MEF eleva a 3,4 % la proyección de crecimiento para 2026",
-      "resumen": "El Marco Macroeconómico Multianual 2027-2030, aprobado en Consejo de Ministros, sube la proyección de 3,2 % a 3,4 % pese al riesgo de El Niño; aún lejos del 6 % ofrecido en campaña.",
-      "categoria": "economia",
-      "tono": "positivo",
-      "fuentes": [
-        "https://gestion.pe/economia/el-nino-gobierno-de-keiko-fujimori-eleva-proyeccion-de-crecimiento-para-la-economia-de-peru-para-2026-y-2027-pese-a-evento-climatico-noticia/"
-      ]
-    },
-    {
-      "fecha": "2026-09-10",
-      "dia_n": 44,
-      "titulo": "Con la visita de Marco Rubio, Perú se adhiere al 'Escudo de las Américas'",
-      "resumen": "La presidenta confirma el ingreso a la coalición contra el crimen organizado transnacional impulsada por EE. UU.; hubo protestas de grupos de izquierda contra la visita.",
-      "categoria": "politica_exterior",
-      "tono": "neutro",
-      "fuentes": [
-        "https://www.vistazo.com/mundo/2026-09-10-keiko-fujimori-marco-rubio-peru-escudo-de-las-americas-AD11219944",
-        "https://caretas.pe/?p=833535"
-      ]
-    },
-    {
-      "fecha": "2026-09-18",
-      "dia_n": 52,
-      "titulo": "Primera baja del gabinete: renuncia Rafael Rey al MTC",
-      "resumen": "Rey deja Transportes por motivos de salud tras 52 días; jura José Tangherlini, hasta entonces viceministro en el Midagri.",
-      "categoria": "gabinete",
-      "tono": "negativo",
-      "fuentes": [
-        "https://elperuano.pe/noticia/305021-pcm-rafael-rey-renuncia-a-cartera-de-transportes-y-comunicaciones-por-motivos-de-salud",
-        "https://gestion.pe/peru/politica/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-dwl-gobierno-de-keiko-fujimori-noticia/"
-      ]
-    },
-    {
-      "fecha": "2026-09-21",
-      "dia_n": 55,
-      "titulo": "Presentan moción de interpelación contra el ministro de Educación José Antonio Chang",
-      "resumen": "El pliego cuestiona su gestión y designaciones en cargos clave; la moción pierde fuerza semanas después tras el retiro de firmas.",
-      "categoria": "educacion",
-      "tono": "negativo",
-      "fuentes": [
-        "https://canaln.pe/actualidad/jose-antonio-chang-presentan-mocion-interpelacion-contra-ministro-educacion-n495228",
-        "https://canaln.pe/amp/actualidad/pier-figari-defiende-archivo-interpelacion-contra-jose-antonio-chang-n495943"
-      ]
-    },
-    {
-      "fecha": "2026-09-22",
-      "dia_n": 56,
-      "titulo": "La presidenta interviene en la 81.ª Asamblea General de la ONU",
-      "resumen": "Expone la lucha contra el crimen organizado y promueve inversiones; se reúne con el secretario general António Guterres.",
-      "categoria": "politica_exterior",
-      "tono": "neutro",
-      "fuentes": [
-        "https://elperuano.pe/noticia/305245--presidenta-keiko-fujimori-expone-hoy-ante-la-asamblea-general-de-las-naciones-unidas",
-        "https://panamericana.pe/politica/474683-presidenta-fujimori-participa-asamblea-general-onu-cumplira-agenda-bilateral"
-      ]
-    },
-    {
-      "fecha": "2026-09-24",
-      "dia_n": 58,
-      "titulo": "Diputados presentan moción de censura contra el ministro del Interior por cifras de homicidios",
-      "resumen": "Obras, Juntos por el Perú y Buen Gobierno citan 1499 homicidios hasta agosto. El 30 de setiembre tres diputados retiran sus firmas y la moción no llega a votarse.",
-      "categoria": "seguridad",
-      "tono": "negativo",
-      "fuentes": [
-        "https://caretas.pe/politica/cesar-astudillo-presentan-mocion-de-censura-contra-ministro-del-interior-por-cifras-de-homicidios/",
-        "https://caretas.pe/?p=837202"
-      ]
-    },
-    {
-      "fecha": "2026-09-28",
-      "dia_n": 62,
-      "titulo": "Se oficializa el alza del salario mínimo a S/1230 desde el 1 de octubre",
-      "resumen": "El DS 015-2026-TR fija un primer tramo de S/100; el segundo, hasta S/1300, queda para después de El Niño. Se anuncia un bono de S/100 por trabajador para mypes, aún sin desembolsar al día 100.",
-      "categoria": "economia",
-      "tono": "positivo",
-      "fuentes": [
-        "https://www.infobae.com/peru/2026/09/28/gobierno-de-keiko-fujimori-oficializa-aumento-del-sueldo-minimo-desde-octubre-sera-de-s1230-en-su-primer-tramo/",
-        "https://gestion.pe/economia/salario-minimo-subira-a-s-1230-en-octubre-y-segunda-alza-llegara-tras-el-nino-segun-anuncio-gobierno-de-keiko-fujimori-noticia/"
-      ]
-    },
-    {
-      "fecha": "2026-10-06",
-      "dia_n": 70,
-      "titulo": "Diputados aprueban facultades legislativas recortadas: solo seguridad y El Niño",
-      "resumen": "Con 66 votos, tras más de 12 horas de debate, la Cámara otorga 90 días de facultades. El Ejecutivo había pedido 66 materias por 120 días.",
-      "categoria": "congreso",
-      "tono": "neutro",
-      "fuentes": [
-        "https://www.infobae.com/peru/2026/10/07/camara-de-diputados-aprobo-otorgar-facultades-legislativas-a-gobierno-de-keiko-fujimori-en-seguridad-y-fenomeno-el-nino/",
-        "https://www.swissinfo.ch/spa/c%C3%A1mara-de-diputados-de-per%C3%BA-aprueba-otorgar-facultades-legislativas-a-gobierno-de-fujimori/92177463"
-      ]
-    },
-    {
-      "fecha": "2026-10-07",
-      "dia_n": 71,
-      "titulo": "Se crea el Comando Unificado FF. AA.-PNP con 1350 efectivos contra el crimen organizado",
-      "resumen": "Las 'Fuerzas Combinadas' tendrán un centro de control y operaciones en el Cuartel General del Ejército e inteligencia conjunta, tras una sesión del Consejo de Seguridad y Defensa Nacional.",
-      "categoria": "seguridad",
-      "tono": "neutro",
-      "fuentes": [
-        "https://gestion.pe/peru/comando-unificado-contra-el-crimen-quienes-lo-conforman-y-que-acciones-se-tomaran-noticia/",
-        "https://www.poresto.com/internacional/2026/10/7/fujimori-crea-comando-militar-policial-dirigir-lucha-crimen-organizado-peru.html"
-      ]
-    },
-    {
-      "fecha": "2026-10-19",
-      "dia_n": 83,
-      "titulo": "Inauguran la línea de transmisión Puerto Maldonado-Iberia y anuncian paquete para obras paralizadas",
-      "resumen": "La obra de 138 kV y la subestación Iberia (S/136 millones) beneficiarán a más de 120 000 habitantes de Madre de Dios. La presidenta anuncia medidas para destrabar obras paralizadas.",
-      "categoria": "obra_servicio",
-      "tono": "positivo",
-      "fuentes": [
-        "https://elperuano.pe/noticia/307140-presidenta-fujimori-anuncia-amplio-paquete-de-medidas-para-destrabar-obras-paralizadas"
-      ]
-    },
-    {
-      "fecha": "2026-10-22",
-      "dia_n": 86,
-      "titulo": "El Senado completa la delegación de facultades por 90 días",
-      "resumen": "Aprueba legislar en seguridad ciudadana y El Niño, e incluye la intervención de las FF. AA. cuando la capacidad policial sea superada. Al día 100 aún no se publican los decretos legislativos.",
-      "categoria": "congreso",
-      "tono": "neutro",
-      "fuentes": [
-        "https://www.lanacion.com.py/mundo/2026/10/22/congreso-de-peru-delega-facultades-a-keiko-fujimori-para-legislar-contra-el-crimen/",
-        "https://www.democrata.es/internacional/el-congreso-de-peru-respalda-otorgar-poderes-a-fujimori-sobre-seguridad-y-el-fenomeno-el-nino/"
-      ]
-    },
-    {
-      "fecha": "2026-10-24",
-      "dia_n": 88,
-      "titulo": "Marchas en siete ciudades contra la inseguridad, los incendios forestales y los efectos de El Niño",
-      "resumen": "Colectivos ciudadanos y juveniles se movilizan en Lima, Arequipa, Cusco, Ica, Huancayo, Trujillo y Juliaca; en Lima se reporta represión policial al anochecer.",
-      "categoria": "protesta_social",
-      "tono": "negativo",
-      "fuentes": [
-        "https://www.infobae.com/peru/2026/10/25/marcha-contra-la-inseguridad-y-por-efectos-del-fenomeno-el-nino-se-realiza-este-sabado-24-de-octubre-en-lima-cusco-arequipa/"
-      ]
-    },
-    {
-      "fecha": "2026-10-26",
-      "dia_n": 90,
-      "titulo": "Megaoperativo desmantela antenas clandestinas alrededor de cuatro penales",
-      "resumen": "El Comando Unificado retira 48 estaciones y 43 antenas ilegales usadas para extorsionar desde cárceles como Sarita Colonia; no hay aún datos sobre su efecto en las extorsiones.",
-      "categoria": "seguridad",
-      "tono": "positivo",
-      "fuentes": [
-        "https://elperuano.pe/noticia/307628-presidenta-fujimori-dio-inicio-a-intervencion-de-estaciones-y-antenas-ilegales-cerca-a-penales",
-        "https://gestion.pe/peru/gobierno-de-keiko-fujimori-realiza-operativo-para-desmantelar-antenas-de-telecomunicaciones-clandestinas-en-penales-noticia/"
-      ]
-    },
-    {
-      "fecha": "2026-10-29",
-      "dia_n": 93,
-      "titulo": "Congreso aprueba crédito suplementario de S/8228 millones; Pensión 65 sube a S/700",
-      "resumen": "El crédito financia El Niño, infraestructura, seguridad, salud y educación. El nuevo monto de Pensión 65 llegará a 824 351 adultos mayores desde el 30 de noviembre.",
-      "categoria": "economia",
-      "tono": "positivo",
-      "fuentes": [
-        "https://elpopular.pe/actualidad/2026/10/29/pension-65-entregara-s700-soles-bimestrales-a-beneficiarios-desde-noviembre-2026-723260",
-        "https://elperuano.pe/noticia/305555-gobierno-impulsa-credito-suplementario-para-pension-65-seguridad-y-empleo-temporal"
-      ]
-    },
-    {
-      "fecha": "2026-10-29",
-      "dia_n": 93,
-      "titulo": "Visita oficial a El Salvador: reunión con Bukele y recorrido por el Cecot",
-      "resumen": "Firma una declaración conjunta de cooperación en salud, seguridad, justicia y turismo. Al regresar anuncia la construcción de dos megapenales; la visita recibe críticas por su beneficio concreto.",
-      "categoria": "politica_exterior",
-      "tono": "neutro",
-      "fuentes": [
-        "https://caretas.pe/?p=841751",
-        "https://www.vanguardia.com/mundo/2026/10/30/keiko-fujimori-anuncia-dos-carceles-para-peru-tras-visitar-la-megacarcel-de-bukele/"
-      ]
-    },
-    {
-      "fecha": "2026-11-03",
-      "dia_n": 98,
-      "titulo": "Declaran emergencia por 60 días en 25 regiones ante lluvias de El Niño",
-      "resumen": "El DS 149-2026-PCM declara emergencia de nivel 4 en distritos de 25 departamentos y el Callao por el peligro de lluvias intensas del El Niño 2026-2027.",
-      "categoria": "anuncio_politica",
-      "tono": "neutro",
-      "fuentes": [
-        "https://www.infobae.com/peru/2026/11/03/peru-en-alerta-por-el-nino-declaran-emergencia-por-60-dias-ante-el-riesgo-de-lluvias-intensas-en-25-regiones/",
-        "https://gestion.pe/peru/gobiernode-keiko-fujimori-declara-emergencia-en-varias-regiones-ante-peligro-de-lluvias-por-el-nino-noticia/"
-      ]
-    },
-    {
-      "fecha": "2026-11-03",
-      "dia_n": 98,
-      "titulo": "Transportistas de carga anuncian paro nacional de 72 horas por el alza del diésel",
-      "resumen": "La Coordinadora Gremial convoca para el 16-18 de noviembre y considera insuficiente el subsidio de S/4 por galón (DU 007-2026).",
-      "categoria": "protesta_social",
-      "tono": "negativo",
-      "fuentes": [
-        "https://www.infobae.com/peru/2026/11/03/paro-nacional-de-transportistas-de-carga-pesada-por-tres-dias-contra-el-alza-del-precio-de-combustibles/",
-        "https://macronorte.pe/2026/11/04/transportistas-de-carga-pesada-anuncian-paro-nacional-para-el-16-17-y-18-de-noviembre/"
-      ]
-    },
-    {
-      "fecha": "2026-11-05",
-      "dia_n": 100,
-      "titulo": "Mensaje por los 100 días: el Gobierno reporta menos homicidios diarios y admite lentitud",
-      "resumen": "Reporta un descenso de 7,5 a 6,5 homicidios diarios, 37 organizaciones criminales desarticuladas, S/1500 millones en prevención y 85 % de la descolmatación prevista. Reconoce que 'siempre se pueden hacer cosas con mayor rapidez'. La prensa nota que no informó el avance de metas de campaña.",
-      "categoria": "anuncio_politica",
-      "tono": "neutro",
-      "fuentes": [
-        "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-dio-mensaje-a-la-nacion-por-sus-100-dias-de-gobierno-cifras-anuncios-y-balance-de-su-gestion/",
-        "https://larepublica.pe/politica/2026/11/05/keiko-fujimori-da-balance-de-sus-100-primeros-dias-sin-mejoras-sustanciales-no-hemos-vencido-al-crimen-aun-252195",
-        "https://elcomercio.pe/politica/gobierno/keiko-fujimori-tras-balance-de-100-dias-de-gobierno-siempre-se-pueden-hacer-cosas-con-mayor-rapidez-ultimas-noticia/"
-      ]
-    },
-    {
-      "fecha": "2026-11-05",
-      "dia_n": 100,
-      "titulo": "Anuncian S/6000 millones para infraestructura educativa y S/7000 millones para obras paralizadas",
-      "resumen": "Montos anunciados en el balance de los 100 días, con ejecución prevista desde 2027. El bono mype, la reestructuración penitenciaria y PROMYPE siguen sin norma ni cronograma.",
-      "categoria": "educacion",
-      "tono": "neutro",
-      "fuentes": [
-        "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
-        "https://gestion.pe/peru/politica/keiko-fujimori-brinda-ahora-un-balance-de-los-primeros-100-dias-de-gestion-noticia/"
-      ]
-    },
-    {
-      "fecha": "2026-11-06",
-      "dia_n": 101,
-      "titulo": "La presidenta inspecciona un albergue y un hospital de campaña en Tumbes tras el desborde del Zarumilla",
-      "resumen": "El hospital del Ejército tiene entre 80 y 120 camas y 143 brigadistas; el Minsa declara alerta amarilla en todo el país por las lluvias. Hay 48 familias albergadas en Aguas Verdes.",
-      "categoria": "salud",
-      "tono": "positivo",
-      "fuentes": [
-        "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-llego-a-tumbes-para-inspeccionar-albergue-temporal-y-hospital-de-campana/"
-      ]
-    },
-    {
-      "fecha": "2026-11-07",
-      "dia_n": 102,
-      "titulo": "Firman nuevos lineamientos de disciplina escolar con metas educativas a cinco años",
-      "resumen": "El reglamento, anunciado en el balance de los 100 días, se firma en el colegio donde estudió Alberto Fujimori.",
-      "categoria": "educacion",
-      "tono": "neutro",
-      "fuentes": [
-        "https://www.infobae.com/peru/2026/11/07/keiko-fujimori-firmo-nuevos-lineamientos-de-disciplina-escolar-en-colegio-donde-estudio-su-padre-alberto-fujimori/",
-        "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-fijo-cinco-anos-de-metas-para-la-educacion-que-propone-el-reglamento-de-disciplina-escolar-anunciado-por-la-presidenta/"
-      ]
-    }
-  ],
-  "conteos": {
-    "castillo": {
-      "total": 27,
-      "por_categoria": {
-        "gabinete": 5,
-        "economia": 8,
-        "seguridad": 1,
-        "educacion": 1,
-        "salud": 1,
-        "corrupcion_investigaciones": 1,
-        "congreso": 4,
-        "protesta_social": 1,
-        "politica_exterior": 2,
-        "anuncio_politica": 2,
-        "obra_servicio": 1
-      },
-      "por_tono": {
-        "positivo": 7,
-        "negativo": 9,
-        "neutro": 11
-      }
-    },
-    "keiko": {
-      "total": 29,
-      "por_categoria": {
-        "gabinete": 2,
-        "economia": 3,
-        "seguridad": 3,
-        "educacion": 3,
-        "salud": 1,
-        "corrupcion_investigaciones": 0,
-        "congreso": 3,
-        "protesta_social": 4,
-        "politica_exterior": 5,
-        "anuncio_politica": 3,
-        "obra_servicio": 2
-      },
-      "por_tono": {
-        "positivo": 10,
-        "negativo": 6,
-        "neutro": 13
-      }
-    }
+ "castillo": [
+  {
+   "fecha": "2021-07-28",
+   "dia_n": 0,
+   "titulo": "Castillo asume la presidencia y anuncia proyecto de Asamblea Constituyente",
+   "resumen": "En su mensaje ante el Congreso, Pedro Castillo anunció que presentaría un proyecto de reforma constitucional para convocar una Asamblea Constituyente y que no despacharía desde Palacio de Gobierno. Ofreció un cambio 'responsable' del modelo económico; las bancadas reaccionaron de forma dividida.",
+   "categoria": "anuncio_politica",
+   "tono": "neutro",
+   "fuentes": [
+    "https://elcomercio.pe/politica/actualidad/pedro-castillo-congresistas-le-ponen-nota-a-su-primer-mensaje-a-la-nacion-peru-libre-ec-data-noticia/",
+    "https://www.bloomberglinea.com/2021/07/28/castillo-ofrece-cambio-responsable-al-modelo-economico-de-peru-y-otros-anuncios-destacados/"
+   ]
   },
-  "caveats": [
-    "dia_n = días calendario transcurridos desde la asunción (28-jul = día 0; 5-nov = día 100). Hay hitos fuera de la ventana: Castillo 6-nov-2021 (día 101, denuncia sobre ascensos, hecha pública el 5 o el 6-nov) y Keiko 6-nov y 7-nov-2026 (días 101-102), incluidos a propósito como parte del balance de los 100 días.",
-    "'Marcha por la democracia' del 7-nov-2026: no encontré cobertura indexada hasta el cierre (7-nov). Las marchas con ese nombre que aparecen son de abril-junio de 2026 (contexto electoral, López Aliaga) y están fuera de la ventana. Sí está la marcha del 24-oct-2026 en siete ciudades. Hay que revisarlo de nuevo cuando se publique la cobertura.",
-    "Corrupción/investigaciones 2026: no verifiqué ningún hito fechado. Hay denuncias periodísticas sobre contrataciones en el Ministerio de Cultura (ministro Alberto Beingolea), pero expreso.com.pe bloquea los bots (403) y no pude confirmar la fecha. La investigación de Ojo Público por aportes de campaña 2021 que involucra a Galarreta es de junio de 2026, anterior a la asunción. El 0 en esta categoría refleja un vacío de la verificación, no una ausencia comprobada.",
-    "El cupo de búsquedas web de la sesión se agotó a mitad del trabajo. No se pudo incluir a Ojo Público, IDL-Reporteros, Epicentro ni El País como fuente principal, y Reuters, AP y EFE aparecen solo de forma indirecta (AP vía Inquirer y NPR; EFE vía abc.com.py, swissinfo y Vanguardia). Para 2026 se usaron además Caretas, Canal N, Panamericana, El Popular y Macronorte, y medios extranjeros (Excélsior, Por Esto, La Nación PY, Demócrata, Vistazo).",
-    "Cifras oficiales sin contraste independiente: en el balance del 5-nov-2026, los datos de homicidios (7,5 a 6,5 por día), organizaciones desarticuladas y obras de El Niño los reporta el propio Gobierno. Infobae y La República señalan que varias promesas (bono mype, reestructuración penitenciaria, PROMYPE, decretos legislativos) seguían sin norma al día 100.",
-    "Encuestas (no van en la línea de tiempo porque no son hechos de gobierno). Ipsos Keiko: 57 % de aprobación en agosto, 42 % en septiembre y 40 % en octubre-2026 (desaprobación 49 %, publicada el 16-oct; https://caretas.pe/?p=839489). Para Castillo no compilé encuestas.",
-    "Para el crédito suplementario de S/8228 millones (Pensión 65 a S/700), la fecha exacta de la votación es aproximada (29-oct, según la fecha de la nota de El Popular). La segunda fuente (El Peruano) es de setiembre y trata del proyecto, no de su aprobación.",
-    "Dudas de fecha en 2021: Barranzuela (renuncia el 2 o el 3-nov), retiro de comandantes (RS del 3-nov, nota de El Peruano del 4-nov), Velarde (anunciado el 1-oct, oficializado el 8-oct), Camisea (tuit del 26-sep, récord del dólar el 27-sep). El nombre del comandante FAP Chaparro varía según el medio.",
-    "Seis hitos de Castillo y varios de Keiko tienen una sola fuente. Se retiró la segunda fuente lpderecho.pe de la Ley 31355 porque devuelve 403 a curl.",
-    "Los tonos califican el hecho, no la cobertura. 'Neutro' se usó para hechos institucionales o de doble lectura (adhesión al Escudo de las Américas, visita al Cecot, Segunda Reforma Agraria, alzas de tasa del BCR, facultades recortadas).",
-    "Las categorías no son simétricas: en 2021 pesan las variables de mercado (dólar, BCR, PBI) y en 2026 las de seguridad y El Niño, de acuerdo con la agenda de cada periodo."
-  ]
+  {
+   "fecha": "2021-07-29",
+   "dia_n": 1,
+   "titulo": "Juramenta el gabinete de Guido Bellido sin titulares de Economía ni Justicia",
+   "resumen": "Guido Bellido, congresista de Perú Libre, juró como presidente del Consejo de Ministros junto a 16 ministros; las carteras de Economía y Justicia quedaron sin titular esa noche. Héctor Béjar asumió la Cancillería e Iber Maraví el Ministerio de Trabajo.",
+   "categoria": "gabinete",
+   "tono": "neutro",
+   "fuentes": [
+    "https://diariocorreo.pe/politica/nuevos-ministros-perfiles-guido-bellido-pedro-castillo-juramentacion-noticia/",
+    "https://gestion.pe/peru/politica/guido-bellido-presento-su-renuncia-a-pedido-de-pedro-castillo-nndc-noticia/"
+   ]
+  },
+  {
+   "fecha": "2021-07-30",
+   "dia_n": 2,
+   "titulo": "El dólar cierra en máximo histórico de S/ 4,07",
+   "resumen": "El tipo de cambio cerró en S/ 4,07 por dólar, su mayor nivel hasta entonces, en medio de la incertidumbre por la designación de Bellido y la ausencia de ministro de Economía. Pedro Francke juraría luego como titular del MEF.",
+   "categoria": "economia",
+   "tono": "negativo",
+   "fuentes": [
+    "https://www.bloomberglinea.com/2021/07/30/tipo-de-cambio-en-peru-dolar-cierra-en-407-soles-su-maximo-historico-ante-gabinete-bellido-y-ausencia-de-titular-del-mef/"
+   ]
+  },
+  {
+   "fecha": "2021-08-02",
+   "dia_n": 5,
+   "titulo": "Bellido logra tregua en el corredor minero de Chumbivilcas con plazo de 60 días",
+   "resumen": "Tras dialogar con comunidades de Chumbivilcas (Cusco) que bloqueaban el Corredor Minero del Sur usado por Las Bambas, el premier comprometió atender sus demandas en 60 días. El bloqueo se retomó el 10 de setiembre y el plazo venció el 1 de octubre con una nueva tregua hasta el 5 de octubre.",
+   "categoria": "protesta_social",
+   "tono": "neutro",
+   "fuentes": [
+    "https://rpp.pe/peru/cusco/guido-bellido-las-bambas-se-cumplen-60-dias-del-plazo-que-dio-el-premier-para-resolver-el-conflicto-en-el-corredor-minero-noticia-1360612"
+   ]
+  },
+  {
+   "fecha": "2021-08-10",
+   "dia_n": 13,
+   "titulo": "El dólar supera los S/ 4,11 y marca nuevo récord",
+   "resumen": "El tipo de cambio interbancario cerró en S/ 4,11, por encima del récord previo de S/ 4,096, pese a las ventas de dólares del BCR. El mercado seguía atento a las señales del nuevo gobierno.",
+   "categoria": "economia",
+   "tono": "negativo",
+   "fuentes": [
+    "https://infomercado.pe/tipo-de-cambio-precio-del-dolar-hoy-en-peru-10-de-agosto-del-2021/",
+    "https://larepublica.pe/economia/precio-del-dolar/2021/08/12/tipo-de-cambio-cotizacion-del-dolar-este-jueves-12-de-agosto-del-2021-atmp"
+   ]
+  },
+  {
+   "fecha": "2021-08-12",
+   "dia_n": 15,
+   "titulo": "BCR sube su tasa de referencia por primera vez desde 2020",
+   "resumen": "El Banco Central de Reserva elevó la tasa de referencia de 0,25 % a 0,50 %, primer cambio desde abril de 2020, ante el aumento de la inflación.",
+   "categoria": "economia",
+   "tono": "neutro",
+   "fuentes": [
+    "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2021/nota-informativa-2021-08-12-1.pdf",
+    "https://bbvaresearch.com/wp-content/uploads/2021/08/Nota-de-politica-monetaria_20210812.pdf"
+   ]
+  },
+  {
+   "fecha": "2021-08-17",
+   "dia_n": 20,
+   "titulo": "Renuncia el canciller Héctor Béjar a los 19 días de gestión",
+   "resumen": "Béjar dejó la Cancillería tras la difusión de declaraciones de febrero de 2021 en las que atribuía a la Marina el inicio del terrorismo. Fue la primera baja del gabinete; Béjar afirmó luego que su salida fue pedida por el premier.",
+   "categoria": "gabinete",
+   "tono": "negativo",
+   "fuentes": [
+    "https://larepublica.pe/politica/2021/08/17/hector-bejar-tras-renunciar-al-cargo-de-canciller-vuelvo-a-ser-libre",
+    "https://www.bloomberglinea.com/2021/08/17/hector-bejar-canciller-del-peru-renuncia-tras-19-dias-en-el-cargo/"
+   ]
+  },
+  {
+   "fecha": "2021-08-23",
+   "dia_n": 26,
+   "titulo": "INEI: el PBI creció 41,9 % en el segundo trimestre",
+   "resumen": "La economía creció 41,9 % frente al mismo trimestre de 2020, impulsada por la demanda interna (+44,8 %) y la inversión bruta fija (+157,1 %). El nivel aún quedó 0,4 % por debajo del segundo trimestre de 2019.",
+   "categoria": "economia",
+   "tono": "positivo",
+   "fuentes": [
+    "https://andina.pe/ingles/noticia-economia-peruana-crecio-419-segundo-trimestre-impulsada-por-demanda-interna-858712.aspx",
+    "https://elperuano.pe/noticia/127498-pbi-crecio-419-en-el-segundo-trimestre"
+   ]
+  },
+  {
+   "fecha": "2021-08-24",
+   "dia_n": 27,
+   "titulo": "Revelan atestados policiales que mencionan al ministro Iber Maraví",
+   "resumen": "El Comercio reveló que el nombre del ministro de Trabajo figura en atestados policiales de 1980-1982 sobre atentados de Sendero Luminoso en Ayacucho. Maraví negó toda responsabilidad, señaló que no tiene condena y descartó renunciar.",
+   "categoria": "gabinete",
+   "tono": "negativo",
+   "fuentes": [
+    "https://rpp.pe/politica/gobierno/iber-maravi-niega-responsabilidad-en-actos-terroristas-y-afirma-que-buscan-condenarlo-con-atestados-policiales-noticia-1354062",
+    "https://larepublica.pe/politica/2021/09/05/iber-maravi-si-tuvo-requisitoria-por-el-delito-de-terrorismo"
+   ]
+  },
+  {
+   "fecha": "2021-08-27",
+   "dia_n": 30,
+   "titulo": "El Congreso otorga el voto de confianza al gabinete Bellido",
+   "resumen": "Tras dos días de debate, el pleno aprobó la confianza con 73 votos a favor, 50 en contra y 0 abstenciones. Fuerza Popular, Renovación Popular y Avanza País votaron en contra.",
+   "categoria": "congreso",
+   "tono": "positivo",
+   "fuentes": [
+    "https://larepublica.pe/politica/2021/08/27/voto-de-confianza-congreso-otorga-la-investidura-al-gabinete-de-guido-bellido",
+    "https://comunicaciones.congreso.gob.pe/noticias/congreso-aprobo-cuestion-de-confianza-al-gabinete-bellido/"
+   ]
+  },
+  {
+   "fecha": "2021-09-09",
+   "dia_n": 43,
+   "titulo": "BCR eleva la tasa de referencia a 1 %",
+   "resumen": "El directorio del BCR subió la tasa en 50 puntos básicos, de 0,50 % a 1,00 %, y precisó que la decisión no implicaba necesariamente un ciclo de alzas sucesivas.",
+   "categoria": "economia",
+   "tono": "neutro",
+   "fuentes": [
+    "https://www.bcrp.gob.pe/docs/Transparencia/Notas-Informativas/2021/nota-informativa-2021-09-09-1.pdf",
+    "https://www.bloomberglinea.com/2021/09/09/bcr-continuaria-con-lento-endurecimiento-de-tasa-de-interes-de-referencia-bloomberg-intelligence/"
+   ]
+  },
+  {
+   "fecha": "2021-09-13",
+   "dia_n": 47,
+   "titulo": "Comienza el pago del Bono Yanapay de S/ 350",
+   "resumen": "El Midis inició el pago del bono de S/ 350 por persona adulta (mínimo S/ 700 por hogar) con el primer grupo, usuarios de Pensión 65, Juntos y Contigo; el Gobierno estimó unos 14,4 millones de beneficiarios. El cronograma por grupos fue reprogramado después.",
+   "categoria": "obra_servicio",
+   "tono": "positivo",
+   "fuentes": [
+    "https://diariocorreo.pe/economia/bono-350-desde-este-lunes-13-se-iniciara-el-pago-indica-el-midis-nndc-noticia/",
+    "https://elbuho.pe/2021/09/bono-yanapay-gobierno-aplaza-pagos-de-segundo-tercer-y-cuarto-grupo-de-beneficiarios/"
+   ]
+  },
+  {
+   "fecha": "2021-09-15",
+   "dia_n": 49,
+   "titulo": "Lima inicia piloto de clases semipresenciales",
+   "resumen": "El Minedu arrancó en Lima Metropolitana un piloto de retorno semipresencial en 16 colegios de la UGEL 7. A nivel nacional, 6019 escuelas con 246 760 estudiantes ya tenían clases semipresenciales.",
+   "categoria": "educacion",
+   "tono": "positivo",
+   "fuentes": [
+    "https://www.infobae.com/america/2021/09/12/clases-semipresenciales-inician-este-15-de-setiembre-en-estos-colegios-de-lima/"
+   ]
+  },
+  {
+   "fecha": "2021-09-17",
+   "dia_n": 51,
+   "titulo": "El Congreso admite la interpelación al ministro Maraví",
+   "resumen": "El pleno admitió la moción de interpelación contra el ministro de Trabajo, Iber Maraví, con 81 votos a favor, 37 en contra y 1 abstención.",
+   "categoria": "congreso",
+   "tono": "negativo",
+   "fuentes": [
+    "https://comunicaciones.congreso.gob.pe/noticias/pleno-admite-mocion-de-interpelacion-contra-el-ministro-de-trabajo"
+   ]
+  },
+  {
+   "fecha": "2021-09-18",
+   "dia_n": 52,
+   "titulo": "Castillo participa en la cumbre de la CELAC en México",
+   "resumen": "En su primer viaje oficial, Castillo asistió a la VI Cumbre de la CELAC en Ciudad de México, se reunió con López Obrador y llamó a la integración regional. Lo acompañaron cuatro ministros.",
+   "categoria": "politica_exterior",
+   "tono": "neutro",
+   "fuentes": [
+    "https://andina.pe/ingles/noticia-perus-president-participates-in-vi-celac-summit-862145.aspx",
+    "https://rpp.pe/politica/gobierno/cuatro-ministros-acompanan-a-pedro-castillo-en-su-viaje-a-mexico-y-estados-unidos-noticia-1358103"
+   ]
+  },
+  {
+   "fecha": "2021-09-21",
+   "dia_n": 55,
+   "titulo": "Castillo interviene en la 76.ª Asamblea General de la ONU",
+   "resumen": "En Nueva York, el presidente habló sobre la desigualdad, la pandemia y la cooperación internacional, y condenó el terrorismo 'en todas sus formas'.",
+   "categoria": "politica_exterior",
+   "tono": "neutro",
+   "fuentes": [
+    "https://elperuano.pe/noticia/129527-presidente-castillo-llega-a-sede-de-la-onu-para-asamblea-general-de-naciones-unidas",
+    "https://www.exitosanoticias.pe/politica/presidente-castillo-onu-condenamos-rechazamos-terrorismo-todas-sus-formas-n60676"
+   ]
+  },
+  {
+   "fecha": "2021-09-26",
+   "dia_n": 60,
+   "titulo": "Bellido plantea nacionalizar Camisea; el dólar sube a S/ 4,12",
+   "resumen": "El premier tuiteó que, si no se renegociaba el reparto de utilidades, se nacionalizaría Camisea; Castillo matizó horas después que cualquier renegociación respetaría el Estado de derecho. El 27 de setiembre el dólar tocó un récord de S/ 4,12.",
+   "categoria": "economia",
+   "tono": "negativo",
+   "fuentes": [
+    "https://www.infobae.com/america/peru/2021/09/27/choque-de-posiciones-entre-pedro-castillo-y-guido-bellido-por-el-gas-de-camisea-provoca-nueva-crisis-en-el-peru/",
+    "https://diariocorreo.pe/economia/precio-del-dolar-en-peru-tipo-de-cambio-se-cotiza-a-s-412-hoy-lunes-27-de-septiembre-nndc-noticia/"
+   ]
+  },
+  {
+   "fecha": "2021-10-03",
+   "dia_n": 67,
+   "titulo": "Lanzan la Segunda Reforma Agraria en Sacsayhuamán",
+   "resumen": "Castillo presentó en Cusco la Segunda Reforma Agraria, con cinco ejes orientados a más de 2 millones de pequeños productores de la agricultura familiar. Descartó expropiaciones; la propuesta generó opiniones divididas entre especialistas.",
+   "categoria": "anuncio_politica",
+   "tono": "neutro",
+   "fuentes": [
+    "https://elperuano.pe/noticia/130405-conozca-los-cinco-ejes-de-la-segunda-reforma-agraria",
+    "https://larepublica.pe/economia/2021/10/07/segunda-reforma-agraria-en-que-consiste-y-en-que-se-parece-a-la-de-velasco"
+   ]
+  },
+  {
+   "fecha": "2021-10-06",
+   "dia_n": 70,
+   "titulo": "Renuncia Bellido; Mirtha Vásquez juramenta como premier",
+   "resumen": "Castillo aceptó la renuncia de Guido Bellido 'para garantizar la gobernabilidad' y tomó juramento a Mirtha Vásquez, expresidenta del Congreso. El nuevo gabinete pasó de dos a cuatro ministras.",
+   "categoria": "gabinete",
+   "tono": "neutro",
+   "fuentes": [
+    "https://andina.pe/agencia/noticia-presidente-castillo-tomo-juramento-a-nuevo-gabinete-encabezado-mirtha-vasquez-864634.aspx",
+    "https://rpp.pe/politica/gobierno/mirtha-vasquez-trabajare-por-las-reformas-que-necesita-el-pais-desde-la-pcm-noticia-1361755"
+   ]
+  },
+  {
+   "fecha": "2021-10-07",
+   "dia_n": 71,
+   "titulo": "BCR eleva la tasa de referencia a 1,5 %",
+   "resumen": "El BCR subió la tasa de referencia en medio punto, de 1,00 % a 1,50 %, en su tercera alza consecutiva ante presiones inflacionarias.",
+   "categoria": "economia",
+   "tono": "neutro",
+   "fuentes": [
+    "https://www.bloomberglinea.com/2021/10/07/bcr-vuelve-a-elevar-tasa-de-interes-de-referencia-de-peru-en-medio-punto-a-150/"
+   ]
+  },
+  {
+   "fecha": "2021-10-08",
+   "dia_n": 72,
+   "titulo": "El Gobierno ratifica a Julio Velarde al frente del BCR",
+   "resumen": "Se oficializó la ratificación de Julio Velarde como presidente del BCR para un nuevo periodo y la designación de Roxana Barrantes, José Távara y Germán Alarco como directores. El Gobierno ya lo había adelantado el 1 de octubre.",
+   "categoria": "economia",
+   "tono": "positivo",
+   "fuentes": [
+    "https://www.infobae.com/america/peru/2021/10/08/julio-velarde-es-ratificado-como-presidente-del-bcr-por-pedro-castillo/",
+    "https://elcomercio.pe/economia/pcm-confirma-ratificacion-de-julio-velarde-al-frente-del-banco-central-de-reserva-nndc-noticia"
+   ]
+  },
+  {
+   "fecha": "2021-10-16",
+   "dia_n": 80,
+   "titulo": "Perú vacuna con dos dosis al 50 % de su población objetivo",
+   "resumen": "El Minsa informó que más de 13,8 millones de personas mayores de 12 años completaron dos dosis contra la COVID-19, el 50 % de la población objetivo de unos 28 millones. La meta se había fijado para el 15 de octubre.",
+   "categoria": "salud",
+   "tono": "positivo",
+   "fuentes": [
+    "https://rpp.pe/peru/actualidad/minsa-el-50-de-la-poblacion-objetivo-ya-esta-vacunada-con-las-dos-dosis-contra-la-covid-19-noticia-1363638",
+    "https://www.infobae.com/america/peru/2021/10/16/covid-19-peru-esta-a-1-de-inmunizar-a-la-mitad-de-su-poblacion-con-ambas-dosis/"
+   ]
+  },
+  {
+   "fecha": "2021-10-21",
+   "dia_n": 85,
+   "titulo": "Se publica la Ley 31355, que limita la cuestión de confianza",
+   "resumen": "El Congreso promulgó por insistencia (79 votos a favor y 43 en contra) la ley que impide plantear la cuestión de confianza sobre reformas constitucionales o competencias exclusivas del Congreso. Al día siguiente, el Ejecutivo presentó una demanda de inconstitucionalidad ante el TC.",
+   "categoria": "congreso",
+   "tono": "neutro",
+   "fuentes": [
+    "https://busquedas.elperuano.pe/normaslegales/ley-que-desarrolla-el-ejercicio-de-la-cuestion-de-confianza-ley-n-31355-2003559-1/"
+   ]
+  },
+  {
+   "fecha": "2021-11-02",
+   "dia_n": 97,
+   "titulo": "Renuncia el ministro del Interior Luis Barranzuela tras reunión en su casa",
+   "resumen": "Barranzuela dejó el cargo tras difundirse que el 31 de octubre hubo una reunión en su vivienda pese a que su sector había prohibido fiestas por Halloween y el Día de la Canción Criolla. Él negó la fiesta y la llamó 'reunión de trabajo'; fue el segundo ministro del Interior en salir en tres meses.",
+   "categoria": "gabinete",
+   "tono": "negativo",
+   "fuentes": [
+    "https://forbes.pe/actualidad/2021-11-02/luis-barranzuela-renuncio-al-ministerio-del-interior/",
+    "https://larepublica.pe/politica/2021/11/01/luis-barranzuela-niega-fiesta-por-dia-de-la-cancion-criolla-en-su-casa-lo-que-hemos-tenido-es-una-reunion-de-trabajo-ministerio-del-interior"
+   ]
+  },
+  {
+   "fecha": "2021-11-03",
+   "dia_n": 98,
+   "titulo": "Pasan al retiro a los comandantes generales del Ejército y de la FAP",
+   "resumen": "El Ejecutivo pasó al retiro al general José Vizcarra (Ejército) y al teniente general Chaparro Pinto (FAP), y designó a Walter Córdova y Alfonso Artadi. Vizcarra afirmó que se enteró por El Peruano y que no hubo motivación previa.",
+   "categoria": "seguridad",
+   "tono": "negativo",
+   "fuentes": [
+    "https://elperuano.pe/noticia/132650-designan-comandantes-generales-en-el-ejercito-y-la-fuerza-aerea",
+    "https://larepublica.pe/politica/2021/11/06/fuerzas-armadas-jose-vizcarra-tenian-la-obligacion-y-deber-moral-de-comunicar-el-relevo"
+   ]
+  },
+  {
+   "fecha": "2021-11-04",
+   "dia_n": 99,
+   "titulo": "El Congreso otorga la confianza al gabinete Vásquez",
+   "resumen": "El pleno aprobó la confianza con 68 votos a favor, 56 en contra y 1 abstención; se necesitaban 64. Acción Popular y APP aportaron 27 votos a favor, mientras 16 congresistas de Perú Libre no la respaldaron.",
+   "categoria": "congreso",
+   "tono": "positivo",
+   "fuentes": [
+    "https://rpp.pe/politica/congreso/voto-de-confianza-asi-se-dio-en-el-parlamento-la-votacion-al-pedido-del-gabinete-ministerial-noticia-1367462",
+    "https://larepublica.pe/politica/2021/11/05/voto-de-confianza-accion-popular-y-app-evitaron-la-caida-del-gabinete-de-mirtha-vasquez"
+   ]
+  },
+  {
+   "fecha": "2021-11-06",
+   "dia_n": 101,
+   "titulo": "Excomandante denuncia presiones para ascensos en el Ejército",
+   "resumen": "El general José Vizcarra sostuvo que fue retirado por negarse a ascender a oficiales recomendados por Palacio; El Comercio informó que se propuso a dos coroneles hijos de un amigo del presidente. El ministro de Defensa, Walter Ayala, negó haber presionado y calificó las denuncias de 'pataletas'.",
+   "categoria": "corrupcion_investigaciones",
+   "tono": "negativo",
+   "fuentes": [
+    "https://gestion.pe/peru/ex-comandante-general-del-ejercito-castillo-me-saco-porque-no-acepte-a-sus-recomendados-nndc-noticia/",
+    "https://elcomercio.pe/lima/seguridad/presidente-castillo-quiso-ascender-como-generales-a-hijos-de-su-amigo-noticia/"
+   ]
+  },
+  {
+   "fecha": "2021-07-28",
+   "dia_n": 0,
+   "titulo": "Asume tras la segunda vuelta más estrecha en décadas: 44,263 votos de diferencia y seis semanas de pedidos de nulidad",
+   "resumen": "Castillo obtuvo 8,836,380 votos frente a 8,792,117 de Keiko Fujimori. El JNE lo proclamó el 19-jul-2021, tras resolver los pedidos de nulidad de Fuerza Popular. Inicia con un Congreso fragmentado.",
+   "categoria": "congreso",
+   "tono": "neutro",
+   "fuentes": [
+    "https://es.wikipedia.org/wiki/Elecciones_generales_de_Per%C3%BA_de_2021"
+   ]
+  }
+ ],
+ "keiko": [
+  {
+   "fecha": "2026-07-28",
+   "dia_n": 0,
+   "titulo": "Keiko Fujimori asume la presidencia para el periodo 2026-2031",
+   "resumen": "Jura ante el Congreso tras ganar la segunda vuelta por menos de 50 000 votos. En su primer mensaje promete combatir el crimen con 'mano dura', subir el salario mínimo de S/1130 a S/1300 y duplicar Pensión 65 de S/350 a S/700.",
+   "categoria": "anuncio_politica",
+   "tono": "neutro",
+   "fuentes": [
+    "https://andina.pe/agencia/noticia-peru-keiko-fujimori-sworn-in-as-president-of-republic-1085378.aspx",
+    "https://npr.org/2026/07/28/nx-s1-5910830/peru-president-keiko-fujimori-inaugurated"
+   ]
+  },
+  {
+   "fecha": "2026-07-28",
+   "dia_n": 0,
+   "titulo": "Opositores y familiares de víctimas de 2022-2023 protestan durante la asunción",
+   "resumen": "Legisladores de oposición se manifiestan frente al Parlamento con fotos de fallecidos en las protestas de 2022-2023; familiares afirman no reconocer a la nueva presidenta.",
+   "categoria": "protesta_social",
+   "tono": "negativo",
+   "fuentes": [
+    "https://www.inquirer.com/news/nation-world/peru-inauguration-keiko-fujimori-president-conservative-20260728.html"
+   ]
+  },
+  {
+   "fecha": "2026-07-28",
+   "dia_n": 0,
+   "titulo": "Juramenta el primer gabinete, presidido por Luis Galarreta",
+   "resumen": "El primer vicepresidente y secretario general de Fuerza Popular encabeza la PCM. Elmer Cuba asume Economía, Carlos Espá Relaciones Exteriores y el general (r) César Astudillo el Interior.",
+   "categoria": "gabinete",
+   "tono": "neutro",
+   "fuentes": [
+    "https://rpp.pe/politica/gobierno/keiko-fujimori-tomo-juramento-a-su-primer-gabinete-ministerial-presidido-por-luis-galarreta-noticia-1699158",
+    "https://www.gob.pe/institucion/presidencia/noticias/1423625-presidenta-keiko-fujimori-tomo-juramento-a-su-primer-gabinete-liderado-por-luis-galarreta"
+   ]
+  },
+  {
+   "fecha": "2026-07-28",
+   "dia_n": 0,
+   "titulo": "Perú y Colombia ratifican el retorno de embajadores",
+   "resumen": "Tras reunirse con el vicepresidente colombiano José Manuel Restrepo, ambos gobiernos confirman la restitución plena de relaciones diplomáticas.",
+   "categoria": "politica_exterior",
+   "tono": "positivo",
+   "fuentes": [
+    "https://www.abc.com.py/internacionales/2026/07/28/peru-y-colombia-ratifican-el-envio-de-embajadores-tras-la-reunion-de-fujimori-con-restrepo/"
+   ]
+  },
+  {
+   "fecha": "2026-08-07",
+   "dia_n": 10,
+   "titulo": "Perú y México restablecen relaciones diplomáticas tras nueve meses de ruptura",
+   "resumen": "Las relaciones se habían roto en noviembre de 2025 por el asilo mexicano a Betssy Chávez. Ambas cancillerías preparan la reapertura de embajadas.",
+   "categoria": "politica_exterior",
+   "tono": "positivo",
+   "fuentes": [
+    "https://www.excelsior.com.mx/nacional/mexico-y-peru-restablecen-relaciones-diplomaticas",
+    "https://www.poresto.com/mexico/2026/8/7/mexico-y-peru-reanudan-relaciones-diplomaticas-tras-nueve-meses-de-ruptura.html"
+   ]
+  },
+  {
+   "fecha": "2026-08-18",
+   "dia_n": 21,
+   "titulo": "Decreto de urgencia 008-2026 destina más de S/179 millones a la prevención de El Niño",
+   "resumen": "El DU autoriza medidas extraordinarias ante lluvias intensas: limpieza y descolmatación de ríos y quebradas, vigentes hasta el 31 de diciembre.",
+   "categoria": "obra_servicio",
+   "tono": "positivo",
+   "fuentes": [
+    "https://larepublica.pe/politica/2026/08/18/gobierno-de-keiko-fujimori-publica-decreto-de-urgencia-ante-riesgo-por-fenomeno-el-nino-hnews-797274"
+   ]
+  },
+  {
+   "fecha": "2026-08-20",
+   "dia_n": 23,
+   "titulo": "Galarreta expone la política general ante Diputados, sin voto de confianza",
+   "resumen": "Es el primer gabinete que, por la reforma bicameral (Ley 31988), presenta su política general sin investidura. El pedido de facultades legislativas queda pendiente.",
+   "categoria": "congreso",
+   "tono": "neutro",
+   "fuentes": [
+    "https://larepublica.pe/politica/2026/08/20/en-vivo-luis-galarreta-y-sus-ministros-llegan-al-congreso-primer-ministro-y-gabinete-ministerial-expone-su-plan-de-gobierno-hnews-1369349",
+    "https://elperuano.pe/noticia/302761-gabinete-galarreta-expondra-este-jueves-la-politica-general-de-gobierno-ante-diputados"
+   ]
+  },
+  {
+   "fecha": "2026-08-22",
+   "dia_n": 25,
+   "titulo": "Tras reunirse con la presidenta, la mayoría de gremios de transporte se aparta del paro del 25 de agosto",
+   "resumen": "Gremios de Lima y Callao que denunciaban extorsiones dicen respaldar las medidas anunciadas; un sector minoritario mantiene la convocatoria por unos días.",
+   "categoria": "protesta_social",
+   "tono": "positivo",
+   "fuentes": [
+    "https://canaln.pe/actualidad/sector-transporitstas-anuncia-que-no-acatara-paro-25-agosto-reunion-keiko-fujimori-n494443",
+    "https://caretas.pe/?p=829423"
+   ]
+  },
+  {
+   "fecha": "2026-08-27",
+   "dia_n": 30,
+   "titulo": "El MEF eleva a 3,4 % la proyección de crecimiento para 2026",
+   "resumen": "El Marco Macroeconómico Multianual 2027-2030, aprobado en Consejo de Ministros, sube la proyección de 3,2 % a 3,4 % pese al riesgo de El Niño; aún lejos del 6 % ofrecido en campaña.",
+   "categoria": "economia",
+   "tono": "positivo",
+   "fuentes": [
+    "https://gestion.pe/economia/el-nino-gobierno-de-keiko-fujimori-eleva-proyeccion-de-crecimiento-para-la-economia-de-peru-para-2026-y-2027-pese-a-evento-climatico-noticia/"
+   ]
+  },
+  {
+   "fecha": "2026-09-10",
+   "dia_n": 44,
+   "titulo": "Con la visita de Marco Rubio, Perú se adhiere al 'Escudo de las Américas'",
+   "resumen": "La presidenta confirma el ingreso a la coalición contra el crimen organizado transnacional impulsada por EE. UU.; hubo protestas de grupos de izquierda contra la visita.",
+   "categoria": "politica_exterior",
+   "tono": "neutro",
+   "fuentes": [
+    "https://www.vistazo.com/mundo/2026-09-10-keiko-fujimori-marco-rubio-peru-escudo-de-las-americas-AD11219944",
+    "https://caretas.pe/?p=833535"
+   ]
+  },
+  {
+   "fecha": "2026-09-18",
+   "dia_n": 52,
+   "titulo": "Primera baja del gabinete: renuncia Rafael Rey al MTC",
+   "resumen": "Rey deja Transportes por motivos de salud tras 52 días; jura José Tangherlini, hasta entonces viceministro en el Midagri.",
+   "categoria": "gabinete",
+   "tono": "negativo",
+   "fuentes": [
+    "https://elperuano.pe/noticia/305021-pcm-rafael-rey-renuncia-a-cartera-de-transportes-y-comunicaciones-por-motivos-de-salud",
+    "https://gestion.pe/peru/politica/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-dwl-gobierno-de-keiko-fujimori-noticia/"
+   ]
+  },
+  {
+   "fecha": "2026-09-21",
+   "dia_n": 55,
+   "titulo": "Presentan moción de interpelación contra el ministro de Educación José Antonio Chang",
+   "resumen": "El pliego cuestiona su gestión y designaciones en cargos clave; la moción pierde fuerza semanas después tras el retiro de firmas.",
+   "categoria": "educacion",
+   "tono": "negativo",
+   "fuentes": [
+    "https://canaln.pe/actualidad/jose-antonio-chang-presentan-mocion-interpelacion-contra-ministro-educacion-n495228",
+    "https://canaln.pe/amp/actualidad/pier-figari-defiende-archivo-interpelacion-contra-jose-antonio-chang-n495943"
+   ]
+  },
+  {
+   "fecha": "2026-09-22",
+   "dia_n": 56,
+   "titulo": "La presidenta interviene en la 81.ª Asamblea General de la ONU",
+   "resumen": "Expone la lucha contra el crimen organizado y promueve inversiones; se reúne con el secretario general António Guterres.",
+   "categoria": "politica_exterior",
+   "tono": "neutro",
+   "fuentes": [
+    "https://elperuano.pe/noticia/305245--presidenta-keiko-fujimori-expone-hoy-ante-la-asamblea-general-de-las-naciones-unidas",
+    "https://panamericana.pe/politica/474683-presidenta-fujimori-participa-asamblea-general-onu-cumplira-agenda-bilateral"
+   ]
+  },
+  {
+   "fecha": "2026-09-24",
+   "dia_n": 58,
+   "titulo": "Diputados presentan moción de censura contra el ministro del Interior por cifras de homicidios",
+   "resumen": "Obras, Juntos por el Perú y Buen Gobierno citan 1499 homicidios hasta agosto. El 30 de setiembre tres diputados retiran sus firmas y la moción no llega a votarse.",
+   "categoria": "seguridad",
+   "tono": "negativo",
+   "fuentes": [
+    "https://caretas.pe/politica/cesar-astudillo-presentan-mocion-de-censura-contra-ministro-del-interior-por-cifras-de-homicidios/",
+    "https://caretas.pe/?p=837202"
+   ]
+  },
+  {
+   "fecha": "2026-09-28",
+   "dia_n": 62,
+   "titulo": "Se oficializa el alza del salario mínimo a S/1230 desde el 1 de octubre",
+   "resumen": "El DS 015-2026-TR fija un primer tramo de S/100; el segundo, hasta S/1300, queda para después de El Niño. Se anuncia un bono de S/100 por trabajador para mypes, aún sin desembolsar al día 100.",
+   "categoria": "economia",
+   "tono": "positivo",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/09/28/gobierno-de-keiko-fujimori-oficializa-aumento-del-sueldo-minimo-desde-octubre-sera-de-s1230-en-su-primer-tramo/",
+    "https://gestion.pe/economia/salario-minimo-subira-a-s-1230-en-octubre-y-segunda-alza-llegara-tras-el-nino-segun-anuncio-gobierno-de-keiko-fujimori-noticia/"
+   ]
+  },
+  {
+   "fecha": "2026-10-06",
+   "dia_n": 70,
+   "titulo": "Diputados aprueban facultades legislativas recortadas: solo seguridad y El Niño",
+   "resumen": "Con 66 votos, tras más de 12 horas de debate, la Cámara otorga 90 días de facultades. El Ejecutivo había pedido 66 materias por 120 días.",
+   "categoria": "congreso",
+   "tono": "neutro",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/10/07/camara-de-diputados-aprobo-otorgar-facultades-legislativas-a-gobierno-de-keiko-fujimori-en-seguridad-y-fenomeno-el-nino/",
+    "https://www.swissinfo.ch/spa/c%C3%A1mara-de-diputados-de-per%C3%BA-aprueba-otorgar-facultades-legislativas-a-gobierno-de-fujimori/92177463"
+   ]
+  },
+  {
+   "fecha": "2026-10-07",
+   "dia_n": 71,
+   "titulo": "Se crea el Comando Unificado FF. AA.-PNP con 1350 efectivos contra el crimen organizado",
+   "resumen": "Las 'Fuerzas Combinadas' tendrán un centro de control y operaciones en el Cuartel General del Ejército e inteligencia conjunta, tras una sesión del Consejo de Seguridad y Defensa Nacional.",
+   "categoria": "seguridad",
+   "tono": "neutro",
+   "fuentes": [
+    "https://gestion.pe/peru/comando-unificado-contra-el-crimen-quienes-lo-conforman-y-que-acciones-se-tomaran-noticia/",
+    "https://www.poresto.com/internacional/2026/10/7/fujimori-crea-comando-militar-policial-dirigir-lucha-crimen-organizado-peru.html"
+   ]
+  },
+  {
+   "fecha": "2026-10-19",
+   "dia_n": 83,
+   "titulo": "Inauguran la línea de transmisión Puerto Maldonado-Iberia y anuncian paquete para obras paralizadas",
+   "resumen": "La obra de 138 kV y la subestación Iberia (S/136 millones) beneficiarán a más de 120 000 habitantes de Madre de Dios. La presidenta anuncia medidas para destrabar obras paralizadas.",
+   "categoria": "obra_servicio",
+   "tono": "positivo",
+   "fuentes": [
+    "https://elperuano.pe/noticia/307140-presidenta-fujimori-anuncia-amplio-paquete-de-medidas-para-destrabar-obras-paralizadas"
+   ]
+  },
+  {
+   "fecha": "2026-10-22",
+   "dia_n": 86,
+   "titulo": "El Senado completa la delegación de facultades por 90 días",
+   "resumen": "Aprueba legislar en seguridad ciudadana y El Niño, e incluye la intervención de las FF. AA. cuando la capacidad policial sea superada. Al día 100 aún no se publican los decretos legislativos.",
+   "categoria": "congreso",
+   "tono": "neutro",
+   "fuentes": [
+    "https://www.lanacion.com.py/mundo/2026/10/22/congreso-de-peru-delega-facultades-a-keiko-fujimori-para-legislar-contra-el-crimen/",
+    "https://www.democrata.es/internacional/el-congreso-de-peru-respalda-otorgar-poderes-a-fujimori-sobre-seguridad-y-el-fenomeno-el-nino/"
+   ]
+  },
+  {
+   "fecha": "2026-10-24",
+   "dia_n": 88,
+   "titulo": "Marchas en siete ciudades contra la inseguridad, los incendios forestales y los efectos de El Niño",
+   "resumen": "Colectivos ciudadanos y juveniles se movilizan en Lima, Arequipa, Cusco, Ica, Huancayo, Trujillo y Juliaca; en Lima se reporta represión policial al anochecer.",
+   "categoria": "protesta_social",
+   "tono": "negativo",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/10/25/marcha-contra-la-inseguridad-y-por-efectos-del-fenomeno-el-nino-se-realiza-este-sabado-24-de-octubre-en-lima-cusco-arequipa/"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "dia_n": 90,
+   "titulo": "Megaoperativo desmantela antenas clandestinas alrededor de cuatro penales",
+   "resumen": "El Comando Unificado retira 48 estaciones y 43 antenas ilegales usadas para extorsionar desde cárceles como Sarita Colonia; no hay aún datos sobre su efecto en las extorsiones.",
+   "categoria": "seguridad",
+   "tono": "positivo",
+   "fuentes": [
+    "https://elperuano.pe/noticia/307628-presidenta-fujimori-dio-inicio-a-intervencion-de-estaciones-y-antenas-ilegales-cerca-a-penales",
+    "https://gestion.pe/peru/gobierno-de-keiko-fujimori-realiza-operativo-para-desmantelar-antenas-de-telecomunicaciones-clandestinas-en-penales-noticia/"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "dia_n": 93,
+   "titulo": "Congreso aprueba crédito suplementario de S/8228 millones; Pensión 65 sube a S/700",
+   "resumen": "El crédito financia El Niño, infraestructura, seguridad, salud y educación. El nuevo monto de Pensión 65 llegará a 824 351 adultos mayores desde el 30 de noviembre.",
+   "categoria": "economia",
+   "tono": "positivo",
+   "fuentes": [
+    "https://elpopular.pe/actualidad/2026/10/29/pension-65-entregara-s700-soles-bimestrales-a-beneficiarios-desde-noviembre-2026-723260",
+    "https://elperuano.pe/noticia/305555-gobierno-impulsa-credito-suplementario-para-pension-65-seguridad-y-empleo-temporal"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "dia_n": 93,
+   "titulo": "Visita oficial a El Salvador: reunión con Bukele y recorrido por el Cecot",
+   "resumen": "Firma una declaración conjunta de cooperación en salud, seguridad, justicia y turismo. Al regresar anuncia la construcción de dos megapenales; la visita recibe críticas por su beneficio concreto.",
+   "categoria": "politica_exterior",
+   "tono": "neutro",
+   "fuentes": [
+    "https://caretas.pe/?p=841751",
+    "https://www.vanguardia.com/mundo/2026/10/30/keiko-fujimori-anuncia-dos-carceles-para-peru-tras-visitar-la-megacarcel-de-bukele/"
+   ]
+  },
+  {
+   "fecha": "2026-11-03",
+   "dia_n": 98,
+   "titulo": "Declaran emergencia por 60 días en 25 regiones ante lluvias de El Niño",
+   "resumen": "El DS 149-2026-PCM declara emergencia de nivel 4 en distritos de 25 departamentos y el Callao por el peligro de lluvias intensas del El Niño 2026-2027.",
+   "categoria": "anuncio_politica",
+   "tono": "neutro",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/03/peru-en-alerta-por-el-nino-declaran-emergencia-por-60-dias-ante-el-riesgo-de-lluvias-intensas-en-25-regiones/",
+    "https://gestion.pe/peru/gobiernode-keiko-fujimori-declara-emergencia-en-varias-regiones-ante-peligro-de-lluvias-por-el-nino-noticia/"
+   ]
+  },
+  {
+   "fecha": "2026-11-03",
+   "dia_n": 98,
+   "titulo": "Transportistas de carga anuncian paro nacional de 72 horas por el alza del diésel",
+   "resumen": "La Coordinadora Gremial convoca para el 16-18 de noviembre y considera insuficiente el subsidio de S/4 por galón (DU 007-2026).",
+   "categoria": "protesta_social",
+   "tono": "negativo",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/03/paro-nacional-de-transportistas-de-carga-pesada-por-tres-dias-contra-el-alza-del-precio-de-combustibles/",
+    "https://macronorte.pe/2026/11/04/transportistas-de-carga-pesada-anuncian-paro-nacional-para-el-16-17-y-18-de-noviembre/"
+   ]
+  },
+  {
+   "fecha": "2026-11-05",
+   "dia_n": 100,
+   "titulo": "Mensaje por los 100 días: el Gobierno reporta menos homicidios diarios y admite lentitud",
+   "resumen": "Reporta un descenso de 7,5 a 6,5 homicidios diarios, 37 organizaciones criminales desarticuladas, S/1500 millones en prevención y 85 % de la descolmatación prevista. Reconoce que 'siempre se pueden hacer cosas con mayor rapidez'. La prensa nota que no informó el avance de metas de campaña.",
+   "categoria": "anuncio_politica",
+   "tono": "neutro",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-dio-mensaje-a-la-nacion-por-sus-100-dias-de-gobierno-cifras-anuncios-y-balance-de-su-gestion/",
+    "https://larepublica.pe/politica/2026/11/05/keiko-fujimori-da-balance-de-sus-100-primeros-dias-sin-mejoras-sustanciales-no-hemos-vencido-al-crimen-aun-252195",
+    "https://elcomercio.pe/politica/gobierno/keiko-fujimori-tras-balance-de-100-dias-de-gobierno-siempre-se-pueden-hacer-cosas-con-mayor-rapidez-ultimas-noticia/"
+   ]
+  },
+  {
+   "fecha": "2026-11-05",
+   "dia_n": 100,
+   "titulo": "Anuncian S/6000 millones para infraestructura educativa y S/7000 millones para obras paralizadas",
+   "resumen": "Montos anunciados en el balance de los 100 días, con ejecución prevista desde 2027. El bono mype, la reestructuración penitenciaria y PROMYPE siguen sin norma ni cronograma.",
+   "categoria": "educacion",
+   "tono": "neutro",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
+    "https://gestion.pe/peru/politica/keiko-fujimori-brinda-ahora-un-balance-de-los-primeros-100-dias-de-gestion-noticia/"
+   ]
+  },
+  {
+   "fecha": "2026-11-06",
+   "dia_n": 101,
+   "titulo": "La presidenta inspecciona un albergue y un hospital de campaña en Tumbes tras el desborde del Zarumilla",
+   "resumen": "El hospital del Ejército tiene entre 80 y 120 camas y 143 brigadistas; el Minsa declara alerta amarilla en todo el país por las lluvias. Hay 48 familias albergadas en Aguas Verdes.",
+   "categoria": "salud",
+   "tono": "positivo",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-llego-a-tumbes-para-inspeccionar-albergue-temporal-y-hospital-de-campana/"
+   ]
+  },
+  {
+   "fecha": "2026-11-07",
+   "dia_n": 102,
+   "titulo": "Firman nuevos lineamientos de disciplina escolar con metas educativas a cinco años",
+   "resumen": "El reglamento, anunciado en el balance de los 100 días, se firma en el colegio donde estudió Alberto Fujimori.",
+   "categoria": "educacion",
+   "tono": "neutro",
+   "fuentes": [
+    "https://www.infobae.com/peru/2026/11/07/keiko-fujimori-firmo-nuevos-lineamientos-de-disciplina-escolar-en-colegio-donde-estudio-su-padre-alberto-fujimori/",
+    "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-fijo-cinco-anos-de-metas-para-la-educacion-que-propone-el-reglamento-de-disciplina-escolar-anunciado-por-la-presidenta/"
+   ]
+  },
+  {
+   "fecha": "2026-07-30",
+   "dia_n": 2,
+   "titulo": "Declaraciones juradas: 15 de los 19 ministros iniciales reportan investigaciones o procesos (no necesariamente vigentes)",
+   "resumen": "La República y N60 revisaron las declaraciones juradas obligatorias (Ley 31227) del gabinete Galarreta. Una investigación no es una condena; algunos casos están archivados según los propios ministros.",
+   "categoria": "corrupcion_investigaciones",
+   "tono": "negativo",
+   "fuentes": [
+    "https://larepublica.pe/politica/2026/07/30/keiko-fujimori-quince-ministros-del-gabinete-ministerial-tienen-antecedentes-por-corrupcion-1165020",
+    "https://n60.pe/siete-ministros-del-gabinete-de-keiko-fujimori-asumen-cargos-con-investigaciones/"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "dia_n": 93,
+   "titulo": "La ráfaga del helicóptero de la comitiva del premier daña viviendas y un colegio en Cañaveral (Tumbes)",
+   "resumen": "Al aterrizar cerca del caserío, la ráfaga de las hélices arrancó calaminas de unas 10 viviendas y dañó ventanas y calaminas de un colegio. El Ejército y la municipalidad repararon tres viviendas.",
+   "categoria": "gabinete",
+   "tono": "negativo",
+   "fuentes": [
+    "https://altavoz.pe/politica/luis-galarreta-helicoptero-del-premier-causa-destrozos-en-un-colegio-de-tumbes/",
+    "https://www.exitosanoticias.pe/exitosa-peru/helicoptero-traslado-premier-tumbes-afecto-viviendas-ejercito-municipalidad-repararon-danos-n187286"
+   ]
+  }
+ ],
+ "conteos": {
+  "castillo": {
+   "total": 27,
+   "por_categoria": {
+    "gabinete": 5,
+    "economia": 8,
+    "seguridad": 1,
+    "educacion": 1,
+    "salud": 1,
+    "corrupcion_investigaciones": 1,
+    "congreso": 4,
+    "protesta_social": 1,
+    "politica_exterior": 2,
+    "anuncio_politica": 2,
+    "obra_servicio": 1
+   },
+   "por_tono": {
+    "positivo": 7,
+    "negativo": 9,
+    "neutro": 11
+   }
+  },
+  "keiko": {
+   "total": 29,
+   "por_categoria": {
+    "gabinete": 2,
+    "economia": 3,
+    "seguridad": 3,
+    "educacion": 3,
+    "salud": 1,
+    "corrupcion_investigaciones": 0,
+    "congreso": 3,
+    "protesta_social": 4,
+    "politica_exterior": 5,
+    "anuncio_politica": 3,
+    "obra_servicio": 2
+   },
+   "por_tono": {
+    "positivo": 10,
+    "negativo": 6,
+    "neutro": 13
+   }
+  }
+ },
+ "caveats": [
+  "dia_n = días calendario transcurridos desde la asunción (28-jul = día 0; 5-nov = día 100). Hay hitos fuera de la ventana: Castillo 6-nov-2021 (día 101, denuncia sobre ascensos, hecha pública el 5 o el 6-nov) y Keiko 6-nov y 7-nov-2026 (días 101-102), incluidos a propósito como parte del balance de los 100 días.",
+  "'Marcha por la democracia' del 7-nov-2026: no encontré cobertura indexada hasta el cierre (7-nov). Las marchas con ese nombre que aparecen son de abril-junio de 2026 (contexto electoral, López Aliaga) y están fuera de la ventana. Sí está la marcha del 24-oct-2026 en siete ciudades. Hay que revisarlo de nuevo cuando se publique la cobertura.",
+  "Corrupción/investigaciones 2026: no verifiqué ningún hito fechado. Hay denuncias periodísticas sobre contrataciones en el Ministerio de Cultura (ministro Alberto Beingolea), pero expreso.com.pe bloquea los bots (403) y no pude confirmar la fecha. La investigación de Ojo Público por aportes de campaña 2021 que involucra a Galarreta es de junio de 2026, anterior a la asunción. El 0 en esta categoría refleja un vacío de la verificación, no una ausencia comprobada.",
+  "El cupo de búsquedas web de la sesión se agotó a mitad del trabajo. No se pudo incluir a Ojo Público, IDL-Reporteros, Epicentro ni El País como fuente principal, y Reuters, AP y EFE aparecen solo de forma indirecta (AP vía Inquirer y NPR; EFE vía abc.com.py, swissinfo y Vanguardia). Para 2026 se usaron además Caretas, Canal N, Panamericana, El Popular y Macronorte, y medios extranjeros (Excélsior, Por Esto, La Nación PY, Demócrata, Vistazo).",
+  "Cifras oficiales sin contraste independiente: en el balance del 5-nov-2026, los datos de homicidios (7,5 a 6,5 por día), organizaciones desarticuladas y obras de El Niño los reporta el propio Gobierno. Infobae y La República señalan que varias promesas (bono mype, reestructuración penitenciaria, PROMYPE, decretos legislativos) seguían sin norma al día 100.",
+  "Encuestas (no van en la línea de tiempo porque no son hechos de gobierno). Ipsos Keiko: 57 % de aprobación en agosto, 42 % en septiembre y 40 % en octubre-2026 (desaprobación 49 %, publicada el 16-oct; https://caretas.pe/?p=839489). Para Castillo no compilé encuestas.",
+  "Para el crédito suplementario de S/8228 millones (Pensión 65 a S/700), la fecha exacta de la votación es aproximada (29-oct, según la fecha de la nota de El Popular). La segunda fuente (El Peruano) es de setiembre y trata del proyecto, no de su aprobación.",
+  "Dudas de fecha en 2021: Barranzuela (renuncia el 2 o el 3-nov), retiro de comandantes (RS del 3-nov, nota de El Peruano del 4-nov), Velarde (anunciado el 1-oct, oficializado el 8-oct), Camisea (tuit del 26-sep, récord del dólar el 27-sep). El nombre del comandante FAP Chaparro varía según el medio.",
+  "Seis hitos de Castillo y varios de Keiko tienen una sola fuente. Se retiró la segunda fuente lpderecho.pe de la Ley 31355 porque devuelve 403 a curl.",
+  "Los tonos califican el hecho, no la cobertura. 'Neutro' se usó para hechos institucionales o de doble lectura (adhesión al Escudo de las Américas, visita al Cecot, Segunda Reforma Agraria, alzas de tasa del BCR, facultades recortadas).",
+  "Las categorías no son simétricas: en 2021 pesan las variables de mercado (dólar, BCR, PBI) y en 2026 las de seguridad y El Niño, de acuerdo con la agenda de cada periodo.",
+  "Revisión del 7-nov: se agregaron 3 hitos señalados por la revisión de sesgo (el margen electoral de 2021, las declaraciones juradas del gabinete 2026 y el helicóptero de Tumbes)."
+ ]
 }

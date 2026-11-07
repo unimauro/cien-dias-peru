@@ -4376,8 +4376,8 @@
   {
    "anio": 2021,
    "indicador": "Ministros reemplazados en la recomposición del 6-oct-2021 (sin contar al Presidente del Consejo)",
-   "valor": 5,
-   "detalle": "Cultura, Trabajo, Interior, Producción, Energía y Minas. Andina y RPP hablan de 'siete nuevos ministros', pero solo se identifican estos 5 más la Presidenta del Consejo.",
+   "valor": 6,
+   "detalle": "Cultura, Trabajo, Interior, Producción, Energía y Minas y Educación (Juan Cadillo → Carlos Gallardo), además de la presidencia del Consejo de Ministros.",
    "fuente_url": "https://andina.pe/agencia/noticia-presidente-castillo-tomo-juramento-a-nuevo-gabinete-encabezado-mirtha-vasquez-864634.aspx",
    "confianza": "media"
   },
@@ -4392,8 +4392,8 @@
   {
    "anio": 2021,
    "indicador": "Total de cambios en el Consejo de Ministros en la ventana",
-   "valor": 7,
-   "detalle": "Cálculo propio: Béjar + 5 ministros el 6-oct + el Presidente del Consejo. Si se toma la cifra de prensa de 'siete nuevos ministros', serían 8. Barranzuela renunció el 6-nov-2021, fuera de la ventana. Censuras aprobadas: 0.",
+   "valor": 9,
+   "detalle": "Béjar (17-ago), 7 salidas el 6-oct (incluido el premier Bellido) y Barranzuela, que renunció el 2-nov-2021 (Guillén juró el 4-nov), dentro de la ventana. Fuentes: Andina, Forbes y Bloomberg Línea.",
    "fuente_url": "https://rpp.pe/politica/gobierno/cambios-en-el-gabinete-ministerial-cinco-claves-de-la-recomposicion-del-gobierno-de-pedro-castillo-noticia-1361763",
    "confianza": "media"
   },

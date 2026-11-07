@@ -12,10 +12,10 @@
 
   /* un color fijo por gobierno (validado CVD, orden fijo) */
   --castillo: #2a78d6;
-  --keiko: #eb6834;
+  --keiko: #e87ba4;
   --ppk: #1baf7a;
   --humala: #eda100;
-  --garcia: #e87ba4;
+  --garcia: #6250d6;
 
   /* estados (siempre con icono + texto) */
   --ok: #0ca30c;
@@ -43,7 +43,7 @@
     --muted: #9198a5;
     --rule: #2e323a;
     --rule-strong: #444a55;
-    --castillo: #3987e5; --keiko: #d95926; --ppk: #199e70; --humala: #c98500; --garcia: #d55181;
+    --castillo: #3987e5; --keiko: #d55181; --ppk: #199e70; --humala: #c98500; --garcia: #9085e9;
     --ok-ink: #5fd35f; --warn-ink: #fab219; --bad-ink: #ff8a8a;
   }
 }
@@ -57,7 +57,7 @@
   --muted: #9198a5;
   --rule: #2e323a;
   --rule-strong: #444a55;
-  --castillo: #3987e5; --keiko: #d95926; --ppk: #199e70; --humala: #c98500; --garcia: #d55181;
+  --castillo: #3987e5; --keiko: #d55181; --ppk: #199e70; --humala: #c98500; --garcia: #9085e9;
   --ok-ink: #5fd35f; --warn-ink: #fab219; --bad-ink: #ff8a8a;
 }
 
@@ -323,3 +323,5 @@ table.sem td:first-child { min-width: 220px; padding-right: 14px; }
 .sem-total .sv { font-size: 26px; }
 .sem-grp td { font-family: var(--f-display); font-weight: 700; font-size: 13px; color: var(--muted); padding: 14px 0 2px !important; }
 .sem-cell .arr { font-size: 13px; }
+.sem-info td:first-child { opacity: .85; }
+.sem-info .sem-cell { background: transparent; border: 1px dashed var(--rule-strong); }

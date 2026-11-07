@@ -1,500 +1,668 @@
 {
-  "meta": {
-    "gobierno": "Keiko Fujimori Higuchi (Fuerza Popular)",
-    "elaborado": "2026-11-07",
-    "criterio": "Cada dato lleva URL, fecha y confianza (alta/media/baja). Si no se encontró fuente, se marca 'no verificado'. URLs validadas con curl el 7-nov-2026 (HTTP 200 salvo nota).",
-    "escala_confianza": {
-      "alta": "documento primario (norma, reporte oficial, ficha de encuestadora) o varias fuentes coincidentes",
-      "media": "una fuente periodística seria, sin documento primario revisado",
-      "baja": "fuente única, resumida por buscador, con inconsistencias o detrás de muro de pago"
-    }
+ "meta": {
+  "gobierno": "Keiko Fujimori Higuchi (Fuerza Popular)",
+  "elaborado": "2026-11-07",
+  "criterio": "Cada dato lleva URL, fecha y confianza (alta/media/baja). Si no se encontró fuente, se marca 'no verificado'. URLs validadas con curl el 7-nov-2026 (HTTP 200 salvo nota).",
+  "escala_confianza": {
+   "alta": "documento primario (norma, reporte oficial, ficha de encuestadora) o varias fuentes coincidentes",
+   "media": "una fuente periodística seria, sin documento primario revisado",
+   "baja": "fuente única, resumida por buscador, con inconsistencias o detrás de muro de pago"
+  }
+ },
+ "periodo": {
+  "inicio": "2026-07-28",
+  "dia100": "2026-11-04",
+  "mensaje_100_dias": "2026-11-05",
+  "nota": "Asumió el 28-jul-2026 ante el Congreso bicameral. Keiko Gobierna fija el vencimiento del plazo de 100 días el 4-nov-2026; el mensaje grabado de balance se emitió el 5-nov.",
+  "fuentes": [
+   "https://es.wikipedia.org/wiki/Investidura_presidencial_de_Keiko_Fujimori",
+   "https://www.infobae.com/peru/2026/11/06/los-hitos-de-los-cien-dias-de-keiko-fujimori-entre-el-orden-prometido-y-las-dudas-sobre-su-rumbo/",
+   "https://keikogobierna.com/primeros-100-dias/",
+   "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-dio-mensaje-a-la-nacion-por-sus-100-dias-de-gobierno-cifras-anuncios-y-balance-de-su-gestion/"
+  ],
+  "confianza": "alta"
+ },
+ "gabinete": {
+  "premier": "Luis Fernando Galarreta Velarde (también primer vicepresidente)",
+  "premier_nota": "No es Miguel Torres. El premier es Luis Galarreta desde el 28-jul-2026 y seguía en el cargo al día 100.",
+  "fecha_juramentacion": "2026-07-28",
+  "n_carteras": 19,
+  "ministros_iniciales": {
+   "PCM": "Luis Fernando Galarreta Velarde",
+   "Relaciones Exteriores": "Alfonso Carlos Espá y Garcés-Alvear",
+   "Defensa": "Rafael Jorge Belaunde Llosa",
+   "Economía y Finanzas": "Elmer Rafael Cuba Bustinza",
+   "Interior": "César Augusto Astudillo Salcedo",
+   "Justicia y Derechos Humanos": "Ernesto Julio Álvarez Miranda",
+   "Educación": "José Antonio Chang Escobedo",
+   "Salud": "Luis Williams Dyer Fernández",
+   "Desarrollo Agrario y Riego": "Marco Antonio Vinelli Ruiz",
+   "Trabajo y Promoción del Empleo": "Juan Manuel Kosme Sheput Moore",
+   "Producción": "Juan Carlos Requejo Alemán",
+   "Comercio Exterior y Turismo": "Rogers Martín Valencia Espinoza",
+   "Energía y Minas": "Guillermo Shinno Huamaní",
+   "Transportes y Comunicaciones": "Rafael Rey Rey (hasta el 18-sep-2026)",
+   "Vivienda, Construcción y Saneamiento": "Mauricio Fernando Arnillas González",
+   "Mujer y Poblaciones Vulnerables": "María Magdalena Seminario Marón",
+   "Ambiente": "Vladimiro Huaroc Portocarrero",
+   "Cultura": "Alberto Ismael Beingolea Delgado",
+   "Desarrollo e Inclusión Social": "Maritza Ivonne Canales Martínez"
   },
-  "periodo": {
-    "inicio": "2026-07-28",
-    "dia100": "2026-11-04",
-    "mensaje_100_dias": "2026-11-05",
-    "nota": "Asumió el 28-jul-2026 ante el Congreso bicameral. Keiko Gobierna fija el vencimiento del plazo de 100 días el 4-nov-2026; el mensaje grabado de balance se emitió el 5-nov.",
+  "fuentes": [
+   "https://gestion.pe/peru/luis-galarreta-encabeza-el-primer-gabinete-de-keiko-fujimori-la-lista-completa-de-ministros-noticia/",
+   "https://keikogobierna.com/gabinete/"
+  ],
+  "confianza": "alta (premier y carteras clave); media (nombres completos de la lista, tomados de Keiko Gobierna, que los extrae de las Resoluciones Supremas)",
+  "cambios": [
+   {
+    "fecha": "2026-09-18",
+    "cartera": "Transportes y Comunicaciones",
+    "sale": "Rafael Rey Rey (renuncia por motivos de salud, tras 52 días)",
+    "entra": "José Angello Tangherlini Casal (exviceministro de Desarrollo de Agricultura Familiar e Infraestructura Agraria y Riego)",
     "fuentes": [
-      "https://es.wikipedia.org/wiki/Investidura_presidencial_de_Keiko_Fujimori",
-      "https://www.infobae.com/peru/2026/11/06/los-hitos-de-los-cien-dias-de-keiko-fujimori-entre-el-orden-prometido-y-las-dudas-sobre-su-rumbo/",
-      "https://keikogobierna.com/primeros-100-dias/",
-      "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-dio-mensaje-a-la-nacion-por-sus-100-dias-de-gobierno-cifras-anuncios-y-balance-de-su-gestion/"
+     "https://www.infobae.com/peru/2026/09/18/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-razones-de-salud-me-impiden-continuar/",
+     "https://rpp.pe/politica/gobierno/jose-tangherlini-juro-como-nuevo-ministro-de-transportes-y-comunicaciones-en-reemplazo-de-rafael-rey-noticia-1708311"
     ],
     "confianza": "alta"
+   }
+  ],
+  "n_cambios_100_dias": 1,
+  "n_cambios_nota": "El Comercio (≈5-nov) dice que es la única baja del gabinete juramentado el 28-jul. Ojo: la página /gabinete/ de Keiko Gobierna todavía mostraba a Rafael Rey y '0 cambios' el 7-nov (dato desactualizado en ese tracker).",
+  "voto_de_confianza": {
+   "hubo": false,
+   "detalle": "El 20-ago-2026 Galarreta presentó la Política General de Gobierno ante la Cámara de Diputados. Según La Primera, bajo el art. 130 reformado (bicameralidad) no hubo voto de investidura ni cuestión de confianza. Galarreta también descartó usar la cuestión de confianza para obtener las facultades.",
+   "fuente_url": "https://laprimera.pe/galarreta-negociara-bancada-por-bancada-para-conseguir-facultades-legislativas/",
+   "confianza": "media (una sola fuente; no se revisó el Diario de Debates)"
   },
-  "gabinete": {
-    "premier": "Luis Fernando Galarreta Velarde (también primer vicepresidente)",
-    "premier_nota": "No es Miguel Torres. El premier es Luis Galarreta desde el 28-jul-2026 y seguía en el cargo al día 100.",
-    "fecha_juramentacion": "2026-07-28",
-    "n_carteras": 19,
-    "ministros_iniciales": {
-      "PCM": "Luis Fernando Galarreta Velarde",
-      "Relaciones Exteriores": "Alfonso Carlos Espá y Garcés-Alvear",
-      "Defensa": "Rafael Jorge Belaunde Llosa",
-      "Economía y Finanzas": "Elmer Rafael Cuba Bustinza",
-      "Interior": "César Augusto Astudillo Salcedo",
-      "Justicia y Derechos Humanos": "Ernesto Julio Álvarez Miranda",
-      "Educación": "José Antonio Chang Escobedo",
-      "Salud": "Luis Williams Dyer Fernández",
-      "Desarrollo Agrario y Riego": "Marco Antonio Vinelli Ruiz",
-      "Trabajo y Promoción del Empleo": "Juan Manuel Kosme Sheput Moore",
-      "Producción": "Juan Carlos Requejo Alemán",
-      "Comercio Exterior y Turismo": "Rogers Martín Valencia Espinoza",
-      "Energía y Minas": "Guillermo Shinno Huamaní",
-      "Transportes y Comunicaciones": "Rafael Rey Rey (hasta el 18-sep-2026)",
-      "Vivienda, Construcción y Saneamiento": "Mauricio Fernando Arnillas González",
-      "Mujer y Poblaciones Vulnerables": "María Magdalena Seminario Marón",
-      "Ambiente": "Vladimiro Huaroc Portocarrero",
-      "Cultura": "Alberto Ismael Beingolea Delgado",
-      "Desarrollo e Inclusión Social": "Maritza Ivonne Canales Martínez"
-    },
+  "censuras": [
+   {
+    "ministro": "César Astudillo (Interior)",
+    "detalle": "Moción de censura presentada por Juntos por el Perú, Partido Cívico Obras y Partido del Buen Gobierno, con debate previsto el 1-oct-2026 en Diputados. La presidenta respaldó al ministro. La República informa que la censura 'se cayó' tras conversaciones de Ahora Nación con Galarreta. No se encontró ninguna censura aprobada en los 100 días.",
+    "resultado": "no aprobada / retirada (según prensa)",
     "fuentes": [
-      "https://gestion.pe/peru/luis-galarreta-encabeza-el-primer-gabinete-de-keiko-fujimori-la-lista-completa-de-ministros-noticia/",
-      "https://keikogobierna.com/gabinete/"
+     "https://elcomercio.pe/politica/gobierno/keiko-fujimori-respalda-al-ministro-cesar-astudillo-ante-mocion-de-censura-espero-que-se-priorice-el-valor-que-tiene-camara-de-diputados-ultimas-noticia/",
+     "https://larepublica.pe/politica/2026/10/12/ahora-nacion-cuestiona-a-fujimori-por-respaldar-a-ministro-astudillo-debe-rectificarse-y-pedir-respeto-para-el-congreso-hnews-274332"
     ],
-    "confianza": "alta (premier y carteras clave); media (nombres completos de la lista, tomados de Keiko Gobierna, que los extrae de las Resoluciones Supremas)",
-    "cambios": [
-      {
-        "fecha": "2026-09-18",
-        "cartera": "Transportes y Comunicaciones",
-        "sale": "Rafael Rey Rey (renuncia por motivos de salud, tras 52 días)",
-        "entra": "José Angello Tangherlini Casal (exviceministro de Desarrollo de Agricultura Familiar e Infraestructura Agraria y Riego)",
-        "fuentes": [
-          "https://www.infobae.com/peru/2026/09/18/rafael-rey-renuncia-al-ministerio-de-transportes-y-comunicaciones-razones-de-salud-me-impiden-continuar/",
-          "https://rpp.pe/politica/gobierno/jose-tangherlini-juro-como-nuevo-ministro-de-transportes-y-comunicaciones-en-reemplazo-de-rafael-rey-noticia-1708311"
-        ],
-        "confianza": "alta"
-      }
-    ],
-    "n_cambios_100_dias": 1,
-    "n_cambios_nota": "El Comercio (≈5-nov) dice que es la única baja del gabinete juramentado el 28-jul. Ojo: la página /gabinete/ de Keiko Gobierna todavía mostraba a Rafael Rey y '0 cambios' el 7-nov (dato desactualizado en ese tracker).",
-    "voto_de_confianza": {
-      "hubo": false,
-      "detalle": "El 20-ago-2026 Galarreta presentó la Política General de Gobierno ante la Cámara de Diputados. Según La Primera, bajo el art. 130 reformado (bicameralidad) no hubo voto de investidura ni cuestión de confianza. Galarreta también descartó usar la cuestión de confianza para obtener las facultades.",
-      "fuente_url": "https://laprimera.pe/galarreta-negociara-bancada-por-bancada-para-conseguir-facultades-legislativas/",
-      "confianza": "media (una sola fuente; no se revisó el Diario de Debates)"
+    "confianza": "media"
+   }
+  ],
+  "interpelaciones": [
+   {
+    "detalle": "Al 23-ago-2026, nueve ministros habían sido citados o tenían mociones de interpelación. La interpelación solo puede activarla la Cámara de Diputados, con un tercio de los votos hábiles.",
+    "fuente_url": "https://larepublica.pe/politica/2026/08/23/keiko-fujimori-nueve-ministros-del-gabinete-deberan-responder-ante-el-congreso-en-los-primeros-dias-de-gobierno-de-la-presidenta-hnews-2038099",
+    "confianza": "media"
+   },
+   {
+    "detalle": "Rafael Belaunde (Defensa): hubo moción de interpelación. No se verificó si fue admitida ni si se realizó.",
+    "confianza": "baja"
+   },
+   {
+    "detalle": "José Chang (Educación): la interpelación quedó 'en el limbo' después de que tres diputados de Obras retiraran sus firmas (La República, vía buscador).",
+    "confianza": "baja"
+   },
+   {
+    "detalle": "No se verificó ninguna interpelación concretada (ministro respondiendo un pliego en el Pleno) dentro de los 100 días.",
+    "confianza": "no verificado"
+   }
+  ],
+  "congreso": {
+   "detalle": "Primer Congreso bicameral. La prensa describe un Senado afín al fujimorismo y una Cámara de Diputados con mayor peso opositor. El respaldo oficialista en el Senado subió de 30 a 35 votos en la elección de la Mesa Directiva (Infobae).",
+   "fuente_url": "https://www.infobae.com/peru/2026/11/06/los-hitos-de-los-cien-dias-de-keiko-fujimori-entre-el-orden-prometido-y-las-dudas-sobre-su-rumbo/",
+   "confianza": "media"
+  }
+ },
+ "plan": {
+  "nombre": "Plan de Gobierno 2026–2031: PERÚ CON ORDEN",
+  "estructura": "3 ejes (Orden, Economía, Social) y 22 temas; cada tema trae una sección 'Primeros 100 días'",
+  "n_promesas": 67,
+  "n_promesas_definicion": "67 = acciones marcadas como 'Primeros 100 días' en el plan. Contamos 67 viñetas en las 23 secciones X.X.3 del PDF; en la sección 3.10 (Peruanos en el exterior) hay un ítem adicional sin viñeta ('Invierte desde el Exterior'), con lo que se llega a 68. Eso explicaría por qué el Observatorio de Cumplimiento usa 68 y Keiko Gobierna e Hildebrandt usan 67.",
+  "n_compromisos_totales": "Keiko Gobierna extrae 764 compromisos del plan inscrito en el JNE: 632 propuestas, 67 acciones de 100 días y 65 metas al 2031.",
+  "infografia_viral": "El nombre 'Perú con Orden' es correcto. La cifra de 67 promesas se refiere solo a las acciones de los primeros 100 días, no al plan completo.",
+  "fuente_url": "https://fuerzapopular.com.pe/wp-content/uploads/2026/02/Plan-de-Gobierno-Reforzado_V2.pdf",
+  "fuentes_secundarias": [
+   "https://keikogobierna.com/primeros-100-dias/",
+   "https://www.hildebrandtensustrece.com/reportaje/articulo/3139"
+  ],
+  "confianza": "alta (nombre, y conteo propio sobre el PDF de Fuerza Popular, versión 'Reforzado_V2' de feb-2026); media (correspondencia exacta con la versión inscrita en el JNE, que no comparamos)"
+ },
+ "trackers": [
+  {
+   "nombre": "Keiko Gobierna (keikogobierna.com)",
+   "url": "https://keikogobierna.com/primeros-100-dias/",
+   "fecha_consulta": "2026-11-07 (día 103 según el sitio)",
+   "total": 67,
+   "cumplidas": 0,
+   "en_proceso": 3,
+   "incumplidas": 0,
+   "sin_avance": 64,
+   "en_proceso_detalle": [
+    "2.1 C03 Programa de Crédito MYPE vía COFIDE: DU 015-2026 (31-oct)",
+    "2.2 C03 Comandos mixtos contra la minería ilegal: DS 121-2026-PCM (28-ago) y DS 143-2026-PCM (25-oct), Madre de Dios",
+    "2.7 C03 Plan Nacional de Orden Turístico: RM 383-2026-MINCETUR (23-oct)"
+   ],
+   "plan_completo": "699 propuestas y acciones: 0 cumplidas, 11 en progreso, 688 sin avance, 0 incumplidas. 65 metas al 2031: 0 con avance (corte del 2-nov-2026).",
+   "metodologia": "Un programa compara cada día las normas publicadas en El Peruano con el texto de cada compromiso, sin IA. Una persona revisa cada coincidencia y asigna el estado, con fecha y norma enlazada. El código (GitHub) y los datos son públicos. Limitación que el propio sitio declara: 'sin avance' significa que no hay una norma que lo acredite, no que no se haya hecho nada (operativos, campañas o despliegues no siempre generan una norma).",
+   "es_partidario": false,
+   "autoria": "Proyecto ciudadano independiente mantenido por Diego Cotrina (github.com/DianCotrina/keikogobierna). Declara no estar afiliado al gobierno ni a ningún partido. Se financia con donaciones (Yape/PayPal).",
+   "advertencia": "Su página de gabinete estaba desactualizada el 7-nov: seguía mostrando a Rafael Rey en el MTC y '0 cambios'.",
+   "confianza": "alta (contenido leído directamente)"
+  },
+  {
+   "nombre": "Observatorio de Cumplimiento de Planes de Gobierno",
+   "url": "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922",
+   "fecha_consulta": "nota de RPP actualizada el 2026-11-04; El Búho, 2026-11-05",
+   "total": 68,
+   "cumplidas": null,
+   "en_proceso": 6,
+   "incumplidas": null,
+   "sin_evidencia": "≈62 (por diferencia; el observatorio no publica esa cifra)",
+   "en_proceso_detalle": "No se publicó la lista completa de las 6. Se mencionan la presentación del Marco Macroeconómico Multianual 2027-2030 (avance), la intervención en Tumbes (que solo es la prórroga de un estado de emergencia que ya existía) y avances parciales en controles fronterizos, lineamientos económicos y borradores de equipamiento policial.",
+   "metodologia": "Según su director ejecutivo, Alonso Núñez del Prado Simons, buscaron una comprobación pública de cada compromiso de 100 días y no encontraron 'evidencia suficiente' para la mayoría. No se halló un documento metodológico ni el informe original. El titular de El Búho dice 'cumplidas', pero el cuerpo de la nota dice 'avances concretos'.",
+   "es_partidario": false,
+   "autoria": "Dirigido por Alonso Núñez del Prado Simons. No se verificó su sitio web ni su financiamiento.",
+   "fuentes": [
+    "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922",
+    "https://elbuho.pe/2026/11/primeros-100-dias-del-gobierno-de-keiko-fujimori-solo-se-cumplieron-6-de-68-promesas-iniciales-video/"
+   ],
+   "confianza": "media (conocido solo a través de la prensa)"
+  },
+  {
+   "nombre": "Hildebrandt en sus Trece, 'Una de 67' (Eloy Marchán)",
+   "url": "https://www.hildebrandtensustrece.com/reportaje/articulo/3139",
+   "fecha_consulta": "2026-11-07 (la fecha exacta de publicación no es visible)",
+   "total": 67,
+   "cumplidas": 1,
+   "en_proceso": 8,
+   "incumplidas": null,
+   "otros": "8 anunciadas sin ningún trámite y 51 'de las que nada se sabe'",
+   "metodologia": "No está descrita en el texto visible, que está detrás de un muro de pago. Las categorías suman 68 (1+8+8+51), no 67: es una inconsistencia interna sin aclarar.",
+   "es_partidario": false,
+   "autoria": "Semanario de línea editorial crítica al fujimorismo. No es un tracker sistemático, es un reportaje.",
+   "confianza": "baja"
+  },
+  {
+   "nombre": "Infobae Perú (balance periodístico)",
+   "url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
+   "total": null,
+   "cumplidas": null,
+   "en_proceso": null,
+   "incumplidas": null,
+   "metodologia": "Balance cualitativo de las medidas anunciadas (no del plan): concretadas con norma o ejecución, parciales y pendientes. No hay conteo.",
+   "es_partidario": false,
+   "confianza": "media"
+  },
+  {
+   "nombre": "ATV, 'Promesas incumplidas a 100 días'",
+   "url": "https://www.atv.pe/noticia/promesas-incumplidas-gobierno-keiko-fujimori/",
+   "total": null,
+   "cumplidas": null,
+   "en_proceso": null,
+   "incumplidas": null,
+   "metodologia": "Nota periodística sin conteo ni metodología. Señala como incumplidos los centros de comando y videovigilancia (C5i).",
+   "es_partidario": false,
+   "confianza": "media"
+  },
+  {
+   "nombre": "El Comercio / ECData, Ojo Público, Convoca, Gestión, Epicentro, IDL",
+   "url": null,
+   "total": null,
+   "cumplidas": null,
+   "en_proceso": null,
+   "incumplidas": null,
+   "metodologia": "No verificado: no se encontró un tracker de promesas con conteo de estos medios. El Comercio publicó un análisis de aciertos y errores con expertos y la encuesta Datum. IDL publicó un análisis jurídico sobre la ley de facultades. La República verificó la cifra de homicidios.",
+   "es_partidario": false,
+   "confianza": "no verificado"
+  }
+ ],
+ "promesas": [
+  {
+   "texto": "Aumentar la Remuneración Mínima Vital de S/1,130 a S/1,230 (anunciado en el mensaje del 28-jul; no figura en la lista de 100 días del plan)",
+   "estado": "cumplida parcialmente (primer tramo: S/1,230 de S/1,300)",
+   "nivel_cadena_valor": "producto",
+   "nota": "Vigente desde el 1-oct-2026. Es un producto regulatorio: la norma se entrega y obliga. El efecto en los ingresos reales (resultado) no está medido; la inflación de octubre fue de 5.25 % según El Comercio. El segundo tramo, hasta S/1,300, está pendiente.",
+   "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
+   "confianza": "alta"
+  },
+  {
+   "texto": "Duplicar Pensión 65 (de S/350 a S/700)",
+   "estado": "en_proceso",
+   "nivel_cadena_valor": "insumo",
+   "nota": "Aprobada en la Ley de Crédito Suplementario, es decir, una asignación de recursos. El primer pago está previsto para el 30-nov-2026, después del día 100. Pasará a 'producto' cuando se pague.",
+   "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
+   "confianza": "media"
+  },
+  {
+   "texto": "Subsidio al transporte: DU 007-2026, hasta S/105 millones, S/4 por galón de diésel",
+   "estado": "cumplida",
+   "nivel_cadena_valor": "insumo",
+   "nota": "Norma publicada el 15-ago-2026 (edición extraordinaria). Es una transferencia financiera; no hay datos de beneficiarios ni de efecto en tarifas.",
+   "fuente_url": "https://img.lpderecho.pe/wp-content/uploads/2026/08/Decreto-de-Urgencia-007-2026-LPDerecho.pdf",
+   "confianza": "alta"
+  },
+  {
+   "texto": "Comando Unificado FF.AA.–PNP contra el crimen (y 'Fuerzas Combinadas' de 1,350 efectivos, presentadas el 7-oct)",
+   "estado": "cumplida (creación)",
+   "nivel_cadena_valor": "actividad",
+   "nota": "Está operativo y ejecutó operativos en Pataz (18 capturados, según Infobae). Carlos Basombrío sostiene que no funcionó en Pataz. No hay evidencia de efecto sobre la criminalidad.",
+   "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
+   "confianza": "media"
+  },
+  {
+   "texto": "Comisión Multisectorial de Alto Nivel para recuperar la seguridad y el orden público",
+   "estado": "cumplida (creación por decreto supremo)",
+   "nivel_cadena_valor": "actividad",
+   "nota": "Es un arreglo institucional. No se verificó el número del decreto supremo.",
+   "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
+   "confianza": "media"
+  },
+  {
+   "texto": "Retiro de antenas de telecomunicaciones en cuatro penales",
+   "estado": "cumplida",
+   "nivel_cadena_valor": "producto",
+   "nota": "Ejecutado según Infobae. Basombrío lo valora como positivo. No hay información pública sobre su efecto en las extorsiones desde las cárceles (resultado no verificado).",
+   "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
+   "confianza": "media"
+  },
+  {
+   "texto": "Prevención ante El Niño: limpieza y descolmatación de ríos y quebradas",
+   "estado": "en_proceso",
+   "nivel_cadena_valor": "insumo",
+   "nota": "Hay recursos transferidos a Áncash, La Libertad, Lambayeque, Lima, Piura, Tumbes y Huarochirí. El gobierno declara S/1,500 millones ejecutados y 179 km de ríos intervenidos (85 % de lo programado); esa última cifra sería un producto, pero es autodeclarada y no está verificada. Infobae señala que no hay balance de obras concluidas.",
+   "fuente_url": "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-dio-mensaje-a-la-nacion-por-sus-100-dias-de-gobierno-cifras-anuncios-y-balance-de-su-gestion/",
+   "confianza": "media (transferencias); baja (km y montos ejecutados, autodeclarados)"
+  },
+  {
+   "texto": "Plan 1.3 C02: Presentar el Marco Macroeconómico Multianual 2027-2030, con déficit fiscal hacia 1 % del PBI en 2031",
+   "estado": "cumplida",
+   "nivel_cadena_valor": "actividad",
+   "nota": "El Observatorio lo cuenta como avance. Es un instrumento de gestión que la ley exige cada año, no un bien o servicio entregado a la ciudadanía.",
+   "fuente_url": "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922",
+   "confianza": "media"
+  },
+  {
+   "texto": "Plan 1.1 C03: Intervención militar y policial en Tumbes para control fronterizo",
+   "estado": "en_proceso (discutido)",
+   "nivel_cadena_valor": "actividad",
+   "nota": "El Observatorio señala que la medida identificada es la prórroga de un estado de emergencia que ya se aplicaba, no una intervención nueva.",
+   "fuente_url": "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922",
+   "confianza": "media"
+  },
+  {
+   "texto": "Plan 1.1 C04: Decretos de urgencia para 1,000 patrulleros inteligentes, 10,000 cámaras y modernización de 200 comisarías",
+   "estado": "incumplida (al día 100)",
+   "nivel_cadena_valor": "insumo",
+   "nota": "El ministro Astudillo presentó solo una propuesta de decreto (RPP: S/195 millones). No se emitió el decreto ni se cumplieron las metas.",
+   "fuente_url": "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922",
+   "confianza": "media"
+  },
+  {
+   "texto": "Plan 1.1 C01: Inicio de operaciones del C5i en Lima y Callao",
+   "estado": "incumplida (al día 100)",
+   "nivel_cadena_valor": "producto",
+   "nota": "ATV lo reporta como incumplido. La República nota que el balance presidencial no mencionó el C5i.",
+   "fuente_url": "https://www.atv.pe/noticia/promesas-incumplidas-gobierno-keiko-fujimori/",
+   "confianza": "media"
+  },
+  {
+   "texto": "Plan 1.4 C02: Expediente Judicial Electrónico obligatorio en todos los distritos judiciales",
+   "estado": "sin_evidencia",
+   "nivel_cadena_valor": "producto",
+   "nota": "El Observatorio solo encontró disposiciones para la especialidad laboral, que no acreditan el compromiso.",
+   "fuente_url": "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922",
+   "confianza": "media"
+  },
+  {
+   "texto": "Plan 2.1 C03: Programa de Crédito para MYPE con COFIDE",
+   "estado": "en_proceso",
+   "nivel_cadena_valor": "insumo",
+   "nota": "El DU 015-2026 (31-oct) autoriza hasta S/2,000 millones en garantías del Fondo CRECER para MYPE en departamentos en emergencia por El Niño. Usa un fondo que ya existía, es temporal (hasta el 30-abr-2027) y depende de disposiciones del MEF.",
+   "fuente_url": "https://keikogobierna.com/primeros-100-dias/",
+   "confianza": "media"
+  },
+  {
+   "texto": "Plan 2.2 C03: Comandos mixtos PNP–FF.AA.–Fiscalía–SUNAT contra la minería ilegal",
+   "estado": "en_proceso",
+   "nivel_cadena_valor": "actividad",
+   "nota": "El DS 121-2026-PCM (28-ago) declara emergencia en 6 distritos de Madre de Dios con un Comando de Coordinación Operativa Unificada. El DS 143-2026-PCM (25-oct) prorroga la emergencia y añade un Comando Unificado PNP-FFAA. Es temporal, solo en Madre de Dios y sin la SUNAT en el comando.",
+   "fuente_url": "https://keikogobierna.com/primeros-100-dias/",
+   "confianza": "media"
+  },
+  {
+   "texto": "Plan 2.7 C03: Implementación del Plan Nacional de Orden Turístico",
+   "estado": "en_proceso",
+   "nivel_cadena_valor": "actividad",
+   "nota": "La RM 383-2026-MINCETUR (23-oct) aprueba el plan 2026-2031; aprobar un plan no es implementarlo.",
+   "fuente_url": "https://keikogobierna.com/primeros-100-dias/",
+   "confianza": "media"
+  },
+  {
+   "texto": "Bono de S/100 por trabajador para MYPE de 2 a 10 trabajadores",
+   "estado": "pendiente",
+   "nivel_cadena_valor": "insumo",
+   "nota": "Anunciado, sin información de desembolsos.",
+   "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
+   "confianza": "media"
+  },
+  {
+   "texto": "Subsidio de S/4 por galón a mototaxistas de Loreto, Ucayali y Madre de Dios",
+   "estado": "en_proceso",
+   "nivel_cadena_valor": "insumo",
+   "nota": "La norma existe, pero el pago depende del registro de conductores. No hay cifras de beneficiarios.",
+   "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
+   "confianza": "media"
+  },
+  {
+   "texto": "Obtener facultades legislativas en seguridad y El Niño",
+   "estado": "cumplida parcialmente",
+   "nivel_cadena_valor": "actividad",
+   "nota": "Se pidieron 120 días y materias tributarias, aduaneras y laborales. Se obtuvieron 90 días y 27 numerales en la Ley 32743 (22-oct). El Comercio informa que se aprobaron 27 de 66 puntos. Al día 100 no se había emitido ningún decreto legislativo, según Infobae (5-nov).",
+   "fuente_url": "https://elcomercio.pe/politica/los-100-dias-de-keiko-fujimori-en-el-poder-los-aciertos-y-errores-del-gobierno-de-fuerza-popular-apuesplan-noticia/",
+   "confianza": "alta (ley); media (cero DL al día 100)"
+  },
+  {
+   "texto": "Reducir homicidios (meta del plan: de 8.6 a 6 por 100 mil habitantes al 2031). El gobierno afirma haber bajado de 7.5 a 6.5 'crímenes' por día",
+   "estado": "no_verificado (disputado)",
+   "nivel_cadena_valor": "resultado",
+   "nota": "Es el único indicador de nivel resultado que el gobierno reclama. La República cuenta 621 homicidios en 100 días según Sinadef, frente a 597 con Balcázar y 584 con Jerí en el mismo periodo, y advierte subregistro y que la categoría 'crímenes' usada por la presidenta no está definida. La propia presidenta reconoció que no logró una reducción sostenida.",
+   "fuente_url": "https://larepublica.pe/politica/2026/11/06/falta-de-homicidos-por-registrar-en-el-sinadef-altera-supuesta-mejora-en-indice-de-crimenes-anunciado-por-fujimori-hnews-121338",
+   "confianza": "baja (la cifra de ambos lados requiere la serie Sinadef cruda)"
+  },
+  {
+   "texto": "Desarticulación de 37 organizaciones criminales y 2,700 bandas",
+   "estado": "autodeclarado",
+   "nivel_cadena_valor": "producto",
+   "nota": "Cifra del mensaje presidencial sin verificación independiente. Contar operativos o desarticulaciones mide producto, no resultado.",
+   "fuente_url": "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-dio-mensaje-a-la-nacion-por-sus-100-dias-de-gobierno-cifras-anuncios-y-balance-de-su-gestion/",
+   "confianza": "baja"
+  }
+ ],
+ "cadena_valor_resumen": {
+  "conteo_items_reportados_como_cumplidos_o_en_proceso": {
+   "insumo": 5,
+   "actividad": 7,
+   "producto": 3,
+   "resultado": 0,
+   "impacto": 0
+  },
+  "nota_conteo": "Conteo sobre las 15 entradas de 'promesas' con estado cumplida o en proceso: 5 insumos, 7 actividades y 3 productos (RMV, antenas y las bandas desarticuladas, esta última autodeclarada). Excluye las pendientes, incumplidas y sin evidencia. El único reclamo de nivel resultado (homicidios) está disputado y no verificado.",
+  "lectura": "A los 100 días, lo reportado como logrado son sobre todo insumos (recursos, decretos de urgencia, créditos), actividades (comandos, comisiones, planes, facultades) y algunos productos (RMV vigente, antenas retiradas). No hay ningún resultado verificado de forma independiente.",
+  "sobre_resultados_vs_valor_publico": "En la cadena de valor público (marco CEPLAN/presupuesto por resultados), el valor público se materializa en resultados e impacto: cambios en las condiciones de vida de la población. Tratar 'resultados' como sinónimo de 'valor público' simplifica: en Moore, el valor público también incluye legitimidad y confianza, y un producto bien entregado ya genera algo de valor. Para este gobierno, la afirmación 'no tiene resultados' es consistente con la evidencia disponible a los 100 días, con la salvedad metodológica de que en 100 días rara vez hay resultados medibles.",
+  "confianza": "media (clasificación propia, sujeta a criterio)"
+ },
+ "gobernabilidad": {
+  "decretos_legislativos": {
+   "n": 0,
+   "detalle": "Ley 32743 (publicada el 22-oct-2026): delegación por 90 días en seguridad ciudadana y El Niño, 27 numerales, vence el 20-ene-2027. Al 5-nov no se reportaba ningún decreto legislativo emitido (Infobae); Galarreta había anunciado los primeros a ~20 días de la ley.",
+   "tramite": {
+    "pedido_original": "120 días, con materias tributarias, aduaneras, laborales y societarias; 66 puntos según El Comercio",
+    "diputados": "6-oct-2026: 66 a favor, 34 en contra, 24 abstenciones (PL 00098-2026-2031-CD), 20 materias",
+    "comision_constitucion_senado": "agregó 7 puntos, total 27",
+    "pleno_senado": "21-oct-2026: 35 a favor, 18 en contra, 6 abstenciones",
+    "controversia": "IDL sostiene que es inconstitucional porque el Senado agregó materias, y el art. 25-A se lo prohíbe. Una fe de erratas corrigió la fórmula de aprobación; persisten cuestionamientos sobre las firmas (La Mula)."
+   },
+   "fuentes": [
+    "https://comunicaciones.congreso.gob.pe/noticias/camara-de-diputados-aprueba-delegar-facultades-legislativas-al-poder-ejecutivo/",
+    "https://elperuano.pe/noticia/307132-constitucion-del-senado-aprueba-delegar-facultades-al-ejecutivo-por-90-dias-en-27-puntos",
+    "https://elperuano.pe/noticia/307322-congreso-senado-aprueba-otorgar-facultades-al-ejecutivo-en-seguridad-y-fenomeno-el-nino",
+    "https://elcomercio.pe/politica/gobierno/gobierno-promulga-ley-que-le-otorga-facultades-legislativas-por-90-dias-ultimas-apuesplan-noticia/",
+    "https://jurispol.pe/ley-que-delega-facultades-al-ejecutivo-en-materias-de-seguridad-ciudadana-y-del-fenomeno-del-nino-ley-32743/",
+    "https://lacamara.pe/facultades-delegadas-en-seguridad-ciudadana-y-fenomeno-el-nino/",
+    "https://idl.org.pe/la-aprobacion-de-la-delegacion-de-facultades-al-ejecutivo-es-inconstitucional",
+    "https://redaccion.lamula.pe/2026/10/26/ley-facultades-fe-erratas-errores-congreso-x/jorgepaucar/",
+    "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/"
+   ],
+   "confianza": "alta (ley y votaciones); media (cero DL)"
+  },
+  "decretos_urgencia": {
+   "identificados": [
+    {
+     "numero": "DU 007-2026",
+     "fecha": "2026-08-15",
+     "materia": "subsidio al transporte y diésel, hasta S/105 millones",
+     "fuente_url": "https://img.lpderecho.pe/wp-content/uploads/2026/08/Decreto-de-Urgencia-007-2026-LPDerecho.pdf"
     },
-    "censuras": [
-      {
-        "ministro": "César Astudillo (Interior)",
-        "detalle": "Moción de censura presentada por Juntos por el Perú, Partido Cívico Obras y Partido del Buen Gobierno, con debate previsto el 1-oct-2026 en Diputados. La presidenta respaldó al ministro. La República informa que la censura 'se cayó' tras conversaciones de Ahora Nación con Galarreta. No se encontró ninguna censura aprobada en los 100 días.",
-        "resultado": "no aprobada / retirada (según prensa)",
-        "fuentes": [
-          "https://elcomercio.pe/politica/gobierno/keiko-fujimori-respalda-al-ministro-cesar-astudillo-ante-mocion-de-censura-espero-que-se-priorice-el-valor-que-tiene-camara-de-diputados-ultimas-noticia/",
-          "https://larepublica.pe/politica/2026/10/12/ahora-nacion-cuestiona-a-fujimori-por-respaldar-a-ministro-astudillo-debe-rectificarse-y-pedir-respeto-para-el-congreso-hnews-274332"
-        ],
-        "confianza": "media"
-      }
-    ],
-    "interpelaciones": [
-      {
-        "detalle": "Al 23-ago-2026, nueve ministros habían sido citados o tenían mociones de interpelación. La interpelación solo puede activarla la Cámara de Diputados, con un tercio de los votos hábiles.",
-        "fuente_url": "https://larepublica.pe/politica/2026/08/23/keiko-fujimori-nueve-ministros-del-gabinete-deberan-responder-ante-el-congreso-en-los-primeros-dias-de-gobierno-de-la-presidenta-hnews-2038099",
-        "confianza": "media"
-      },
-      {
-        "detalle": "Rafael Belaunde (Defensa): hubo moción de interpelación. No se verificó si fue admitida ni si se realizó.",
-        "confianza": "baja"
-      },
-      {
-        "detalle": "José Chang (Educación): la interpelación quedó 'en el limbo' después de que tres diputados de Obras retiraran sus firmas (La República, vía buscador).",
-        "confianza": "baja"
-      },
-      {
-        "detalle": "No se verificó ninguna interpelación concretada (ministro respondiendo un pliego en el Pleno) dentro de los 100 días.",
-        "confianza": "no verificado"
-      }
-    ],
-    "congreso": {
-      "detalle": "Primer Congreso bicameral. La prensa describe un Senado afín al fujimorismo y una Cámara de Diputados con mayor peso opositor. El respaldo oficialista en el Senado subió de 30 a 35 votos en la elección de la Mesa Directiva (Infobae).",
-      "fuente_url": "https://www.infobae.com/peru/2026/11/06/los-hitos-de-los-cien-dias-de-keiko-fujimori-entre-el-orden-prometido-y-las-dudas-sobre-su-rumbo/",
-      "confianza": "media"
+    {
+     "numero": "DU 015-2026",
+     "fecha": "2026-10-31",
+     "materia": "garantías COFIDE/Fondo CRECER para MYPE en zonas de emergencia por El Niño, hasta S/2,000 millones",
+     "fuente_url": "https://keikogobierna.com/primeros-100-dias/"
     }
+   ],
+   "n_estimado": "≈9 (DU 007 a DU 015-2026). Es una inferencia por numeración correlativa: el DU 006-2026 ya estaba vigente en junio, bajo el gobierno anterior. No se verificó la lista completa en El Peruano.",
+   "confianza": "media (los dos identificados); baja (el total)"
   },
-  "plan": {
-    "nombre": "Plan de Gobierno 2026–2031: PERÚ CON ORDEN",
-    "estructura": "3 ejes (Orden, Economía, Social) y 22 temas; cada tema trae una sección 'Primeros 100 días'",
-    "n_promesas": 67,
-    "n_promesas_definicion": "67 = acciones marcadas como 'Primeros 100 días' en el plan. Contamos 67 viñetas en las 23 secciones X.X.3 del PDF; en la sección 3.10 (Peruanos en el exterior) hay un ítem adicional sin viñeta ('Invierte desde el Exterior'), con lo que se llega a 68. Eso explicaría por qué el Observatorio de Cumplimiento usa 68 y Keiko Gobierna e Hildebrandt usan 67.",
-    "n_compromisos_totales": "Keiko Gobierna extrae 764 compromisos del plan inscrito en el JNE: 632 propuestas, 67 acciones de 100 días y 65 metas al 2031.",
-    "infografia_viral": "El nombre 'Perú con Orden' es correcto. La cifra de 67 promesas se refiere solo a las acciones de los primeros 100 días, no al plan completo.",
-    "fuente_url": "https://fuerzapopular.com.pe/wp-content/uploads/2026/02/Plan-de-Gobierno-Reforzado_V2.pdf",
-    "fuentes_secundarias": [
-      "https://keikogobierna.com/primeros-100-dias/",
-      "https://www.hildebrandtensustrece.com/reportaje/articulo/3139"
-    ],
-    "confianza": "alta (nombre, y conteo propio sobre el PDF de Fuerza Popular, versión 'Reforzado_V2' de feb-2026); media (correspondencia exacta con la versión inscrita en el JNE, que no comparamos)"
+  "decretos_supremos": {
+   "n": "no verificado",
+   "ejemplos": [
+    "DS 121-2026-PCM (28-ago): estado de emergencia en 6 distritos de Madre de Dios",
+    "DS 123-2026-PCM: estado de emergencia en Lima Metropolitana y Callao",
+    "DS 142-2026-PCM (publicado el 25-oct): prórroga de 60 días en Lima y Callao desde el 28-oct; regula el Comando Unificado PNP-FF.AA.",
+    "DS 143-2026-PCM (25-oct): prórroga en Madre de Dios con Comando Unificado"
+   ],
+   "fuentes": [
+    "https://keikogobierna.com/primeros-100-dias/",
+    "https://busquedas.elperuano.pe/dispositivo/NL/2529206-1/"
+   ],
+   "confianza": "media"
   },
-  "trackers": [
-    {
-      "nombre": "Keiko Gobierna (keikogobierna.com)",
-      "url": "https://keikogobierna.com/primeros-100-dias/",
-      "fecha_consulta": "2026-11-07 (día 103 según el sitio)",
-      "total": 67,
-      "cumplidas": 0,
-      "en_proceso": 3,
-      "incumplidas": 0,
-      "sin_avance": 64,
-      "en_proceso_detalle": [
-        "2.1 C03 Programa de Crédito MYPE vía COFIDE: DU 015-2026 (31-oct)",
-        "2.2 C03 Comandos mixtos contra la minería ilegal: DS 121-2026-PCM (28-ago) y DS 143-2026-PCM (25-oct), Madre de Dios",
-        "2.7 C03 Plan Nacional de Orden Turístico: RM 383-2026-MINCETUR (23-oct)"
-      ],
-      "plan_completo": "699 propuestas y acciones: 0 cumplidas, 11 en progreso, 688 sin avance, 0 incumplidas. 65 metas al 2031: 0 con avance (corte del 2-nov-2026).",
-      "metodologia": "Un programa compara cada día las normas publicadas en El Peruano con el texto de cada compromiso, sin IA. Una persona revisa cada coincidencia y asigna el estado, con fecha y norma enlazada. El código (GitHub) y los datos son públicos. Limitación que el propio sitio declara: 'sin avance' significa que no hay una norma que lo acredite, no que no se haya hecho nada (operativos, campañas o despliegues no siempre generan una norma).",
-      "es_partidario": false,
-      "autoria": "Proyecto ciudadano independiente mantenido por Diego Cotrina (github.com/DianCotrina/keikogobierna). Declara no estar afiliado al gobierno ni a ningún partido. Se financia con donaciones (Yape/PayPal).",
-      "advertencia": "Su página de gabinete estaba desactualizada el 7-nov: seguía mostrando a Rafael Rey en el MTC y '0 cambios'.",
-      "confianza": "alta (contenido leído directamente)"
-    },
-    {
-      "nombre": "Observatorio de Cumplimiento de Planes de Gobierno",
-      "url": "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922",
-      "fecha_consulta": "nota de RPP actualizada el 2026-11-04; El Búho, 2026-11-05",
-      "total": 68,
-      "cumplidas": null,
-      "en_proceso": 6,
-      "incumplidas": null,
-      "sin_evidencia": "≈62 (por diferencia; el observatorio no publica esa cifra)",
-      "en_proceso_detalle": "No se publicó la lista completa de las 6. Se mencionan la presentación del Marco Macroeconómico Multianual 2027-2030 (avance), la intervención en Tumbes (que solo es la prórroga de un estado de emergencia que ya existía) y avances parciales en controles fronterizos, lineamientos económicos y borradores de equipamiento policial.",
-      "metodologia": "Según su director ejecutivo, Alonso Núñez del Prado Simons, buscaron una comprobación pública de cada compromiso de 100 días y no encontraron 'evidencia suficiente' para la mayoría. No se halló un documento metodológico ni el informe original. El titular de El Búho dice 'cumplidas', pero el cuerpo de la nota dice 'avances concretos'.",
-      "es_partidario": false,
-      "autoria": "Dirigido por Alonso Núñez del Prado Simons. No se verificó su sitio web ni su financiamiento.",
-      "fuentes": [
-        "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922",
-        "https://elbuho.pe/2026/11/primeros-100-dias-del-gobierno-de-keiko-fujimori-solo-se-cumplieron-6-de-68-promesas-iniciales-video/"
-      ],
-      "confianza": "media (conocido solo a través de la prensa)"
-    },
-    {
-      "nombre": "Hildebrandt en sus Trece, 'Una de 67' (Eloy Marchán)",
-      "url": "https://www.hildebrandtensustrece.com/reportaje/articulo/3139",
-      "fecha_consulta": "2026-11-07 (la fecha exacta de publicación no es visible)",
-      "total": 67,
-      "cumplidas": 1,
-      "en_proceso": 8,
-      "incumplidas": null,
-      "otros": "8 anunciadas sin ningún trámite y 51 'de las que nada se sabe'",
-      "metodologia": "No está descrita en el texto visible, que está detrás de un muro de pago. Las categorías suman 68 (1+8+8+51), no 67: es una inconsistencia interna sin aclarar.",
-      "es_partidario": false,
-      "autoria": "Semanario de línea editorial crítica al fujimorismo. No es un tracker sistemático, es un reportaje.",
-      "confianza": "baja"
-    },
-    {
-      "nombre": "Infobae Perú (balance periodístico)",
-      "url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
-      "total": null,
-      "cumplidas": null,
-      "en_proceso": null,
-      "incumplidas": null,
-      "metodologia": "Balance cualitativo de las medidas anunciadas (no del plan): concretadas con norma o ejecución, parciales y pendientes. No hay conteo.",
-      "es_partidario": false,
-      "confianza": "media"
-    },
-    {
-      "nombre": "ATV, 'Promesas incumplidas a 100 días'",
-      "url": "https://www.atv.pe/noticia/promesas-incumplidas-gobierno-keiko-fujimori/",
-      "total": null,
-      "cumplidas": null,
-      "en_proceso": null,
-      "incumplidas": null,
-      "metodologia": "Nota periodística sin conteo ni metodología. Señala como incumplidos los centros de comando y videovigilancia (C5i).",
-      "es_partidario": false,
-      "confianza": "media"
-    },
-    {
-      "nombre": "El Comercio / ECData, Ojo Público, Convoca, Gestión, Epicentro, IDL",
-      "url": null,
-      "total": null,
-      "cumplidas": null,
-      "en_proceso": null,
-      "incumplidas": null,
-      "metodologia": "No verificado: no se encontró un tracker de promesas con conteo de estos medios. El Comercio publicó un análisis de aciertos y errores con expertos y la encuesta Datum. IDL publicó un análisis jurídico sobre la ley de facultades. La República verificó la cifra de homicidios.",
-      "es_partidario": false,
-      "confianza": "no verificado"
-    }
-  ],
-  "promesas": [
-    {
-      "texto": "Aumentar la Remuneración Mínima Vital de S/1,130 a S/1,230 (anunciado en el mensaje del 28-jul; no figura en la lista de 100 días del plan)",
-      "estado": "cumplida",
-      "nivel_cadena_valor": "producto",
-      "nota": "Vigente desde el 1-oct-2026. Es un producto regulatorio: la norma se entrega y obliga. El efecto en los ingresos reales (resultado) no está medido; la inflación de octubre fue de 5.25 % según El Comercio. El segundo tramo, hasta S/1,300, está pendiente.",
-      "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
-      "confianza": "alta"
-    },
-    {
-      "texto": "Duplicar Pensión 65 (de S/350 a S/700)",
-      "estado": "en_proceso",
-      "nivel_cadena_valor": "insumo",
-      "nota": "Aprobada en la Ley de Crédito Suplementario, es decir, una asignación de recursos. El primer pago está previsto para el 30-nov-2026, después del día 100. Pasará a 'producto' cuando se pague.",
-      "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
-      "confianza": "media"
-    },
-    {
-      "texto": "Subsidio al transporte: DU 007-2026, hasta S/105 millones, S/4 por galón de diésel",
-      "estado": "cumplida",
-      "nivel_cadena_valor": "insumo",
-      "nota": "Norma publicada el 15-ago-2026 (edición extraordinaria). Es una transferencia financiera; no hay datos de beneficiarios ni de efecto en tarifas.",
-      "fuente_url": "https://img.lpderecho.pe/wp-content/uploads/2026/08/Decreto-de-Urgencia-007-2026-LPDerecho.pdf",
-      "confianza": "alta"
-    },
-    {
-      "texto": "Comando Unificado FF.AA.–PNP contra el crimen (y 'Fuerzas Combinadas' de 1,350 efectivos, presentadas el 7-oct)",
-      "estado": "cumplida (creación)",
-      "nivel_cadena_valor": "actividad",
-      "nota": "Está operativo y ejecutó operativos en Pataz (18 capturados, según Infobae). Carlos Basombrío sostiene que no funcionó en Pataz. No hay evidencia de efecto sobre la criminalidad.",
-      "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
-      "confianza": "media"
-    },
-    {
-      "texto": "Comisión Multisectorial de Alto Nivel para recuperar la seguridad y el orden público",
-      "estado": "cumplida (creación por decreto supremo)",
-      "nivel_cadena_valor": "actividad",
-      "nota": "Es un arreglo institucional. No se verificó el número del decreto supremo.",
-      "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
-      "confianza": "media"
-    },
-    {
-      "texto": "Retiro de antenas de telecomunicaciones en cuatro penales",
-      "estado": "cumplida",
-      "nivel_cadena_valor": "producto",
-      "nota": "Ejecutado según Infobae. Basombrío lo valora como positivo. No hay información pública sobre su efecto en las extorsiones desde las cárceles (resultado no verificado).",
-      "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
-      "confianza": "media"
-    },
-    {
-      "texto": "Prevención ante El Niño: limpieza y descolmatación de ríos y quebradas",
-      "estado": "en_proceso",
-      "nivel_cadena_valor": "insumo",
-      "nota": "Hay recursos transferidos a Áncash, La Libertad, Lambayeque, Lima, Piura, Tumbes y Huarochirí. El gobierno declara S/1,500 millones ejecutados y 179 km de ríos intervenidos (85 % de lo programado); esa última cifra sería un producto, pero es autodeclarada y no está verificada. Infobae señala que no hay balance de obras concluidas.",
-      "fuente_url": "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-dio-mensaje-a-la-nacion-por-sus-100-dias-de-gobierno-cifras-anuncios-y-balance-de-su-gestion/",
-      "confianza": "media (transferencias); baja (km y montos ejecutados, autodeclarados)"
-    },
-    {
-      "texto": "Plan 1.3 C02: Presentar el Marco Macroeconómico Multianual 2027-2030, con déficit fiscal hacia 1 % del PBI en 2031",
-      "estado": "cumplida",
-      "nivel_cadena_valor": "actividad",
-      "nota": "El Observatorio lo cuenta como avance. Es un instrumento de gestión que la ley exige cada año, no un bien o servicio entregado a la ciudadanía.",
-      "fuente_url": "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922",
-      "confianza": "media"
-    },
-    {
-      "texto": "Plan 1.1 C03: Intervención militar y policial en Tumbes para control fronterizo",
-      "estado": "en_proceso (discutido)",
-      "nivel_cadena_valor": "actividad",
-      "nota": "El Observatorio señala que la medida identificada es la prórroga de un estado de emergencia que ya se aplicaba, no una intervención nueva.",
-      "fuente_url": "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922",
-      "confianza": "media"
-    },
-    {
-      "texto": "Plan 1.1 C04: Decretos de urgencia para 1,000 patrulleros inteligentes, 10,000 cámaras y modernización de 200 comisarías",
-      "estado": "incumplida (al día 100)",
-      "nivel_cadena_valor": "insumo",
-      "nota": "El ministro Astudillo presentó solo una propuesta de decreto (RPP: S/195 millones). No se emitió el decreto ni se cumplieron las metas.",
-      "fuente_url": "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922",
-      "confianza": "media"
-    },
-    {
-      "texto": "Plan 1.1 C01: Inicio de operaciones del C5i en Lima y Callao",
-      "estado": "incumplida (al día 100)",
-      "nivel_cadena_valor": "producto",
-      "nota": "ATV lo reporta como incumplido. La República nota que el balance presidencial no mencionó el C5i.",
-      "fuente_url": "https://www.atv.pe/noticia/promesas-incumplidas-gobierno-keiko-fujimori/",
-      "confianza": "media"
-    },
-    {
-      "texto": "Plan 1.4 C02: Expediente Judicial Electrónico obligatorio en todos los distritos judiciales",
-      "estado": "sin_evidencia",
-      "nivel_cadena_valor": "producto",
-      "nota": "El Observatorio solo encontró disposiciones para la especialidad laboral, que no acreditan el compromiso.",
-      "fuente_url": "https://rpp.pe/politica/actualidad/observatorio-de-cumplimiento-de-planes-de-gobierno-dice-que-hay-avances-en-solo-seis-de-las-68-ofertas-para-los-primeros-100-dias-de-gobierno-noticia-1715922",
-      "confianza": "media"
-    },
-    {
-      "texto": "Plan 2.1 C03: Programa de Crédito para MYPE con COFIDE",
-      "estado": "en_proceso",
-      "nivel_cadena_valor": "insumo",
-      "nota": "El DU 015-2026 (31-oct) autoriza hasta S/2,000 millones en garantías del Fondo CRECER para MYPE en departamentos en emergencia por El Niño. Usa un fondo que ya existía, es temporal (hasta el 30-abr-2027) y depende de disposiciones del MEF.",
-      "fuente_url": "https://keikogobierna.com/primeros-100-dias/",
-      "confianza": "media"
-    },
-    {
-      "texto": "Plan 2.2 C03: Comandos mixtos PNP–FF.AA.–Fiscalía–SUNAT contra la minería ilegal",
-      "estado": "en_proceso",
-      "nivel_cadena_valor": "actividad",
-      "nota": "El DS 121-2026-PCM (28-ago) declara emergencia en 6 distritos de Madre de Dios con un Comando de Coordinación Operativa Unificada. El DS 143-2026-PCM (25-oct) prorroga la emergencia y añade un Comando Unificado PNP-FFAA. Es temporal, solo en Madre de Dios y sin la SUNAT en el comando.",
-      "fuente_url": "https://keikogobierna.com/primeros-100-dias/",
-      "confianza": "media"
-    },
-    {
-      "texto": "Plan 2.7 C03: Implementación del Plan Nacional de Orden Turístico",
-      "estado": "en_proceso",
-      "nivel_cadena_valor": "actividad",
-      "nota": "La RM 383-2026-MINCETUR (23-oct) aprueba el plan 2026-2031; aprobar un plan no es implementarlo.",
-      "fuente_url": "https://keikogobierna.com/primeros-100-dias/",
-      "confianza": "media"
-    },
-    {
-      "texto": "Bono de S/100 por trabajador para MYPE de 2 a 10 trabajadores",
-      "estado": "pendiente",
-      "nivel_cadena_valor": "insumo",
-      "nota": "Anunciado, sin información de desembolsos.",
-      "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
-      "confianza": "media"
-    },
-    {
-      "texto": "Subsidio de S/4 por galón a mototaxistas de Loreto, Ucayali y Madre de Dios",
-      "estado": "en_proceso",
-      "nivel_cadena_valor": "insumo",
-      "nota": "La norma existe, pero el pago depende del registro de conductores. No hay cifras de beneficiarios.",
-      "fuente_url": "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/",
-      "confianza": "media"
-    },
-    {
-      "texto": "Obtener facultades legislativas en seguridad y El Niño",
-      "estado": "cumplida parcialmente",
-      "nivel_cadena_valor": "actividad",
-      "nota": "Se pidieron 120 días y materias tributarias, aduaneras y laborales. Se obtuvieron 90 días y 27 numerales en la Ley 32743 (22-oct). El Comercio informa que se aprobaron 27 de 66 puntos. Al día 100 no se había emitido ningún decreto legislativo, según Infobae (5-nov).",
-      "fuente_url": "https://elcomercio.pe/politica/los-100-dias-de-keiko-fujimori-en-el-poder-los-aciertos-y-errores-del-gobierno-de-fuerza-popular-apuesplan-noticia/",
-      "confianza": "alta (ley); media (cero DL al día 100)"
-    },
-    {
-      "texto": "Reducir homicidios (meta del plan: de 8.6 a 6 por 100 mil habitantes al 2031). El gobierno afirma haber bajado de 7.5 a 6.5 'crímenes' por día",
-      "estado": "no_verificado (disputado)",
-      "nivel_cadena_valor": "resultado",
-      "nota": "Es el único indicador de nivel resultado que el gobierno reclama. La República cuenta 621 homicidios en 100 días según Sinadef, frente a 597 con Balcázar y 584 con Jerí en el mismo periodo, y advierte subregistro y que la categoría 'crímenes' usada por la presidenta no está definida. La propia presidenta reconoció que no logró una reducción sostenida.",
-      "fuente_url": "https://larepublica.pe/politica/2026/11/06/falta-de-homicidos-por-registrar-en-el-sinadef-altera-supuesta-mejora-en-indice-de-crimenes-anunciado-por-fujimori-hnews-121338",
-      "confianza": "baja (la cifra de ambos lados requiere la serie Sinadef cruda)"
-    },
-    {
-      "texto": "Desarticulación de 37 organizaciones criminales y 2,700 bandas",
-      "estado": "autodeclarado",
-      "nivel_cadena_valor": "producto",
-      "nota": "Cifra del mensaje presidencial sin verificación independiente. Contar operativos o desarticulaciones mide producto, no resultado.",
-      "fuente_url": "https://www.infobae.com/peru/2026/11/06/keiko-fujimori-dio-mensaje-a-la-nacion-por-sus-100-dias-de-gobierno-cifras-anuncios-y-balance-de-su-gestion/",
-      "confianza": "baja"
-    }
-  ],
-  "cadena_valor_resumen": {
-    "conteo_items_reportados_como_cumplidos_o_en_proceso": {
-      "insumo": 5,
-      "actividad": 7,
-      "producto": 3,
-      "resultado": 0,
-      "impacto": 0
-    },
-    "nota_conteo": "Conteo sobre las 15 entradas de 'promesas' con estado cumplida o en proceso: 5 insumos, 7 actividades y 3 productos (RMV, antenas y las bandas desarticuladas, esta última autodeclarada). Excluye las pendientes, incumplidas y sin evidencia. El único reclamo de nivel resultado (homicidios) está disputado y no verificado.",
-    "lectura": "A los 100 días, lo reportado como logrado son sobre todo insumos (recursos, decretos de urgencia, créditos), actividades (comandos, comisiones, planes, facultades) y algunos productos (RMV vigente, antenas retiradas). No hay ningún resultado verificado de forma independiente.",
-    "sobre_resultados_vs_valor_publico": "En la cadena de valor público (marco CEPLAN/presupuesto por resultados), el valor público se materializa en resultados e impacto: cambios en las condiciones de vida de la población. Tratar 'resultados' como sinónimo de 'valor público' simplifica: en Moore, el valor público también incluye legitimidad y confianza, y un producto bien entregado ya genera algo de valor. Para este gobierno, la afirmación 'no tiene resultados' es consistente con la evidencia disponible a los 100 días, con la salvedad metodológica de que en 100 días rara vez hay resultados medibles.",
-    "confianza": "media (clasificación propia, sujeta a criterio)"
+  "proyectos_ley_ejecutivo": {
+   "n": "no verificado",
+   "identificados": [
+    "PL 00098-2026-2031-CD (delegación de facultades)",
+    "Ley de Crédito Suplementario que financia, entre otros, la Pensión 65 a S/700 (no se verificó su número ni su origen)"
+   ],
+   "confianza": "media"
   },
-  "gobernabilidad": {
-    "decretos_legislativos": {
-      "n": 0,
-      "detalle": "Ley 32743 (publicada el 22-oct-2026): delegación por 90 días en seguridad ciudadana y El Niño, 27 numerales, vence el 20-ene-2027. Al 5-nov no se reportaba ningún decreto legislativo emitido (Infobae); Galarreta había anunciado los primeros a ~20 días de la ley.",
-      "tramite": {
-        "pedido_original": "120 días, con materias tributarias, aduaneras, laborales y societarias; 66 puntos según El Comercio",
-        "diputados": "6-oct-2026: 66 a favor, 34 en contra, 24 abstenciones (PL 00098-2026-2031-CD), 20 materias",
-        "comision_constitucion_senado": "agregó 7 puntos, total 27",
-        "pleno_senado": "21-oct-2026: 35 a favor, 18 en contra, 6 abstenciones",
-        "controversia": "IDL sostiene que es inconstitucional porque el Senado agregó materias, y el art. 25-A se lo prohíbe. Una fe de erratas corrigió la fórmula de aprobación; persisten cuestionamientos sobre las firmas (La Mula)."
-      },
-      "fuentes": [
-        "https://comunicaciones.congreso.gob.pe/noticias/camara-de-diputados-aprueba-delegar-facultades-legislativas-al-poder-ejecutivo/",
-        "https://elperuano.pe/noticia/307132-constitucion-del-senado-aprueba-delegar-facultades-al-ejecutivo-por-90-dias-en-27-puntos",
-        "https://elperuano.pe/noticia/307322-congreso-senado-aprueba-otorgar-facultades-al-ejecutivo-en-seguridad-y-fenomeno-el-nino",
-        "https://elcomercio.pe/politica/gobierno/gobierno-promulga-ley-que-le-otorga-facultades-legislativas-por-90-dias-ultimas-apuesplan-noticia/",
-        "https://jurispol.pe/ley-que-delega-facultades-al-ejecutivo-en-materias-de-seguridad-ciudadana-y-del-fenomeno-del-nino-ley-32743/",
-        "https://lacamara.pe/facultades-delegadas-en-seguridad-ciudadana-y-fenomeno-el-nino/",
-        "https://idl.org.pe/la-aprobacion-de-la-delegacion-de-facultades-al-ejecutivo-es-inconstitucional",
-        "https://redaccion.lamula.pe/2026/10/26/ley-facultades-fe-erratas-errores-congreso-x/jorgepaucar/",
-        "https://www.infobae.com/peru/2026/11/05/keiko-fujimori-cumple-100-dias-de-gobierno-que-medidas-se-concretaron-y-cuales-siguen-pendientes/"
-      ],
-      "confianza": "alta (ley y votaciones); media (cero DL)"
-    },
-    "decretos_urgencia": {
-      "identificados": [
-        {"numero": "DU 007-2026", "fecha": "2026-08-15", "materia": "subsidio al transporte y diésel, hasta S/105 millones", "fuente_url": "https://img.lpderecho.pe/wp-content/uploads/2026/08/Decreto-de-Urgencia-007-2026-LPDerecho.pdf"},
-        {"numero": "DU 015-2026", "fecha": "2026-10-31", "materia": "garantías COFIDE/Fondo CRECER para MYPE en zonas de emergencia por El Niño, hasta S/2,000 millones", "fuente_url": "https://keikogobierna.com/primeros-100-dias/"}
-      ],
-      "n_estimado": "≈9 (DU 007 a DU 015-2026). Es una inferencia por numeración correlativa: el DU 006-2026 ya estaba vigente en junio, bajo el gobierno anterior. No se verificó la lista completa en El Peruano.",
-      "confianza": "media (los dos identificados); baja (el total)"
-    },
-    "decretos_supremos": {
-      "n": "no verificado",
-      "ejemplos": [
-        "DS 121-2026-PCM (28-ago): estado de emergencia en 6 distritos de Madre de Dios",
-        "DS 123-2026-PCM: estado de emergencia en Lima Metropolitana y Callao",
-        "DS 142-2026-PCM (publicado el 25-oct): prórroga de 60 días en Lima y Callao desde el 28-oct; regula el Comando Unificado PNP-FF.AA.",
-        "DS 143-2026-PCM (25-oct): prórroga en Madre de Dios con Comando Unificado"
-      ],
-      "fuentes": [
-        "https://keikogobierna.com/primeros-100-dias/",
-        "https://busquedas.elperuano.pe/dispositivo/NL/2529206-1/"
-      ],
-      "confianza": "media"
-    },
-    "proyectos_ley_ejecutivo": {
-      "n": "no verificado",
-      "identificados": [
-        "PL 00098-2026-2031-CD (delegación de facultades)",
-        "Ley de Crédito Suplementario que financia, entre otros, la Pensión 65 a S/700 (no se verificó su número ni su origen)"
-      ],
-      "confianza": "media"
-    },
-    "estados_emergencia": {
-      "detalle": "Lima Metropolitana y Callao: emergencia por criminalidad heredada (DS 096-2026-PCM desde el 28-jun) y mantenida con DS 123-2026-PCM y DS 142-2026-PCM (+60 días desde el 28-oct; el Senado autorizó la ampliación el 21-oct). Madre de Dios, 6 distritos: declarada con DS 121-2026-PCM el 28-ago y prorrogada con DS 143-2026-PCM. Tumbes: prórroga mencionada por el Observatorio, sin número de decreto verificado. Departamentos en emergencia por El Niño: el DU 015-2026 los menciona, pero la lista no fue verificada.",
-      "nuevos_declarados_verificados": 1,
-      "confianza": "media"
-    },
-    "conflictos_sociales_defensoria": {
-      "julio_2026": {"reporte": "RCS 269", "registrados": 191, "activos": 150, "latentes": 41, "nuevos": 4, "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2026/08/NP-465-2026.pdf", "confianza": "media (nota de prensa leída vía buscador)"},
-      "agosto_2026": {"reporte": "RCS 270", "registrados": 188, "activos": 138, "latentes": 50, "nuevos": 10, "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2026/09/Reporte-de-conflictos-sociales-n-270.pdf", "confianza": "alta"},
-      "setiembre_2026": {"reporte": "RCS 271", "registrados": 193, "activos": 144, "latentes": 49, "nuevos": 8, "acciones_colectivas_protesta": 151, "heridos": 5, "fallecidos": 0, "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2026/10/RCS_271_setiembre_2026.html", "confianza": "alta"},
-      "octubre_2026": {"reporte": "RCS 272", "registrados": "no verificado", "nota": "No estaba publicado al 7-nov-2026 (la URL esperada da 404). Para comparar julio con octubre hay que esperar el RCS 272.", "confianza": "no verificado"},
-      "heridos_fallecidos_2026": "Julio: 7 heridos, 0 fallecidos. Agosto: 7 heridos, 0 fallecidos. Setiembre: 5 heridos, 0 fallecidos (Cuadro 16, RCS 271).",
-      "lectura": "Entre julio y setiembre el total de conflictos es estable (191, 188 y 193). No hay un cambio material atribuible al gobierno."
-    },
-    "politica_exterior": "Cancillería anunció que buscará restablecer relaciones con México y Colombia (fin de julio); el 10-sep Perú se sumó a la coalición anticrimen impulsada por EE.UU.; el 28-oct la presidenta visitó El Salvador. Fuente: https://www.infobae.com/peru/2026/11/06/los-hitos-de-los-cien-dias-de-keiko-fujimori-entre-el-orden-prometido-y-las-dudas-sobre-su-rumbo/ (confianza media)."
+  "estados_emergencia": {
+   "detalle": "Lima Metropolitana y Callao: emergencia por criminalidad heredada (DS 096-2026-PCM desde el 28-jun) y mantenida con DS 123-2026-PCM y DS 142-2026-PCM (+60 días desde el 28-oct; el Senado autorizó la ampliación el 21-oct). Madre de Dios, 6 distritos: declarada con DS 121-2026-PCM el 28-ago y prorrogada con DS 143-2026-PCM. Tumbes: prórroga mencionada por el Observatorio, sin número de decreto verificado. Departamentos en emergencia por El Niño: el DU 015-2026 los menciona, pero la lista no fue verificada.",
+   "nuevos_declarados_verificados": 1,
+   "confianza": "media"
   },
-  "aprobacion": [
-    {"encuestadora": "Ipsos (Perú21)", "fecha": "2026-08", "aprueba": 57, "desaprueba": 25, "fuente_url": "https://www.ipsos.com/es-pe/aprobacion-de-autoridades-encuesta-peru21-ipsos-octubre-2026", "nota": "Serie que reporta la propia ficha de octubre; ficha de agosto: https://www.ipsos.com/es-pe/encuesta-peru21-ipsos-gestion-publica-agosto-2026", "confianza": "alta"},
-    {"encuestadora": "CPI", "fecha": "2026-08 (campo del 25 al 28-ago)", "aprueba": 52.6, "desaprueba": 30.0, "fuente_url": "https://www.infobae.com/peru/2026/08/29/keiko-fujimori-tiene-526-de-aprobacion-en-su-primer-mes-de-gobierno-el-dato-del-sur-que-el-cpi-considera-interesante/", "nota": "1,200 entrevistas presenciales, ±2.8 %", "confianza": "media"},
-    {"encuestadora": "Ipsos (Perú21)", "fecha": "2026-09", "aprueba": 42, "desaprueba": 48, "fuente_url": "https://caretas.pe/politica/aprobacion-de-keiko-fujimori-cae-15-puntos-en-un-mes-y-desaprobacion-llega-a-48-segun-ipsos/", "nota": "Ficha Ipsos: https://www.ipsos.com/es-pe/aprobacion-de-autoridades-encuesta-peru21-ipsos-septiembre-2026", "confianza": "media"},
-    {"encuestadora": "IEP", "fecha": "2026-09 (publicado el 18-sep)", "aprueba": 37, "desaprueba": 49, "fuente_url": "https://estudiosdeopinion.iep.org.pe/wp-content/uploads/2026/09/IEP-Informe-de-opinion-septiembre-2026-informe-completo.pdf", "nota": "Nota de prensa: https://www.infobae.com/peru/2026/09/18/iep-aprobacion-de-keiko-fujimori-en-setiembre-es-de-37-y-un-47-considera-que-esta-poco-o-nada-preparada-para-gobernar/", "confianza": "alta"},
-    {"encuestadora": "Datum", "fecha": "2026-09", "aprueba": 42, "desaprueba": 44, "fuente_url": null, "nota": "Cifra que aparece en un resumen de buscador. No encontramos la ficha ni la URL de la nota original.", "confianza": "baja"},
-    {"encuestadora": "Ipsos (Perú21)", "fecha": "2026-10 (campo del 7 al 8-oct, publicado el 16-oct)", "aprueba": 40, "desaprueba": 49, "fuente_url": "https://www.ipsos.com/es-pe/aprobacion-de-autoridades-encuesta-peru21-ipsos-octubre-2026", "nota": "1,212 casos, ±2.8 %. El Congreso (ambas cámaras) tiene 25 % de aprobación y 51 % de desaprobación.", "confianza": "alta"},
-    {"encuestadora": "Datum (América TV)", "fecha": "2026-10-28/30 (balance de 100 días)", "aprueba": null, "desaprueba": null, "calificacion": {"buen_gobierno": 10, "regular": 47, "mal_gobierno": 38, "no_sabe": 5}, "fuente_url": "https://elcomercio.pe/politica/gobierno/primeros-100-dias-de-keiko-fujimori-47-califica-su-gestion-como-regular-noticia/", "nota": "No es una pregunta de aprobación, es una calificación. El 68 % cree que no hubo avance en seguridad.", "confianza": "media"},
-    {"encuestadora": "IEP / Ipsos / CPI (octubre-noviembre)", "fecha": "2026-10/11", "aprueba": null, "desaprueba": null, "fuente_url": null, "nota": "No verificado: no se encontró el IEP de octubre ni mediciones de noviembre al 7-nov.", "confianza": "no verificado"}
-  ],
-  "hitos": [
-    {"fecha": "2026-07-28", "texto": "Juró como presidenta con el lema 'Vuelve el orden'. Gabinete de 19 carteras encabezado por Luis Galarreta. Mensaje de 46 minutos con el anuncio de aumento del salario mínimo y un plan de contingencia ante El Niño.", "fuente_url": "https://www.infobae.com/peru/2026/11/06/los-hitos-de-los-cien-dias-de-keiko-fujimori-entre-el-orden-prometido-y-las-dudas-sobre-su-rumbo/", "confianza": "alta"},
-    {"fecha": "2026-07-28", "texto": "Según INVESTIGA, la mayoría de los anuncios del primer mensaje repetían promesas de las campañas de 2011, 2016 y 2021; solo hubo siete anuncios nuevos.", "fuente_url": "https://investiga.pe/keiko-fujimori-primer-mensaje-nacion-promesas-repetidas-siete-propuestas-nuevas/", "confianza": "media"},
-    {"fecha": "2026-08-20", "texto": "Galarreta presentó la Política General ante Diputados sin voto de confianza; es el primer gabinete bajo el art. 130 reformado (bicameralidad).", "fuente_url": "https://laprimera.pe/galarreta-negociara-bancada-por-bancada-para-conseguir-facultades-legislativas/", "confianza": "media"},
-    {"fecha": "2026-09-10", "texto": "Perú se sumó a la coalición contra el crimen organizado impulsada por EE.UU., durante la visita de Marco Rubio.", "fuente_url": "https://www.infobae.com/peru/2026/11/06/los-hitos-de-los-cien-dias-de-keiko-fujimori-entre-el-orden-prometido-y-las-dudas-sobre-su-rumbo/", "confianza": "media"},
-    {"fecha": "2026-09-18", "texto": "Renunció Rafael Rey (MTC) por salud, en el único cambio de gabinete de los 100 días; lo reemplazó José Tangherlini.", "fuente_url": "https://rpp.pe/politica/gobierno/jose-tangherlini-juro-como-nuevo-ministro-de-transportes-y-comunicaciones-en-reemplazo-de-rafael-rey-noticia-1708311", "confianza": "alta"},
-    {"fecha": "2026-10-01", "texto": "Entró en vigencia la RMV de S/1,230. La moción de censura contra el ministro del Interior, César Astudillo, no prosperó y la presidenta lo respaldó públicamente.", "fuente_url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-respalda-al-ministro-cesar-astudillo-ante-mocion-de-censura-espero-que-se-priorice-el-valor-que-tiene-camara-de-diputados-ultimas-noticia/", "confianza": "media"},
-    {"fecha": "2026-10-06", "texto": "Diputados aprobó facultades recortadas (66-34-24). Galarreta las calificó de insuficientes. El 7-oct se presentaron las Fuerzas Combinadas, con 1,350 efectivos.", "fuente_url": "https://www.infobae.com/peru/2026/10/07/vicepresidente-luis-galarreta-espera-que-el-senado-mejore-la-propuesta-de-delegacion-de-facultades-aprobada-por-diputados/", "confianza": "alta"},
-    {"fecha": "2026-10-21/22", "texto": "El Senado aprobó la delegación (35-18-6) y se publicó la Ley 32743 (90 días, 27 numerales). IDL la tacha de inconstitucional porque el Senado agregó materias.", "fuente_url": "https://idl.org.pe/la-aprobacion-de-la-delegacion-de-facultades-al-ejecutivo-es-inconstitucional", "confianza": "alta"},
-    {"fecha": "2026-10-24", "texto": "Marcha mayormente juvenil en Lima contra la inseguridad y el Congreso. Sutep anunció una huelga nacional y los mineros informales, movilizaciones (Prensa Latina; no se dio cifra de asistentes).", "fuente_url": "https://www.prensa-latina.cu/2026/10/25/marcha-y-anuncios-de-otras-medidas-reactivan-las-protestas-en-peru/", "confianza": "media"},
-    {"fecha": "2026-10-28", "texto": "Visita de cuatro días a El Salvador: reunión con Nayib Bukele y recorrido por el Cecot. Basombrío la calificó de inoportuna.", "fuente_url": "https://elcomercio.pe/politica/los-100-dias-de-keiko-fujimori-en-el-poder-los-aciertos-y-errores-del-gobierno-de-fuerza-popular-apuesplan-noticia/", "confianza": "media"},
-    {"fecha": "2026-11-04/05", "texto": "Venció el plazo de los 100 días. Los trackers independientes registran entre 0 y 6 de 67-68 compromisos con avance. El balance se emitió en un mensaje grabado, sin preguntas de prensa. La presidenta admitió que 'siempre se pueden hacer cosas con mayor rapidez' y que 'no hemos vencido al crimen aún'.", "fuente_url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-tras-balance-de-100-dias-de-gobierno-siempre-se-pueden-hacer-cosas-con-mayor-rapidez-ultimas-noticia/", "confianza": "alta"},
-    {"fecha": "2026-11-06", "texto": "La República cuestionó la cifra oficial de homicidios: cuenta 621 en Sinadef en 100 días, frente a la afirmación de que bajaron de 7.5 a 6.5 por día, y advierte subregistro.", "fuente_url": "https://larepublica.pe/politica/2026/11/06/falta-de-homicidos-por-registrar-en-el-sinadef-altera-supuesta-mejora-en-indice-de-crimenes-anunciado-por-fujimori-hnews-121338", "confianza": "media"},
-    {"fecha": "2026-11-07", "texto": "'Marcha por la democracia' del 7-nov-2026: NO VERIFICADO. Dos búsquedas extendidas no encontraron convocatoria ni cobertura. Las 'Marchas por la democracia' halladas son de abril a junio de 2026 (disputa electoral), y la única marcha del 7-nov-2026 hallada es la del Orgullo en Buenos Aires.", "fuente_url": null, "confianza": "no verificado"}
-  ],
-  "caveats": [
-    "Los hechos son posteriores al corte de conocimiento del modelo; todo proviene de búsquedas web del 7-nov-2026. Varias cifras se leyeron en resúmenes de buscador y no en el documento primario: se marcan con confianza media o baja.",
-    "El conteo 67 frente a 68 se explica por un ítem sin viñeta en la sección 3.10 del plan (conteo propio sobre el PDF 'Reforzado_V2' de fuerzapopular.com.pe). No se comparó con la versión inscrita en el JNE.",
-    "Los trackers miden cosas distintas: Keiko Gobierna solo acredita avances con normas en El Peruano; el Observatorio busca 'evidencia pública' sin metodología publicada; Hildebrandt es un reportaje con categorías que suman 68. No son comparables entre sí sin normalizar.",
-    "Keiko Gobierna es independiente (no partidario) según su propia declaración, pero su página de gabinete estaba desactualizada el 7-nov (no registraba la salida de Rafael Rey).",
-    "No se encontró ningún tracker de promesas de El Comercio/ECData, Ojo Público, Convoca, Gestión, Epicentro ni IDL.",
-    "Las cifras del mensaje de 100 días (homicidios, bandas desarticuladas, S/1,500 millones para El Niño, 179 km de ríos) son autodeclaradas y no tienen verificación independiente; la de homicidios está disputada.",
-    "La aprobación de Datum en setiembre (42/44) no tiene URL primaria; además, algunas notas atribuyen el 40 % de octubre a Datum en lugar de a Ipsos. Usar la ficha Ipsos.",
-    "El RCS 272 de la Defensoría (octubre) no estaba publicado al 7-nov: la comparación de conflictos julio-octubre queda pendiente; se usa setiembre.",
-    "El número total de decretos de urgencia (≈9) es una inferencia por numeración, no un conteo.",
-    "No se verificó ninguna interpelación concretada ni ninguna censura aprobada; tampoco el número de decretos supremos ni de proyectos de ley del Ejecutivo.",
-    "No se verificó la existencia de una 'marcha por la democracia' el 7-nov-2026.",
-    "TVPerú devuelve 403 a curl (bloqueo de bots); se reemplazó por notas de El Peruano."
-  ]
+  "conflictos_sociales_defensoria": {
+   "julio_2026": {
+    "reporte": "RCS 269",
+    "registrados": 191,
+    "activos": 150,
+    "latentes": 41,
+    "nuevos": 4,
+    "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2026/08/NP-465-2026.pdf",
+    "confianza": "media (nota de prensa leída vía buscador)"
+   },
+   "agosto_2026": {
+    "reporte": "RCS 270",
+    "registrados": 188,
+    "activos": 138,
+    "latentes": 50,
+    "nuevos": 10,
+    "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2026/09/Reporte-de-conflictos-sociales-n-270.pdf",
+    "confianza": "alta"
+   },
+   "setiembre_2026": {
+    "reporte": "RCS 271",
+    "registrados": 193,
+    "activos": 144,
+    "latentes": 49,
+    "nuevos": 8,
+    "acciones_colectivas_protesta": 151,
+    "heridos": 5,
+    "fallecidos": 0,
+    "fuente_url": "https://www.defensoria.gob.pe/wp-content/uploads/2026/10/RCS_271_setiembre_2026.html",
+    "confianza": "alta"
+   },
+   "octubre_2026": {
+    "reporte": "RCS 272",
+    "registrados": "no verificado",
+    "nota": "No estaba publicado al 7-nov-2026 (la URL esperada da 404). Para comparar julio con octubre hay que esperar el RCS 272.",
+    "confianza": "no verificado"
+   },
+   "heridos_fallecidos_2026": "Julio: 7 heridos, 0 fallecidos. Agosto: 7 heridos, 0 fallecidos. Setiembre: 5 heridos, 0 fallecidos (Cuadro 16, RCS 271).",
+   "lectura": "Entre julio y setiembre el total de conflictos es estable (191, 188 y 193). No hay un cambio material atribuible al gobierno."
+  },
+  "politica_exterior": "Cancillería anunció que buscará restablecer relaciones con México y Colombia (fin de julio); el 10-sep Perú se sumó a la coalición anticrimen impulsada por EE.UU.; el 28-oct la presidenta visitó El Salvador. Fuente: https://www.infobae.com/peru/2026/11/06/los-hitos-de-los-cien-dias-de-keiko-fujimori-entre-el-orden-prometido-y-las-dudas-sobre-su-rumbo/ (confianza media)."
+ },
+ "aprobacion": [
+  {
+   "encuestadora": "Ipsos (Perú21)",
+   "fecha": "2026-08",
+   "aprueba": 57,
+   "desaprueba": 25,
+   "fuente_url": "https://www.ipsos.com/es-pe/aprobacion-de-autoridades-encuesta-peru21-ipsos-octubre-2026",
+   "nota": "Serie que reporta la propia ficha de octubre; ficha de agosto: https://www.ipsos.com/es-pe/encuesta-peru21-ipsos-gestion-publica-agosto-2026",
+   "confianza": "alta"
+  },
+  {
+   "encuestadora": "CPI",
+   "fecha": "2026-08 (campo del 25 al 28-ago)",
+   "aprueba": 52.6,
+   "desaprueba": 30.0,
+   "fuente_url": "https://www.infobae.com/peru/2026/08/29/keiko-fujimori-tiene-526-de-aprobacion-en-su-primer-mes-de-gobierno-el-dato-del-sur-que-el-cpi-considera-interesante/",
+   "nota": "1,200 entrevistas presenciales, ±2.8 %",
+   "confianza": "media"
+  },
+  {
+   "encuestadora": "Ipsos (Perú21)",
+   "fecha": "2026-09",
+   "aprueba": 42,
+   "desaprueba": 48,
+   "fuente_url": "https://caretas.pe/politica/aprobacion-de-keiko-fujimori-cae-15-puntos-en-un-mes-y-desaprobacion-llega-a-48-segun-ipsos/",
+   "nota": "Ficha Ipsos: https://www.ipsos.com/es-pe/aprobacion-de-autoridades-encuesta-peru21-ipsos-septiembre-2026",
+   "confianza": "media"
+  },
+  {
+   "encuestadora": "IEP",
+   "fecha": "2026-09 (publicado el 18-sep)",
+   "aprueba": 37,
+   "desaprueba": 49,
+   "fuente_url": "https://estudiosdeopinion.iep.org.pe/wp-content/uploads/2026/09/IEP-Informe-de-opinion-septiembre-2026-informe-completo.pdf",
+   "nota": "Nota de prensa: https://www.infobae.com/peru/2026/09/18/iep-aprobacion-de-keiko-fujimori-en-setiembre-es-de-37-y-un-47-considera-que-esta-poco-o-nada-preparada-para-gobernar/",
+   "confianza": "alta"
+  },
+  {
+   "encuestadora": "Ipsos (Perú21)",
+   "fecha": "2026-10 (campo del 7 al 8-oct, publicado el 16-oct)",
+   "aprueba": 40,
+   "desaprueba": 49,
+   "fuente_url": "https://www.ipsos.com/es-pe/aprobacion-de-autoridades-encuesta-peru21-ipsos-octubre-2026",
+   "nota": "1,212 casos, ±2.8 %. El Congreso (ambas cámaras) tiene 25 % de aprobación y 51 % de desaprobación.",
+   "confianza": "alta"
+  },
+  {
+   "encuestadora": "Datum (América TV)",
+   "fecha": "2026-10-28/30 (balance de 100 días)",
+   "aprueba": null,
+   "desaprueba": null,
+   "calificacion": {
+    "buen_gobierno": 10,
+    "regular": 47,
+    "mal_gobierno": 38,
+    "no_sabe": 5
+   },
+   "fuente_url": "https://elcomercio.pe/politica/gobierno/primeros-100-dias-de-keiko-fujimori-47-califica-su-gestion-como-regular-noticia/",
+   "nota": "No es una pregunta de aprobación, es una calificación. El 68 % cree que no hubo avance en seguridad.",
+   "confianza": "media"
+  },
+  {
+   "encuestadora": "IEP / Ipsos / CPI (octubre-noviembre)",
+   "fecha": "2026-10/11",
+   "aprueba": null,
+   "desaprueba": null,
+   "fuente_url": null,
+   "nota": "No verificado: no se encontró el IEP de octubre ni mediciones de noviembre al 7-nov.",
+   "confianza": "no verificado"
+  }
+ ],
+ "hitos": [
+  {
+   "fecha": "2026-07-28",
+   "texto": "Juró como presidenta con el lema 'Vuelve el orden'. Gabinete de 19 carteras encabezado por Luis Galarreta. Mensaje de 46 minutos con el anuncio de aumento del salario mínimo y un plan de contingencia ante El Niño.",
+   "fuente_url": "https://www.infobae.com/peru/2026/11/06/los-hitos-de-los-cien-dias-de-keiko-fujimori-entre-el-orden-prometido-y-las-dudas-sobre-su-rumbo/",
+   "confianza": "alta"
+  },
+  {
+   "fecha": "2026-07-28",
+   "texto": "Según INVESTIGA, la mayoría de los anuncios del primer mensaje repetían promesas de las campañas de 2011, 2016 y 2021; solo hubo siete anuncios nuevos.",
+   "fuente_url": "https://investiga.pe/keiko-fujimori-primer-mensaje-nacion-promesas-repetidas-siete-propuestas-nuevas/",
+   "confianza": "media"
+  },
+  {
+   "fecha": "2026-08-20",
+   "texto": "Galarreta presentó la Política General ante Diputados sin voto de confianza; es el primer gabinete bajo el art. 130 reformado (bicameralidad).",
+   "fuente_url": "https://laprimera.pe/galarreta-negociara-bancada-por-bancada-para-conseguir-facultades-legislativas/",
+   "confianza": "media"
+  },
+  {
+   "fecha": "2026-09-10",
+   "texto": "Perú se sumó a la coalición contra el crimen organizado impulsada por EE.UU., durante la visita de Marco Rubio.",
+   "fuente_url": "https://www.infobae.com/peru/2026/11/06/los-hitos-de-los-cien-dias-de-keiko-fujimori-entre-el-orden-prometido-y-las-dudas-sobre-su-rumbo/",
+   "confianza": "media"
+  },
+  {
+   "fecha": "2026-09-18",
+   "texto": "Renunció Rafael Rey (MTC) por salud, en el único cambio de gabinete de los 100 días; lo reemplazó José Tangherlini.",
+   "fuente_url": "https://rpp.pe/politica/gobierno/jose-tangherlini-juro-como-nuevo-ministro-de-transportes-y-comunicaciones-en-reemplazo-de-rafael-rey-noticia-1708311",
+   "confianza": "alta"
+  },
+  {
+   "fecha": "2026-10-01",
+   "texto": "Entró en vigencia la RMV de S/1,230. La moción de censura contra el ministro del Interior, César Astudillo, no prosperó y la presidenta lo respaldó públicamente.",
+   "fuente_url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-respalda-al-ministro-cesar-astudillo-ante-mocion-de-censura-espero-que-se-priorice-el-valor-que-tiene-camara-de-diputados-ultimas-noticia/",
+   "confianza": "media"
+  },
+  {
+   "fecha": "2026-10-06",
+   "texto": "Diputados aprobó facultades recortadas (66-34-24). Galarreta las calificó de insuficientes. El 7-oct se presentaron las Fuerzas Combinadas, con 1,350 efectivos.",
+   "fuente_url": "https://www.infobae.com/peru/2026/10/07/vicepresidente-luis-galarreta-espera-que-el-senado-mejore-la-propuesta-de-delegacion-de-facultades-aprobada-por-diputados/",
+   "confianza": "alta"
+  },
+  {
+   "fecha": "2026-10-21/22",
+   "texto": "El Senado aprobó la delegación (35-18-6) y se publicó la Ley 32743 (90 días, 27 numerales). IDL la tacha de inconstitucional porque el Senado agregó materias.",
+   "fuente_url": "https://idl.org.pe/la-aprobacion-de-la-delegacion-de-facultades-al-ejecutivo-es-inconstitucional",
+   "confianza": "alta"
+  },
+  {
+   "fecha": "2026-10-24",
+   "texto": "Marcha mayormente juvenil en Lima contra la inseguridad y el Congreso. Sutep anunció una huelga nacional y los mineros informales, movilizaciones (Prensa Latina; no se dio cifra de asistentes).",
+   "fuente_url": "https://www.prensa-latina.cu/2026/10/25/marcha-y-anuncios-de-otras-medidas-reactivan-las-protestas-en-peru/",
+   "confianza": "media"
+  },
+  {
+   "fecha": "2026-10-28",
+   "texto": "Visita de cuatro días a El Salvador: reunión con Nayib Bukele y recorrido por el Cecot. Basombrío la calificó de inoportuna.",
+   "fuente_url": "https://elcomercio.pe/politica/los-100-dias-de-keiko-fujimori-en-el-poder-los-aciertos-y-errores-del-gobierno-de-fuerza-popular-apuesplan-noticia/",
+   "confianza": "media"
+  },
+  {
+   "fecha": "2026-11-04/05",
+   "texto": "Venció el plazo de los 100 días. Los trackers independientes registran entre 0 y 6 de 67-68 compromisos con avance. El balance se emitió en un mensaje grabado, sin preguntas de prensa. La presidenta admitió que 'siempre se pueden hacer cosas con mayor rapidez' y que 'no hemos vencido al crimen aún'.",
+   "fuente_url": "https://elcomercio.pe/politica/gobierno/keiko-fujimori-tras-balance-de-100-dias-de-gobierno-siempre-se-pueden-hacer-cosas-con-mayor-rapidez-ultimas-noticia/",
+   "confianza": "alta"
+  },
+  {
+   "fecha": "2026-11-06",
+   "texto": "La República cuestionó la cifra oficial de homicidios: cuenta 621 en Sinadef en 100 días, frente a la afirmación de que bajaron de 7.5 a 6.5 por día, y advierte subregistro.",
+   "fuente_url": "https://larepublica.pe/politica/2026/11/06/falta-de-homicidos-por-registrar-en-el-sinadef-altera-supuesta-mejora-en-indice-de-crimenes-anunciado-por-fujimori-hnews-121338",
+   "confianza": "media"
+  },
+  {
+   "fecha": "2026-11-07",
+   "texto": "'Marcha por la democracia' del 7-nov-2026: NO VERIFICADO. Dos búsquedas extendidas no encontraron convocatoria ni cobertura. Las 'Marchas por la democracia' halladas son de abril a junio de 2026 (disputa electoral), y la única marcha del 7-nov-2026 hallada es la del Orgullo en Buenos Aires.",
+   "fuente_url": null,
+   "confianza": "no verificado"
+  }
+ ],
+ "caveats": [
+  "Los hechos son posteriores al corte de conocimiento del modelo; todo proviene de búsquedas web del 7-nov-2026. Varias cifras se leyeron en resúmenes de buscador y no en el documento primario: se marcan con confianza media o baja.",
+  "El conteo 67 frente a 68 se explica por un ítem sin viñeta en la sección 3.10 del plan (conteo propio sobre el PDF 'Reforzado_V2' de fuerzapopular.com.pe). No se comparó con la versión inscrita en el JNE.",
+  "Los trackers miden cosas distintas: Keiko Gobierna solo acredita avances con normas en El Peruano; el Observatorio busca 'evidencia pública' sin metodología publicada; Hildebrandt es un reportaje con categorías que suman 68. No son comparables entre sí sin normalizar.",
+  "Keiko Gobierna es independiente (no partidario) según su propia declaración, pero su página de gabinete estaba desactualizada el 7-nov (no registraba la salida de Rafael Rey).",
+  "No se encontró ningún tracker de promesas de El Comercio/ECData, Ojo Público, Convoca, Gestión, Epicentro ni IDL.",
+  "Las cifras del mensaje de 100 días (homicidios, bandas desarticuladas, S/1,500 millones para El Niño, 179 km de ríos) son autodeclaradas y no tienen verificación independiente; la de homicidios está disputada.",
+  "La aprobación de Datum en setiembre (42/44) no tiene URL primaria; además, algunas notas atribuyen el 40 % de octubre a Datum en lugar de a Ipsos. Usar la ficha Ipsos.",
+  "El RCS 272 de la Defensoría (octubre) no estaba publicado al 7-nov: la comparación de conflictos julio-octubre queda pendiente; se usa setiembre.",
+  "El número total de decretos de urgencia (≈9) es una inferencia por numeración, no un conteo.",
+  "No se verificó ninguna interpelación concretada ni ninguna censura aprobada; tampoco el número de decretos supremos ni de proyectos de ley del Ejecutivo.",
+  "No se verificó la existencia de una 'marcha por la democracia' el 7-nov-2026.",
+  "TVPerú devuelve 403 a curl (bloqueo de bots); se reemplazó por notas de El Peruano."
+ ]
 }
