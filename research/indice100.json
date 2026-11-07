@@ -763,7 +763,7 @@
    "nombre": "RSF – Clasificación Mundial de la Libertad de Prensa, puntaje",
    "dimension": "libertades",
    "institucion": "Reporteros sin Fronteras",
-   "fuente_url": "https://rsf.org/sites/default/files/import_classement/{año}.csv",
+   "fuente_url": "https://rsf.org/es/clasificacion",
    "mejor": "alto",
    "escala_txt": "escala 0–100; mejor = alto",
    "gobiernos": {

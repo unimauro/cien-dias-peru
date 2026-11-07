@@ -35,7 +35,7 @@
       <a href="#videos">Videos</a>
       <a href="#metodo">Método</a>
     </nav>
-    <button class="theme-btn" id="themeBtn" aria-label="Cambiar entre modo claro y oscuro">◐</button>
+    <button class="theme-btn" id="themeBtn" aria-label="Cambiar entre modo claro y oscuro" aria-pressed="false">◐</button>
   </div>
 </header>
 
@@ -123,9 +123,11 @@
       </div>
       <div class="legend" id="semLegend"></div>
       <h3 class="group-h">Índice de los 100 días</h3>
+      <p class="scroll-hint">Desliza la tabla hacia la izquierda para ver a los cinco gobiernos →</p>
       <div id="semIndice"><p class="empty">Calculando…</p></div>
       <h3 class="group-h">El país que recibieron: índices internacionales</h3>
       <p class="note" style="margin-top:-6px">Año previo a asumir → primer año de gobierno. Contexto, no evaluación: estos índices son anuales y describen el país que recibió cada gobierno y su primer año, no los 100 días. Para Keiko solo existe la línea base. Un verde en pobreza no significa que la pobreza sea baja, solo que es menor que en el pasado del Perú.</p>
+      <p class="scroll-hint">Desliza la tabla hacia la izquierda para ver a los cinco gobiernos →</p>
       <div id="semIntl"><p class="empty">Cargando…</p></div>
       <div id="semMetodo"></div>
     </div>
@@ -276,7 +278,7 @@
 </footer>
 
 <div class="tip" id="tip" role="tooltip"></div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" integrity="sha384-bs/nf9FbdNouRbMiFcrcZfLXYPKiPaGVGplVbv7dLGECccEXDW+S3zjqSKR5ZEaD" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="app.js"></script>
 </body>
 </html>

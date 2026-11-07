@@ -871,7 +871,7 @@
     "max": 100,
     "mejor": "alto"
    },
-   "fuente_url": "https://rsf.org/sites/default/files/import_classement/{año}.csv",
+   "fuente_url": "https://rsf.org/es/clasificacion",
    "serie": {
     "2005": null,
     "2006": null,
@@ -908,7 +908,7 @@
     "max": 180,
     "mejor": "bajo"
    },
-   "fuente_url": "https://rsf.org/sites/default/files/import_classement/{año}.csv",
+   "fuente_url": "https://rsf.org/es/clasificacion",
    "serie": {
     "2005": null,
     "2006": null,

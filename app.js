@@ -6,8 +6,8 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 const safeUrl = u => { try { const p = new URL(u); return (p.protocol === 'http:' || p.protocol === 'https:') ? p.href : '#'; } catch { return '#'; } };
 const $ = s => document.querySelector(s);
 const isNum = v => typeof v === 'number' && isFinite(v);
-const fmt = (v, d = 1) => isNum(v) ? v.toLocaleString('es-PE', { minimumFractionDigits: d, maximumFractionDigits: d }) : '—';
-const fmtInt = v => isNum(v) ? Math.round(v).toLocaleString('es-PE') : (v ?? '—');
+const fmt = (v, d = 1) => isNum(v) ? v.toLocaleString('es-ES', { minimumFractionDigits: d, maximumFractionDigits: d, useGrouping: 'always' }) : '—';
+const fmtInt = v => isNum(v) ? Math.round(v).toLocaleString('es-ES', { useGrouping: 'always' }) : (v ?? '—');
 const host = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return 'fuente'; } };
 const link = (u, label) => u && /^https?:/.test(u) ? `<a href="${esc(safeUrl(u))}" target="_blank" rel="noopener">${esc(label || host(u))}</a>` : '';
 const cssVar = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
@@ -36,11 +36,23 @@ document.addEventListener('mousemove', e => {
   tip.style.left = x + 'px'; tip.style.top = y + 'px';
 });
 
+/* tooltips en pantallas táctiles: tocar muestra la fuente */
+document.addEventListener('click', e => {
+  const t = e.target.closest('[data-tip]');
+  if (!t || matchMedia('(hover: hover)').matches) return;
+  tip.textContent = t.dataset.tip; tip.classList.add('on');
+  const r = t.getBoundingClientRect();
+  tip.style.left = Math.max(8, Math.min(r.left, innerWidth - tip.offsetWidth - 8)) + 'px';
+  tip.style.top = (r.bottom + 6 + tip.offsetHeight > innerHeight ? r.top - tip.offsetHeight - 6 : r.bottom + 6) + 'px';
+  clearTimeout(window.__tipT); window.__tipT = setTimeout(() => tip.classList.remove('on'), 4000);
+});
+
 /* tema */
 $('#themeBtn').addEventListener('click', () => {
   const cur = document.documentElement.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
   const next = cur === 'dark' ? 'light' : 'dark';
   document.documentElement.dataset.theme = next;
+  $('#themeBtn').setAttribute('aria-pressed', String(next === 'dark'));
   try { localStorage.setItem('theme', next); } catch {}
   charts.forEach(c => restyle(c)); charts.forEach(c => c.update('none'));
   renderApproval();
@@ -326,7 +338,7 @@ function renderApproval() {
   const holder = $('#apChart')?.parentElement; if (!holder) return;
   const data = ORDER.map(k => ({ k, a: approvals(k) })).filter(d => d.a);
   if (!data.length) { holder.innerHTML = '<p class="empty">Sin datos de aprobación.</p>'; return; }
-  const W = 640, rowH = 44, pad = { l: 112, r: 24, t: 26, b: 28 }, H = pad.t + pad.b + rowH * data.length;
+  const W = Math.max(340, Math.min(720, holder.clientWidth || 640)), rowH = 44, pad = { l: W < 480 ? 92 : 112, r: 34, t: 26, b: 28 }, H = pad.t + pad.b + rowH * data.length;
   const x = v => pad.l + (W - pad.l - pad.r) * v / 100;
   const grid = [0, 25, 50, 75, 100].map(v => `<line x1="${x(v)}" x2="${x(v)}" y1="${pad.t - 8}" y2="${H - pad.b}" stroke="var(--rule)" ${v === 50 ? 'stroke-dasharray="3 3" stroke="var(--rule-strong)"' : ''}/><text x="${x(v)}" y="${H - 8}" text-anchor="middle" font-size="12" fill="var(--muted)" font-family="Archivo">${v}%</text>`).join('');
   const rows = data.map((d, i) => {
@@ -343,7 +355,7 @@ function renderApproval() {
       <text x="${x(a) + (b >= a ? -12 : 12)}" y="${y + 4}" text-anchor="${b >= a ? 'end' : 'start'}" font-size="12" font-family="Archivo" fill="var(--muted)">${a}</text>`;
   }).join('');
   holder.style.height = 'auto';
-  holder.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Aprobación presidencial: primera medición y cerca del día 100">${grid}${rows}</svg>
+  holder.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="${W}" style="max-width:100%" role="img" aria-label="Aprobación presidencial: primera medición y cerca del día 100">${grid}${rows}</svg>
     <p class="note" style="margin-top:6px">○ primera medición · ● más cercana al día 100. Pasa el cursor para ver encuestadora y fecha.</p>`;
 }
 
@@ -354,6 +366,7 @@ function restyle(c) {
   c.options.scales.x.ticks.color = ink; c.options.scales.y.ticks.color = ink;
   c.options.scales.x.grid.color = 'transparent'; c.options.scales.y.grid.color = rule;
   c.data.datasets.forEach(ds => { ds.borderColor = cssVar(GOV[ds.gov].v); ds.backgroundColor = ds.borderColor; });
+  if (c.options.plugins?.legend?.labels) c.options.plugins.legend.labels.color = cssVar('--ink-2');
 }
 const SERIES = [
   { key: 'tc', re: /PD04638PD/, title: 'Tipo de cambio (S/ por US$)', sub: 'Índice: día 0 = 100. Más arriba = sol más débil.' },
@@ -392,7 +405,7 @@ function renderEco() {
   const grid = $('#ecoCharts');
   SERIES.filter(s => Object.keys(S[s.key]).length).forEach(s => {
     const div = document.createElement('div'); div.className = 'chart';
-    div.innerHTML = `<h3>${s.title}</h3><p class="sub">${s.sub}</p><div class="canvas"><canvas></canvas></div>`;
+    div.innerHTML = `<h3>${s.title}</h3><p class="sub">${s.sub}</p><div class="canvas"><canvas role="img" aria-label="${esc(s.title)}: serie indexada a 100 el día de la asunción, por gobierno. Los valores están en la tabla de abajo."></canvas></div>`;
     grid.appendChild(div);
     const ds = ORDER.filter(k => S[s.key][k]).map(k => ({
       gov: k, label: `${GOV[k].short} ${GOV[k].year}`, data: S[s.key][k].pts.map(([x, y]) => ({ x, y })),
@@ -518,11 +531,11 @@ function renderPlanes() {
   const comp = (P.compromisos_100d || []).filter(x => x.compromiso);
   const compH = comp.length ? `<h3 class="group-h">Compromisos a 100 días y qué pasó</h3><div class="tbl-wrap"><table><thead><tr><th>Plan</th><th>Compromiso</th><th>Qué pasó</th></tr></thead><tbody>${comp.map(x => {
     const k = /castillo/.test(x.plan) ? 'castillo' : 'keiko';
-    return `<tr><td>${govLabel(k)}</td><td><small>${esc(x.compromiso)}${x.pag ? ` (${esc(x.pag)})` : ''}</small></td><td><small>${esc(x.cumplimiento)}</small><div class="srcs">${[].concat(x.fuente || []).map(u => link(u)).join('')}</div></td></tr>`; }).join('')}</tbody></table></div>` : '';
+    return `<tr><td>${govLabel(k)}</td><td><small>${esc(x.compromiso)}${x.pag ? ` (${esc(x.pag)})` : ''}</small></td><td><small>${esc(x.cumplimiento)}</small><div class="srcs">${[].concat(x.fuente || []).flatMap(f => String(f).match(/https?:\/\/[^\s;,)]+/g) || []).map(u => link(u)).join(' ')}</div></td></tr>`; }).join('')}</tbody></table></div>` : '';
   const con = (P.contradicciones || []);
   const conH = con.length ? `<h3 class="group-h">Contradicciones entre el plan y la gestión</h3><ul class="sub-claims">${con.map(x => {
     const k = /castillo/.test(x.plan) ? 'castillo' : 'keiko';
-    return `<li><span class="tag">${govLabel(k)}: ${esc(x.plan_dice)}</span><br>${esc(x.hecho)}<div class="srcs">${[].concat(x.fuente || []).map(u => link(u)).join('')}</div></li>`; }).join('')}</ul>` : '';
+    return `<li><span class="tag">${govLabel(k)}: ${esc(x.plan_dice)}</span><br>${esc(x.hecho)}<div class="srcs">${[].concat(x.fuente || []).flatMap(f => String(f).match(/https?:\/\/[^\s;,)]+/g) || []).map(u => link(u)).join(' ')}</div></li>`; }).join('')}</ul>` : '';
   $('#planesBody').innerHTML = top + ejes + compH + conH;
 }
 
@@ -532,7 +545,8 @@ function renderTimeline() {
   const N = D.noticias;
   if (!N) { $('#timeline').innerHTML = '<p class="empty">Línea de tiempo en preparación.</p>'; return; }
   const cats = [...new Set([...(N.castillo || []), ...(N.keiko || [])].map(i => i.categoria).filter(Boolean))].sort();
-  const lab = c => cap(String(c).replace(/_/g, ' '));
+  const CATS = { economia: 'Economía', gabinete: 'Gabinete', seguridad: 'Seguridad', educacion: 'Educación', salud: 'Salud', corrupcion_investigaciones: 'Corrupción e investigaciones', congreso: 'Congreso', protesta_social: 'Protesta social', politica_exterior: 'Política exterior', anuncio_politica: 'Anuncios de política', obra_servicio: 'Obras y servicios' };
+  const lab = c => CATS[c] || cap(String(c).replace(/_/g, ' '));
   $('#tlSeg').innerHTML = ['todas', ...cats].map(c => `<button data-c="${esc(c)}" aria-pressed="${c === tlCat}">${c === 'todas' ? 'Todas' : esc(lab(c))}</button>`).join('');
   $('#tlSeg').onclick = e => { const b = e.target.closest('button'); if (!b) return; tlCat = b.dataset.c; renderTimeline(); };
   const col = k => {
@@ -686,7 +700,8 @@ function renderSemaforo() {
     const body = groups.map(g => `<tr class="sem-grp"><td colspan="${cg.length + 1}">${esc(dimLab[g] || cap(g))}</td></tr>` + C.filter(r => r.dimension === g).map(r => `<tr><td><span class="metric">${esc(r.nombre)}</span><br><small>${esc(r.escala_txt || '')} · ${link(r.fuente_url, r.institucion || host(r.fuente_url))}</small></td>${cg.map(k => {
       const v = r.gobiernos[k]; if (!v) return semCell(null);
       const arrow = isNum(v.score_primer) && isNum(v.score_recibio) ? (Math.abs(v.score_primer - v.score_recibio) < 0.5 ? '=' : (v.score_primer > v.score_recibio ? '▲' : '▼')) : '';
-      const main = `${fmtSem(v.recibio)}${isNum(v.primer) ? ` → ${fmtSem(v.primer)} <b class="arr">${arrow}</b>` : (k === 'keiko' ? ' <small>(base)</small>' : '')}`;
+      const sx = (val, y) => r.id === 'cpi_score' && y && +y < 2012 ? `${fmtSem(val)}<small>/10</small>` : fmtSem(val);
+      const main = `${sx(v.recibio, v.anio_recibio)}${isNum(v.primer) ? ` → ${sx(v.primer, v.anio_primer)} <b class="arr">${arrow}</b>` : (k === 'keiko' ? ' <small>(base)</small>' : '')}`;
       return semCell(isNum(v.score_primer) ? v.score_primer : v.score_recibio, main, '', `${GOV[k].short}: ${v.anio_recibio || ''} = ${fmtSem(v.recibio)}${isNum(v.primer) ? `; ${v.anio_primer} = ${fmtSem(v.primer)}` : ' (primer año aún sin medición)'}`);
     }).join('')}</tr>`).join('')).join('');
     $('#semIntl').innerHTML = `<div class="tbl-wrap"><table class="sem">${`<thead><tr><th>Índice</th>${cg.map(k => `<th class="n">${govLabel(k)}</th>`).join('')}</tr></thead>`}<tbody>${body}</tbody></table></div><p class="note">El color corresponde al último valor de la celda, ubicado en su escala de 0 a 100 (mejor = 100). ▲ mejoró y ▼ empeoró en el primer año.</p>`;
